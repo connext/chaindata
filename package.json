@@ -1,5 +1,5 @@
 {
-  "name": "chaindata",
+  "name": "@connext/chaindata",
   "version": "0.0.1",
   "description": "Chain and token information across EVM compatible chains!",
   "main": "index.js",

@@ -7,6 +7,8 @@
 
 Live data source available on [chainid.json](https://bridgeapi.anyswap.exchange/v2/serverInfo/chainid)
 
+Deploy your own token and create a PR by following the [guide](./deploy.md)
+
 ## Example
 
 ```json

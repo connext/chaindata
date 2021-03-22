@@ -17,8 +17,8 @@
     "node-fetch": "^2.6.1",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
-    "solidity-create2-deployer": "^0.4.0",
-  }
+    "solidity-create2-deployer": "^0.4.0"
+  },
   "bugs": {
     "url": "https://github.com/connext/chaindata/issues"
   },

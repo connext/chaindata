@@ -38,7 +38,7 @@ const readFile = util.promisify(fs.readFile);
 
 const provider = new ethers.providers.JsonRpcProvider("https://bsc-dataseed1.binance.org/");
 const verifyURL = 'https://api.bscscan.com/api'; // api.etherscan.io for Ethereum, api.ftmscam.com for Fantom, etc
-const privateKey = Buffer.from('', 'hex'); // private key of wallet being used to deploy
+const privateKey = ''; // private key of wallet being used to deploy
 const apikey = ''; // apiKey for etherscan / bscscan / ftmscan / etc
 /*
 
@@ -127,6 +127,7 @@ async function setup() {
   if (vault !== mpcAddress) {
       await (await anyswap.initVault(mpcAddress)).wait();
   }
+  verify(computedAddr, constructor);
 }
 
 
@@ -181,3 +182,4 @@ async function run() {
   console.log(result.transactionHash);
   console.log(addr);
 }
+

@@ -4072,6 +4072,48 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
+		},
+		"ice": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "ICE",
+			"SrcToken": {
+				"ID": "ICE",
+				"Name": "IceToken",
+				"Symbol": "ICE",
+				"Decimals": 18,
+				"Description": "IceToken",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0xf16e81dce15B08F326220742020379B855B87DF9",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 60,
+				"BigValueThreshold": 200000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "ICE",
+				"Name": "IceToken",
+				"Symbol": "ICE",
+				"Decimals": 18,
+				"Description": "cross chain bridge ICE",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0xf16e81dce15B08F326220742020379B855B87DF9",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 60,
+				"BigValueThreshold": 200000,
+				"SwapFeeRate": 0.002,
+				"MaximumSwapFee": 200,
+				"MinimumSwapFee": 20,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
 		}
 	},
 	"100": {
@@ -6428,6 +6470,48 @@
 				"SwapFeeRate": 0.001,
 				"MaximumSwapFee": 150,
 				"MinimumSwapFee": 15,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
+		"ice": {
+			"srcChainID": "1",
+			"destChainID": "250",
+			"PairID": "ICE",
+			"SrcToken": {
+				"ID": "ICE",
+				"Name": "IceToken",
+				"Symbol": "ICE",
+				"Decimals": 18,
+				"Description": "IceToken",
+				"DepositAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"mpcAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"ContractAddress": "0xf16e81dce15B08F326220742020379B855B87DF9",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 60,
+				"BigValueThreshold": 200000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "ICE",
+				"Name": "IceToken",
+				"Symbol": "ICE",
+				"Decimals": 18,
+				"Description": "cross chain bridge ICE",
+				"mpcAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"ContractAddress": "0xf16e81dce15B08F326220742020379B855B87DF9",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 60,
+				"BigValueThreshold": 200000,
+				"SwapFeeRate": 0.002,
+				"MaximumSwapFee": 200,
+				"MinimumSwapFee": 20,
 				"PlusGasPricePercentage": 1,
 				"DisableSwap": false,
 				"IsDelegateContract": false

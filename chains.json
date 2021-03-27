@@ -5084,6 +5084,48 @@
 				"IsDelegateContract": false
 			}
 		},
+		"fraxv3": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "FRAXv3",
+			"SrcToken": {
+				"ID": "ERC20",
+				"Name": "FRAXERC20",
+				"Symbol": "FRAX",
+				"Decimals": 18,
+				"Description": "ERC20 FRAX",
+				"DepositAddress": "0x13B432914A996b0A48695dF9B2d701edA45FF264",
+				"mpcAddress": "0x13B432914A996b0A48695dF9B2d701edA45FF264",
+				"ContractAddress": "0x853d955acef822db058eb8505911ed77f175b99e",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 30,
+				"BigValueThreshold": 200000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "FRAX",
+				"Name": "Frax",
+				"Symbol": "FRAX",
+				"Decimals": 18,
+				"Description": "BSC cross chain bridge Frax with Frax",
+				"mpcAddress": "0x13B432914A996b0A48695dF9B2d701edA45FF264",
+				"ContractAddress": "0x29ced01c447166958605519f10dcf8b0255fb379",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 30,
+				"BigValueThreshold": 200000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 150,
+				"MinimumSwapFee": 1,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
 		"kekv3": {
 			"srcChainID": "1",
 			"destChainID": "250",

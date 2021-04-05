@@ -5081,6 +5081,48 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
+		},
+		"prtv3": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "PRTv3",
+			"SrcToken": {
+			  "ID": "PRT",
+			  "Name": "PRTERC20",
+			  "Symbol": "PRT",
+			  "Decimals": 18,
+			  "Description": "ERC20 Portion",
+			  "DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+			  "mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+			  "ContractAddress": "0xAF00aAc2431b04EF6afD904d19B08D5146e3A9A0",
+			  "MaximumSwap": 1000000,
+			  "MinimumSwap": 1,
+			  "BigValueThreshold": 5,
+			  "SwapFeeRate": 0,
+			  "MaximumSwapFee": 0,
+			  "MinimumSwapFee": 0,
+			  "PlusGasPricePercentage": 10,
+			  "DisableSwap": false,
+			  "IsDelegateContract": false
+			},
+			"DestToken": {
+			  "ID": "PRT",
+			  "Name": "Portion",
+			  "Symbol": "PRT",
+			  "Decimals": 18,
+			  "Description": "cross chain bridge PRT with PRT",
+			  "mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+			  "ContractAddress": "0xAF00aAc2431b04EF6afD904d19B08D5146e3A9A0",
+			  "MaximumSwap": 1000000,
+			  "MinimumSwap": 1,
+			  "BigValueThreshold": 2,
+			  "SwapFeeRate": 0.001,
+			  "MaximumSwapFee": 0.01,
+			  "MinimumSwapFee": 0.001,
+			  "PlusGasPricePercentage": 1,
+			  "DisableSwap": false,
+			  "IsDelegateContract": false
+			}
 		}
 	},
 	"100": {

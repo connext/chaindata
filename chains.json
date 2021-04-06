@@ -4830,6 +4830,48 @@
 				"IsDelegateContract": false
 			}
 		},
+		"iqv2": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "IQv2",
+			"SrcToken": {
+				"ID": "ERC20",
+				"Name": "IQERC20",
+				"Symbol": "IQ",
+				"Decimals": 18,
+				"Description": "ERC20 Everipedia IQ",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 30,
+				"BigValueThreshold": 200000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "IQ",
+				"Name": "Everipedia IQ",
+				"Symbol": "IQ",
+				"Decimals": 18,
+				"Description": "cross chain bridge IQ with IQ",
+				"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x0e37d70b51ffa2b98b4d34a5712c5291115464e3",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 30,
+				"BigValueThreshold": 200000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 150,
+				"MinimumSwapFee": 15,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
 		"icev3": {
 			"srcChainID": "1",
 			"destChainID": "56",

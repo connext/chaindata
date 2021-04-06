@@ -5136,7 +5136,7 @@
 			  "Description": "ERC20 Portion",
 			  "DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
 			  "mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
-			  "ContractAddress": "0xAF00aAc2431b04EF6afD904d19B08D5146e3A9A0",
+			  "ContractAddress": "0x6D0F5149c502faf215C89ab306ec3E50b15e2892",
 			  "MaximumSwap": 1000000,
 			  "MinimumSwap": 1,
 			  "BigValueThreshold": 5,

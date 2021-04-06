@@ -4833,7 +4833,7 @@
 		"iqv2": {
 			"srcChainID": "1",
 			"destChainID": "56",
-			"PairID": "IQv3",
+			"PairID": "IQv2",
 			"SrcToken": {
 				"ID": "ERC20",
 				"Name": "IQERC20",

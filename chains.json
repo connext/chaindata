@@ -5123,6 +5123,48 @@
 			  "DisableSwap": false,
 			  "IsDelegateContract": false
 			}
+		},
+		"lmtv3": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "LMTv3",
+			"SrcToken": {
+				"ID": "LMT_ERC20",
+				"Name": "Lympo Market Token ERC20",
+				"Symbol": "LMT",
+				"Decimals": 18,
+				"Description": "lympo.io",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x327673ae6b33bd3d90f0096870059994f30dc8af",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 10,
+				"BigValueThreshold": 300000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "LMT",
+				"Name": "Lympo Market Token",
+				"Symbol": "LMT",
+				"Decimals": 18,
+				"Description": "cross chain bridge LMT with LMT",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x9617857e191354dbea0b714d78bc59e57c411087",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 10,
+				"BigValueThreshold": 300000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 40,
+				"MinimumSwapFee": 4,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
 		}
 	},
 	"100": {

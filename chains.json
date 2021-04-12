@@ -5266,6 +5266,12 @@
 				"MaximumSwap": 1000000,
 				"MinimumSwap": 10,
 				"BigValueThreshold": 300000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
 			},
 			"DestToken": {
 				"ID": "TRDL_BEP20",
@@ -5282,6 +5288,48 @@
 				"MaximumSwapFee": 40,
 				"MinimumSwapFee": 4,
 				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
+		"gs": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "GS",
+			"SrcToken": {
+				"ID": "ERC20",
+				"Name": "GS",
+				"Symbol": "GS",
+				"Decimals": 18,
+				"Description": "ERC20 GS",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0xe0B9a2C3E9f40CF74B2C7F591B2b0CCa055c3112",
+				"MaximumSwap": 10000000,
+				"MinimumSwap": 100,
+				"BigValueThreshold": 2000000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "GS",
+				"Name": "Gen Shards GS",
+				"Symbol": "GS",
+				"Decimals": 18,
+				"Description": "cross chain bridge GS ERC20 with GS",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x9bA4c78b048EEed69f4eD3CFddeda7B51BAF7cA8",
+				"MaximumSwap": 10000000,
+				"MinimumSwap": 150,
+				"BigValueThreshold": 2000000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 1500,
+				"MinimumSwapFee": 75,
+				"PlusGasPricePercentage": 1,
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}

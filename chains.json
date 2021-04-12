@@ -5249,6 +5249,42 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
+		},
+		"strudel": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "Strudel",
+			"SrcToken": {
+				"ID": "TRDL_ERC20",
+				"Name": "Strudel Finance",
+				"Symbol": "$TRDL",
+				"Decimals": 18,
+				"Description": "A network of trustless bridges connecting cryptocurrency to DeFi.",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x297d33e17e61c2ddd812389c2105193f8348188a",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 10,
+				"BigValueThreshold": 300000,
+			},
+			"DestToken": {
+				"ID": "TRDL_BEP20",
+				"Name": "Strudel Finance",
+				"Symbol": "$TRDL",
+				"Decimals": 18,
+				"Description": "A network of trustless bridges connecting cryptocurrency to DeFi.",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x46c6426b0e18c61a642aca01adf668da17176bc2",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 10,
+				"BigValueThreshold": 300000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 40,
+				"MinimumSwapFee": 4,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
 		}
 	},
 	"100": {

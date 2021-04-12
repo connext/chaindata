@@ -5207,6 +5207,48 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
+		},
+		"vbch": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "vBCH",
+			"SrcToken": {
+				"ID": "BCH_ERC20",
+				"Name": "Bitcoin Cash by Strudel",
+				"Symbol": "vBCH",
+				"Decimals": 18,
+				"Description": "Bitcoin Cash for DeFi without custodial risk",
+                "DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+			    "mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0xb5badfa6e69728adba44d67c98b05f1d1d40182e",
+				"MaximumSwap": 18,
+				"MinimumSwap": 0.0006,
+				"BigValueThreshold": 3.6,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "BCH_BEP20",
+				"Name": "Bitcoin Cash by Strudel",
+				"Symbol": "vBCH",
+				"Decimals": 18,
+				"Description": "Bitcoin Cash for DeFi without custodial risk",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0xb5badfa6e69728adba44d67c98b05f1d1d40182e",
+				"MaximumSwap": 18,
+				"MinimumSwap": 0.0006,
+				"BigValueThreshold": 3.6,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 0.03,
+				"MinimumSwapFee": 0.003,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
 		}
 	},
 	"100": {
@@ -5667,6 +5709,48 @@
 				"DisableSwap": false,
 				"IsDelegateContract": true,
 				"DelegateToken": "0x9ef1918a9bee17054b35108bd3e2665e2af1bb1b"
+			}
+		},
+		"vbch": {
+			"srcChainID": "1",
+			"destChainID": "100",
+			"PairID": "vBCH",
+			"SrcToken": {
+				"ID": "BCH_ERC20",
+				"Name": "Bitcoin Cash by Strudel",
+				"Symbol": "vBCH",
+				"Decimals": 18,
+				"Description": "Bitcoin Cash for DeFi without custodial risk",
+                "DepositAddress": "0x2F10c5eE93ac666dA72195abA8a49FD6D27fA02F",
+			    "mpcAddress": "0x2F10c5eE93ac666dA72195abA8a49FD6D27fA02F",
+				"ContractAddress": "0xb5badfa6e69728adba44d67c98b05f1d1d40182e",
+				"MaximumSwap": 18,
+				"MinimumSwap": 0.0006,
+				"BigValueThreshold": 3.6,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "BCH_xDAI",
+				"Name": "Bitcoin Cash by Strudel",
+				"Symbol": "vBCH",
+				"Decimals": 18,
+				"Description": "Bitcoin Cash for DeFi without custodial risk",
+				"mpcAddress": "0x2F10c5eE93ac666dA72195abA8a49FD6D27fA02F",
+				"ContractAddress": "0xb5badfa6e69728adba44d67c98b05f1d1d40182e",
+				"MaximumSwap": 18,
+				"MinimumSwap": 0.0006,
+				"BigValueThreshold": 3.6,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 0.03,
+				"MinimumSwapFee": 0.003,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
 			}
 		}
 	},
@@ -7818,6 +7902,48 @@
 				"SwapFeeRate": 0.001,
 				"MaximumSwapFee": 200,
 				"MinimumSwapFee": 20,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
+		"vbch": {
+			"srcChainID": "1",
+			"destChainID": "250",
+			"PairID": "vBCH",
+			"SrcToken": {
+				"ID": "BCH_ERC20",
+				"Name": "Bitcoin Cash by Strudel",
+				"Symbol": "vBCH",
+				"Decimals": 18,
+				"Description": "Bitcoin Cash for DeFi without custodial risk",
+                "DepositAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+			    "mpcAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"ContractAddress": "0xb5badfa6e69728adba44d67c98b05f1d1d40182e",
+				"MaximumSwap": 18,
+				"MinimumSwap": 0.0006,
+				"BigValueThreshold": 3.6,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "BCH_FTM",
+				"Name": "Bitcoin Cash by Strudel",
+				"Symbol": "vBCH",
+				"Decimals": 18,
+				"Description": "Bitcoin Cash for DeFi without custodial risk",
+				"mpcAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"ContractAddress": "0xb5badfa6e69728adba44d67c98b05f1d1d40182e",
+				"MaximumSwap": 18,
+				"MinimumSwap": 0.0006,
+				"BigValueThreshold": 3.6,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 0.03,
+				"MinimumSwapFee": 0.003,
 				"PlusGasPricePercentage": 1,
 				"DisableSwap": false,
 				"IsDelegateContract": false

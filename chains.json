@@ -5245,7 +5245,7 @@
 				"SwapFeeRate": 0.001,
 				"MaximumSwapFee": 0.03,
 				"MinimumSwapFee": 0.003,
-				"PlusGasPricePercentage": 10,
+				"PlusGasPricePercentage": 1,
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
@@ -5281,7 +5281,7 @@
 				"SwapFeeRate": 0.001,
 				"MaximumSwapFee": 40,
 				"MinimumSwapFee": 4,
-				"PlusGasPricePercentage": 1,
+				"PlusGasPricePercentage": 10,
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}

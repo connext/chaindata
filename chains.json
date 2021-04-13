@@ -1039,6 +1039,48 @@
 				"IsDelegateContract": false
 			}
 		},
+		"hyve": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "HYVE",
+			"SrcToken": {
+			    "ID": "ERC20",
+			    "Name": "HYVE",
+			    "Symbol": "HYVE",
+			    "Decimals": 18,
+			    "Description": "hyve.works",
+			    "DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648", 
+			    "mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+			    "ContractAddress": "0xd794DD1CAda4cf79C9EebaAb8327a1B0507ef7d4",
+			    "MaximumSwap": 1000000,
+			    "MinimumSwap": 1,
+			    "BigValueThreshold": 200000,
+			    "SwapFeeRate": 0,
+			    "MaximumSwapFee": 0,
+			    "MinimumSwapFee": 0,
+			    "PlusGasPricePercentage": 10,
+			    "DisableSwap": false,
+			    "IsDelegateContract": false
+			},
+			"DestToken": {
+			    "ID": "HYVE",
+			    "Name": "HYVE",
+			    "Symbol": "HYVE",
+			    "Decimals": 18,
+			    "Description": "BSC cross chain bridge HYVE with HYVE",
+			    "mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+			    "ContractAddress": "0x014c374fd2641ab7a05d1875ca2ca2a0cf819198",
+			    "MaximumSwap": 1000000,
+			    "MinimumSwap": 1,
+			    "BigValueThreshold": 200000,
+			    "SwapFeeRate": 0.001,
+			    "MaximumSwapFee": 50,
+			    "MinimumSwapFee": 1,
+			    "PlusGasPricePercentage": 1,
+			    "DisableSwap": false,
+			    "IsDelegateContract": false
+		       }
+		}
 		"bcpv3": {
 			"srcChainID": "1",
 			"destChainID": "56",

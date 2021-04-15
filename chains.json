@@ -7315,6 +7315,48 @@
 				"IsDelegateContract": false
 			}
 		},
+		"mmv4": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "MMv4",
+			"SrcToken": {
+				"ID": "ERC20",
+				"Name": "MMERC20",
+				"Symbol": "MM",
+				"Decimals": 18,
+				"Description": "ERC20 MM",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0xa283aA7CfBB27EF0cfBcb2493dD9F4330E0fd304",
+				"MaximumSwap": 75000,
+				"MinimumSwap": 2,
+				"BigValueThreshold": 15000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "MM",
+				"Name": "MMToken",
+				"Symbol": "MM",
+				"Decimals": 18,
+				"Description": "cross chain bridge MM with MM",
+				"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x73F059dB0182dc2Ed716D028E1b13033cfcbf63B",
+				"MaximumSwap": 75000,
+				"MinimumSwap": 2,
+				"BigValueThreshold": 15000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 10,
+				"MinimumSwapFee": 1,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
 		"usdcv2": {
 			"srcChainID": "1",
 			"destChainID": "250",

@@ -327,7 +327,48 @@
 				"PlusGasPricePercentage": 1,
 				"DisableSwap": false,
 				"IsDelegateContract": false
-			}
+			},
+			"if": {
+				"srcChainID": "56",
+				"destChainID": "1",
+				"PairID": "IF",
+				"SrcToken": {
+					"ID": "IF",
+					"Name": "Impossible Finance V1",
+					"Symbol": "IF",
+					"Decimals": 18,
+					"Description": "Impossible Finance Token",
+					"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+					"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+					"ContractAddress": "0xa68779fe876360b9dd65e0582c4c4c51e0d6f1ae",
+					"MaximumSwap": 1000000,
+					"MinimumSwap": 10,
+					"BigValueThreshold": 200000,
+					"SwapFeeRate": 0.001,
+					"MaximumSwapFee": 80,
+					"MinimumSwapFee": 8,
+					"PlusGasPricePercentage": 10,
+					"DisableSwap": false,
+					"IsDelegateContract": false
+				},
+				"DestToken": {
+					"ID": "IF",
+					"Name": "Impossible Finance V1",
+					"Symbol": "IF",
+					"Decimals": 18,
+					"Description": "cross chain bridge IF with IF",
+					"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+					"ContractAddress": "0xa68779fe876360b9dd65e0582c4c4c51e0d6f1ae",
+					"MaximumSwap": 1000000,
+					"MinimumSwap": 20,
+					"BigValueThreshold": 200000,
+					"SwapFeeRate": 0.001,
+					"MaximumSwapFee": 80,
+					"MinimumSwapFee": 8,
+					"PlusGasPricePercentage": 1,
+					"DisableSwap": false,
+					"IsDelegateContract": false
+				}
 		}
 	},
 	"56": {

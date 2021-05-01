@@ -456,6 +456,48 @@
 				"IsDelegateContract": false
 			}
 		},
+		"ksfv3": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "KSFv3",
+			"SrcToken": {
+				"ID": "ERC20",
+				"Name": "KSFERC20",
+				"Symbol": "KSF",
+				"Decimals": 18,
+				"Description": "ERC20 KSF",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x049e119413ab1f1b0fd836e657e3e4ba3ad9cab8",
+				"MaximumSwap": 4000000,
+				"MinimumSwap": 10,
+				"BigValueThreshold": 800000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "KSF",
+				"Name": "Kesef Finance",
+				"Symbol": "KSF",
+				"Decimals": 18,
+				"Description": "cross chain bridge KSF BEP20 with KSF ERC20",
+				"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x1c019af5b059f4473289c1ddeea02cc4993478ea",
+				"MaximumSwap": 4000000,
+				"MinimumSwap": 10,
+				"BigValueThreshold": 800000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 600,
+				"MinimumSwapFee": 10,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
 		"link": {
 			"srcChainID": "1",
 			"destChainID": "56",

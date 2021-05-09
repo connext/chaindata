@@ -8033,6 +8033,48 @@
 				"IsDelegateContract": false
 			}
 		},
+		"onsv3": {
+			"srcChainID": "1",
+			"destChainID": "250",
+			"PairID": "ONSv3",
+			"SrcToken": {
+				"ID": "ERC20",
+				"Name": "ONSERC20",
+				"Symbol": "ONS",
+				"Decimals": 18,
+				"Description": "ERC20 ONS",
+				"DepositAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"DcrmAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"ContractAddress": "0x5BB29c33C4A3C29f56F8ACa40B4dB91d8a5fe2c5",
+				"MaximumSwap": 50000,
+				"MinimumSwap": 1,
+				"BigValueThreshold": 20000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "ONS",
+				"Name": "OnsToken",
+				"Symbol": "ONS",
+				"Decimals": 18,
+				"Description": "cross chain bridge ONS with ONS",
+				"DcrmAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+				"ContractAddress": "0x5BB29c33C4A3C29f56F8ACa40B4dB91d8a5fe2c5",
+				"MaximumSwap": 50000,
+				"MinimumSwap": 1,
+				"BigValueThreshold": 20000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 0.1,
+				"MinimumSwapFee": 0.01,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
 		"vbch": {
 			"srcChainID": "1",
 			"destChainID": "250",

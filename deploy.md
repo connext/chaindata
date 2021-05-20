@@ -4,7 +4,7 @@
 
 * Token & Logo data available on [coingecko.com](https://www.coingecko.com/en)
 
-## Step 1: Fork AnyswapV4ERC20 and implement any additional functionality as required.
+## Step 1: Fork AnyswapV5ERC20 and implement any additional functionality as required.
 
 AnyswapV4ERC20 supports the following
 * ERC2612 (Adds `permit`)
@@ -18,7 +18,7 @@ AnyswapV4ERC20 supports the following
 
 Deploy a wrapper for your token that supports `mint`, `burn`, `Swapin`, and `Swapout`, add this wrapper as a minter role in the ACL. In the wrapper add the MPC address (found below) as a minter
 
-## Step 2: Deploy AnyswapV4ERC20 via AnyswapCREATE2
+## Step 2: Deploy AnyswapV5ERC20 via AnyswapCREATE2
 
 AnyswapCREATE2 is available on Ethereum, Fantom, Binance Smart Chain, xDAI, and Matic. More deployments to follow
 

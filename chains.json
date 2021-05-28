@@ -5333,6 +5333,48 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
+		},
+		"dytv3": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "DYTv3",
+			"SrcToken": {
+				"ID": "ERC20",
+				"Name": "DYTERC20",
+				"Symbol": "DYT",
+				"Decimals": 18,
+				"Description": "ERC20 DYT",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x740623d2c797b7d8d1ecb98e9b4afcf99ec31e14",
+				"MaximumSwap": 60000,
+				"MinimumSwap": 18,
+				"BigValueThreshold": 12000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "DYT",
+				"Name": "DoYourTip",
+				"Symbol": "DYT",
+				"Decimals": 18,
+				"Description": "cross chain bridge DYT with DYT",
+				"DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x740623d2c797b7d8d1ecb98e9b4afcf99ec31e14",
+				"MaximumSwap": 60000,
+				"MinimumSwap": 18,
+				"BigValueThreshold": 12000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 9,
+				"MinimumSwapFee": 0.9,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
 		}
 	},
 	"100": {

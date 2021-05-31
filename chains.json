@@ -5333,7 +5333,50 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
-		}
+		},
+		  "gtonv4": {
+                           "srcChainID": "1",
+                           "destChainID": "56",
+                           "PairID": "GTONv4",
+                           "SrcToken": {
+                             "ID": "ERC20",
+                             "Name": "GTONERC20",
+                             "Symbol": "GTON",
+                             "Decimals": 18,
+                             "Description": "ERC20 GTON",
+                             "DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+                             "DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+                             "ContractAddress": "0x01e0e2e61f554ecaaec0cc933e739ad90f24a86d",
+                             "MaximumSwap": 760000,
+                             "MinimumSwap": 3.02,
+                             "BigValueThreshold": 150000,
+                             "SwapFeeRate": 0,
+                             "MaximumSwapFee": 0,
+                             "MinimumSwapFee": 0,
+                             "PlusGasPricePercentage": 10,
+                             "DisableSwap": false,
+                             "IsDelegateContract": false,
+                             "AllowSwapinFromContract": true
+                           },
+                           "DestToken": {
+                             "ID": "GTON",
+                             "Name": "Graviton",
+                             "Symbol": "GTON",
+                             "Decimals": 18,
+                             "Description": "cross chain bridge GTON with GTON",
+                             "DcrmAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+                             "ContractAddress": "0x64d5baf5ac030e2b7c435add967f787ae94d0205",
+                             "MaximumSwap": 760000,
+                             "MinimumSwap": 30.2,
+                             "BigValueThreshold": 150000,
+                             "SwapFeeRate": 0.001,
+                             "MaximumSwapFee": 151,
+                             "MinimumSwapFee": 3.02,
+                             "PlusGasPricePercentage": 1,
+                             "DisableSwap": false,
+                             "IsDelegateContract": false
+                           }
+                         }
 	},
 	"100": {
 		"any": {
@@ -5503,7 +5546,50 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
-		}
+		},
+		    "gtonv5": {
+                             "srcChainID": "1",
+                             "destChainID": "100",
+                             "PairID": "GTONv5",
+                             "SrcToken": {
+                               "ID": "ERC20",
+                               "Name": "GTONERC20",
+                               "Symbol": "GTON",
+                               "Decimals": 18,
+                               "Description": "ERC20 GTON",
+                               "DepositAddress": "0x2F10c5eE93ac666dA72195abA8a49FD6D27fA02F",
+                               "DcrmAddress": "0x2F10c5eE93ac666dA72195abA8a49FD6D27fA02F",
+                               "ContractAddress": "0x01e0e2e61f554ecaaec0cc933e739ad90f24a86d",
+                               "MaximumSwap": 750000,
+                               "MinimumSwap": 3,
+                               "BigValueThreshold": 150000,
+                               "SwapFeeRate": 0,
+                               "MaximumSwapFee": 0,
+                               "MinimumSwapFee": 0,
+                               "PlusGasPricePercentage": 10,
+                               "DisableSwap": false,
+                               "IsDelegateContract": false,
+                               "AllowSwapinFromContract": true
+                             },
+                             "DestToken": {
+                               "ID": "GTON",
+                               "Name": "Graviton",
+                               "Symbol": "GTON",
+                               "Decimals": 18,
+                               "Description": "cross chain bridge GTON with GTON",
+                               "DcrmAddress": "0x2F10c5eE93ac666dA72195abA8a49FD6D27fA02F",
+                               "ContractAddress": "0xb0438CD47796f06A5Cd043121eDe235b01e075aC",
+                               "MaximumSwap": 750000,
+                               "MinimumSwap": 30,
+                               "BigValueThreshold": 150000,
+                               "SwapFeeRate": 0.001,
+                               "MaximumSwapFee": 150,
+                               "MinimumSwapFee": 3,
+                               "PlusGasPricePercentage": 1,
+                               "DisableSwap": false,
+                               "IsDelegateContract": false
+                             }
+                           }
 	},
 	"128": {
 		"any": {
@@ -5836,7 +5922,50 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
-		}
+		},
+		    "gtonv5": {
+                             "srcChainID": "1",
+                             "destChainID": "128",
+                             "PairID": "GTONv5",
+                             "SrcToken": {
+                               "ID": "ERC20",
+                               "Name": "GTONERC20",
+                               "Symbol": "GTON",
+                               "Decimals": 18,
+                               "Description": "ERC20 GTON",
+                               "DepositAddress": "0xD779967F8B511C5edf39115341B310022900eFED",
+                               "DcrmAddress": "0xD779967F8B511C5edf39115341B310022900eFED",
+                               "ContractAddress": "0x01e0e2e61f554ecaaec0cc933e739ad90f24a86d",
+                               "MaximumSwap": 750000,
+                               "MinimumSwap": 3,
+                               "BigValueThreshold": 150000,
+                               "SwapFeeRate": 0,
+                               "MaximumSwapFee": 0,
+                               "MinimumSwapFee": 0,
+                               "PlusGasPricePercentage": 10,
+                               "DisableSwap": false,
+                               "IsDelegateContract": false,
+                               "AllowSwapinFromContract": true
+                             },
+                             "DestToken": {
+                               "ID": "GTON",
+                               "Name": "Graviton",
+                               "Symbol": "GTON",
+                               "Decimals": 18,
+                               "Description": "cross chain bridge GTON with GTON",
+                               "DcrmAddress": "0xD779967F8B511C5edf39115341B310022900eFED",
+                               "ContractAddress": "0xb0438CD47796f06A5Cd043121eDe235b01e075aC",
+                               "MaximumSwap": 750000,
+                               "MinimumSwap": 30,
+                               "BigValueThreshold": 150000,
+                               "SwapFeeRate": 0.001,
+                               "MaximumSwapFee": 150,
+                               "MinimumSwapFee": 3,
+                               "PlusGasPricePercentage": 1,
+                               "DisableSwap": false,
+                               "IsDelegateContract": false
+                             }
+                           }
 	},
 	"137": {
 		"any": {
@@ -5964,7 +6093,50 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
-		}
+		},
+		    "gtonv4": {
+                             "srcChainID": "1",
+                             "destChainID": "137",
+                             "PairID": "GTONv4",
+                             "SrcToken": {
+                               "ID": "ERC20",
+                               "Name": "GTONERC20",
+                               "Symbol": "GTON",
+                               "Decimals": 18,
+                               "Description": "ERC20 GTON",
+                               "DepositAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+                               "DcrmAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+                               "ContractAddress": "0x01e0e2e61f554ecaaec0cc933e739ad90f24a86d",
+                               "MaximumSwap": 750000,
+                               "MinimumSwap": 3,
+                               "BigValueThreshold": 150000,
+                               "SwapFeeRate": 0,
+                               "MaximumSwapFee": 0,
+                               "MinimumSwapFee": 0,
+                               "PlusGasPricePercentage": 10,
+                               "DisableSwap": false,
+                               "IsDelegateContract": false,
+                               "AllowSwapinFromContract": true
+                             },
+                             "DestToken": {
+                               "ID": "GTON",
+                               "Name": "Graviton",
+                               "Symbol": "GTON",
+                               "Decimals": 18,
+                               "Description": "cross chain bridge GTON with GTON",
+                               "DcrmAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+                               "ContractAddress": "0xf480f38c366daac4305dc484b2ad7a496ff00cea",
+                               "MaximumSwap": 750000,
+                               "MinimumSwap": 30,
+                               "BigValueThreshold": 150000,
+                               "SwapFeeRate": 0.001,
+                               "MaximumSwapFee": 150,
+                               "MinimumSwapFee": 3,
+                               "PlusGasPricePercentage": 1,
+                               "DisableSwap": false,
+                               "IsDelegateContract": false
+                             }
+                           }
 	},
 	"250": {
 		"chainlink": {
@@ -8074,7 +8246,50 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
-		}
+		},
+		   "gtonv4": {
+                            "srcChainID": "1",
+                            "destChainID": "250",
+                            "PairID": "GTONv4",
+                            "SrcToken": {
+                              "ID": "ERC20",
+                              "Name": "GTONERC20",
+                              "Symbol": "GTON",
+                              "Decimals": 18,
+                              "Description": "ERC20 GTON",
+                              "DepositAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+                              "DcrmAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+                              "ContractAddress": "0x01e0e2e61f554ecaaec0cc933e739ad90f24a86d",
+                              "MaximumSwap": 810000,
+                              "MinimumSwap": 3.2,
+                              "BigValueThreshold": 170000,
+                              "SwapFeeRate": 0,
+                              "MaximumSwapFee": 0,
+                              "MinimumSwapFee": 0,
+                              "PlusGasPricePercentage": 10,
+                              "DisableSwap": false,
+                              "IsDelegateContract": false,
+                              "AllowSwapinFromContract": true
+                            },
+                            "DestToken": {
+                              "ID": "GTON",
+                              "Name": "Graviton",
+                              "Symbol": "GTON",
+                              "Decimals": 18,
+                              "Description": "cross chain bridge GTON with GTON",
+                              "DcrmAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+                              "ContractAddress": "0xC1Be9a4D5D45BeeACAE296a7BD5fADBfc14602C4",
+                              "MaximumSwap": 810000,
+                              "MinimumSwap": 32,
+                              "BigValueThreshold": 170000,
+                              "SwapFeeRate": 0.001,
+                              "MaximumSwapFee": 165,
+                              "MinimumSwapFee": 3.3,
+                              "PlusGasPricePercentage": 1,
+                              "DisableSwap": false,
+                              "IsDelegateContract": false
+                            }
+                          }
 	},
 	"32659": {
 		"comp": {
@@ -8622,7 +8837,50 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
-		}
+		},
+		    "gtonv5": {
+                            "srcChainID": "1",
+                            "destChainID": "43114",
+                            "PairID": "GTONv5",
+                            "SrcToken": {
+                              "ID": "ERC20",
+                              "Name": "GTONERC20",
+                              "Symbol": "GTON",
+                              "Decimals": 18,
+                              "Description": "ERC20 GTON",
+                              "DepositAddress": "0x820A9eb227BF770A9dd28829380d53B76eAf1209",
+                              "DcrmAddress": "0x820A9eb227BF770A9dd28829380d53B76eAf1209",
+                              "ContractAddress": "0x01e0e2e61f554ecaaec0cc933e739ad90f24a86d",
+                              "MaximumSwap": 750000,
+                              "MinimumSwap": 3,
+                              "BigValueThreshold": 150000,
+                              "SwapFeeRate": 0,
+                              "MaximumSwapFee": 0,
+                              "MinimumSwapFee": 0,
+                              "PlusGasPricePercentage": 10,
+                              "DisableSwap": false,
+                              "IsDelegateContract": false,
+                              "AllowSwapinFromContract": true
+                            },
+                            "DestToken": {
+                              "ID": "GTON",
+                              "Name": "Graviton",
+                              "Symbol": "GTON",
+                              "Decimals": 18,
+                              "Description": "cross chain bridge GTON with GTON",
+                              "DcrmAddress": "0x820A9eb227BF770A9dd28829380d53B76eAf1209",
+                              "ContractAddress": "0xb0438CD47796f06A5Cd043121eDe235b01e075aC",
+                              "MaximumSwap": 750000,
+                              "MinimumSwap": 30,
+                              "BigValueThreshold": 150000,
+                              "SwapFeeRate": 0.001,
+                              "MaximumSwapFee": 150,
+                              "MinimumSwapFee": 3,
+                              "PlusGasPricePercentage": 1,
+                              "DisableSwap": false,
+                              "IsDelegateContract": false
+                            }
+                          }
 	},
 	"type": "Buffer",
 	"data": []

@@ -309,6 +309,36 @@
     ]
   },
   {
+    "name": "Optimism Kovan",
+    "chainId": 69,
+    "shortName": "opt-kov",
+    "chain": "KOPT",
+    "network": "optimism-kovan",
+    "networkId": 69,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    "rpc": ["https://kovan.optimism.io"],
+    "faucets": [],
+    "infoURL": "https://community.optimism.io/",
+    "explorers": [
+      {
+        "name": "optimismscan-kovan",
+        "url": "https://kovan-optimistic.etherscan.io",
+        "icon": "etherscan",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Binance Smart Chain Testnet",
     "chainId": 97,
     "shortName": "bnbt",

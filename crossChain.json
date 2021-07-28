@@ -309,7 +309,7 @@
     ]
   },
   {
-    "name": "Optimism Kovan",
+    "name": "Optimism Testnet Kovan",
     "chainId": 69,
     "shortName": "opt-kov",
     "chain": "KOPT",

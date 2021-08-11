@@ -96,6 +96,39 @@
     ]
   },
   {
+    "name": "Ethereum Testnet Ropsten",
+    "chainId": 3,
+    "shortName": "rop",
+    "chain": "ETH",
+    "network": "ropsten",
+    "networkId": 3,
+    "nativeCurrency": {
+      "name": "Ropsten Ether",
+      "symbol": "ROP",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    "rpc": [
+      "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
+      "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
+    ],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [
+      {
+        "name": "etherscan",
+        "url": "https://ropsten.etherscan.io",
+        "icon": "etherscan",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Ethereum Testnet Rinkeby",
     "chainId": 4,
     "shortName": "rin",

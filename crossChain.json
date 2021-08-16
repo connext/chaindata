@@ -2,6 +2,7 @@
   {
     "name": "",
     "chainId": 0,
+    "confirmations": 0,
     "shortName": "",
     "chain": "",
     "network": "",
@@ -19,6 +20,7 @@
   {
     "name": "Ethereum Mainnet",
     "chainId": 1,
+    "confirmations": 7,
     "shortName": "eth",
     "chain": "ETH",
     "network": "mainnet",
@@ -98,6 +100,7 @@
   {
     "name": "Ethereum Testnet Ropsten",
     "chainId": 3,
+    "confirmations": 1,
     "shortName": "rop",
     "chain": "ETH",
     "network": "ropsten",
@@ -131,6 +134,7 @@
   {
     "name": "Ethereum Testnet Rinkeby",
     "chainId": 4,
+    "confirmations": 1,
     "shortName": "rin",
     "chain": "ETH",
     "network": "rinkeby",
@@ -172,6 +176,7 @@
   {
     "name": "Ethereum Testnet Görli",
     "chainId": 5,
+    "confirmations": 1,
     "shortName": "gor",
     "chain": "ETH",
     "network": "goerli",
@@ -221,6 +226,7 @@
   {
     "name": "Ethereum Testnet Kovan",
     "chainId": 42,
+    "confirmations": 1,
     "shortName": "kov",
     "chain": "ETH",
     "network": "kovan",
@@ -276,6 +282,7 @@
   {
     "name": "Binance Smart Chain Mainnet",
     "chainId": 56,
+    "confirmations": 10,
     "shortName": "bnb",
     "chain": "BSC",
     "network": "mainnet",
@@ -344,6 +351,7 @@
   {
     "name": "Optimism Testnet Kovan",
     "chainId": 69,
+    "confirmations": 1,
     "shortName": "opt-kov",
     "chain": "KOPT",
     "network": "optimism-kovan",
@@ -374,6 +382,7 @@
   {
     "name": "Binance Smart Chain Testnet",
     "chainId": 97,
+    "confirmations": 1,
     "shortName": "bnbt",
     "chain": "BSC",
     "network": "testnet",
@@ -431,6 +440,7 @@
   {
     "name": "xDAI Chain",
     "chainId": 100,
+    "confirmations": 10,
     "shortName": "xdai",
     "chain": "XDAI",
     "network": "mainnet",
@@ -481,6 +491,7 @@
   {
     "name": "Huobi ECO Chain Mainnet",
     "chainId": 128,
+    "confirmations": 10,
     "shortName": "heco",
     "chain": "Heco",
     "network": "mainnet",
@@ -518,6 +529,7 @@
   {
     "name": "Matic Mainnet",
     "chainId": 137,
+    "confirmations": 10,
     "shortName": "matic",
     "chain": "Matic",
     "network": "mainnet",
@@ -579,6 +591,7 @@
   {
     "name": "Fantom Opera",
     "chainId": 250,
+    "confirmations": 10,
     "shortName": "ftm",
     "chain": "FTM",
     "network": "mainnet",
@@ -617,6 +630,7 @@
   {
     "name": "Arbitrum One",
     "chainId": 42161,
+    "confirmations": 10,
     "shortName": "ArbOne",
     "chain": "Arb",
     "network": "arbitrum",
@@ -648,6 +662,7 @@
   {
     "name": "Matic Testnet Mumbai",
     "chainId": 80001,
+    "confirmations": 1,
     "shortName": "maticmum",
     "chain": "Matic",
     "network": "testnet",
@@ -686,6 +701,7 @@
   {
     "name": "Arbitrum Testnet Rinkeby",
     "chainId": 421611,
+    "confirmations": 1,
     "shortName": "ArbTest",
     "chain": "Arb",
     "network": "arbitrum",

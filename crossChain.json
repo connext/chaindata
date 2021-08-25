@@ -628,7 +628,32 @@
     }
   },
   {
-    "chainId": "43113",
+    "name": "Moonbase Alpha",
+    "chainId": 1287,
+    "confirmations": 10,
+    "shortName": "mbase",
+    "chain": "MBASE",
+    "network": "mainnet",
+    "networkId": 1287,
+    "nativeCurrency": { "name": "Dev", "symbol": "DEV", "decimals": 18 },
+    "rpc": ["https://rpc.testnet.moonbeam.network"],
+    "explorers": [
+      {
+        "name": "moonbase",
+        "url": "https://moonbase-blockscout.testnet.moonbeam.network/",
+        "icon": "moonbase",
+        "standard": "EIP3091"
+      }
+    ],
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "DEV"
+      }
+    }
+  },
+  {
+    "chainId": 43113,
+    "confirmations": 10,
     "name": "Avalanche Testnet C-Chain",
     "nativeCurrency": {
       "name": "Avalanche",
@@ -651,7 +676,8 @@
     }
   },
   {
-    "chainId": "43114",
+    "chainId": 43114,
+    "confirmations": 10,
     "name": "Avalanche Mainnet C-Chain",
     "nativeCurrency": {
       "name": "Avalanche",

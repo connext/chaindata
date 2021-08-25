@@ -628,6 +628,42 @@
     }
   },
   {
+    "chainId": "43113",
+    "name": "Avalanche Testnet C-Chain",
+    "nativeCurrency": {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "rpc": ["https://api.avax-test.network/ext/bc/C/rpc"],
+    "explorers": [
+      {
+        "name": "avalanche",
+        "url": "https://cchain.explorer.avax-test.network/",
+        "icon": "avalanche",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "chainId": "43114",
+    "name": "Avalanche Mainnet C-Chain",
+    "nativeCurrency": {
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
+    "explorers": [
+      {
+        "name": "avalanche",
+        "url": "https://cchain.explorer.avax.network/",
+        "icon": "avalanche",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Arbitrum One",
     "chainId": 42161,
     "confirmations": 10,
@@ -650,7 +686,6 @@
     "faucets": [],
     "infoURL": "",
     "explorers": [
-      "",
       {
         "name": "arbitrum",
         "url": "https://explorer.arbitrum.io/",

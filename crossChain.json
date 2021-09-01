@@ -711,6 +711,14 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "tETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+      },
+      "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+      },
+      "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
@@ -719,7 +727,7 @@
     "explorers": [
       {
         "name": "arbitrum",
-        "url": "https://explorer.arbitrum.io/",
+        "url": "https://arbiscan.io",
         "icon": "arbitrum",
         "standard": "EIP3091"
       }

@@ -5333,6 +5333,48 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
+		},
+		"metric": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "METRIC",
+			"SrcToken": {
+				"ID": "METRIC",
+				"Name": "Metric.Exchange",
+				"Symbol": "METRIC",
+				"Decimals": 18,
+				"Description": "metric.exchange",
+				"DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0xefc1c73a3d8728dc4cf2a18ac5705fe93e5914ac",
+				"MaximumSwap": 100000,
+				"MinimumSwap": 0.0005,
+				"BigValueThreshold": 1000000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 10,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "METRIC",
+				"Name": "Metric.Exchange",
+				"Symbol": "METRIC",
+				"Decimals": 18,
+				"Description": "cross chain bridge METRIC ERC20 with METRIC BEP20",
+				"mpcAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+				"ContractAddress": "0x29DfD3d644b18e0345EED3a3C94b4Efe35F2771b",
+				"MaximumSwap": 100000,
+				"MinimumSwap": 0.0005,
+				"BigValueThreshold": 1000000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 10,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
 		}
 	},
 	"100": {

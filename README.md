@@ -58,8 +58,10 @@ Deploy your own token and create a PR by following the [guide](./deploy.md)
 
 # EVM-based Chains
 
+ * [networks.vercel.app](https://networks.vercel.app)
  * [chainlist.org](https://chainlist.org)
  * [chainid.network](https://chainid.network)
+
 
 Listed by chainId according to EIP-155
 

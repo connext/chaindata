@@ -295,31 +295,38 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "BNB",
-        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
+        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+        "decimals": 18
       },
       "0x55d398326f99059fF775485246999027B3197955": {
         "symbol": "USDT",
-        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 18
       },
       "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1": {
         "symbol": "UNI",
-        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18
       },
       "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
         "symbol": "USDC",
-        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 18
       },
       "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3": {
         "symbol": "DAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
       },
       "0xe9e7cea3dedca5984780bafc599bd69add087d56": {
         "symbol": "BUSD",
-        "mainnetEquivalent": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+        "mainnetEquivalent": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+        "decimals": 18
       },
       "0x532197ec38756b9956190b845d99b4b0a88e4ca9": {
         "symbol": "PAID",
-        "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787"
+        "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -449,23 +456,28 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "XDAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
       },
       "0x4ECaBa5870353805a9F068101A40E0f32ed605C6": {
         "symbol": "USDT",
-        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
       },
       "0x4537e328Bf7e4eFA29D05CAeA260D7fE26af9D74": {
         "symbol": "UNI",
-        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18
       },
       "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83": {
         "symbol": "USDC",
-        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
       },
       "0x44fA8E6f47987339850636F88629646662444217": {
         "symbol": "DAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -542,23 +554,28 @@
     "assetId": {
       "0x0000000000000000000000000000000000001010": {
         "symbol": "MATIC",
-        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "decimals": 18
       },
       "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
         "symbol": "USDC",
-        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
       },
       "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4": {
         "symbol": "MANA",
-        "mainnetEquivalent": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+        "mainnetEquivalent": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+        "decimals": 18
       },
       "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063": {
         "symbol": "DAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
       },
       "0xb33EaAd8d922B1083446DC23f610c2567fB5180f": {
         "symbol": "UNI",
-        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18
       },
       "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
         "symbol": "USDT",
@@ -566,11 +583,13 @@
       },
       "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
         "symbol": "WETH (PoS)",
-        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18
       },
       "0xe82808eaA78339b06a691fd92E1Be79671cAd8D3": {
         "symbol": "PLOTX",
-        "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb"
+        "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -611,19 +630,23 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "FTM",
-        "mainnetEquivalent": "0x4e15361fd6b4bb609fa63c81a2be19d873717870"
+        "mainnetEquivalent": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
+        "decimals": 18
       },
       "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e": {
         "symbol": "DAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
       },
       "0x049d68029688eabf473097a2fc38ef61633a3c7a": {
         "symbol": "USDT",
-        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
       },
       "0x04068da6c83afcfa0e13ba15a6696662335d5b75": {
         "symbol": "USDC",
-        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
       }
     }
   },
@@ -710,15 +733,18 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "tETH",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
       },
       "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
         "symbol": "USDT",
-        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
       },
       "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
         "symbol": "USDC",
-        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],

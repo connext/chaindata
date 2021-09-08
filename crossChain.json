@@ -15,7 +15,9 @@
     "assetId": {},
     "rpc": [],
     "faucets": [],
-    "infoURL": ""
+    "gasStations": [],
+    "infoURL": "",
+    "explorers": []
   },
   {
     "name": "Ethereum Mainnet",
@@ -88,6 +90,9 @@
     ],
     "faucets": [],
     "infoURL": "https://ethereum.org",
+    "gasStations": [
+      "https://www.gasnow.org/api/v3/gas/price"
+    ],
     "explorers": [
       {
         "name": "etherscan",

@@ -644,7 +644,7 @@
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
-      "0x049d68029688eabf473097a2fc38ef61633a3c7a": {
+      "0x049d68029688eAbF473097a2fC38ef61633A3C7A": {
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6

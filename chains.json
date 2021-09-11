@@ -5333,6 +5333,48 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
+		},
+		"ava": {
+			"srcChainID": "56",
+			"destChainID": "1",
+			"PairID": "AVA",
+			"SrcToken": {
+				"ID": "AVA-BEP20",
+				"Name": "Travala.com Token",
+				"Symbol": "AVA",
+				"Decimals": 18,
+				"Description": "AVA BEP20",
+				"DepositAddress": "0xB16E3336699A636DD6C8246A3a12b813bFa0A3AD",
+				"DcrmAddress": "0xB16E3336699A636DD6C8246A3a12b813bFa0A3AD",
+				"ContractAddress": "0x13616F44Ba82D63c8C0DC3Ff843D36a8ec1c05a9",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 2,
+				"BigValueThreshold": 100000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "AVA-ERC20",
+				"Name": "Travala.com Token",
+				"Symbol": "AVA",
+				"Decimals": 18,
+				"Description": "AVA ERC20",
+				"DcrmAddress": "0xB16E3336699A636DD6C8246A3a12b813bFa0A3AD",
+				"ContractAddress": "0x442B153F6F61C0c99A33Aa4170DCb31e1ABDa1D0",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 2,
+				"BigValueThreshold": 100000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
 		}
 	},
 	"100": {

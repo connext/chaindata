@@ -546,7 +546,7 @@
   {
     "name": "Matic Mainnet",
     "chainId": 137,
-    "confirmations": 10,
+    "confirmations": 60,
     "shortName": "matic",
     "chain": "Matic",
     "network": "mainnet",
@@ -616,7 +616,7 @@
   {
     "name": "Fantom Opera",
     "chainId": 250,
-    "confirmations": 10,
+    "confirmations": 20,
     "shortName": "ftm",
     "chain": "FTM",
     "network": "mainnet",

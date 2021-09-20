@@ -90,9 +90,7 @@
     ],
     "faucets": [],
     "infoURL": "https://ethereum.org",
-    "gasStations": [
-      "https://www.gasnow.org/api/v3/gas/price"
-    ],
+    "gasStations": ["https://www.gasnow.org/api/v3/gas/price"],
     "explorers": [
       {
         "name": "etherscan",
@@ -604,6 +602,7 @@
     ],
     "faucets": [],
     "infoURL": "https://matic.network/",
+    "gasStations": ["https://gasstation-mainnet.matic.network/"],
     "explorers": [
       {
         "name": "polygonscan",

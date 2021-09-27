@@ -5503,8 +5503,50 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
-		}
-	},
+		},
+		"lep": {
+                        "srcChainID": "56",
+                        "destChainID": "100",
+                        "PairID": "LEP",
+                        "SrcToken": {
+                                "ID": "LEP",
+                                "Name": "LEP",
+                                "Symbol": "LEP",
+                                "Decimals": 18,
+                                "Description": "LEPgold Rewards",
+                                "DepositAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+                                "DcrmAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+                                "ContractAddress": "0x3064bbB132cB072359AE3F98ebEdB2B3663C74ED",
+                                "MaximumSwap": 100000,
+                                "MinimumSwap": 1,
+                                "BigValueThreshold": 50000,
+                                "SwapFeeRate": 0,
+                                "MaximumSwapFee": 10,
+                                "MinimumSwapFee": 0,
+                                "PlusGasPricePercentage": 10,
+                                "DisableSwap": false,
+                                "IsDelegateContract": false
+                        },
+                        "DestToken": {
+                                "ID": "LEPbsc",
+                                "Name": "LEP BEP20",
+                                "Symbol": "LEPbsc",
+                                "Decimals": 18,
+                                "Description": "LEPgold Rewards on MATIC/Polygon",
+                                "DcrmAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+                                "ContractAddress": "0x1F3337D4DE9B925dc5109aDF770919857832232",
+                                "MaximumSwap": 100000,
+                                "MinimumSwap": 1,
+                                "BigValueThreshold": 50000,
+                                "SwapFeeRate": 0.01,
+                                "MaximumSwapFee": 10,
+                                "MinimumSwapFee": 0.5,
+                                "PlusGasPricePercentage": 1,
+                                "DisableSwap": false,
+                                "IsDelegateContract": false
+                        }
+                }
+        },
 	"128": {
 		"any": {
 			"srcChainID": "32659",
@@ -6092,6 +6134,48 @@
 				"IsDelegateContract": false
 			}
 		},
+                "lep": {
+                        "srcChainID": "56",
+                        "destChainID": "250",
+                        "PairID": "LEP",
+                        "SrcToken": {
+                                "ID": "LEP",
+                                "Name": "LEP",
+                                "Symbol": "LEP",
+                                "Decimals": 18,
+                                "Description": "LEPgold Rewards",
+                                "DepositAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+                                "DcrmAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+                                "ContractAddress": "0x3064bbB132cB072359AE3F98ebEdB2B3663C74ED",
+                                "MaximumSwap": 100000,
+                                "MinimumSwap": 1,
+                                "BigValueThreshold": 50000,
+                                "SwapFeeRate": 0,
+                                "MaximumSwapFee": 0,
+                                "MinimumSwapFee": 0,
+                                "PlusGasPricePercentage": 10,
+                                "DisableSwap": false,
+                                "IsDelegateContract": false
+                        },
+                        "DestToken": {
+                                "ID": "LEPbsc",
+                                "Name": "LEP BEP20",
+                                "Symbol": "LEPbsc",
+                                "Decimals": 18,
+                                "Description": "LEPgold Rewards on Fantom",
+                                "DcrmAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+                                "ContractAddress": "0x073e84ccb307f76f21b992bdc49c9c6bb76e9954",
+                                "MaximumSwap": 100000,
+                                "MinimumSwap": 1,
+                                "BigValueThreshold": 50000,
+                                "SwapFeeRate": 0.01,
+                                "MaximumSwapFee": 10,
+                                "MinimumSwapFee": 0.5,
+                                "PlusGasPricePercentage": 1,
+                                "DisableSwap": false,
+                                "IsDelegateContract": false
+                        }
+                },
 		"usdt": {
 			"srcChainID": "1",
 			"destChainID": "250",

@@ -704,7 +704,10 @@
     }
   },
   {
+    "chain": "Avalanche",
     "chainId": 43114,
+    "network": "avalanche",
+    "networkId": 43114,
     "confirmations": 10,
     "name": "Avalanche Mainnet C-Chain",
     "nativeCurrency": {

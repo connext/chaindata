@@ -6,12 +6,12 @@
 
 ## Step 1: Fork AnyswapV5ERC20 and implement any additional functionality as required.
 
-AnyswapV4ERC20 supports the following
+AnyswapV5ERC20 supports the following
 * ERC2612 (Adds `permit`)
 * ERC677 (Adds `approveAndCall` and `transferAndCall`)
 * `transferWithPermit`
 * Verify EIP712 and Verify `personalSign`
-* AnyswapV4ERC20 needs to support `mint`, `burn`, `Swapin`, and `Swapout` to be compatible with multiple bridges.
+* AnyswapV5ERC20 needs to support `mint`, `burn`, `Swapin`, and `Swapout` to be compatible with multiple bridges.
 * Multichain MPC address (detailed below) should be set via `initVault(address _vault)`
 
 ### Step 1.1: I already deployed my token

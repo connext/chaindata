@@ -656,6 +656,40 @@
     }
   },
   {
+    "name": "Moonriver",
+    "chainId": 1285,
+    "confirmations": 10,
+    "shortName": "moonriver",
+    "chain": "MOVR",
+    "network": "mainnet",
+    "networkId": 1285,
+    "nativeCurrency": { "name": "Moonriver", "symbol": "MOVR", "decimals": 18 },
+    "rpc": ["https://rpc.moonriver.moonbeam.network"],
+    "explorers": [
+      {
+        "name": "moonbase",
+        "url": "https://moonbase-blockscout.testnet.moonbeam.network/",
+        "icon": "moonbase",
+        "standard": "EIP3091"
+      }
+    ],
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "MOVR"
+      },
+      "0xB44a9B6905aF7c801311e8F4E76932ee959c663C": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      }
+    }
+  },
+  {
     "name": "Moonbase Alpha",
     "chainId": 1287,
     "confirmations": 10,

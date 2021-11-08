@@ -90,7 +90,7 @@
     ],
     "faucets": [],
     "infoURL": "https://ethereum.org",
-    "gasStations": ["https://www.gasnow.org/api/v3/gas/price"],
+    "gasStations": [],
     "explorers": [
       {
         "name": "etherscan",

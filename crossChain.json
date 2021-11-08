@@ -301,6 +301,11 @@
         "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
         "decimals": 18
       },
+      "0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
       "0x55d398326f99059fF775485246999027B3197955": {
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
@@ -462,6 +467,11 @@
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
+      "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
       "0x4ECaBa5870353805a9F068101A40E0f32ed605C6": {
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
@@ -587,7 +597,7 @@
       },
       "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
         "symbol": "WETH (PoS)",
-        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0xe82808eaA78339b06a691fd92E1Be79671cAd8D3": {
@@ -636,6 +646,11 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "FTM",
         "mainnetEquivalent": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
+        "decimals": 18
+      },
+      "0x74b23882a30290451A17c44f4F05243b6b58C76d": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E": {
@@ -752,6 +767,11 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "AVAX",
+        "decimals": 18
+      },
+      "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70": {

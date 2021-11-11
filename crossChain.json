@@ -612,7 +612,7 @@
     ],
     "faucets": [],
     "infoURL": "https://matic.network/",
-    "gasStations": [],
+    "gasStations": ["https://gasstation-mainnet.matic.network/"],
     "explorers": [
       {
         "name": "polygonscan",

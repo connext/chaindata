@@ -682,9 +682,9 @@
     "rpc": ["https://rpc.moonriver.moonbeam.network"],
     "explorers": [
       {
-        "name": "moonbase",
-        "url": "https://moonbase-blockscout.testnet.moonbeam.network/",
-        "icon": "moonbase",
+        "name": "moonriver",
+        "url": "https://moonbeam-explorer.netlify.app/?network=Moonriver",
+        "icon": "moonriver",
         "standard": "EIP3091"
       }
     ],

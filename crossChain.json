@@ -683,7 +683,7 @@
     "explorers": [
       {
         "name": "moonriver",
-        "url": "https://moonbeam-explorer.netlify.app/?network=Moonriver",
+        "url": "https://moonriver.moonscan.io/",
         "icon": "moonriver",
         "standard": "EIP3091"
       }

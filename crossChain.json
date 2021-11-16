@@ -230,6 +230,7 @@
     "name": "Optimistic Ethereum",
     "chain": "ETH",
     "network": "mainnet",
+    "confirmations": 10,
     "rpc": ["https://mainnet.optimism.io/"],
     "faucets": [],
     "nativeCurrency": {

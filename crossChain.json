@@ -227,6 +227,49 @@
     ]
   },
   {
+    "name": "Optimistic Ethereum",
+    "chain": "ETH",
+    "network": "mainnet",
+    "rpc": ["https://mainnet.optimism.io/"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "OETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      }
+    },
+    "infoURL": "https://optimism.io",
+    "shortName": "oeth",
+    "chainId": 10,
+    "networkId": 10,
+    "explorers": [{
+      "name": "etherscan",
+      "url": "https://optimistic.etherscan.io",
+      "standard": "none"
+    }]
+  },
+  {
     "name": "Ethereum Testnet Kovan",
     "chainId": 42,
     "confirmations": 1,

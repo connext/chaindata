@@ -14,6 +14,7 @@
     },
     "assetId": {},
     "rpc": [],
+    "subgraph": [],
     "faucets": [],
     "gasStations": [],
     "infoURL": "",
@@ -88,6 +89,11 @@
       "https://api.mycryptoapi.com/eth",
       "https://cloudflare-eth.com"
     ],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-mainnet",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime"
+    ],
     "faucets": [],
     "infoURL": "https://ethereum.org",
     "gasStations": [],
@@ -122,6 +128,9 @@
     "rpc": [
       "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
       "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
+    ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-ropsten-v1-runtime"
     ],
     "faucets": [],
     "infoURL": "",
@@ -164,6 +173,9 @@
     "rpc": [
       "https://rinkeby.infura.io/v3/${INFURA_API_KEY}",
       "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
+    ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-runtime"
     ],
     "faucets": ["https://faucet.rinkeby.io"],
     "infoURL": "https://www.rinkeby.io",
@@ -212,6 +224,9 @@
       "https://rpc.slock.it/goerli ",
       "https://goerli.prylabs.net/"
     ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-runtime"
+    ],
     "faucets": [
       "https://goerli-faucet.slock.it/?address=${ADDRESS}",
       "https://faucet.goerli.mudit.blog"
@@ -232,6 +247,9 @@
     "network": "mainnet",
     "confirmations": 10,
     "rpc": ["https://mainnet.optimism.io/"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Ether",
@@ -264,11 +282,13 @@
     "shortName": "oeth",
     "chainId": 10,
     "networkId": 10,
-    "explorers": [{
-      "name": "etherscan",
-      "url": "https://optimistic.etherscan.io",
-      "standard": "none"
-    }]
+    "explorers": [
+      {
+        "name": "etherscan",
+        "url": "https://optimistic.etherscan.io",
+        "standard": "none"
+      }
+    ]
   },
   {
     "name": "Ethereum Testnet Kovan",
@@ -311,6 +331,9 @@
       "https://kovan.infura.io/v3/${INFURA_API_KEY}",
       "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}",
       "ws://kovan.poa.network:8546"
+    ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-kovan-v1-runtime"
     ],
     "faucets": [
       "https://faucet.kovan.network",
@@ -396,6 +419,12 @@
       "https://bsc-dataseed4.ninicoin.io",
       "wss://bsc-ws-node.nariox.org"
     ],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
+      "https://connext-fallback.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-runtime"
+    ],
     "faucets": [],
     "infoURL": "https://www.binance.org",
     "explorers": [
@@ -427,6 +456,9 @@
       }
     },
     "rpc": ["https://kovan.optimism.io"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-kovan-v1-runtime"
+    ],
     "faucets": [],
     "infoURL": "https://community.optimism.io/",
     "explorers": [
@@ -484,6 +516,9 @@
       "https://data-seed-prebsc-2-s2.binance.org:8545",
       "https://data-seed-prebsc-1-s3.binance.org:8545",
       "https://data-seed-prebsc-2-s3.binance.org:8545"
+    ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-chapel-v1-runtime"
     ],
     "faucets": ["https://testnet.binance.org/faucet-smart"],
     "infoURL": "https://www.binance.org",
@@ -545,6 +580,11 @@
       "http://xdai.poanetwork.dev",
       "https://dai.poa.network",
       "ws://xdai.poanetwork.dev:8546"
+    ],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-xdai-v1-runtime"
     ],
     "faucets": [],
     "infoURL": "https://forum.poa.network/c/xdai-chain",
@@ -654,6 +694,11 @@
       "https://rpc-mainnet.matic.network",
       "wss://ws-mainnet.matic.network"
     ],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-matic-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-matic",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-runtime"
+    ],
     "faucets": [],
     "infoURL": "https://matic.network/",
     "gasStations": ["https://gasstation-mainnet.matic.network/"],
@@ -676,6 +721,11 @@
     "networkId": 250,
     "nativeCurrency": { "name": "Fantom", "symbol": "FTM", "decimals": 18 },
     "rpc": ["https://rpcapi.fantom.network"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-runtime"
+    ],
     "faucets": [],
     "explorers": [
       {
@@ -724,6 +774,11 @@
     "networkId": 1285,
     "nativeCurrency": { "name": "Moonriver", "symbol": "MOVR", "decimals": 18 },
     "rpc": ["https://rpc.moonriver.moonbeam.network"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonriver"
+    ],
     "explorers": [
       {
         "name": "moonriver",
@@ -835,6 +890,11 @@
       }
     },
     "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-avalanche",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime"
+    ],
     "explorers": [
       {
         "name": "avalanche",
@@ -880,6 +940,11 @@
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-one",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime"
+    ],
     "faucets": [],
     "infoURL": "",
     "explorers": [
@@ -919,6 +984,9 @@
       }
     },
     "rpc": ["https://rpc-mumbai.matic.today", "wss://ws-mumbai.matic.today"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-runtime"
+    ],
     "faucets": ["https://faucet.matic.network/"],
     "infoURL": "https://matic.network/",
     "explorers": [
@@ -950,6 +1018,9 @@
       }
     },
     "rpc": ["https://rinkeby.arbitrum.io/rpc"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-rinkeby-v1-runtime"
+    ],
     "faucets": [],
     "infoURL": "",
     "explorers": [

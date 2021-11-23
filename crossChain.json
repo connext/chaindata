@@ -91,7 +91,6 @@
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-mainnet",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime"
     ],
     "faucets": [],
@@ -422,7 +421,6 @@
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
       "https://connext-fallback.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-runtime"
     ],
     "faucets": [],
@@ -583,7 +581,6 @@
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-xdai-v1-runtime"
     ],
     "faucets": [],
@@ -696,7 +693,6 @@
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-matic-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-matic",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-runtime"
     ],
     "faucets": [],
@@ -723,7 +719,6 @@
     "rpc": ["https://rpcapi.fantom.network"],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-runtime"
     ],
     "faucets": [],
@@ -776,8 +771,7 @@
     "rpc": ["https://rpc.moonriver.moonbeam.network"],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime",
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonriver"
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime"
     ],
     "explorers": [
       {
@@ -892,7 +886,6 @@
     "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-avalanche",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime"
     ],
     "explorers": [
@@ -942,7 +935,6 @@
     "rpc": ["https://arb1.arbitrum.io/rpc"],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-one",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime"
     ],
     "faucets": [],

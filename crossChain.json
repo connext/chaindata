@@ -420,6 +420,7 @@
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
+      "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-bsc",
       "https://connext-fallback.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-runtime"
     ],
@@ -693,6 +694,7 @@
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-matic-v1-runtime",
+      "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-runtime"
     ],
     "faucets": [],

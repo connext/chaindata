@@ -373,6 +373,48 @@
 				"IsDelegateContract": false
 			}
 		},
+		"trvl": {
+			"srcChainID": "1",
+			"destChainID": "56",
+			"PairID": "TRVL",
+			"SrcToken": {
+				"ID": "TRVL-ERC20",
+				"Name": "TRVL",
+				"Symbol": "TRVL",
+				"Decimals": 18,
+				"Description": "TRVL ERC20",
+				"DepositAddress": "0x13B432914A996b0A48695dF9B2d701edA45FF264",
+				"DcrmAddress": "0x13B432914A996b0A48695dF9B2d701edA45FF264",
+				"ContractAddress": "0xd47bDF574B4F76210ed503e0EFe81B58Aa061F3d",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 2,
+				"BigValueThreshold": 100000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "TRVL-BEP20",
+				"Name": "TRVL",
+				"Symbol": "TRVL",
+				"Decimals": 18,
+				"Description": "TRVL BEP20",
+				"DcrmAddress": "0x13B432914A996b0A48695dF9B2d701edA45FF264",
+				"ContractAddress": "0x6a8Fd46F88dBD7bdC2D536C604f811C63052ce0F",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 2,
+				"BigValueThreshold": 100000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
 		"eth": {
 			"srcChainID": "1",
 			"destChainID": "56",

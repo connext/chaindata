@@ -252,7 +252,8 @@
     "confirmations": 10,
     "rpc": ["https://mainnet.optimism.io/"],
     "subgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
     ],
     "faucets": [],
     "nativeCurrency": {

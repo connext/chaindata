@@ -429,6 +429,10 @@
         "symbol": "PAID",
         "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787",
         "decimals": 18
+      },
+      "0xaBc6790673a60b8A7f588450f59D2d256b1aeF7F": {
+        "symbol": "OAI",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -723,6 +727,10 @@
       "0x5fe2b58c013d7601147dcdd68c143a77499f5531": {
         "symbol": "GRT",
         "mainnetEquivalent": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+        "decimals": 18
+      },
+      "0xabc6790673a60b8a7f588450f59d2d256b1aef7f": {
+        "symbol": "OAI",
         "decimals": 18
       }
     },

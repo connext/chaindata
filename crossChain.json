@@ -36,51 +36,63 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
       },
       "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
         "symbol": "USDC",
-        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
       },
       "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
         "symbol": "MATIC",
-        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "decimals": 18
       },
       "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942": {
         "symbol": "MANA",
-        "mainnetEquivalent": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+        "mainnetEquivalent": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+        "decimals": 18
       },
       "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
         "symbol": "DAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
       },
       "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
         "symbol": "USDT",
-        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
       },
       "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
         "symbol": "UNI",
-        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18
       },
       "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
         "symbol": "WETH",
-        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18
       },
       "0xB8c77482e45F1F44dE1745F52C74426C631bDD52": {
         "symbol": "BNB",
-        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
+        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+        "decimals": 18
       },
       "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787": {
         "symbol": "PAID",
-        "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787"
+        "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787",
+        "decimals": 18
       },
       "0x4fabb145d64652a948d72533023f6e7a623c7c53": {
         "symbol": "BUSD",
-        "mainnetEquivalent": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+        "mainnetEquivalent": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+        "decimals": 18
       },
       "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb": {
         "symbol": "PLOTX",
-        "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb"
+        "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb",
+        "decimals": 18
       },
       "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
         "symbol": "WBTC",

@@ -774,7 +774,6 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "FTM",
-        "mainnetEquivalent": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
         "decimals": 18
       },
       "0x74b23882a30290451A17c44f4F05243b6b58C76d": {

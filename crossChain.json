@@ -447,8 +447,8 @@
       "wss://bsc-ws-node.nariox.org"
     ],
     "subgraph": [
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
       "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-bsc",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
       "https://connext-fallback.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-runtime"
     ],

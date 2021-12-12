@@ -8074,7 +8074,49 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
-		}
+		},
+		"rena": {
+			"srcChainID": "1",
+			"destChainID": "250",
+			"PairID": "RENA",
+			"SrcToken": {
+			  "ID": "RENA",
+			  "Name": "Rena.finance",
+			  "Symbol": "RENA",
+			  "Decimals": 18,
+			  "Description": "rena.finance",
+			  "DepositAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+			  "mpcAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+			  "ContractAddress": "0x56de8BC61346321D4F2211e3aC3c0A7F00dB9b76",
+			  "MaximumSwap": 100000,
+			  "MinimumSwap": 0.0005,
+			  "BigValueThreshold": 15000,
+			  "SwapFeeRate": 0,
+			  "MaximumSwapFee": 0,
+			  "MinimumSwapFee": 0,
+			  "PlusGasPricePercentage": 10,
+			  "DisableSwap": false,
+			  "IsDelegateContract": false
+			},
+			"DestToken": {
+			  "ID": "anyRENA",
+			  "Name": "RENA-ERC20",
+			  "Symbol": "anyRENA",
+			  "Decimals": 18,
+			  "Description": "cross chain bridge RENA with anyRENA",
+			  "mpcAddress": "0xC564EE9f21Ed8A2d8E7e76c085740d5e4c5FaFbE",
+			  "ContractAddress": "0x9883ae441105f815b472517389b979f031b5c87e",
+			  "MaximumSwap": 100000,
+			  "MinimumSwap": 0.002,
+			  "BigValueThreshold": 15000,
+			  "SwapFeeRate": 0.001,
+			  "MaximumSwapFee": 0.01,
+			  "MinimumSwapFee": 0.001,
+			  "PlusGasPricePercentage": 1,
+			  "DisableSwap": false,
+			  "IsDelegateContract": false
+			}
+		}		
 	},
 	"32659": {
 		"comp": {

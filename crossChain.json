@@ -624,6 +624,50 @@
     ]
   },
   {
+    "name": "Fuse Mainnet",
+    "chainId": 122,
+    "confirmations": 10,
+    "shortName": "fuse",
+    "network": "mainnet",
+    "networkId": 122,
+    "nativeCurrency": {
+      "name": "Fuse Token",
+      "symbol": "FUSE",
+      "decimals": 18
+    },
+    "rpc": ["https://rpc.fuse.io/"],
+    "faucets": [],
+    "infoURL": "https://developers.fuse.io",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "FUSE"
+      },
+      "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x94Ba7A27c7A95863d1bdC7645AC2951E0cca06bA": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      }
+    },
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-runtime"
+    ],
+    "explorers": [
+      {
+        "url": "http://explorer.fuse.io/"
+      }
+    ]
+  },
+  {
     "name": "Huobi ECO Chain Mainnet",
     "chainId": 128,
     "confirmations": 10,

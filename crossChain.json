@@ -15,6 +15,7 @@
     "assetId": {},
     "rpc": [],
     "subgraph": [],
+    "analyticsSubgraph": [],
     "faucets": [],
     "gasStations": [],
     "infoURL": "",
@@ -115,6 +116,9 @@
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://ethereum.org",
     "gasStations": [],
@@ -152,6 +156,9 @@
     ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-ropsten-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-ropsten-v1-analytics"
     ],
     "faucets": [],
     "infoURL": "",
@@ -197,6 +204,9 @@
     ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-analytics"
     ],
     "faucets": ["https://faucet.rinkeby.io"],
     "infoURL": "https://www.rinkeby.io",
@@ -248,6 +258,9 @@
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-analytics"
+    ],
     "faucets": [
       "https://goerli-faucet.slock.it/?address=${ADDRESS}",
       "https://faucet.goerli.mudit.blog"
@@ -271,6 +284,9 @@
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-analytics"
     ],
     "faucets": [],
     "nativeCurrency": {
@@ -362,6 +378,9 @@
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-kovan-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-kovan-v1-analytics"
+    ],
     "faucets": [
       "https://faucet.kovan.network",
       "https://gitter.im/kovan-testnet/faucet"
@@ -452,6 +471,9 @@
       "https://connext-fallback.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://www.binance.org",
     "explorers": [
@@ -485,6 +507,9 @@
     "rpc": ["https://kovan.optimism.io"],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-kovan-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-kovan-v1-analytics"
     ],
     "faucets": [],
     "infoURL": "https://community.optimism.io/",
@@ -546,6 +571,9 @@
     ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-chapel-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-chapel-v1-analytics"
     ],
     "faucets": ["https://testnet.binance.org/faucet-smart"],
     "infoURL": "https://www.binance.org",
@@ -612,6 +640,9 @@
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-xdai-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-xdai-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://forum.poa.network/c/xdai-chain",
     "explorers": [
@@ -660,6 +691,9 @@
     },
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-analytics"
     ],
     "explorers": [
       {
@@ -779,6 +813,9 @@
       "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://matic.network/",
     "gasStations": ["https://gasstation-mainnet.matic.network/"],
@@ -804,6 +841,9 @@
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-analytics"
     ],
     "faucets": [],
     "explorers": [
@@ -860,6 +900,9 @@
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-analytics"
     ],
     "explorers": [
       {
@@ -981,6 +1024,9 @@
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-avalanche-v1-analytics"
+    ],
     "explorers": [
       {
         "name": "avalanche",
@@ -1040,6 +1086,9 @@
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "",
     "explorers": [
@@ -1082,6 +1131,9 @@
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-runtime"
     ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-analytics"
+    ],
     "faucets": ["https://faucet.matic.network/"],
     "infoURL": "https://matic.network/",
     "explorers": [
@@ -1115,6 +1167,9 @@
     "rpc": ["https://rinkeby.arbitrum.io/rpc"],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-rinkeby-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-rinkeby-v1-analytics"
     ],
     "faucets": [],
     "infoURL": "",

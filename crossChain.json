@@ -1087,7 +1087,7 @@
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime"
     ],
     "analyticsSubgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-v1-analytics"
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-analytics"
     ],
     "faucets": [],
     "infoURL": "",

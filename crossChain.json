@@ -16,6 +16,8 @@
     "rpc": [],
     "subgraph": [],
     "analyticsSubgraph": [],
+    "subgraphHealth": {},
+    "subgraphBuffer": {},
     "faucets": [],
     "gasStations": [],
     "infoURL": "",
@@ -119,6 +121,18 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/ethereum/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [],
     "infoURL": "https://ethereum.org",
     "gasStations": [],
@@ -160,6 +174,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-ropsten-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [],
     "infoURL": "",
     "explorers": [
@@ -208,6 +231,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": ["https://faucet.rinkeby.io"],
     "infoURL": "https://www.rinkeby.io",
     "explorers": [
@@ -261,6 +293,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [
       "https://goerli-faucet.slock.it/?address=${ADDRESS}",
       "https://faucet.goerli.mudit.blog"
@@ -280,15 +321,9 @@
     "chain": "ETH",
     "network": "mainnet",
     "confirmations": 10,
-    "rpc": ["https://mainnet.optimism.io/"],
-    "subgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
-    ],
-    "analyticsSubgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-analytics"
-    ],
-    "faucets": [],
+    "shortName": "oeth",
+    "chainId": 10,
+    "networkId": 10,
     "nativeCurrency": {
       "name": "Ether",
       "symbol": "OETH",
@@ -321,10 +356,28 @@
         "decimals": 8
       }
     },
+    "rpc": ["https://mainnet.optimism.io/"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-analytics"
+    ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/optimism/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
+    "faucets": [],
     "infoURL": "https://optimism.io",
-    "shortName": "oeth",
-    "chainId": 10,
-    "networkId": 10,
     "explorers": [
       {
         "name": "etherscan",
@@ -381,6 +434,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-kovan-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [
       "https://faucet.kovan.network",
       "https://gitter.im/kovan-testnet/faucet"
@@ -474,6 +536,24 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/bsc/index-node/graphql"
+      },
+      "https://connext-fallback.bwarelabs.com": {
+        "uri": "https://connext-fallback.bwarelabs.com/bsc/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      },
+      "https://subgraphs.connext.p2p.org": {
+        "uri": "https://subgraphs.connext.p2p.org/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [],
     "infoURL": "https://www.binance.org",
     "explorers": [
@@ -511,6 +591,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-kovan-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [],
     "infoURL": "https://community.optimism.io/",
     "explorers": [
@@ -575,6 +664,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-chapel-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": ["https://testnet.binance.org/faucet-smart"],
     "infoURL": "https://www.binance.org",
     "explorers": [
@@ -643,6 +741,18 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-xdai-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/xdai/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [],
     "infoURL": "https://forum.poa.network/c/xdai-chain",
     "explorers": [
@@ -695,6 +805,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "explorers": [
       {
         "url": "http://explorer.fuse.io/"
@@ -816,6 +935,21 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/matic/index-node/graphql"
+      },
+      "https://subgraphs.connext.p2p.org": {
+        "uri": "https://subgraphs.connext.p2p.org/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [],
     "infoURL": "https://matic.network/",
     "gasStations": ["https://gasstation-mainnet.matic.network/"],
@@ -837,24 +971,6 @@
     "network": "mainnet",
     "networkId": 250,
     "nativeCurrency": { "name": "Fantom", "symbol": "FTM", "decimals": 18 },
-    "rpc": ["https://rpcapi.fantom.network"],
-    "subgraph": [
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom-v1-runtime",
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-runtime"
-    ],
-    "analyticsSubgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-analytics"
-    ],
-    "faucets": [],
-    "explorers": [
-      {
-        "name": "ftmscan",
-        "url": "https://ftmscan.com",
-        "icon": "ftmscan",
-        "standard": "EIP3091"
-      }
-    ],
-    "infoURL": "https://fantom.foundation",
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "FTM",
@@ -885,7 +1001,37 @@
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8
       }
-    }
+    },
+    "rpc": ["https://rpcapi.fantom.network"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-analytics"
+    ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/fantom/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
+    "faucets": [],
+    "explorers": [
+      {
+        "name": "ftmscan",
+        "url": "https://ftmscan.com",
+        "icon": "ftmscan",
+        "standard": "EIP3091"
+      }
+    ],
+    "infoURL": "https://fantom.foundation"
   },
   {
     "name": "Moonriver",
@@ -904,6 +1050,18 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/moonriver/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "explorers": [
       {
         "name": "moonriver",
@@ -1027,6 +1185,18 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-avalanche-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/avalanche/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "explorers": [
       {
         "name": "avalanche",
@@ -1089,6 +1259,18 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://connext.bwarelabs.com": {
+        "uri": "https://connext.bwarelabs.com/arbitrum/index-node/graphql"
+      },
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [],
     "infoURL": "",
     "explorers": [
@@ -1134,6 +1316,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": ["https://faucet.matic.network/"],
     "infoURL": "https://matic.network/",
     "explorers": [
@@ -1171,6 +1362,15 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-rinkeby-v1-analytics"
     ],
+    "subgraphHealth": {
+      "https://api.thegraph.com": {
+        "uri": "https://api.thegraph.com/index-node/graphql"
+      }
+    },
+    "subgraphBuffer": {
+      "router": "150",
+      "sdk": "150"
+    },
     "faucets": [],
     "infoURL": "",
     "explorers": [

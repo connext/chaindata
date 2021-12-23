@@ -17,7 +17,7 @@
     "subgraph": [],
     "analyticsSubgraph": [],
     "subgraphHealth": {},
-    "subgraphBuffer": {},
+    "subgraphSyncBuffer": {},
     "faucets": [],
     "gasStations": [],
     "infoURL": "",
@@ -129,7 +129,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -179,7 +179,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -236,7 +236,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -298,7 +298,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -358,21 +358,17 @@
     },
     "rpc": ["https://mainnet.optimism.io/"],
     "subgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
     ],
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-analytics"
     ],
     "subgraphHealth": {
-      "https://connext.bwarelabs.com": {
-        "uri": "https://connext.bwarelabs.com/optimism/index-node/graphql"
-      },
       "https://api.thegraph.com": {
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -439,7 +435,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -550,7 +546,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -596,7 +592,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -669,7 +665,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -749,7 +745,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -810,7 +806,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -946,7 +942,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -1018,7 +1014,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -1058,7 +1054,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -1193,7 +1189,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -1267,7 +1263,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -1321,7 +1317,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },
@@ -1367,7 +1363,7 @@
         "uri": "https://api.thegraph.com/index-node/graphql"
       }
     },
-    "subgraphBuffer": {
+    "subgraphSyncBuffer": {
       "router": "150",
       "sdk": "150"
     },

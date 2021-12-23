@@ -543,11 +543,11 @@
       "https://connext-fallback.bwarelabs.com": {
         "uri": "https://connext-fallback.bwarelabs.com/bsc/index-node/graphql"
       },
+      "https://subgraphs.connext.p2p.org": {
+        "uri": "https://subgraphs.connext.p2p.org/nxtp-bsc-health-check"
+      },
       "https://api.thegraph.com": {
         "uri": "https://api.thegraph.com/index-node/graphql"
-      },
-      "https://subgraphs.connext.p2p.org": {
-        "uri": "https://subgraphs.connext.p2p.org/index-node/graphql"
       }
     },
     "subgraphBuffer": {
@@ -940,7 +940,7 @@
         "uri": "https://connext.bwarelabs.com/matic/index-node/graphql"
       },
       "https://subgraphs.connext.p2p.org": {
-        "uri": "https://subgraphs.connext.p2p.org/index-node/graphql"
+        "uri": "https://subgraphs.connext.p2p.org/nxtp-matic-health-check"
       },
       "https://api.thegraph.com": {
         "uri": "https://api.thegraph.com/index-node/graphql"

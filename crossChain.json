@@ -14,6 +14,8 @@
     },
     "assetId": {},
     "rpc": [],
+    "subgraph": [],
+    "analyticsSubgraph": [],
     "faucets": [],
     "gasStations": [],
     "infoURL": "",
@@ -35,51 +37,73 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
       },
       "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
         "symbol": "USDC",
-        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
       },
       "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
         "symbol": "MATIC",
-        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "decimals": 18
       },
       "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942": {
         "symbol": "MANA",
-        "mainnetEquivalent": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+        "mainnetEquivalent": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
+        "decimals": 18
       },
       "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
         "symbol": "DAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
       },
       "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
         "symbol": "USDT",
-        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
       },
       "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
         "symbol": "UNI",
-        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18
       },
       "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
         "symbol": "WETH",
-        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18
       },
       "0xB8c77482e45F1F44dE1745F52C74426C631bDD52": {
         "symbol": "BNB",
-        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
+        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+        "decimals": 18
       },
       "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787": {
         "symbol": "PAID",
-        "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787"
+        "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787",
+        "decimals": 18
       },
       "0x4fabb145d64652a948d72533023f6e7a623c7c53": {
         "symbol": "BUSD",
-        "mainnetEquivalent": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
+        "mainnetEquivalent": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+        "decimals": 18
       },
       "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb": {
         "symbol": "PLOTX",
-        "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb"
+        "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb",
+        "decimals": 18
+      },
+      "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      },
+      "0xc944e90c64b2c07662a292be6244bdf05cda44a7": {
+        "symbol": "GRT",
+        "mainnetEquivalent": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -88,11 +112,16 @@
       "https://api.mycryptoapi.com/eth",
       "https://cloudflare-eth.com"
     ],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://ethereum.org",
-    "gasStations": [
-      "https://www.gasnow.org/api/v3/gas/price"
-    ],
+    "gasStations": [],
     "explorers": [
       {
         "name": "etherscan",
@@ -124,6 +153,12 @@
     "rpc": [
       "https://ropsten.infura.io/v3/${INFURA_API_KEY}",
       "wss://ropsten.infura.io/ws/v3/${INFURA_API_KEY}"
+    ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-ropsten-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-ropsten-v1-analytics"
     ],
     "faucets": [],
     "infoURL": "",
@@ -166,6 +201,12 @@
     "rpc": [
       "https://rinkeby.infura.io/v3/${INFURA_API_KEY}",
       "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
+    ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-analytics"
     ],
     "faucets": ["https://faucet.rinkeby.io"],
     "infoURL": "https://www.rinkeby.io",
@@ -214,6 +255,12 @@
       "https://rpc.slock.it/goerli ",
       "https://goerli.prylabs.net/"
     ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-analytics"
+    ],
     "faucets": [
       "https://goerli-faucet.slock.it/?address=${ADDRESS}",
       "https://faucet.goerli.mudit.blog"
@@ -225,6 +272,64 @@
         "url": "https://goerli.etherscan.io",
         "icon": "etherscan",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Optimistic Ethereum",
+    "chain": "ETH",
+    "network": "mainnet",
+    "confirmations": 10,
+    "rpc": ["https://mainnet.optimism.io/"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-analytics"
+    ],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "OETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x68f180fcCe6836688e9084f035309E29Bf0A2095": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      }
+    },
+    "infoURL": "https://optimism.io",
+    "shortName": "oeth",
+    "chainId": 10,
+    "networkId": 10,
+    "explorers": [
+      {
+        "name": "etherscan",
+        "url": "https://optimistic.etherscan.io",
+        "standard": "none"
       }
     ]
   },
@@ -270,6 +375,12 @@
       "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}",
       "ws://kovan.poa.network:8546"
     ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-kovan-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-kovan-v1-analytics"
+    ],
     "faucets": [
       "https://faucet.kovan.network",
       "https://gitter.im/kovan-testnet/faucet"
@@ -301,6 +412,11 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "BNB",
         "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+        "decimals": 18
+      },
+      "0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0x55d398326f99059fF775485246999027B3197955": {
@@ -349,6 +465,15 @@
       "https://bsc-dataseed4.ninicoin.io",
       "wss://bsc-ws-node.nariox.org"
     ],
+    "subgraph": [
+      "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-bsc",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
+      "https://connext-fallback.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://www.binance.org",
     "explorers": [
@@ -380,6 +505,12 @@
       }
     },
     "rpc": ["https://kovan.optimism.io"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-kovan-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-kovan-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://community.optimism.io/",
     "explorers": [
@@ -438,6 +569,12 @@
       "https://data-seed-prebsc-1-s3.binance.org:8545",
       "https://data-seed-prebsc-2-s3.binance.org:8545"
     ],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-chapel-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-chapel-v1-analytics"
+    ],
     "faucets": ["https://testnet.binance.org/faucet-smart"],
     "infoURL": "https://www.binance.org",
     "explorers": [
@@ -462,6 +599,11 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "XDAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0x4ECaBa5870353805a9F068101A40E0f32ed605C6": {
@@ -494,6 +636,13 @@
       "https://dai.poa.network",
       "ws://xdai.poanetwork.dev:8546"
     ],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-xdai-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-xdai-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://forum.poa.network/c/xdai-chain",
     "explorers": [
@@ -502,6 +651,53 @@
         "url": "https://blockscout.com/poa/xdai/",
         "icon": "blockscout",
         "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Fuse Mainnet",
+    "chainId": 122,
+    "confirmations": 10,
+    "shortName": "fuse",
+    "network": "mainnet",
+    "networkId": 122,
+    "nativeCurrency": {
+      "name": "Fuse Token",
+      "symbol": "FUSE",
+      "decimals": 18
+    },
+    "rpc": ["https://rpc.fuse.io/"],
+    "faucets": [],
+    "infoURL": "https://developers.fuse.io",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "FUSE"
+      },
+      "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x94Ba7A27c7A95863d1bdC7645AC2951E0cca06bA": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      }
+    },
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-analytics"
+    ],
+    "explorers": [
+      {
+        "url": "http://explorer.fuse.io/"
       }
     ]
   },
@@ -546,7 +742,7 @@
   {
     "name": "Matic Mainnet",
     "chainId": 137,
-    "confirmations": 10,
+    "confirmations": 60,
     "shortName": "matic",
     "chain": "Matic",
     "network": "mainnet",
@@ -589,12 +785,22 @@
       },
       "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
         "symbol": "WETH (PoS)",
-        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0xe82808eaA78339b06a691fd92E1Be79671cAd8D3": {
         "symbol": "PLOTX",
         "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb",
+        "decimals": 18
+      },
+      "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      },
+      "0x5fe2b58c013d7601147dcdd68c143a77499f5531": {
+        "symbol": "GRT",
+        "mainnetEquivalent": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
         "decimals": 18
       }
     },
@@ -602,8 +808,17 @@
       "https://rpc-mainnet.matic.network",
       "wss://ws-mainnet.matic.network"
     ],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-matic-v1-runtime",
+      "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "https://matic.network/",
+    "gasStations": ["https://gasstation-mainnet.matic.network/"],
     "explorers": [
       {
         "name": "polygonscan",
@@ -616,13 +831,20 @@
   {
     "name": "Fantom Opera",
     "chainId": 250,
-    "confirmations": 10,
+    "confirmations": 20,
     "shortName": "ftm",
     "chain": "FTM",
     "network": "mainnet",
     "networkId": 250,
     "nativeCurrency": { "name": "Fantom", "symbol": "FTM", "decimals": 18 },
     "rpc": ["https://rpcapi.fantom.network"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-analytics"
+    ],
     "faucets": [],
     "explorers": [
       {
@@ -636,7 +858,11 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "FTM",
-        "mainnetEquivalent": "0x4e15361fd6b4bb609fa63c81a2be19d873717870",
+        "decimals": 18
+      },
+      "0x74b23882a30290451A17c44f4F05243b6b58C76d": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E": {
@@ -650,6 +876,52 @@
         "decimals": 6
       },
       "0x04068DA6C83AFCFA0e13ba15A6696662335D5B75": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x321162Cd933E2Be498Cd2267a90534A804051b11": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      }
+    }
+  },
+  {
+    "name": "Moonriver",
+    "chainId": 1285,
+    "confirmations": 10,
+    "shortName": "moonriver",
+    "chain": "MOVR",
+    "network": "mainnet",
+    "networkId": 1285,
+    "nativeCurrency": { "name": "Moonriver", "symbol": "MOVR", "decimals": 18 },
+    "rpc": ["https://rpc.moonriver.moonbeam.network"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-analytics"
+    ],
+    "explorers": [
+      {
+        "name": "moonriver",
+        "url": "https://moonriver.moonscan.io/",
+        "icon": "moonriver",
+        "standard": "EIP3091"
+      }
+    ],
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "MOVR"
+      },
+      "0xB44a9B6905aF7c801311e8F4E76932ee959c663C": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0xE3F5a90F9cb311505cd691a46596599aA1A0AD7D": {
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
@@ -705,7 +977,10 @@
     }
   },
   {
+    "chain": "Avalanche",
     "chainId": 43114,
+    "network": "avalanche",
+    "networkId": 43114,
     "confirmations": 10,
     "name": "Avalanche Mainnet C-Chain",
     "nativeCurrency": {
@@ -713,7 +988,45 @@
       "symbol": "AVAX",
       "decimals": 18
     },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "AVAX",
+        "decimals": 18
+      },
+      "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0xc7198437980c041c805A1EDcbA50c1Ce5db95118": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x50b7545627a5162F82A992c33b87aDc75187B218": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      }
+    },
     "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-avalanche-v1-analytics"
+    ],
     "explorers": [
       {
         "name": "avalanche",
@@ -751,9 +1064,31 @@
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
+      },
+      "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      },
+      "0x23a941036ae778ac51ab04cea08ed6e2fe103614": {
+        "symbol": "GRT",
+        "mainnetEquivalent": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+        "decimals": 18
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "",
     "explorers": [
@@ -793,6 +1128,12 @@
       }
     },
     "rpc": ["https://rpc-mumbai.matic.today", "wss://ws-mumbai.matic.today"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-analytics"
+    ],
     "faucets": ["https://faucet.matic.network/"],
     "infoURL": "https://matic.network/",
     "explorers": [
@@ -824,6 +1165,12 @@
       }
     },
     "rpc": ["https://rinkeby.arbitrum.io/rpc"],
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-rinkeby-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-rinkeby-v1-analytics"
+    ],
     "faucets": [],
     "infoURL": "",
     "explorers": [

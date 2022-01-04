@@ -468,8 +468,7 @@
     "subgraph": [
       "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-bsc",
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
-      "https://connext-fallback.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime",
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-runtime"
+      "https://connext-fallback.bwarelabs.com/subgraphs/name/connext/nxtp-bsc-v1-runtime"
     ],
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-bsc-v1-analytics"
@@ -810,8 +809,7 @@
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-matic-v1-runtime",
-      "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic",
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-runtime"
+      "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic"
     ],
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-analytics"

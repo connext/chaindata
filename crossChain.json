@@ -687,6 +687,11 @@
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
+      },
+      "0xa722c13135930332Eb3d749B2F0906559D2C5b99": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
       }
     },
     "subgraph": [

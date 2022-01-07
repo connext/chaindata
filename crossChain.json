@@ -763,6 +763,11 @@
         "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
         "decimals": 18
       },
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "MATIC",
+        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "decimals": 18
+      },
       "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",

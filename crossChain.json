@@ -939,6 +939,30 @@
     }
   },
   {
+    "name": "Moonbeam",
+    "chainId": 1284,
+    "confirmations": 10,
+    "shortName": "moonbeam",
+    "network": "mainnet",
+    "networkId": 1287,
+    "nativeCurrency": { "name": "Glimmer", "symbol": "GLMR", "decimals": 18 },
+    "rpc": ["https://moonbeam.api.onfinality.io/public"],
+    "explorers": [
+      {
+        "name": "moonbase",
+        "url": "https://moonbeam.moonscan.io",
+        "icon": "moonbeam",
+        "standard": "EIP3091"
+      }
+    ],
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "GLMR",
+        "decimals": 18
+      }
+    }
+  },
+  {
     "name": "Moonbase Alpha",
     "chainId": 1287,
     "confirmations": 10,
@@ -951,7 +975,7 @@
     "explorers": [
       {
         "name": "moonbase",
-        "url": "https://moonbase-blockscout.testnet.moonbeam.network/",
+        "url": "https://moonbase.moonscan.io/",
         "icon": "moonbase",
         "standard": "EIP3091"
       }
@@ -960,7 +984,9 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "DEV"
       }
-    }
+    },
+    "subgraph": ["https://api.thegraph.com/subgraphs/name/connext/nxtp-mbase-v1-runtime"],
+    "analyticsSubgraph": ["https://api.thegraph.com/subgraphs/name/connext/nxtp-mbase-v1-analytics"]
   },
   {
     "chainId": 43113,

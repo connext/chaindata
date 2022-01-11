@@ -944,7 +944,7 @@
     "confirmations": 10,
     "shortName": "moonbeam",
     "network": "mainnet",
-    "networkId": 1287,
+    "networkId": 1284,
     "nativeCurrency": { "name": "Glimmer", "symbol": "GLMR", "decimals": 18 },
     "rpc": ["https://rpc.api.moonbeam.network"],
     "subgraph": [

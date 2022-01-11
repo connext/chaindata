@@ -948,11 +948,10 @@
     "nativeCurrency": { "name": "Glimmer", "symbol": "GLMR", "decimals": 18 },
     "rpc": ["https://rpc.api.moonbeam.network"],
     "subgraph": [
-      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonbeam-v1-runtime",
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonbeam-v1-runtime"
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonbeam-v1-runtime"
     ],
     "analyticsSubgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonbeam-v1-analytics"
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonbeam-v1-analytics"
     ],
     "explorers": [
       {

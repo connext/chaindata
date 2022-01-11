@@ -959,6 +959,31 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "GLMR",
         "decimals": 18
+      },
+      "0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0xc234A67a4F840E61adE794be47de455361b52413": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x8e70cD5B4Ff3f62659049e74b6649c6603A0E594": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x1DC78Acda13a8BC4408B207c9E48CDBc096D95e0": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
       }
     }
   },

@@ -946,7 +946,14 @@
     "network": "mainnet",
     "networkId": 1287,
     "nativeCurrency": { "name": "Glimmer", "symbol": "GLMR", "decimals": 18 },
-    "rpc": ["https://moonbeam.api.onfinality.io/public"],
+    "rpc": ["https://rpc.api.moonbeam.network"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonbeam-v1-runtime",
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonbeam-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonbeam-v1-analytics"
+    ],
     "explorers": [
       {
         "name": "moonbase",

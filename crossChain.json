@@ -671,7 +671,9 @@
     "infoURL": "https://developers.fuse.io",
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
-        "symbol": "FUSE"
+        "symbol": "FUSE",
+        "mainnetEquivalent": "0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d",
+        "decimals": 18
       },
       "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5": {
         "symbol": "USDC",

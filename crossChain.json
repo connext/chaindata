@@ -279,7 +279,7 @@
     "name": "Optimistic Ethereum",
     "chain": "ETH",
     "network": "mainnet",
-    "confirmations": 10,
+    "confirmations": 1,
     "rpc": ["https://mainnet.optimism.io/"],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
@@ -1108,7 +1108,7 @@
   {
     "name": "Arbitrum One",
     "chainId": 42161,
-    "confirmations": 10,
+    "confirmations": 1,
     "shortName": "ArbOne",
     "chain": "Arb",
     "network": "arbitrum",

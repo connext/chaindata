@@ -4,9 +4,6 @@
     "chainId": 0,
     "confirmations": 0,
     "shortName": "",
-    "chain": "",
-    "network": "",
-    "networkId": 0,
     "nativeCurrency": {
       "name": "",
       "symbol": "",
@@ -18,17 +15,23 @@
     "analyticsSubgraph": [],
     "faucets": [],
     "gasStations": [],
-    "infoURL": "",
-    "explorers": []
+    "explorers": [],
+    "gasEstimates": {
+      "prepare": "232826",
+      "fulfill": "249512",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "232826",
+      "fulfillRouterContract": "249512",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
+    }
   },
   {
     "name": "Ethereum Mainnet",
     "chainId": 1,
     "confirmations": 7,
     "shortName": "eth",
-    "chain": "ETH",
-    "network": "mainnet",
-    "networkId": 1,
     "nativeCurrency": {
       "name": "Ether",
       "symbol": "ETH",
@@ -125,7 +128,6 @@
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-analytics"
     ],
     "faucets": [],
-    "infoURL": "https://ethereum.org",
     "gasStations": [],
     "explorers": [
       {
@@ -141,8 +143,6 @@
     "chainId": 3,
     "confirmations": 1,
     "shortName": "rop",
-    "chain": "ETH",
-    "network": "ropsten",
     "networkId": 3,
     "nativeCurrency": {
       "name": "Ropsten Ether",
@@ -181,9 +181,7 @@
     "chainId": 4,
     "confirmations": 1,
     "shortName": "rin",
-    "chain": "ETH",
     "network": "rinkeby",
-    "networkId": 4,
     "nativeCurrency": {
       "name": "Rinkeby Ether",
       "symbol": "RIN",
@@ -229,9 +227,7 @@
     "chainId": 5,
     "confirmations": 1,
     "shortName": "gor",
-    "chain": "ETH",
     "network": "goerli",
-    "networkId": 5,
     "nativeCurrency": {
       "name": "Görli Ether",
       "symbol": "GOR",
@@ -282,8 +278,7 @@
   },
   {
     "name": "Optimistic Ethereum",
-    "chain": "ETH",
-    "network": "mainnet",
+    "network": "optimism",
     "confirmations": 1,
     "rpc": ["https://mainnet.optimism.io/"],
     "subgraph": [
@@ -331,17 +326,29 @@
         "decimals": 8
       }
     },
-    "infoURL": "https://optimism.io",
     "shortName": "oeth",
     "chainId": 10,
-    "networkId": 10,
     "explorers": [
       {
         "name": "etherscan",
         "url": "https://optimistic.etherscan.io",
         "standard": "none"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "232826",
+      "fulfill": "249512",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "232826",
+      "fulfillRouterContract": "249512",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000",
+      "prepareL1": "20623",
+      "fulfillL1": "13965",
+      "cancelL1": "13965",
+      "removeLiquidityL1": "45000"
+    }
   },
   {
     "name": "Ethereum Testnet Kovan",

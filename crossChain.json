@@ -1289,13 +1289,13 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "1200000",
-      "fulfill": "1000000",
-      "cancel": "1000000",
+      "prepare": "2750000",
+      "fulfill": "2250000",
+      "cancel": "2250000",
       "removeLiquidity": "340000",
-      "prepareRouterContract": "1200000",
-      "fulfillRouterContract": "1000000",
-      "cancelRouterContract": "1000000",
+      "prepareRouterContract": "2750000",
+      "fulfillRouterContract": "2250000",
+      "cancelRouterContract": "2250000",
       "removeLiquidityRouterContract": "340000"
     }
   },

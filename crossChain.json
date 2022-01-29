@@ -4,9 +4,6 @@
     "chainId": 0,
     "confirmations": 0,
     "shortName": "",
-    "chain": "",
-    "network": "",
-    "networkId": 0,
     "nativeCurrency": {
       "name": "",
       "symbol": "",
@@ -18,17 +15,27 @@
     "analyticsSubgraph": [],
     "faucets": [],
     "gasStations": [],
-    "infoURL": "",
-    "explorers": []
+    "explorers": [],
+    "gasEstimates": {
+      "prepare": "190000",
+      "fulfill": "200000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "190000",
+      "fulfillRouterContract": "200000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000",
+      "prepareL1": "20623",
+      "fulfillL1": "13965",
+      "cancelL1": "13965",
+      "removeLiquidityL1": "45000"
+    }
   },
   {
     "name": "Ethereum Mainnet",
     "chainId": 1,
     "confirmations": 7,
     "shortName": "eth",
-    "chain": "ETH",
-    "network": "mainnet",
-    "networkId": 1,
     "nativeCurrency": {
       "name": "Ether",
       "symbol": "ETH",
@@ -40,10 +47,30 @@
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
-      "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
-        "symbol": "USDC",
-        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+      "0xB8c77482e45F1F44dE1745F52C74426C631bDD52": {
+        "symbol": "BNB",
+        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+        "decimals": 18
+      },
+      "0x4fabb145d64652a948d72533023f6e7a623c7c53": {
+        "symbol": "BUSD",
+        "mainnetEquivalent": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
+        "decimals": 18
+      },
+      "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x956f47f50a910163d8bf957cf5846d573e7f87ca": {
+        "symbol": "FEI",
+        "mainnetEquivalent": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
+        "decimals": 18
+      },
+      "0xc944e90c64b2c07662a292be6244bdf05cda44a7": {
+        "symbol": "GRT",
+        "mainnetEquivalent": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+        "decimals": 18
       },
       "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
         "symbol": "MATIC",
@@ -55,39 +82,9 @@
         "mainnetEquivalent": "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942",
         "decimals": 18
       },
-      "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
-        "symbol": "DAI",
-        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "decimals": 18
-      },
-      "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
-        "symbol": "USDT",
-        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
-      },
-      "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
-        "symbol": "UNI",
-        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
-        "decimals": 18
-      },
-      "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
-        "symbol": "WETH",
-        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        "decimals": 18
-      },
-      "0xB8c77482e45F1F44dE1745F52C74426C631bDD52": {
-        "symbol": "BNB",
-        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
-        "decimals": 18
-      },
       "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787": {
         "symbol": "PAID",
         "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787",
-        "decimals": 18
-      },
-      "0x4fabb145d64652a948d72533023f6e7a623c7c53": {
-        "symbol": "BUSD",
-        "mainnetEquivalent": "0x4fabb145d64652a948d72533023f6e7a623c7c53",
         "decimals": 18
       },
       "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb": {
@@ -95,15 +92,30 @@
         "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb",
         "decimals": 18
       },
+      "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
+        "symbol": "UNI",
+        "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18
+      },
+      "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "decimals": 18
+      },
       "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8
-      },
-      "0xc944e90c64b2c07662a292be6244bdf05cda44a7": {
-        "symbol": "GRT",
-        "mainnetEquivalent": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
-        "decimals": 18
       }
     },
     "rpc": [
@@ -120,7 +132,6 @@
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-analytics"
     ],
     "faucets": [],
-    "infoURL": "https://ethereum.org",
     "gasStations": [],
     "explorers": [
       {
@@ -129,15 +140,23 @@
         "icon": "etherscan",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "190000",
+      "fulfill": "200000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "190000",
+      "fulfillRouterContract": "200000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
+    }
   },
   {
     "name": "Ethereum Testnet Ropsten",
     "chainId": 3,
     "confirmations": 1,
     "shortName": "rop",
-    "chain": "ETH",
-    "network": "ropsten",
     "networkId": 3,
     "nativeCurrency": {
       "name": "Ropsten Ether",
@@ -176,9 +195,7 @@
     "chainId": 4,
     "confirmations": 1,
     "shortName": "rin",
-    "chain": "ETH",
     "network": "rinkeby",
-    "networkId": 4,
     "nativeCurrency": {
       "name": "Rinkeby Ether",
       "symbol": "RIN",
@@ -224,9 +241,7 @@
     "chainId": 5,
     "confirmations": 1,
     "shortName": "gor",
-    "chain": "ETH",
     "network": "goerli",
-    "networkId": 5,
     "nativeCurrency": {
       "name": "Görli Ether",
       "symbol": "GOR",
@@ -277,9 +292,8 @@
   },
   {
     "name": "Optimistic Ethereum",
-    "chain": "ETH",
-    "network": "mainnet",
-    "confirmations": 10,
+    "network": "optimism",
+    "confirmations": 1,
     "rpc": ["https://mainnet.optimism.io/"],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
@@ -305,6 +319,11 @@
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
+      "0x35D48A789904E9b15705977192e5d95e2aF7f1D3": {
+        "symbol": "FEI",
+        "mainnetEquivalent": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
+        "decimals": 18
+      },
       "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
@@ -321,17 +340,29 @@
         "decimals": 8
       }
     },
-    "infoURL": "https://optimism.io",
     "shortName": "oeth",
     "chainId": 10,
-    "networkId": 10,
     "explorers": [
       {
         "name": "etherscan",
         "url": "https://optimistic.etherscan.io",
         "standard": "none"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "200000",
+      "fulfill": "170000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "200000",
+      "fulfillRouterContract": "170000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000",
+      "prepareL1": "20623",
+      "fulfillL1": "13965",
+      "cancelL1": "13965",
+      "removeLiquidityL1": "45000"
+    }
   },
   {
     "name": "Ethereum Testnet Kovan",
@@ -483,7 +514,17 @@
         "icon": "bscscan",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "180000",
+      "fulfill": "170000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "180000",
+      "fulfillRouterContract": "170000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
+    }
   },
   {
     "name": "Optimism Testnet Kovan",
@@ -652,7 +693,17 @@
         "icon": "blockscout",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "180000",
+      "fulfill": "240000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "180000",
+      "fulfillRouterContract": "240000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
+    }
   },
   {
     "name": "Fuse Mainnet",
@@ -671,7 +722,9 @@
     "infoURL": "https://developers.fuse.io",
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
-        "symbol": "FUSE"
+        "symbol": "FUSE",
+        "mainnetEquivalent": "0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d",
+        "decimals": 18
       },
       "0x620fd5fa44BE6af63715Ef4E65DDFA0387aD13F5": {
         "symbol": "USDC",
@@ -687,6 +740,11 @@
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
+      },
+      "0xa722c13135930332Eb3d749B2F0906559D2C5b99": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
       }
     },
     "subgraph": [
@@ -699,7 +757,17 @@
       {
         "url": "http://explorer.fuse.io/"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "160000",
+      "fulfill": "125000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "160000",
+      "fulfillRouterContract": "125000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
+    }
   },
   {
     "name": "Huobi ECO Chain Mainnet",
@@ -754,6 +822,11 @@
     },
     "assetId": {
       "0x0000000000000000000000000000000000001010": {
+        "symbol": "MATIC",
+        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "decimals": 18
+      },
+      "0x0000000000000000000000000000000000000000": {
         "symbol": "MATIC",
         "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
         "decimals": 18
@@ -826,7 +899,17 @@
         "icon": "polygonscan",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "200000",
+      "fulfill": "165000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "200000",
+      "fulfillRouterContract": "165000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
+    }
   },
   {
     "name": "Fantom Opera",
@@ -885,6 +968,16 @@
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8
       }
+    },
+    "gasEstimates": {
+      "prepare": "200000",
+      "fulfill": "175000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "200000",
+      "fulfillRouterContract": "175000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
     }
   },
   {
@@ -926,6 +1019,81 @@
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       }
+    },
+    "gasEstimates": {
+      "prepare": "160000",
+      "fulfill": "125000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "160000",
+      "fulfillRouterContract": "125000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
+    }
+  },
+  {
+    "name": "Moonbeam",
+    "chainId": 1284,
+    "confirmations": 10,
+    "shortName": "moonbeam",
+    "network": "mainnet",
+    "networkId": 1284,
+    "nativeCurrency": { "name": "Glimmer", "symbol": "GLMR", "decimals": 18 },
+    "rpc": ["https://rpc.api.moonbeam.network"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonbeam-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonbeam-v1-analytics"
+    ],
+    "explorers": [
+      {
+        "name": "moonbase",
+        "url": "https://moonbeam.moonscan.io",
+        "icon": "moonbeam",
+        "standard": "EIP3091"
+      }
+    ],
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "GLMR",
+        "decimals": 18
+      },
+      "0x30D2a9F5FDf90ACe8c17952cbb4eE48a55D916A7": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0xc234A67a4F840E61adE794be47de455361b52413": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x8e70cD5B4Ff3f62659049e74b6649c6603A0E594": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0x8f552a71EFE5eeFc207Bf75485b356A0b3f01eC9": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x1DC78Acda13a8BC4408B207c9E48CDBc096D95e0": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      }
+    },
+    "gasEstimates": {
+      "prepare": "150000",
+      "fulfill": "150000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "150000",
+      "fulfillRouterContract": "150000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
     }
   },
   {
@@ -941,7 +1109,7 @@
     "explorers": [
       {
         "name": "moonbase",
-        "url": "https://moonbase-blockscout.testnet.moonbeam.network/",
+        "url": "https://moonbase.moonscan.io/",
         "icon": "moonbase",
         "standard": "EIP3091"
       }
@@ -950,7 +1118,13 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "DEV"
       }
-    }
+    },
+    "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mbase-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mbase-v1-analytics"
+    ]
   },
   {
     "chainId": 43113,
@@ -1034,12 +1208,22 @@
         "icon": "avalanche",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "190000",
+      "fulfill": "160000",
+      "cancel": "204271",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "190000",
+      "fulfillRouterContract": "160000",
+      "cancelRouterContract": "204271",
+      "removeLiquidityRouterContract": "48000"
+    }
   },
   {
     "name": "Arbitrum One",
     "chainId": 42161,
-    "confirmations": 10,
+    "confirmations": 1,
     "shortName": "ArbOne",
     "chain": "Arb",
     "network": "arbitrum",
@@ -1053,6 +1237,11 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "tETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x4a717522566c7a09fd2774ccedc5a8c43c5f9fd2": {
+        "symbol": "FEI",
+        "mainnetEquivalent": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
         "decimals": 18
       },
       "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
@@ -1098,7 +1287,17 @@
         "icon": "arbitrum",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "2750000",
+      "fulfill": "2250000",
+      "cancel": "2250000",
+      "removeLiquidity": "340000",
+      "prepareRouterContract": "2750000",
+      "fulfillRouterContract": "2250000",
+      "cancelRouterContract": "2250000",
+      "removeLiquidityRouterContract": "340000"
+    }
   },
   {
     "name": "Matic Testnet Mumbai",

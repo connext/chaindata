@@ -29,6 +29,10 @@
       "fulfillL1": "13965",
       "cancelL1": "13965",
       "removeLiquidityL1": "45000"
+    },
+    "watchtower": {
+      "testnet": "",
+      "mainnet": ""
     }
   },
   {

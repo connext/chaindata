@@ -9,6 +9,7 @@
       "symbol": "",
       "decimals": 18
     },
+    "type": "",
     "assetId": {},
     "rpc": [],
     "subgraph": [],
@@ -40,6 +41,7 @@
     "chainId": 1,
     "confirmations": 7,
     "shortName": "eth",
+    "type": "mainnet",
     "nativeCurrency": {
       "name": "Ether",
       "symbol": "ETH",
@@ -162,6 +164,7 @@
     "confirmations": 1,
     "shortName": "rop",
     "networkId": 3,
+    "type": "testnet",
     "nativeCurrency": {
       "name": "Ropsten Ether",
       "symbol": "ROP",
@@ -197,6 +200,7 @@
   {
     "name": "Ethereum Testnet Rinkeby",
     "chainId": 4,
+    "type": "testnet",
     "confirmations": 1,
     "shortName": "rin",
     "network": "rinkeby",
@@ -243,6 +247,7 @@
   {
     "name": "Ethereum Testnet Görli",
     "chainId": 5,
+    "type": "testnet",
     "confirmations": 1,
     "shortName": "gor",
     "network": "goerli",
@@ -346,6 +351,7 @@
     },
     "shortName": "oeth",
     "chainId": 10,
+    "type": "mainnet",
     "explorers": [
       {
         "name": "etherscan",
@@ -371,6 +377,7 @@
   {
     "name": "Ethereum Testnet Kovan",
     "chainId": 42,
+    "type": "testnet",
     "confirmations": 1,
     "shortName": "kov",
     "chain": "ETH",
@@ -433,6 +440,7 @@
   {
     "name": "Binance Smart Chain Mainnet",
     "chainId": 56,
+    "type": "mainnet",
     "confirmations": 10,
     "shortName": "bnb",
     "chain": "BSC",
@@ -533,6 +541,7 @@
   {
     "name": "Optimism Testnet Kovan",
     "chainId": 69,
+    "type": "testnet",
     "confirmations": 1,
     "shortName": "opt-kov",
     "chain": "KOPT",
@@ -570,6 +579,7 @@
   {
     "name": "Binance Smart Chain Testnet",
     "chainId": 97,
+    "type": "testnet",
     "confirmations": 1,
     "shortName": "bnbt",
     "chain": "BSC",
@@ -634,6 +644,7 @@
   {
     "name": "xDAI Chain",
     "chainId": 100,
+    "type": "mainnet",
     "confirmations": 10,
     "shortName": "xdai",
     "chain": "XDAI",
@@ -712,6 +723,7 @@
   {
     "name": "Fuse Mainnet",
     "chainId": 122,
+    "type": "mainnet",
     "confirmations": 10,
     "shortName": "fuse",
     "network": "mainnet",
@@ -776,6 +788,7 @@
   {
     "name": "Huobi ECO Chain Mainnet",
     "chainId": 128,
+    "type": "mainnet",
     "confirmations": 10,
     "shortName": "heco",
     "chain": "Heco",
@@ -814,6 +827,7 @@
   {
     "name": "Matic Mainnet",
     "chainId": 137,
+    "type": "mainnet",
     "confirmations": 60,
     "shortName": "matic",
     "chain": "Matic",
@@ -918,6 +932,7 @@
   {
     "name": "Fantom Opera",
     "chainId": 250,
+    "type": "mainnet",
     "confirmations": 20,
     "shortName": "ftm",
     "chain": "FTM",
@@ -987,6 +1002,7 @@
   {
     "name": "Moonriver",
     "chainId": 1285,
+    "type": "mainnet",
     "confirmations": 10,
     "shortName": "moonriver",
     "chain": "MOVR",
@@ -1038,6 +1054,7 @@
   {
     "name": "Moonbeam",
     "chainId": 1284,
+    "type": "mainnet",
     "confirmations": 10,
     "shortName": "moonbeam",
     "network": "mainnet",
@@ -1103,6 +1120,7 @@
   {
     "name": "Moonbase Alpha",
     "chainId": 1287,
+    "type": "testnet",
     "confirmations": 10,
     "shortName": "mbase",
     "chain": "MBASE",
@@ -1132,6 +1150,7 @@
   },
   {
     "chainId": 43113,
+    "type": "testnet",
     "confirmations": 10,
     "name": "Avalanche Testnet C-Chain",
     "nativeCurrency": {
@@ -1157,8 +1176,8 @@
   {
     "chain": "Avalanche",
     "chainId": 43114,
+    "type": "mainnet",
     "network": "avalanche",
-    "networkId": 43114,
     "confirmations": 10,
     "name": "Avalanche Mainnet C-Chain",
     "nativeCurrency": {
@@ -1227,6 +1246,7 @@
   {
     "name": "Arbitrum One",
     "chainId": 42161,
+    "type": "mainnet",
     "confirmations": 1,
     "shortName": "ArbOne",
     "chain": "Arb",
@@ -1306,6 +1326,7 @@
   {
     "name": "Matic Testnet Mumbai",
     "chainId": 80001,
+    "type": "testnet",
     "confirmations": 1,
     "shortName": "maticmum",
     "chain": "Matic",
@@ -1351,6 +1372,7 @@
   {
     "name": "Arbitrum Testnet Rinkeby",
     "chainId": 421611,
+    "type": "testnet",
     "confirmations": 1,
     "shortName": "ArbTest",
     "chain": "Arb",

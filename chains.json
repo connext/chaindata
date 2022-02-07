@@ -5333,6 +5333,48 @@
 				"DisableSwap": false,
 				"IsDelegateContract": false
 			}
+		},
+		"dataphora": {
+			"srcChainID": "137",
+			"destChainID": "56",
+			"PairID": "DPH",
+			"SrcToken": {
+				"ID": "DPH",
+				"Name": "dataphora",
+				"Symbol": "DATAPHORA",
+				"Decimals": 18,
+				"Description": "dataphora.com",
+				"DepositAddress": "0xDe829c03b442912D0e29822dE06032e937F172BB",
+				"mpcAddress": "0xDe829c03b442912D0e29822dE06032e937F172BB",
+				"ContractAddress": "0x8da41a3bC942b19a44d6BdF0e30f058Df3ab8bA9",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 0.1,
+				"BigValueThreshold": 1000,
+				"SwapFeeRate": 0,
+				"MaximumSwapFee": 0,
+				"MinimumSwapFee": 0,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "DPH",
+				"Name": "dataphora",
+				"Symbol": "DATAPHORA",
+				"Decimals": 18,
+				"Description": "dataphora.com",
+				"mpcAddress": "0xDe829c03b442912D0e29822dE06032e937F172BB",
+				"ContractAddress": "0xcBbE356CBd4567f6BE2c2Ba7A8975348ED15cBF1",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 0.1,
+				"BigValueThreshold": 1000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 0.01,
+				"MinimumSwapFee": 0.001,
+				"PlusGasPricePercentage": 1,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
 		}
 	},
 	"100": {

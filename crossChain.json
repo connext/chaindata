@@ -29,7 +29,8 @@
       "prepareL1": "20623",
       "fulfillL1": "13965",
       "cancelL1": "13965",
-      "removeLiquidityL1": "45000"
+      "removeLiquidityL1": "45000",
+      "gasPriceFactor": "1000000000000000000"
     },
     "watchtower": {
       "testnet": "",
@@ -1321,7 +1322,8 @@
       "prepareRouterContract": "2750000",
       "fulfillRouterContract": "2250000",
       "cancelRouterContract": "2250000",
-      "removeLiquidityRouterContract": "340000"
+      "removeLiquidityRouterContract": "340000",
+      "gasPriceFactor": "1250000000000000000"
     }
   },
   {

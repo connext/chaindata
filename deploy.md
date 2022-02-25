@@ -4,21 +4,21 @@
 
 * Token & Logo data available on [coingecko.com](https://www.coingecko.com/en)
 
-## Step 1: Fork AnyswapV5ERC20 and implement any additional functionality as required.
+## Step 1: Fork AnyswapV6ERC20 and implement any additional functionality as required.
 
-AnyswapV5ERC20 supports the following
+AnyswapV6ERC20 supports the following
 * ERC2612 (Adds `permit`)
 * ERC677 (Adds `approveAndCall` and `transferAndCall`)
 * `transferWithPermit`
 * Verify EIP712 and Verify `personalSign`
-* AnyswapV5ERC20 needs to support `mint`, `burn`, `Swapin`, and `Swapout` to be compatible with multiple bridges.
+* AnyswapV6ERC20 needs to support `mint`, `burn`, `Swapin`, and `Swapout` to be compatible with multiple bridges.
 * Multichain MPC address (detailed below) should be set via `initVault(address _vault)`
 
 ### Step 1.1: I already deployed my token
 
 Deploy a wrapper for your token that supports `mint`, `burn`, `Swapin`, and `Swapout`, add this wrapper as a minter role in the ACL. In the wrapper add the MPC address (found below) as a minter
 
-## Step 2: Deploy AnyswapV5ERC20 via AnyswapCREATE2
+## Step 2: Deploy AnyswapV6ERC20 via AnyswapCREATE2
 
 AnyswapCREATE2 is available on Ethereum, Fantom, Binance Smart Chain, xDAI, and Matic. More deployments to follow
 
@@ -106,4 +106,4 @@ Clone the connext/chaindata repo and submit a PR to chains.json with the followi
 ```
 
 If you are not sure on the chainID, you can confirm them on [chainid.network](https://chainid.network/chains.json)
-Once the PR is accepted, the token will be merged and become available on [multichain.xyz](https://multichain.xyz/)
+Once the PR is accepted, the token will be merged and become available on [multichain.org](https://multichain.org/)

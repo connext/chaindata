@@ -2,6 +2,7 @@
   {
     "name": "",
     "chainId": 0,
+    "domainId": 0,
     "confirmations": 0,
     "shortName": "",
     "nativeCurrency": {
@@ -40,6 +41,7 @@
   {
     "name": "Ethereum Mainnet",
     "chainId": 1,
+    "domainId": 6648936,
     "confirmations": 7,
     "shortName": "eth",
     "type": "mainnet",
@@ -201,6 +203,7 @@
   {
     "name": "Ethereum Testnet Rinkeby",
     "chainId": 4,
+    "domainId": 2000,
     "type": "testnet",
     "confirmations": 1,
     "shortName": "rin",
@@ -378,6 +381,7 @@
   {
     "name": "Ethereum Testnet Kovan",
     "chainId": 42,
+    "domainId": 3000,
     "type": "testnet",
     "confirmations": 1,
     "shortName": "kov",
@@ -1056,6 +1060,7 @@
   {
     "name": "Moonbeam",
     "chainId": 1284,
+    "domainId": 1650811245,
     "type": "mainnet",
     "confirmations": 10,
     "shortName": "moonbeam",
@@ -1122,6 +1127,7 @@
   {
     "name": "Moonbase Alpha",
     "chainId": 1287,
+    "domainId": 5000,
     "type": "testnet",
     "confirmations": 10,
     "shortName": "mbase",

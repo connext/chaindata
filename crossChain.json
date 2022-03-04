@@ -2,6 +2,7 @@
   {
     "name": "",
     "chainId": 0,
+    "domainId": "0",
     "confirmations": 0,
     "shortName": "",
     "nativeCurrency": {
@@ -40,6 +41,7 @@
   {
     "name": "Ethereum Mainnet",
     "chainId": 1,
+    "domainId": "6648936",
     "confirmations": 7,
     "shortName": "eth",
     "type": "mainnet",
@@ -201,6 +203,7 @@
   {
     "name": "Ethereum Testnet Rinkeby",
     "chainId": 4,
+    "domainId": "2000",
     "type": "testnet",
     "confirmations": 1,
     "shortName": "rin",
@@ -378,6 +381,7 @@
   {
     "name": "Ethereum Testnet Kovan",
     "chainId": 42,
+    "domainId": "3000",
     "type": "testnet",
     "confirmations": 1,
     "shortName": "kov",
@@ -1056,6 +1060,7 @@
   {
     "name": "Moonbeam",
     "chainId": 1284,
+    "domainId": "1650811245",
     "type": "mainnet",
     "confirmations": 10,
     "shortName": "moonbeam",
@@ -1120,8 +1125,68 @@
     }
   },
   {
+    "name": "Milkomeda Cardano (C1)",
+    "chainId": 2001,
+    "domainId": "25393",
+    "confirmations": 10,
+    "shortName": "Milkomeda C1",
+    "nativeCurrency": {
+      "name": "MilkADA",
+      "symbol": "MilkADA",
+      "decimals": 18
+    },
+    "type": "mainnet",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "MilkADA",
+        "decimals": 18
+      },
+      "0x5950F9B6EF36f3127Ea66799e64D0ea1f5fdb9D1": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x41eAFC40CD5Cb904157A10158F73fF2824dC1339": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0xab58DA63DFDd6B97EAaB3C94165Ef6f43d951fb2": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0x5a955FDdF055F2dE3281d99718f5f1531744B102": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x48AEB7584BA26D3791f06fBA360dB435B3d7A174": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      }
+    },
+    "rpc": ["https://rpc.c1.milkomeda.com:8545"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-milkomeda-cardano-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-milkomeda-cardano-v1-analytics"
+    ],
+    "faucets": [],
+    "gasStations": [],
+    "explorers": [
+      {
+        "url": "https://rpc.c1.milkomeda.com:4000/"
+      }
+    ],
+    "gasEstimates": {}
+  },
+  {
     "name": "Moonbase Alpha",
     "chainId": 1287,
+    "domainId": "5000",
     "type": "testnet",
     "confirmations": 10,
     "shortName": "mbase",

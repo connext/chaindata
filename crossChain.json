@@ -1321,12 +1321,12 @@
     "networkId": 421611,
     "nativeCurrency": {
       "name": "Arbitrum Ether",
-      "symbol": "tETH",
+      "symbol": "aETH",
       "decimals": 18
     },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
-        "symbol": "tETH",
+        "symbol": "aETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
@@ -1467,7 +1467,6 @@
     "faucets": [],
     "infoURL": "",
     "explorers": [
-      "",
       {
         "name": "arbitrum",
         "url": "https://rinkeby-explorer.arbitrum.io/#/",
@@ -1475,5 +1474,31 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Gather Network",
+    "chainId": 192837465,
+    "domainId": "",
+    "confirmations": 0,
+    "shortName": "Gather",
+    "nativeCurrency": {
+      "name": "Gather",
+      "symbol": "GTH",
+      "decimals": 18
+    },
+    "type": "mainnet",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "GTH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    "rpc": ["https://mainnet.gather.network/"],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "faucets": [],
+    "gasStations": [],
+    "explorers": [{ "url": "https://explorer.gather.network/" }],
+    "gasEstimates": {}
   }
 ]

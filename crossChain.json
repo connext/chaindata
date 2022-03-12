@@ -1321,12 +1321,12 @@
     "networkId": 421611,
     "nativeCurrency": {
       "name": "Arbitrum Ether",
-      "symbol": "tETH",
+      "symbol": "aETH",
       "decimals": 18
     },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
-        "symbol": "tETH",
+        "symbol": "aETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },

@@ -25,7 +25,7 @@ AnyswapCREATE2 is available on Ethereum, Fantom, Binance Smart Chain, xDAI, and 
 Address: 0x54f5a04417e29ff5d7141a6d33cb286f50d5d50e
 
 ```
-git clone https://github.com/connext/chaindata.git
+git clone https://github.com/anyswap/chaindata.git
 npm install
 -- edit deploy.js
 node deploy.js
@@ -58,7 +58,7 @@ Verify via;
 
 ## Step 4: Create a PR for your token into the token registry
 
-Clone the connext/chaindata repo and submit a PR to chains.json with the following format;
+Clone the anyswap/chaindata repo and submit a PR to chains.json with the following format;
 
 ```json
 "yfi": {

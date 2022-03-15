@@ -1006,6 +1006,56 @@
     }
   },
   {
+    "name": "Boba L2",
+    "chainId": 288,
+    "type": "mainnet",
+    "confirmations": 1,
+    "shortName": "ftm",
+    "chain": "BOBA",
+    "network": "mainnet",
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "rpc": ["https://mainnet.boba.network/"],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "faucets": [],
+    "explorers": [
+      {
+        "url": "https://blockexplorer.boba.network/"
+      }
+    ],
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "0xa18bF3994C0Cc6E3b63ac420308E5383f53120D7": {
+        "symbol": "BOBA",
+        "mainnetEquivalent": "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc",
+        "decimals": 18
+      },
+      "0xf74195Bb8a5cf652411867c5C2C5b8C2a402be35": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x5DE1677344D3Cb0D7D465c10b72A8f60699C062d": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0x66a2A913e447d6b4BF33EFbec43aAeF87890FBbc": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0xdc0486f8bf31DF57a952bcd3c1d3e166e3d9eC8b": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      }
+    }
+  },
+  {
     "name": "Moonriver",
     "chainId": 1285,
     "type": "mainnet",

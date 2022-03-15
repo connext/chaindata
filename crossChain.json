@@ -1216,6 +1216,37 @@
     ]
   },
   {
+    "name": "Kava Alphanet",
+    "chainId": 2221,
+    "domainId": "",
+    "confirmations": 1,
+    "nativeCurrency": {
+      "name": "Kava",
+      "symbol": "KAVA",
+      "decimals": 18
+    },
+    "type": "testnet",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "KAVA"
+      },
+      "0x6a67aB6261a6d48CC5E2250A4A50BBBE10173861": {
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    },
+    "rpc": ["https://evm.evm-alpha.kava.io"],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "faucets": [],
+    "gasStations": [],
+    "explorers": [
+      {
+        "url": "https://explorer.evm-alpha.kava.io"
+      }
+    ]
+  },
+  {
     "chainId": 43113,
     "type": "testnet",
     "confirmations": 10,

@@ -1015,8 +1015,12 @@
     "network": "mainnet",
     "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
     "rpc": ["https://mainnet.boba.network/"],
-    "subgraph": [],
-    "analyticsSubgraph": [],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-boba-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-boba-v1-analytics"
+    ],
     "faucets": [],
     "explorers": [
       {
@@ -1560,7 +1564,7 @@
     "name": "Gather Network",
     "chainId": 192837465,
     "domainId": "",
-    "confirmations": 0,
+    "confirmations": 10,
     "shortName": "Gather",
     "nativeCurrency": {
       "name": "Gather",
@@ -1575,7 +1579,9 @@
       }
     },
     "rpc": ["https://mainnet.gather.network/"],
-    "subgraph": [],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-gather-v1-runtime"
+    ],
     "analyticsSubgraph": [],
     "faucets": [],
     "gasStations": [],

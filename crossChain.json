@@ -1582,7 +1582,9 @@
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-gather-v1-runtime"
     ],
-    "analyticsSubgraph": [],
+    "analyticsSubgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-gather-v1-analytics"
+    ],
     "faucets": [],
     "gasStations": [],
     "explorers": [{ "url": "https://explorer.gather.network/" }],

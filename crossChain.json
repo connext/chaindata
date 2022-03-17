@@ -1627,10 +1627,10 @@
     },
     "rpc": ["https://api.harmony.one/"],
     "subgraph": [
-      ""
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-harmonyone-v1-runtime"
     ],
     "analyticsSubgraph": [
-      ""
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-harmonyone-v1-analytics"
     ],
     "faucets": [],
     "gasStations": [],

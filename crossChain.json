@@ -1290,8 +1290,12 @@
       }
     },
     "rpc": ["https://evm.evm-alpha.kava.io"],
-    "subgraph": [],
-    "analyticsSubgraph": [],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-kava-alphanet-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-kava-alphanet-v1-analytics"
+    ],
     "faucets": [],
     "gasStations": [],
     "explorers": [

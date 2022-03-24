@@ -379,6 +379,59 @@
     }
   },
   {
+    "name": "Cronos Mainnet",
+    "chainId": 25,
+    "type": "mainnet",
+    "confirmations": 10,
+    "rpc": ["https://evm.cronos.org/"],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "Cronos",
+      "symbol": "CRO",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "CRO",
+        "mainnetEquivalent": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b",
+        "decimals": 18
+      },
+      "0xF2001B145b43032AAF5Ee2884e456CCd805F677D": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x66e428c3f67a68878562e79A0234c1F83c208770": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x68f180fcCe6836688e9084f035309E29Bf0A2095": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8
+      },
+      "0x062E66477Faf219F25D27dCED647BF57C3107d52": {
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 18
+      }
+    },
+    "explorers": [
+      {
+        "url": "https://cronoscan.com"
+      }
+    ],
+    "gasEstimates": {}
+  },
+  {
     "name": "Ethereum Testnet Kovan",
     "chainId": 42,
     "domainId": "3000",

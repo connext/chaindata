@@ -413,12 +413,12 @@
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },
-      "0x68f180fcCe6836688e9084f035309E29Bf0A2095": {
+      "0x062e66477faf219f25d27dced647bf57c3107d52": {
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8
       },
-      "0x062E66477Faf219F25D27dCED647BF57C3107d52": {
+      "0xe44fd7fcb2b1581822d0c862b68222998a0c299a": {
         "symbol": "WETH",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 18

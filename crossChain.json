@@ -384,8 +384,8 @@
     "type": "mainnet",
     "confirmations": 10,
     "rpc": ["https://evm.cronos.org/"],
-    "subgraph": [],
-    "analyticsSubgraph": [],
+    "subgraph": ["https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-cronos-v1-runtime"],
+    "analyticsSubgraph": ["https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-cronos-v1-analytics"],
     "faucets": [],
     "nativeCurrency": {
       "name": "Cronos",

@@ -13,6 +13,16 @@
     "type": "",
     "assetId": {},
     "rpc": [],
+    "subgraphs": {
+      "runtime": {
+        "query": "",
+        "health": ""
+      },
+      "analytics": {
+        "query": "",
+        "health": ""
+      }
+    },
     "subgraph": [],
     "analyticsSubgraph": [],
     "faucets": [],
@@ -231,6 +241,16 @@
       "https://rinkeby.infura.io/v3/${INFURA_API_KEY}",
       "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
     ],
+    "subgraphs": {
+      "runtime": {
+        "query": "https://api.thegraph.com/subgraphs/name/connext/nxtp-amarok-runtime-v0-rinkeby",
+        "health": "https://api.thegraph.com/index-node/graphql"
+      },
+      "analytics": {
+        "query": "",
+        "health": ""
+      }
+    },
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-runtime"
     ],
@@ -384,8 +404,12 @@
     "type": "mainnet",
     "confirmations": 10,
     "rpc": ["https://evm.cronos.org/"],
-    "subgraph": ["https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-cronos-v1-runtime"],
-    "analyticsSubgraph": ["https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-cronos-v1-analytics"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-cronos-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-cronos-v1-analytics"
+    ],
     "faucets": [],
     "nativeCurrency": {
       "name": "Cronos",
@@ -475,6 +499,16 @@
       "wss://kovan.infura.io/ws/v3/${INFURA_API_KEY}",
       "ws://kovan.poa.network:8546"
     ],
+    "subgraphs": {
+      "runtime": {
+        "query": "https://api.thegraph.com/subgraphs/name/connext/nxtp-amarok-runtime-v0-kovan",
+        "health": "https://api.thegraph.com/index-node/graphql"
+      },
+      "analytics": {
+        "query": "",
+        "health": ""
+      }
+    },
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-kovan-v1-runtime"
     ],

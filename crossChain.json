@@ -14,14 +14,18 @@
     "assetId": {},
     "rpc": [],
     "subgraphs": {
-      "runtime": {
-        "query": "",
-        "health": ""
-      },
-      "analytics": {
-        "query": "",
-        "health": ""
-      }
+      "runtime": [
+        {
+          "query": "",
+          "health": ""
+        }
+      ],
+      "analytics": [
+        {
+          "query": "",
+          "health": ""
+        }
+      ]
     },
     "subgraph": [],
     "analyticsSubgraph": [],
@@ -242,14 +246,18 @@
       "wss://rinkeby.infura.io/ws/v3/${INFURA_API_KEY}"
     ],
     "subgraphs": {
-      "runtime": {
-        "query": "https://api.thegraph.com/subgraphs/name/connext/nxtp-amarok-runtime-v0-rinkeby",
-        "health": "https://api.thegraph.com/index-node/graphql"
-      },
-      "analytics": {
-        "query": "",
-        "health": ""
-      }
+      "runtime": [
+        {
+          "query": "https://api.thegraph.com/subgraphs/name/connext/nxtp-amarok-runtime-v0-rinkeby",
+          "health": "https://api.thegraph.com/index-node/graphql"
+        }
+      ],
+      "analytics": [
+        {
+          "query": "",
+          "health": ""
+        }
+      ]
     },
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-runtime"
@@ -500,14 +508,18 @@
       "ws://kovan.poa.network:8546"
     ],
     "subgraphs": {
-      "runtime": {
-        "query": "https://api.thegraph.com/subgraphs/name/connext/nxtp-amarok-runtime-v0-kovan",
-        "health": "https://api.thegraph.com/index-node/graphql"
-      },
-      "analytics": {
-        "query": "",
-        "health": ""
-      }
+      "runtime": [
+        {
+          "query": "https://api.thegraph.com/subgraphs/name/connext/nxtp-amarok-runtime-v0-kovan",
+          "health": "https://api.thegraph.com/index-node/graphql"
+        }
+      ],
+      "analytics": [
+        {
+          "query": "",
+          "health": ""
+        }
+      ]
     },
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-kovan-v1-runtime"

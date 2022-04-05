@@ -219,7 +219,7 @@
     "chainId": 4,
     "domainId": "2000",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 3,
     "shortName": "rin",
     "network": "rinkeby",
     "nativeCurrency": {
@@ -468,7 +468,7 @@
     "chainId": 42,
     "domainId": "3000",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 3,
     "shortName": "kov",
     "chain": "ETH",
     "network": "kovan",

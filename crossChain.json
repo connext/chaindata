@@ -139,6 +139,11 @@
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8
+      },
+      "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc": {
+        "symbol": "BOBA",
+        "mainnetEquivalent": "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc",
+        "decimals": 18
       }
     },
     "rpc": [

@@ -222,7 +222,7 @@
   {
     "name": "Ethereum Testnet Rinkeby",
     "chainId": 4,
-    "domainId": "2000",
+    "domainId": "1111",
     "type": "testnet",
     "confirmations": 3,
     "shortName": "rin",
@@ -293,6 +293,7 @@
       "symbol": "GOR",
       "decimals": 18
     },
+    "domainId": "3331",
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -471,7 +472,7 @@
   {
     "name": "Ethereum Testnet Kovan",
     "chainId": 42,
-    "domainId": "3000",
+    "domainId": "2221",
     "type": "testnet",
     "confirmations": 3,
     "shortName": "kov",

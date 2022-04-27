@@ -1415,6 +1415,33 @@
     ]
   },
   {
+    "name": "Evmos",
+    "chainId": 9001,
+    "domainId": "",
+    "confirmations": 10,
+    "nativeCurrency": {
+      "name": "Evmos",
+      "symbol": "EVMOS",
+      "decimals": 18
+    },
+    "type": "mainnet",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "EVMOS"
+      }
+    },
+    "rpc": ["https://eth.bd.evmos.org:8545"],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "faucets": [],
+    "gasStations": [],
+    "explorers": [
+      {
+        "url": "https://evm.evmos.org"
+      }
+    ]
+  },
+  {
     "chainId": 43113,
     "type": "testnet",
     "confirmations": 10,

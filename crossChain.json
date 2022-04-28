@@ -1135,7 +1135,8 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
-        "decimals": 18
+        "decimals": 18,
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
       },
       "0xa18bF3994C0Cc6E3b63ac420308E5383f53120D7": {
         "symbol": "BOBA",

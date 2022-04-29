@@ -1462,8 +1462,8 @@
       }
     },
     "rpc": ["https://eth.bd.evmos.org:8545"],
-    "subgraph": [],
-    "analyticsSubgraph": [],
+    "subgraph": ["https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-evmos-v1-runtime"],
+    "analyticsSubgraph": ["https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-evmos-v1-analytics"],
     "faucets": [],
     "gasStations": [],
     "explorers": [

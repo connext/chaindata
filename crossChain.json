@@ -286,7 +286,7 @@
     "chainId": 5,
     "type": "testnet",
     "confirmations": 1,
-    "shortName": "gor",
+    "domain": "3331",
     "network": "goerli",
     "nativeCurrency": {
       "name": "Görli Ether",

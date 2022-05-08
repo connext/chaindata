@@ -1,0 +1,10 @@
+[
+  {
+    "environment": "production",
+    "backendUrl": "https://postgrest.testnet.staging.connext.ninja"
+  },
+  {
+    "environment": "staging",
+    "backendUrl": "https://postgrest.testnet.staging.connext.ninja"
+  }
+]

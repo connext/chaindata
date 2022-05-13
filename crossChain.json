@@ -327,6 +327,20 @@
       "https://goerli-faucet.slock.it/?address=${ADDRESS}",
       "https://faucet.goerli.mudit.blog"
     ],
+    "subgraphs": {
+      "runtime": [
+        {
+          "query": "https://api.thegraph.com/subgraphs/name/connext/nxtp-amarok-runtime-v0-goerli",
+          "health": "https://api.thegraph.com/index-node/graphql"
+        }
+      ],
+      "analytics": [
+        {
+          "query": "",
+          "health": ""
+        }
+      ]
+    },
     "infoURL": "https://goerli.net/#about",
     "explorers": [
       {

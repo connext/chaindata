@@ -889,10 +889,12 @@
       }
     },
     "subgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-runtime"
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fuse-v1-runtime"
     ],
     "analyticsSubgraph": [
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-analytics"
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-fuse-v1-analytics",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fuse-v1-analytics"
     ],
     "explorers": [
       {

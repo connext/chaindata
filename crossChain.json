@@ -153,8 +153,7 @@
       "https://cloudflare-eth.com"
     ],
     "subgraph": [
-      "https://gateway.thegraph.com/api/3dcfe24f2879bbbb4dd88783c162ecda/subgraphs/id/DfD1tZSmDtjCGC2LeYEQbVzj9j8kNqKAQEsYL27Vg6Sw",
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime"
+      "https://gateway.thegraph.com/api/3dcfe24f2879bbbb4dd88783c162ecda/subgraphs/id/DfD1tZSmDtjCGC2LeYEQbVzj9j8kNqKAQEsYL27Vg6Sw"
     ],
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-analytics"

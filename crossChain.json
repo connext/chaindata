@@ -614,6 +614,11 @@
         "symbol": "PAID",
         "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787",
         "decimals": 18
+      },
+      "0xeb986DA994E4a118d5956b02d8b7c3C7CE373674": {
+        "symbol": "GTH",
+        "mainnetEquivalent": "0xeb986DA994E4a118d5956b02d8b7c3C7CE373674",
+        "decimals": 18
       }
     },
     "rpc": [

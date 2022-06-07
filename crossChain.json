@@ -1032,7 +1032,8 @@
     ],
     "subgraph": [
       "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic",
-      "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-runtime"
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-runtime",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-matic-v1-runtime"
     ],
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-matic-v1-analytics"

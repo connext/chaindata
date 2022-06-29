@@ -1482,8 +1482,12 @@
       }
     },
     "rpc": ["https://eth.bd.evmos.org:8545"],
-    "subgraph": ["https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-evmos-v1-runtime"],
-    "analyticsSubgraph": ["https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-evmos-v1-analytics"],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-evmos-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-evmos-v1-analytics"
+    ],
     "faucets": [],
     "gasStations": [],
     "explorers": [
@@ -1657,15 +1661,15 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "2500000",
-      "fulfill": "1800000",
-      "cancel": "1800000",
-      "removeLiquidity": "340000",
-      "prepareRouterContract": "2500000",
-      "fulfillRouterContract": "1800000",
-      "cancelRouterContract": "1800000",
-      "removeLiquidityRouterContract": "340000",
-      "gasPriceFactor": "1250000000000000000"
+      "prepare": "50000",
+      "fulfill": "45000",
+      "cancel": "45000",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "50000",
+      "fulfillRouterContract": "45000",
+      "cancelRouterContract": "45000",
+      "removeLiquidityRouterContract": "45000",
+      "gasPriceFactor": "1625000000000000000"
     }
   },
   {

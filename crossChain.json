@@ -1310,6 +1310,26 @@
     }
   },
   {
+    "name": "Local1337",
+    "chainId": 1337,
+    "domainId": "1337",
+    "type": "mainnet",
+    "confirmations": 10,
+    "network": "local1337",
+    "networkId": 1337,
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 }
+  },
+  {
+    "name": "Local1338",
+    "chainId": 1338,
+    "domainId": "1338",
+    "type": "mainnet",
+    "confirmations": 10,
+    "network": "local1338",
+    "networkId": 1337,
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 }
+  },
+  {
     "name": "Milkomeda Cardano (C1)",
     "chainId": 2001,
     "domainId": "25393",

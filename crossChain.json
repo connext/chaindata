@@ -1456,6 +1456,29 @@
     ]
   },
   {
+    "name": "Evmos Testnet",
+    "network": "evmostestnet",
+    "chainId": 9001,
+    "domainId": "4441",
+    "confirmations": 10,
+    "nativeCurrency": {
+      "name": "Evmos",
+      "symbol": "tEVMOS",
+      "decimals": 18
+    },
+    "type": "testnet",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "tEVMOS"
+      }
+    },
+    "rpc": ["https://eth.bd.evmos.dev:8545"],
+    "faucets": [],
+    "gasStations": [],
+    "explorers": [
+    ]
+  },
+  {
     "name": "Evmos",
     "chainId": 9001,
     "domainId": "",

@@ -1458,7 +1458,7 @@
   {
     "name": "Evmos Testnet",
     "network": "evmostestnet",
-    "chainId": 9001,
+    "chainId": 9000,
     "domainId": "4441",
     "confirmations": 10,
     "nativeCurrency": {

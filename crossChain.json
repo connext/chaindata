@@ -1317,7 +1317,14 @@
     "confirmations": 10,
     "network": "local1337",
     "networkId": 1337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 }
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
   },
   {
     "name": "Local1338",
@@ -1327,7 +1334,14 @@
     "confirmations": 10,
     "network": "local1338",
     "networkId": 1337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 }
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
   },
   {
     "name": "Milkomeda Cardano (C1)",

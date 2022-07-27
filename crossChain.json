@@ -1735,10 +1735,7 @@
     "domainId": "9991",
     "type": "testnet",
     "confirmations": 1,
-    "shortName": "maticmum",
-    "chain": "Matic",
-    "network": "testnet",
-    "networkId": 80001,
+    "network": "mumbai",
     "nativeCurrency": {
       "name": "Matic",
       "symbol": "tMATIC",

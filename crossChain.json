@@ -1733,6 +1733,7 @@
     "name": "Matic Testnet Mumbai",
     "chainId": 80001,
     "domainId": "9991",
+    "domain": "9991",
     "type": "testnet",
     "confirmations": 1,
     "shortName": "maticmum",

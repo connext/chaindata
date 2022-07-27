@@ -1767,6 +1767,20 @@
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-analytics"
     ],
     "faucets": ["https://faucet.matic.network/"],
+    "subgraphs": {
+      "runtime": [
+        {
+          "query": "https://api.thegraph.com/subgraphs/name/connext/nxtp-amarok-runtime-v0-mumbai",
+          "health": "https://api.thegraph.com/index-node/graphql"
+        }
+      ],
+      "analytics": [
+        {
+          "query": "",
+          "health": ""
+        }
+      ]
+    },
     "infoURL": "https://matic.network/",
     "explorers": [
       {

@@ -153,6 +153,7 @@
       "https://cloudflare-eth.com"
     ],
     "subgraph": [
+      "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime",
       "https://gateway.thegraph.com/api/3dcfe24f2879bbbb4dd88783c162ecda/subgraphs/id/DfD1tZSmDtjCGC2LeYEQbVzj9j8kNqKAQEsYL27Vg6Sw"
     ],
     "analyticsSubgraph": [
@@ -1489,8 +1490,7 @@
     "rpc": ["https://eth.bd.evmos.dev:8545"],
     "faucets": [],
     "gasStations": [],
-    "explorers": [
-    ]
+    "explorers": []
   },
   {
     "name": "Evmos",

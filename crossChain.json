@@ -1729,6 +1729,65 @@
     }
   },
   {
+    "name": "Arbitrum Nova",
+    "chainId": 42170,
+    "type": "mainnet",
+    "confirmations": 1,
+    "network": "arbitrum-nova",
+    "nativeCurrency": {
+      "name": "Arbitrum Ether",
+      "symbol": "aETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "aETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x52484E1ab2e2B22420a25c20FA49E173a26202Cd": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0x750ba8b76187092B0D1E87E28daaf484d1b5273b": {
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+        "decimals": 18
+      }
+    },
+    "rpc": ["https://nova.arbitrum.io/rpc "],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-nova-v1-runtime"
+    ],
+    "analyticsSubgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-nova-v1-analytics"
+    ],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [
+      {
+        "url": "https://nova-explorer.arbitrum.io/"
+      }
+    ],
+    "gasEstimates": {
+      "prepare": "50000",
+      "fulfill": "45000",
+      "cancel": "45000",
+      "removeLiquidity": "45000",
+      "prepareRouterContract": "50000",
+      "fulfillRouterContract": "45000",
+      "cancelRouterContract": "45000",
+      "removeLiquidityRouterContract": "45000",
+      "gasPriceFactor": "1625000000000000000"
+    }
+  },
+  {
     "name": "Matic Testnet Mumbai",
     "chainId": 80001,
     "domainId": "9991",

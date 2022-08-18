@@ -1186,6 +1186,33 @@
     }
   },
   {
+    "name": "Optimism Testnet Goerli",
+    "chainId": 420,
+    "type": "testnet",
+    "confirmations": 1,
+    "network": "optimism-goerli",
+    "networkId": 69,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    "rpc": ["https://goerli.optimism.io"],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "explorers": [
+      {
+        "url": "https://blockscout.com/optimism/goerli"
+      }
+    ]
+  },
+  {
     "name": "Moonriver",
     "chainId": 1285,
     "type": "mainnet",

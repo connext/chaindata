@@ -1190,7 +1190,7 @@
     "chainId": 420,
     "type": "testnet",
     "confirmations": 1,
-    "network": "optimism-goerli",
+    "network": "optimismgoerli",
     "networkId": 69,
     "nativeCurrency": {
       "name": "Ether",

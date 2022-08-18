@@ -285,7 +285,7 @@
     "chainId": 5,
     "type": "testnet",
     "confirmations": 1,
-    "domain": "3331",
+    "domain": "1735353714",
     "network": "goerli",
     "nativeCurrency": {
       "name": "Görli Ether",
@@ -1188,6 +1188,7 @@
   {
     "name": "Optimism Testnet Goerli",
     "chainId": 420,
+    "domain": "1735356532",
     "type": "testnet",
     "confirmations": 1,
     "network": "optimismgoerli",

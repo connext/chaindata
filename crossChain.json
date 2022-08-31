@@ -311,9 +311,8 @@
       }
     },
     "rpc": [
-      "https://rpc.goerli.mudit.blog/",
-      "https://rpc.slock.it/goerli/",
-      "https://goerli.prylabs.net/"
+      "https://ethereum-goerli-rpc.allthatnode.com/",
+      "https://goerli.infura.io/v3/${INFURA_API_KEY}"
     ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-runtime"
@@ -1840,7 +1839,7 @@
         "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb"
       }
     },
-    "rpc": ["https://rpc-mumbai.matic.today", "wss://ws-mumbai.matic.today"],
+    "rpc": ["https://rpc-mumbai.matic.today", "https://rpc.ankr.com/polygon_mumbai"],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-runtime"
     ],

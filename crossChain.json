@@ -352,6 +352,7 @@
     "name": "Optimistic Ethereum",
     "network": "optimism",
     "confirmations": 1,
+    "domainId": "1869640809",
     "rpc": ["https://mainnet.optimism.io/"],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
@@ -956,6 +957,7 @@
     "chainId": 137,
     "type": "mainnet",
     "confirmations": 60,
+    "domainId": "1886350457",
     "shortName": "matic",
     "chain": "Matic",
     "network": "mainnet",

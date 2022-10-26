@@ -1685,7 +1685,7 @@
     "confirmations": 1,
     "shortName": "ArbOne",
     "chain": "Arb",
-    "network": "arbitrum",
+    "network": "arbitrumone",
     "networkId": 421611,
     "nativeCurrency": {
       "name": "Arbitrum Ether",

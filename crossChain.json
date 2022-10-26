@@ -965,7 +965,7 @@
     "domainId": "1886350457",
     "shortName": "matic",
     "chain": "Matic",
-    "network": "mainnet",
+    "network": "polygon",
     "networkId": 137,
     "nativeCurrency": {
       "name": "Matic",

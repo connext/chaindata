@@ -1765,7 +1765,7 @@
     "chainId": 42170,
     "type": "mainnet",
     "confirmations": 1,
-    "network": "arbitrum-nova",
+    "network": "arbitrumnova",
     "nativeCurrency": {
       "name": "Arbitrum Ether",
       "symbol": "aETH",
@@ -1870,7 +1870,7 @@
     "confirmations": 1,
     "shortName": "ArbTest",
     "chain": "Arb",
-    "network": "arbitrum",
+    "network": "arbitrumrinkeby",
     "networkId": 421611,
     "nativeCurrency": {
       "name": "Arbitrum Ether",
@@ -1900,6 +1900,25 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Arbitrum Testnet Goerli",
+    "chainId": 421613,
+    "type": "testnet",
+    "confirmations": 1,
+    "network": "arbitrumgoerli",
+    "networkId": 421613,
+    "nativeCurrency": {
+      "name": "Arbitrum Ether",
+      "symbol": "tETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "tETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+      }
+    }
   },
   {
     "name": "Gather Network",

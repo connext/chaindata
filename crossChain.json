@@ -1684,10 +1684,8 @@
     "chainId": 42161,
     "type": "mainnet",
     "confirmations": 1,
-    "shortName": "ArbOne",
-    "chain": "Arb",
     "network": "arbitrumone",
-    "networkId": 421611,
+    "domainId": "1634886255",
     "nativeCurrency": {
       "name": "Arbitrum Ether",
       "symbol": "aETH",

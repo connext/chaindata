@@ -570,10 +570,8 @@
     "chainId": 56,
     "type": "mainnet",
     "confirmations": 10,
-    "shortName": "bnb",
-    "chain": "BSC",
     "network": "bnb",
-    "networkId": 56,
+    "domainId": "6450786",
     "nativeCurrency": {
       "name": "Binance Chain Native Token",
       "symbol": "BNB",

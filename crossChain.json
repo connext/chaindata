@@ -776,10 +776,9 @@
     "chainId": 100,
     "type": "mainnet",
     "confirmations": 10,
-    "shortName": "xdai",
-    "chain": "XDAI",
     "network": "xdai",
     "networkId": 100,
+    "domainId": "6778479",
     "nativeCurrency": { "name": "xDAI", "symbol": "xDAI", "decimals": 18 },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {

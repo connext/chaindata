@@ -8581,6 +8581,48 @@
 				"IsDelegateContract": false
 			}
 		},
+		"dext": {
+			"srcChainID": "56",
+			"destChainID": "321",
+			"PairID": "DEXT",
+			"SrcToken": {
+				"ID": "DEXT",
+				"Name": "DEXTools",
+				"Symbol": "DEXT",
+				"Decimals": 18,
+				"Description": "BSC DEXT",
+				"DepositAddress": "0x88036021b39759Fc46aD79850679282cb2353372",
+				"DcrmAddress": "0x88036021b39759Fc46aD79850679282cb2353372",
+				"ContractAddress": "0xe91a8D2c584Ca93C7405F15c22CdFE53C29896E3",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 30,
+				"BigValueThreshold": 50000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 150,
+				"MinimumSwapFee": 15,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			},
+			"DestToken": {
+				"ID": "kcc-DEXT",
+				"Name": "DEXTools",
+				"Symbol": "DEXT",
+				"Decimals": 18,
+				"Description": "cross chain bridge DEXT with KCC-Peg DEXT",
+				"DcrmAddress": "0x88036021b39759Fc46aD79850679282cb2353372",
+				"ContractAddress": "0xbA429f44C2D1606b715E1AE64839AC72fe68C15F",
+				"MaximumSwap": 1000000,
+				"MinimumSwap": 30,
+				"BigValueThreshold": 50000,
+				"SwapFeeRate": 0.001,
+				"MaximumSwapFee": 150,
+				"MinimumSwapFee": 15,
+				"PlusGasPricePercentage": 10,
+				"DisableSwap": false,
+				"IsDelegateContract": false
+			}
+		},
 		"any": {
 			"srcChainID": "FSNV2",
 			"destChainID": "43114",

@@ -409,6 +409,11 @@
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },
+      "0x67E51f46e8e14D4E4cab9dF48c59ad8F512486DD": {
+        "symbol": "nextUSDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
       "0x68f180fcCe6836688e9084f035309E29Bf0A2095": {
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
@@ -615,6 +620,11 @@
       },
       "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
         "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 18
+      },
+      "0x5e7D83dA751F4C9694b13aF351B30aC108f32C38": {
+        "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 18
       },
@@ -826,6 +836,11 @@
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },
+      "0x44CF74238d840a5fEBB0eAa089D05b763B73faB8": {
+        "symbol": "nextUSDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
       "0x44fA8E6f47987339850636F88629646662444217": {
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
@@ -1003,6 +1018,11 @@
       },
       "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
         "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0xF96C6d2537e1af1a9503852eB2A4AF264272a5B6": {
+        "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },
@@ -1741,6 +1761,11 @@
       },
       "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
         "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6
+      },
+      "0x8c556cF37faa0eeDAC7aE665f1Bb0FbD4b2eae36": {
+        "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },

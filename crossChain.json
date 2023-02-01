@@ -122,6 +122,7 @@
         "decimals": 18
       },
       "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+        "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
@@ -132,6 +133,7 @@
         "decimals": 6
       },
       "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+        "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "decimals": 18
@@ -299,6 +301,7 @@
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
       },
       "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6": {
+        "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
@@ -380,11 +383,13 @@
         "decimals": 18
       },
       "0x4200000000000000000000000000000000000006": {
+        "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },      
       "0xbAD5B3c68F855EaEcE68203312Fd88AD3D365e50": {
+        "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
@@ -405,11 +410,13 @@
         "decimals": 6
       },
       "0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
+        "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },
       "0x67E51f46e8e14D4E4cab9dF48c59ad8F512486DD": {
+        "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
@@ -599,11 +606,13 @@
         "decimals": 18
       },
       "0x2170Ed0880ac9A755fd29B2688956BD959F933F8": {
+        "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0xA9CB51C666D2AF451d87442Be50747B31BB7d805": {
+        "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
@@ -619,11 +628,13 @@
         "decimals": 18
       },
       "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d": {
+        "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 18
       },
       "0x5e7D83dA751F4C9694b13aF351B30aC108f32C38": {
+        "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 18
@@ -812,11 +823,13 @@
         "decimals": 18
       },
       "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1": {
+        "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0x538E2dDbfDf476D24cCb1477A518A82C9EA81326": {
+        "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
@@ -832,11 +845,13 @@
         "decimals": 18
       },
       "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83": {
+        "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },
       "0x44CF74238d840a5fEBB0eAa089D05b763B73faB8": {
+        "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
@@ -1017,11 +1032,13 @@
         "decimals": 18
       },
       "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174": {
+        "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },
       "0xF96C6d2537e1af1a9503852eB2A4AF264272a5B6": {
+        "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
@@ -1047,11 +1064,13 @@
         "decimals": 6
       },
       "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
-        "symbol": "WETH (PoS)",
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0x4b8BaC8Dd1CAA52E32C07755c17eFadeD6A0bbD0": {
+        "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
@@ -1220,6 +1239,7 @@
         "decimals": 6
       },
       "0x66a2A913e447d6b4BF33EFbec43aAeF87890FBbc": {
+        "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
@@ -1250,11 +1270,13 @@
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
       },
       "0x74c6FD7D2Bc6a8F0Ebd7D78321A95471b8C2B806": {
+        "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
       "0x39B061B7e41DE8B721f9aEcEB6b3f17ECB7ba63E": {
+        "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
@@ -1760,11 +1782,13 @@
         "decimals": 6
       },
       "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
+        "name": "USD Coin (Arb1)",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
       },
       "0x8c556cF37faa0eeDAC7aE665f1Bb0FbD4b2eae36": {
+        "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6
@@ -1775,11 +1799,13 @@
         "decimals": 18
       },
       "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
+        "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },      
       "0x2983bf5c334743Aa6657AD70A55041d720d225dB": {
+        "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
@@ -1910,11 +1936,13 @@
         "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb"
       },
       "0xFD2AB41e083c75085807c4A65C0A14FDD93d55A9": {
+        "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
         "decimals": 18
       },
       "0x1E5341E4b7ed5D0680d9066aac0396F0b1bD1E69": {
+        "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
         "decimals": 18

@@ -306,6 +306,11 @@
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
+      "0x8aE68021f6170E5a766bE613cEA0d75236ECCa9a": {
+        "symbol": "fUSDCx",
+        "mainnetEquivalent": "0x1BA8603DA702602A8657980e825A6DAa03Dee93a",
+        "decimals": 18
+      },
       "0x04dfd3cfca0e110b6b3c2e7d2384a851d1665988": {
         "symbol": "PAID",
         "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787"
@@ -387,13 +392,13 @@
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      },      
+      },
       "0xbAD5B3c68F855EaEcE68203312Fd88AD3D365e50": {
         "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      },      
+      },
       "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
@@ -1803,13 +1808,13 @@
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      },      
+      },
       "0x2983bf5c334743Aa6657AD70A55041d720d225dB": {
         "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      },      
+      },
       "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f": {
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
@@ -1948,7 +1953,10 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://rpc-mumbai.matic.today", "https://rpc.ankr.com/polygon_mumbai"],
+    "rpc": [
+      "https://rpc-mumbai.matic.today",
+      "https://rpc.ankr.com/polygon_mumbai"
+    ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-runtime"
     ],

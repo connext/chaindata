@@ -455,7 +455,9 @@
       "prepareL1": "20623",
       "fulfillL1": "13965",
       "cancelL1": "13965",
-      "removeLiquidityL1": "45000"
+      "removeLiquidityL1": "45000",
+      "execute": "400000",
+      "executeL1": "20000"
     }
   },
   {

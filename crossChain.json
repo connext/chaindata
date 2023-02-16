@@ -179,7 +179,8 @@
       "prepareRouterContract": "190000",
       "fulfillRouterContract": "200000",
       "cancelRouterContract": "204271",
-      "removeLiquidityRouterContract": "48000"
+      "removeLiquidityRouterContract": "48000",
+      "execute": "350000"
     }
   },
   {

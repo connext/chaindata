@@ -179,7 +179,8 @@
       "prepareRouterContract": "190000",
       "fulfillRouterContract": "200000",
       "cancelRouterContract": "204271",
-      "removeLiquidityRouterContract": "48000"
+      "removeLiquidityRouterContract": "48000",
+      "execute": "350000"
     }
   },
   {
@@ -454,7 +455,9 @@
       "prepareL1": "20623",
       "fulfillL1": "13965",
       "cancelL1": "13965",
-      "removeLiquidityL1": "45000"
+      "removeLiquidityL1": "45000",
+      "execute": "400000",
+      "executeL1": "20000"
     }
   },
   {
@@ -1853,7 +1856,8 @@
       "fulfillRouterContract": "2250000",
       "cancelRouterContract": "2250000",
       "removeLiquidityRouterContract": "2250000",
-      "gasPriceFactor": "1625000000000000000"
+      "gasPriceFactor": "1625000000000000000",
+      "execute": "2000000"
     }
   },
   {

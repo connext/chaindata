@@ -1922,6 +1922,7 @@
   {
     "name": "Consensys zkEVM Testnet",
     "chainId": 59140,
+    "domainId": "1668247156",
     "type": "testnet",
     "confirmations": 1,
     "network": "consensystest",

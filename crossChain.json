@@ -1920,6 +1920,24 @@
     }
   },
   {
+    "name": "Consensys zkEVM Testnet",
+    "chainId": 59140,
+    "type": "testnet",
+    "confirmations": 1,
+    "network": "consensystest",
+    "nativeCurrency": {
+      "symbol": "crETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "crETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
+  },
+  {
     "name": "Matic Testnet Mumbai",
     "chainId": 80001,
     "domainId": "9991",

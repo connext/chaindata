@@ -1,0 +1,10 @@
+name: 'Update DB'
+
+on:
+  push:
+    branches:
+      - main
+description: 'Update the db'
+runs:
+  using: 'node16'
+  main: 'updateDb.js'

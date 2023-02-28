@@ -25,7 +25,7 @@ const updateDb = async () => {
     // To create a directory for the object, use '/'. For example, 'myApp/package.json'.
     Key: "chaindata.json",
     // Content of the new object.
-    Body: filteredData,
+    Body: JSON.stringify(filteredData),
   };
   console.log("bucketParams: ", bucketParams);
   await s3Client.send(new PutObjectCommand(bucketParams));

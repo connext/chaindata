@@ -14,7 +14,7 @@
   "author": "Connext and friends",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.279.0",
+    "@aws-sdk/client-s3": "^3.279.0",
     "ethers": "^5.0.32",
     "node-fetch": "^2.6.1",
     "request": "^2.88.2",

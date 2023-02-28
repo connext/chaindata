@@ -1,12 +1,11 @@
 // Create service client module using ES6 syntax.
-const client = require("@aws-sdk/client-dynamodb");
+const client = require("@aws-sdk/client-s3");
 
-const { DynamoDBClient, BatchWriteItemCommand } = client;
+const { S3Client, PutObjectCommand } = client;
 // Set the AWS Region.
-const REGION = "us-east-2"; //e.g. "us-east-1"
-const TABLE_NAME = "chaindata";
-// Create an Amazon DynamoDB service client object.
-const ddbClient = new DynamoDBClient({
+const REGION = "us-east-2";
+
+const s3Client = new S3Client({
   region: REGION,
   credentials: {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -20,24 +19,21 @@ const updateDb = async () => {
   );
   const data = await chainData.json();
   const filteredData = data.filter((chain) => !!chain.domainId);
-  console.log("filteredData: ", filteredData);
-  const dbUpdateParams = filteredData.map((chain) => {
-    return {
-      PutRequest: {
-        Item: {
-          domainId: { S: chain.domainId },
-          data: { S: JSON.stringify(chain) },
-        },
-      },
-    };
-  });
-  console.log("dbUpdateParams: ", dbUpdateParams);
-  await ddbClient.send(
-    new BatchWriteItemCommand({
-      RequestItems: {
-        [TABLE_NAME]: dbUpdateParams,
-      },
-    })
+  const bucketParams = {
+    Bucket: "connext-chaindata",
+    // Specify the name of the new object. For example, 'index.html'.
+    // To create a directory for the object, use '/'. For example, 'myApp/package.json'.
+    Key: "chaindata.json",
+    // Content of the new object.
+    Body: filteredData,
+  };
+  console.log("bucketParams: ", bucketParams);
+  await s3Client.send(new PutObjectCommand(bucketParams));
+  console.log(
+    "Successfully uploaded object: " +
+      bucketParams.Bucket +
+      "/" +
+      bucketParams.Key
   );
 };
 

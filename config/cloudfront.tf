@@ -16,7 +16,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   is_ipv6_enabled     = true
   default_root_object = "chaindata.json"
 
-  aliases = []
+  aliases = ["chaindata.connext.ninja"]
 
   default_cache_behavior {
     allowed_methods = [
@@ -55,8 +55,11 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
     }
   }
 
+
   viewer_certificate {
-    cloudfront_default_certificate = true
+    cloudfront_default_certificate = false
+    ssl_support_method             = "sni-only"
+    acm_certificate_arn            = var.us_east_1_certificate_arn
   }
 
   custom_error_response {

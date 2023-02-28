@@ -4,8 +4,7 @@
   "description": "Chain and token information across EVM compatible chains",
   "main": "deploy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "update-db": "node updateDb.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -14,7 +13,6 @@
   "author": "Connext and friends",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.279.0",
     "ethers": "^5.0.32",
     "node-fetch": "^2.6.1",
     "request": "^2.88.2",

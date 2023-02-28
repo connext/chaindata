@@ -20,7 +20,7 @@ jobs:
           aws-region: us-east-2
 
       - name: Filter empty domain ids
-        run: cat crossChain.json | jq ".[]" > crosschain.json
+        run: cat crossChain.json | jq 'del(.[] | select(.chainId == null))' > crossChain.tmp && mv -f crossChain.tmp crossChain.json
 
       - name: Terraform Plan
         run: terraform init

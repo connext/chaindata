@@ -29,3 +29,10 @@ variable "tags" {
     application = "web"
   }
 }
+
+// https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/CNAMEs.html
+// Cert must be in us-east-1 for cloudfront
+// Use *.connext.ninja cert
+variable "us_east_1_certificate_arn" {
+  default = "arn:aws:acm:us-east-1:679752396206:certificate/234b80c3-623b-4afa-8ed3-3b72f0d7b712"
+}

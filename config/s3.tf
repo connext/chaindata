@@ -46,7 +46,7 @@ resource "aws_s3_bucket_versioning" "s3_bucket" {
 resource "aws_s3_object" "network" {
   bucket = aws_s3_bucket.s3_bucket.bucket
   key    = "chaindata.json"
-  source = "${path.module}/../crosschain.json"
+  source = "${path.module}/../crossChain.json"
   # etag makes the file update when it changes; see https://stackoverflow.com/questions/56107258/terraform-upload-file-to-s3-on-every-apply
-  etag = filemd5("${path.module}/../crosschain.json")
+  etag = filemd5("${path.module}/../crossChain.json")
 }

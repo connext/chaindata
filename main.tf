@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "connext-terraform-state-file-static-assets"
+    bucket = "connext-terraform-state-file-chaindata"
     key    = "state"
     region = "us-east-2"
   }

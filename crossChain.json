@@ -1998,6 +1998,25 @@
     ]
   },
   {
+    "name": "ZkSync2 Testnet",
+    "chainId": 280,
+    "domainId": "2053862260",
+    "type": "testnet",
+    "confirmations": 1,
+    "network": "zksync2test",
+    "nativeCurrency": {
+      "symbol": "ztETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ztETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
+  },
+  {
     "name": "Arbitrum Testnet Rinkeby",
     "chainId": 421611,
     "type": "testnet",

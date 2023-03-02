@@ -645,7 +645,7 @@
         "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 18
+        "decimals": 6
       },
       "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3": {
         "symbol": "DAI",

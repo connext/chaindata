@@ -1,0 +1,32 @@
+name: Deploy S3 Assets
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  terraform-deploy-assets:
+    runs-on: ubuntu-latest
+    name: Deploy file to s3 + cloudfront
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-2
+
+      - name: Filter empty domain ids
+        run: cat crossChain.json | jq 'del(.[] | select(.chainId == null))' > crossChain.tmp && mv -f crossChain.tmp crossChain.json
+
+      - name: Terraform Plan
+        run: terraform init
+
+      - name: Terraform Plan
+        run: terraform plan
+
+      - name: Terraform Deploy
+        run: terraform apply -auto-approve

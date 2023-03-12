@@ -19,6 +19,12 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   aliases = ["chaindata.connext.ninja"]
 
   default_cache_behavior {
+    // CORS-S3Origin
+    origin_request_policy_id = "88a5eaf4-2fd4-4709-b370-b4c650ea3fcf"
+    // SimpleCORS
+    response_headers_policy_id = "60669652-455b-4ae9-85a4-c4c02393f86c"
+    // AccessControlCachePolicy
+    cache_policy_id = "cb51e564-9b52-4fca-8cf4-a7d4ecfdaf94"
     allowed_methods = [
       "GET",
       "HEAD",
@@ -31,13 +37,6 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
     target_origin_id = "s3-cloudfront"
 
-    forwarded_values {
-      query_string = false
-
-      cookies {
-        forward = "none"
-      }
-    }
 
     viewer_protocol_policy = "redirect-to-https"
 

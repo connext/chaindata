@@ -1426,7 +1426,7 @@
   {
     "name": "Local1337",
     "chainId": 1337,
-    "domainId": "1337",
+    "domainId": "133712",
     "type": "mainnet",
     "confirmations": 10,
     "network": "local1337",
@@ -1443,7 +1443,7 @@
   {
     "name": "Local1338",
     "chainId": 1338,
-    "domainId": "1338",
+    "domainId": "133812",
     "type": "mainnet",
     "confirmations": 10,
     "network": "local1338",

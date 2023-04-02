@@ -666,6 +666,11 @@
         "symbol": "GTH",
         "mainnetEquivalent": "0xeb986DA994E4a118d5956b02d8b7c3C7CE373674",
         "decimals": 18
+      },
+      "0xaBc6790673a60b8A7f588450f59D2d256b1aeF7F": {
+        "symbol": "OAI",
+        "mainnetEquivalent": "0xaBc6790673a60b8A7f588450f59D2d256b1aeF7F",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -867,6 +872,10 @@
       "0x44fA8E6f47987339850636F88629646662444217": {
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x63e62989D9EB2d37dfDB1F93A22f063635b07d51": {
+        "symbol": "MIVA",
         "decimals": 18
       }
     },

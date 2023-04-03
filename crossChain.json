@@ -147,6 +147,11 @@
         "symbol": "BOBA",
         "mainnetEquivalent": "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc",
         "decimals": 18
+      },
+      "0xeb986da994e4a118d5956b02d8b7c3c7ce373674": {
+        "symbol": "GTH",
+        "mainnetEquivalent": "0xeb986da994e4a118d5956b02d8b7c3c7ce373674",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1105,6 +1110,10 @@
       "0x5fe2b58c013d7601147dcdd68c143a77499f5531": {
         "symbol": "GRT",
         "mainnetEquivalent": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+        "decimals": 18
+      },
+      "0xC0b2983A17573660053BEEED6FDb1053107cf387": {
+        "symbol": "MIVA",
         "decimals": 18
       }
     },

@@ -152,6 +152,11 @@
         "symbol": "GTH",
         "mainnetEquivalent": "0xeb986da994e4a118d5956b02d8b7c3c7ce373674",
         "decimals": 18
+      },
+      "0xaBc6790673a60b8A7f588450f59D2d256b1aeF7F": {
+        "symbol": "OAI",
+        "mainnetEquivalent": "0xaBc6790673a60b8A7f588450f59D2d256b1aeF7F",
+        "decimals": 18
       }
     },
     "rpc": [

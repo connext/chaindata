@@ -890,7 +890,7 @@
       },
       "0x437a044fb4693890E61D2C1c88E3718E928B8E90": {
         "symbol": "ANT",
-        "decimals: 18,
+        "decimals": 18,
         "mainnetEquivalent": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e"
       }
     },

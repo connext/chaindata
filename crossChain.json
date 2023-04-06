@@ -681,6 +681,15 @@
         "symbol": "OAI",
         "mainnetEquivalent": "0xaBc6790673a60b8A7f588450f59D2d256b1aeF7F",
         "decimals": 18
+      },
+      "0x5621b5A3f4a8008c4CCDd1b942B121c8B1944F1f": {
+        "symbol": "XED",
+        "mainnetEquivalent": "0xee573a945B01B788B9287CE062A0CFC15bE9fd86",
+        "decimals": 18
+      },
+      "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82": {
+        "symbol": "CAKE",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -892,6 +901,31 @@
         "symbol": "ANT",
         "decimals": 18,
         "mainnetEquivalent": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e"
+      },
+      "0x712b3d230f3c1c19db860d80619288b1f0bdd0bd": {
+        "symbol": "CRV",
+        "mainnetEquivalent": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        "decimals": 18
+      },
+      "0x7f7440C5098462f833E123B44B8A03E1d9785BAb": {
+        "symbol": "1INCH",
+        "mainnetEquivalent": "0x111111111117dC0aa78b770fA6A738034120C302",
+        "decimals": 18
+      },
+      "0x7122d7661c4564b7C6Cd4878B06766489a6028A2": {
+        "symbol": "MATIC",
+        "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
+        "decimals": 18
+      },
+      "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d": {
+        "symbol": "WXDAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0xdf613af6b44a31299e48131e9347f034347e2f00": {
+        "symbol": "AAVE",
+        "mainnetEquivalent": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1129,6 +1163,30 @@
       "0xD6DF932A45C0f255f85145f286eA0b292B21C90B": {
         "symbol": "AAVE",
         "mainnetEquivalent": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "decimals": 18
+      },
+      "0x172370d5cd63279efa6d502dab29171933a610af": {
+        "symbol": "CRV",
+        "mainnetEquivalent": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+        "decimals": 18
+      },
+      "0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7": {
+        "symbol": "GHST",
+        "mainnetEquivalent": "0x3F382DbD960E3a9bbCeaE22651E88158d2791550",
+        "decimals": 18
+      },
+      "0x87ff96aba480f1813aF5c780387d8De7cf7D8261": {
+        "symbol": "WBUSD",
+        "mainnetEquivalent": "0x4Fabb145d64652a948d72533023f6E7A623C7C53",
+        "decimals": 18
+      },
+      "0x8f18dC399594b451EdA8c5da02d0563c0b2d0f16": {
+        "symbol": "WOLF",
+        "decimals": 9
+      },
+      "": {
+        "symbol": "",
+        "mainnetEquivalent": "",
         "decimals": 18
       }
     },

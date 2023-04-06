@@ -887,6 +887,11 @@
       "0x63e62989D9EB2d37dfDB1F93A22f063635b07d51": {
         "symbol": "MIVA",
         "decimals": 18
+      },
+      "0x437a044fb4693890E61D2C1c88E3718E928B8E90": {
+        "symbol": "ANT",
+        "decimals: 18,
+        "mainnetEquivalent": "0xa117000000f279D81A1D3cc75430fAA017FA5A2e"
       }
     },
     "rpc": [
@@ -1119,6 +1124,11 @@
       },
       "0xC0b2983A17573660053BEEED6FDb1053107cf387": {
         "symbol": "MIVA",
+        "decimals": 18
+      },
+      "0xD6DF932A45C0f255f85145f286eA0b292B21C90B": {
+        "symbol": "AAVE",
+        "mainnetEquivalent": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
         "decimals": 18
       }
     },

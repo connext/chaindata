@@ -321,13 +321,35 @@
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "coingeckoId": "ethereum"
       },
       "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6": {
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "coingeckoId": "ethereum"
+      },
+      "0x07865c6E87B9F70255377e024ace6630C1Eaa37F": {
+        "name": "USDC Coin",
+        "symbol": "USDC",
+        "mainnetEquivalent": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+        "decimals": 6,
+        "coingeckoId": "usd-coin"
+      },
+      "0xf972a2E180aB1ee74161b28d173b83987dEF1Af6": {
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xf972a2E180aB1ee74161b28d173b83987dEF1Af6",
+        "decimals": 6,
+        "coingeckoId": "tether"
+      },
+      "0x5c221e77624690fff6dd741493d735a17716c26b": {
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x5c221e77624690fff6dd741493d735a17716c26b",
+        "decimals": 18,
+        "coingeckoId": "dai"
       },
       "0x8aE68021f6170E5a766bE613cEA0d75236ECCa9a": {
         "symbol": "fUSDCx",

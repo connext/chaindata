@@ -453,6 +453,12 @@
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
+      "0xd64bd028b560bbfc732ea18f282c64b86f3468e0": {
+        "name": "nextDAI",
+        "symbol": "nextDAI",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 18
+      },
       "0x35D48A789904E9b15705977192e5d95e2aF7f1D3": {
         "symbol": "FEI",
         "mainnetEquivalent": "0x956f47f50a910163d8bf957cf5846d573e7f87ca",
@@ -461,6 +467,12 @@
       "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
         "name": "Tether USD",
         "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0x4cbb28fa12264cd8e87c62f4e1d9f5955ce67d20": {
+        "name": "nextUSDT",
+        "symbol": "nextUSDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
       },
@@ -684,6 +696,12 @@
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 18
       },
+      "0xd609f26b5547d5e31562b29150769cb7c774b97a": {
+        "name": "nextUSDT",
+        "symbol": "nextUSDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6 
+      },
       "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1": {
         "symbol": "UNI",
         "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
@@ -705,6 +723,12 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x86a343bcf17d79c475d300eed35f0145f137d0c9": {
+        "name": "nextDAI",
+        "symbol": "nextDAI",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 18
       },
       "0xe9e7cea3dedca5984780bafc599bd69add087d56": {
@@ -919,6 +943,12 @@
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
       },
+      "0xf4d944883d6fddc56d3534986fef82105cadbfa1": {
+        "name": "nextUSDT",
+        "symbol": "nextUSDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
       "0x4537e328Bf7e4eFA29D05CAeA260D7fE26af9D74": {
         "symbol": "UNI",
         "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
@@ -967,8 +997,15 @@
         "decimals": 18
       },
       "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d": {
+        "name": "Wrapped XDAI",
         "symbol": "WXDAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0x0e1d5bcd2ac5cf2f71841a9667afc1e995caaf4f": {
+        "name": "nextDAI",
+        "symbol": "nextDAI",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 18
       },
       "0xdf613af6b44a31299e48131e9347f034347e2f00": {
@@ -1171,6 +1208,12 @@
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
+      "0xadce87b14d570665222c1172d18a221bf7690d5a": {
+        "name": "nextDAI",
+        "symbol": "nextDAI",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 18
+      },
       "0xb33EaAd8d922B1083446DC23f610c2567fB5180f": {
         "symbol": "UNI",
         "mainnetEquivalent": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
@@ -1179,6 +1222,12 @@
       "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
         "name": "Tether USD",
         "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
+      "0xe221c5a2a8348f12dcb2b0e88693522ebad2690f": {
+        "name": "nextUSDT",
+        "symbol": "nextUSDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
       },
@@ -1948,6 +1997,12 @@
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
       },
+      "0x2fd7e61033b3904c65aa9a9b83dcd344fa19ffd2": {
+        "name": "nextUSDT",
+        "symbol": "nextUSDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6
+      },
       "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
         "name": "USD Coin (Arb1)",
         "symbol": "USDC",
@@ -1964,6 +2019,12 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18
+      },
+      "0xfde99b3b3fbb69553d7dae105ef34ba4fe971190": {
+        "name": "nextDAI",
+        "symbol": "nextDAI",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 18
       },
       "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {

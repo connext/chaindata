@@ -85,6 +85,7 @@
         "coingeckoId": "binance-usd"
       },
       "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18,
@@ -140,6 +141,7 @@
         "coingeckoId": "usd-coin"
       },
       "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6,
@@ -267,6 +269,7 @@
         "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787"
       },
       "0xD92E713d051C37EbB2561803a3b5FBAbc4962431": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
       }
@@ -445,6 +448,7 @@
         "decimals": 18
       },
       "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
@@ -455,6 +459,7 @@
         "decimals": 18
       },
       "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -529,11 +534,13 @@
         "decimals": 18
       },
       "0xF2001B145b43032AAF5Ee2884e456CCd805F677D": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
       "0x66e428c3f67a68878562e79A0234c1F83c208770": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -586,10 +593,12 @@
         "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787"
       },
       "0x4F96Fe3b7A6Cf9725f59d353F723c1bDb64CA6Aa": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
       },
       "0x0736d0c130b2ead47476cc262dbed90d7c4eeabd": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
       },
@@ -670,6 +679,7 @@
         "decimals": 18
       },
       "0x55d398326f99059fF775485246999027B3197955": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 18
@@ -692,6 +702,7 @@
         "decimals": 6
       },
       "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
@@ -832,10 +843,12 @@
         "mainnetEquivalent": "0x1614f18fc94f47967a3fbe5ffcd46d4e7da3d787"
       },
       "0xa5dd524379382a6a756920509109e078c7ba026c": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
       },
       "0x337610d27c682e347c9cd60bd4b3b107c9d34ddd": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
       },
@@ -901,6 +914,7 @@
         "decimals": 18
       },
       "0x4ECaBa5870353805a9F068101A40E0f32ed605C6": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -923,6 +937,7 @@
         "decimals": 6
       },
       "0x44fA8E6f47987339850636F88629646662444217": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
@@ -1027,11 +1042,13 @@
         "decimals": 6
       },
       "0x94Ba7A27c7A95863d1bdC7645AC2951E0cca06bA": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
       "0xFaDbBF8Ce7D5b7041bE672561bbA99f79c532e10": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1149,6 +1166,7 @@
         "decimals": 18
       },
       "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
@@ -1159,6 +1177,7 @@
         "decimals": 18
       },
       "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1297,11 +1316,13 @@
         "decimals": 18
       },
       "0x8D11eC38a3EB5E956B052f67Da8Bdc9bef8Abf3E": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
       "0x049d68029688eAbF473097a2fC38ef61633A3C7A": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1362,11 +1383,13 @@
         "decimals": 18
       },
       "0xf74195Bb8a5cf652411867c5C2C5b8C2a402be35": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
       "0x5DE1677344D3Cb0D7D465c10b72A8f60699C062d": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1455,6 +1478,7 @@
         "symbol": "MOVR"
       },
       "0xB44a9B6905aF7c801311e8F4E76932ee959c663C": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1465,6 +1489,7 @@
         "decimals": 6
       },
       "0x80A16016cC4A2E6a2CACA8a4a498b1699fF0f844": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
@@ -1517,11 +1542,13 @@
         "decimals": 18
       },
       "0xc234A67a4F840E61adE794be47de455361b52413": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
       "0x8e70cD5B4Ff3f62659049e74b6649c6603A0E594": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1605,11 +1632,13 @@
         "decimals": 18
       },
       "0x41eAFC40CD5Cb904157A10158F73fF2824dC1339": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
       "0xab58DA63DFDd6B97EAaB3C94165Ef6f43d951fb2": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1751,11 +1780,13 @@
         "decimals": 18
       },
       "0x63743ACF2c7cfee65A5E356A4C4A005b586fC7AA": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
       "0x7FF4a56B32ee13D7D4D405887E0eA37d61Ed919e": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1839,11 +1870,13 @@
         "decimals": 18
       },
       "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
       },
       "0xc7198437980c041c805A1EDcbA50c1Ce5db95118": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1910,6 +1943,7 @@
         "decimals": 18
       },
       "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -1927,6 +1961,7 @@
         "decimals": 6
       },
       "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18
@@ -2003,6 +2038,7 @@
         "decimals": 18
       },
       "0x52484E1ab2e2B22420a25c20FA49E173a26202Cd": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -2249,6 +2285,7 @@
         "decimals": 18
       },
       "0x3c2b8be99c50593081eaa2a724f0b8285f5aba8f": {
+        "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6
@@ -2259,6 +2296,7 @@
         "decimals": 6
       },
       "0xEf977d2f931C1978Db5F6747666fa1eACB0d0339": {
+        "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18

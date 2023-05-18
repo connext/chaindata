@@ -171,6 +171,12 @@
         "mainnetEquivalent": "0xeb986da994e4a118d5956b02d8b7c3c7ce373674",
         "decimals": 18,
         "coingeckoId": "gather"
+      },
+      "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44": {
+        "symbol": "KP3R",
+        "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
+        "decimals": 18,
+        "coingeckoId": "keep3rv1"
       }
     },
     "rpc": [
@@ -492,6 +498,11 @@
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8
+      },
+      "0xca87472dbfb041c2e5a2672d319ea6184ad9755e": {
+        "symbol": "nextKP3R",
+        "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
+        "decimals": 18
       }
     },
     "shortName": "oeth",
@@ -700,7 +711,7 @@
         "name": "nextUSDT",
         "symbol": "nextUSDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6 
+        "decimals": 6
       },
       "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1": {
         "symbol": "UNI",
@@ -758,6 +769,11 @@
       },
       "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82": {
         "symbol": "CAKE",
+        "decimals": 18
+      },
+      "0x2aa48b3d6efe651542d22cef0cb7ea853d97a850": {
+        "symbol": "nextKP3R",
+        "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
       }
     },
@@ -1011,6 +1027,11 @@
       "0xdf613af6b44a31299e48131e9347f034347e2f00": {
         "symbol": "AAVE",
         "mainnetEquivalent": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "decimals": 18
+      },
+      "0x398bb7642bd0a5c7cb64f6255159bfaba5512342": {
+        "symbol": "nextKP3R",
+        "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
       }
     },
@@ -1285,6 +1306,11 @@
       "0x8f18dC399594b451EdA8c5da02d0563c0b2d0f16": {
         "symbol": "WOLF",
         "decimals": 9
+      },
+      "0x4a2be2075588bce6a7e072574698a7dbbac39b08": {
+        "symbol": "nextKP3R",
+        "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
+        "decimals": 18
       },
       "": {
         "symbol": "",
@@ -2047,6 +2073,11 @@
       "0x23a941036ae778ac51ab04cea08ed6e2fe103614": {
         "symbol": "GRT",
         "mainnetEquivalent": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
+        "decimals": 18
+      },
+      "0x16aF9fe3f9E48547971af959fD631A8cDBE40484": {
+        "symbol": "nextKP3R",
+        "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
       }
     },

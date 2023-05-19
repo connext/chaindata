@@ -376,7 +376,11 @@
       "0x07DDC851a1bee757335EBcd7B14348359fDaB60f": {
         "symbol": "PLOTX",
         "mainnetEquivalent": "0x72F020f8f3E8fd9382705723Cd26380f8D0c66Bb"
-      }
+      },
+      "0x7ea6eA49B0b0Ae9c5db7907d139D9Cd3439862a1": {
+        "symbol": "TEST",
+        "decimals": 18
+       }
     },
     "rpc": [
       "https://ethereum-goerli-rpc.allthatnode.com/",
@@ -1511,7 +1515,11 @@
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      }
+      },
+      "0x68Db1c8d85C09d546097C65ec7DCBFF4D6497CbF": {
+        "symbol": "TEST",
+        "decimals": 18
+       }
     },
     "rpc": ["https://goerli.optimism.io"],
     "subgraph": [],
@@ -2188,7 +2196,11 @@
         "symbol": "crETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      }
+      },
+      "0xB706319D37b945727E71ae0d4353699d19112576": {
+        "symbol": "TEST",
+        "decimals": 18
+       }
     }
   },
   {
@@ -2227,7 +2239,11 @@
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
         "decimals": 18
-      }
+      },
+      "0xeDb95D8037f769B72AAab41deeC92903A98C9E16": {
+        "symbol": "TEST",
+        "decimals": 18
+       }
     },
     "rpc": [
       "https://rpc-mumbai.matic.today",
@@ -2266,7 +2282,11 @@
         "symbol": "ztETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      }
+      },
+      "0x7C1412e456ad60B8ee458c4eb3A9852C3e389353": {
+        "symbol": "TEST",
+        "decimals": 18
+       }
     }
   },
   {
@@ -2324,7 +2344,11 @@
       "0x0000000000000000000000000000000000000000": {
         "symbol": "tETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
-      }
+      },
+      "0xDC805eAaaBd6F68904cA706C221c72F8a8a68F9f": {
+        "symbol": "TEST",
+        "decimals": 18
+       }
     }
   },
   {

@@ -783,6 +783,11 @@
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "mainnetEquivalent": "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1040,6 +1045,11 @@
       "0x398bb7642bd0a5c7cb64f6255159bfaba5512342": {
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
+        "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "mainnetEquivalent": "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf",
         "decimals": 18
       }
     },
@@ -1318,6 +1328,11 @@
       "0x4a2be2075588bce6a7e072574698a7dbbac39b08": {
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
+        "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "mainnetEquivalent": "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf",
         "decimals": 18
       },
       "": {

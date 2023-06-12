@@ -380,6 +380,10 @@
       "0x7ea6eA49B0b0Ae9c5db7907d139D9Cd3439862a1": {
         "symbol": "TEST",
         "decimals": 18
+       },
+       "0x9B11e38299F2E2094793640B67b5e29678792ab4": {
+        "symbol": "IXT",
+        "decimals": 18
        }
     },
     "rpc": [
@@ -2242,6 +2246,10 @@
       },
       "0xeDb95D8037f769B72AAab41deeC92903A98C9E16": {
         "symbol": "TEST",
+        "decimals": 18
+       },
+       "0xA24E850BB444586897226b7Bc4A3C338C995252f": {
+        "symbol": "IXT",
         "decimals": 18
        }
     },

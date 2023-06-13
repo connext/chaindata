@@ -384,6 +384,10 @@
        "0x9B11e38299F2E2094793640B67b5e29678792ab4": {
         "symbol": "IXT",
         "decimals": 18
+       },
+       "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
+        "symbol": "alUSD",
+        "decimals": 18
        }
     },
     "rpc": [
@@ -1535,6 +1539,11 @@
       "0x68Db1c8d85C09d546097C65ec7DCBFF4D6497CbF": {
         "symbol": "TEST",
         "decimals": 18
+       },
+       "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
+        "symbol": "nextALUSD",
+        "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18
        }
     },
     "rpc": ["https://goerli.optimism.io"],
@@ -2368,7 +2377,12 @@
       "0xDC805eAaaBd6F68904cA706C221c72F8a8a68F9f": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      },
+      "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
+        "symbol": "nextALUSD",
+        "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18
+      }
     }
   },
   {

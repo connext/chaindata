@@ -388,6 +388,10 @@
        "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
         "symbol": "alUSD",
         "decimals": 18
+       },
+       "0xF6DD52cdF1614Cd649077Aa283840657617faa07": {
+         "symbol": "alETH",
+         "decimals": 18
        }
     },
     "rpc": [
@@ -1539,12 +1543,17 @@
       "0x68Db1c8d85C09d546097C65ec7DCBFF4D6497CbF": {
         "symbol": "TEST",
         "decimals": 18
-       },
+      },
        "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
-        "symbol": "nextALUSD",
+        "symbol": "alUSD",
         "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
         "decimals": 18
-       }
+      },
+      "0xF6DD52cdF1614Cd649077Aa283840657617faa07": {
+        "symbol": "alETH",
+        "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+        "decimals": 18
+      }
     },
     "rpc": ["https://goerli.optimism.io"],
     "subgraph": [],
@@ -2379,8 +2388,13 @@
         "decimals": 18
       },
       "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
-        "symbol": "nextALUSD",
+        "symbol": "alUSD",
         "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18
+      },
+      "0xF6DD52cdF1614Cd649077Aa283840657617faa07": {
+        "symbol": "alETH",
+        "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
       }
     }

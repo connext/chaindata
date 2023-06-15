@@ -1532,15 +1532,15 @@
         "symbol": "TEST",
         "decimals": 18
        },
-      "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
-        "name": "Alchemix USD",
-        "symbol": "alUSD",
+      "0x6e56Cb72f4197b8155Cf8e1efaEFB682BC9ae5d1": {
+        "name": "Next Alchemix USD",
+        "symbol": "nextAlUSD",
         "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
         "decimals": 18
       },
-      "0xF6DD52cdF1614Cd649077Aa283840657617faa07": {
-        "name": "Alchemix ETH",
-        "symbol": "alETH",
+      "0xD3A6D71a5D5DA264fd5a85D33f5b866BEE716698": {
+        "name": "Next Alchemix ETH",
+        "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
       }
@@ -2373,15 +2373,15 @@
         "symbol": "TEST",
         "decimals": 18
       },
-      "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
-        "name": "Alchemix USD",
-        "symbol": "alUSD",
+      "0x2931b84D59f6f570EEBDAaaE182867C5E5D58075": {
+        "name": "Next Alchemix USD",
+        "symbol": "nextAlUSD",
         "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
         "decimals": 18
       },
-      "0xF6DD52cdF1614Cd649077Aa283840657617faa07": {
-        "name": "Alchemix ETH",
-        "symbol": "alETH",
+      "0x92db1b41779493fB3103Ab7ACC20EFCc299A2005": {
+        "name": "Next Alchemix ETH",
+        "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
       }

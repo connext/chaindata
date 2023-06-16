@@ -1052,13 +1052,11 @@
       }
     },
     "rpc": [
-      "https://rpc.xdaichain.com",
-      "https://xdai.poanetwork.dev",
-      "wss://rpc.xdaichain.com/wss",
-      "wss://xdai.poanetwork.dev/wss",
-      "http://xdai.poanetwork.dev",
-      "https://dai.poa.network",
-      "ws://xdai.poanetwork.dev:8546"
+      "wss://rpc.gnosischain.com/wss",
+      "https://rpc.gnosischain.com",
+      "https://gnosis-mainnet.public.blastapi.io",
+      "https://rpc.ankr.com/gnosis",
+      "https://rpc.gnosischain.com"
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai-v1-runtime",
@@ -1339,8 +1337,9 @@
       }
     },
     "rpc": [
-      "https://rpc-mainnet.matic.network",
-      "wss://ws-mainnet.matic.network"
+      "https://polygon.llamarpc.com",
+      "https://polygon-bor.publicnode.com",
+      "https://endpoints.omniatech.io/v1/matic/mainnet/public"
     ],
     "subgraph": [
       "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic",

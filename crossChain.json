@@ -392,6 +392,10 @@
         "symbol": "alETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
+      },
+      "0x9B11e38299F2E2094793640B67b5e29678792ab4": {
+        "symbol": "IXT",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -791,6 +795,10 @@
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1049,16 +1057,18 @@
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "rpc": [
-      "https://rpc.xdaichain.com",
-      "https://xdai.poanetwork.dev",
-      "wss://rpc.xdaichain.com/wss",
-      "wss://xdai.poanetwork.dev/wss",
-      "http://xdai.poanetwork.dev",
-      "https://dai.poa.network",
-      "ws://xdai.poanetwork.dev:8546"
+      "wss://rpc.gnosischain.com/wss",
+      "https://rpc.gnosischain.com",
+      "https://gnosis-mainnet.public.blastapi.io",
+      "https://rpc.ankr.com/gnosis",
+      "https://rpc.gnosischain.com"
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai-v1-runtime",
@@ -1328,6 +1338,10 @@
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
       },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "decimals": 18
+      },
       "": {
         "symbol": "",
         "mainnetEquivalent": "",
@@ -1335,8 +1349,9 @@
       }
     },
     "rpc": [
-      "https://rpc-mainnet.matic.network",
-      "wss://ws-mainnet.matic.network"
+      "https://polygon.llamarpc.com",
+      "https://polygon-bor.publicnode.com",
+      "https://endpoints.omniatech.io/v1/matic/mainnet/public"
     ],
     "subgraph": [
       "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic",
@@ -2266,6 +2281,10 @@
       },
       "0xeDb95D8037f769B72AAab41deeC92903A98C9E16": {
         "symbol": "TEST",
+        "decimals": 18
+       },
+       "0xA24E850BB444586897226b7Bc4A3C338C995252f": {
+        "symbol": "IXT",
         "decimals": 18
        }
     },

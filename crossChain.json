@@ -177,6 +177,12 @@
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18,
         "coingeckoId": "keep3rv1"
+      },
+      "0x799ebfABE77a6E34311eeEe9825190B9ECe32824": {
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18,
+        "coingeckoId": "braintrust"
       }
     },
     "rpc": [
@@ -1341,6 +1347,11 @@
       "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
         "symbol": "XOC",
         "decimals": 18
+      },
+      "0x6b9Bd92062D10808720d36eC9C52b20449F1457d": {
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18,
       },
       "": {
         "symbol": "",

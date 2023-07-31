@@ -2326,8 +2326,8 @@
         "decimals": 18
        },
       "0xb732f1fEb3C5c3943E40BF49ee9Ac2E656be2fF8": {
-        "name": "DappRadar Test",
-        "symbol": "RADAR_TEST",
+        "name": "xxDappRadar",
+        "symbol": "xRADAR",
         "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
         "decimals": 18
       }

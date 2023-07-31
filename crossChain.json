@@ -1083,6 +1083,12 @@
       "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
         "symbol": "XOC",
         "decimals": 18
+      },
+      "0x772fCe4B8E88BD19e86dC92428d242704aC480a0": {
+        "name": "P8",
+        "symbol": "P8",
+        "mainnetEquivalent": "",
+        "decimals": 18
       }
     },
     "rpc": [

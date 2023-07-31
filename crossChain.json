@@ -1583,7 +1583,7 @@
       },
       "0xb6932c8363354df7620a7a7bF3a933A253015cA3": {
         "name": "DappRadar Test",
-        "symbol": "RADAR_TEST",
+        "symbol": "RADAR Test",
         "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
         "decimals": 18
       }

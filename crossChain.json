@@ -1564,7 +1564,7 @@
         "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
-      },
+      }
     },
     "rpc": ["https://goerli.optimism.io"],
     "subgraph": [],

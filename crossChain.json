@@ -408,6 +408,12 @@
       "0x9B11e38299F2E2094793640B67b5e29678792ab4": {
         "symbol": "IXT",
         "decimals": 18
+      },
+      "0x369e5C58F6c09c1CE947CA313f03c0d558B77b3e": {
+        "name": "xDappRadar",
+        "symbol": "xRADAR",
+        "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -2324,13 +2330,7 @@
        "0xA24E850BB444586897226b7Bc4A3C338C995252f": {
         "symbol": "IXT",
         "decimals": 18
-       },
-      "0xb732f1fEb3C5c3943E40BF49ee9Ac2E656be2fF8": {
-        "name": "xxDappRadar",
-        "symbol": "xRADAR",
-        "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
-        "decimals": 18
-      }
+       }
     },
     "rpc": [
       "https://rpc-mumbai.matic.today",

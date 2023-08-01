@@ -1558,6 +1558,12 @@
         "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
+      },
+      "0x39e09359F5a7396937504Eb2766722e2bf4650e8": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18
       }
     },
     "rpc": ["https://goerli.optimism.io"],

@@ -189,6 +189,13 @@
         "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
         "decimals": 18,
         "coingeckoId": "alchemix-usd"
+      },
+      "0x799ebfABE77a6E34311eeEe9825190B9ECe32824": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18,
+        "coingeckoId": "braintrust"
       }
     },
     "rpc": [
@@ -1362,6 +1369,12 @@
       },
       "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
         "symbol": "XOC",
+        "decimals": 18
+      },
+      "0x8C92DC2B9D6A8A567c7Bd80C5db7a1eDA4fA9A91": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
         "decimals": 18
       },
       "": {

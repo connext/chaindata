@@ -408,6 +408,12 @@
       "0x9B11e38299F2E2094793640B67b5e29678792ab4": {
         "symbol": "IXT",
         "decimals": 18
+      },
+      "0x39e09359F5a7396937504Eb2766722e2bf4650e8": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -2317,6 +2323,12 @@
        },
        "0xA24E850BB444586897226b7Bc4A3C338C995252f": {
         "symbol": "IXT",
+        "decimals": 18
+       },
+       "0xEc537a40dC272Dd8abCda95e2a8713E57A58f211": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
         "decimals": 18
        }
     },

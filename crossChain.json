@@ -414,6 +414,11 @@
         "symbol": "BTRST",
         "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
         "decimals": 18
+      },
+      "0x83B844180f66Bbc3BE2E97C6179035AF91c4Cce8": {
+        "name": "Monerium EUR emoney",
+        "symbol": "EURe",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1586,6 +1591,11 @@
         "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
+      },
+      "0x9b0a23ca9688e8c86c2003AB41AdC8983b1c91ce": {
+        "name": "Monerium EUR emoney",
+        "symbol": "EURe",
+        "decimals": 18
       }
     },
     "rpc": ["https://goerli.optimism.io"],
@@ -2446,6 +2456,11 @@
         "name": "Next Alchemix ETH",
         "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+        "decimals": 18
+      },
+      "0xBB2c109654198eafD6D4571b90084d5F21F06e09": {
+        "name": "Monerium EUR emoney",
+        "symbol": "EURe",
         "decimals": 18
       }
     }

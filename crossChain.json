@@ -1592,7 +1592,7 @@
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
       },
-      "0x9b0a23ca9688e8c86c2003AB41AdC8983b1c91ce": {
+      "0xf5f1424dD3B78f64B18A085C8D7AEa5E124bf168": {
         "name": "Monerium EUR emoney",
         "symbol": "EURe",
         "decimals": 18
@@ -2458,7 +2458,7 @@
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
       },
-      "0xBB2c109654198eafD6D4571b90084d5F21F06e09": {
+      "0x7E9D498a970B7786ea923Fb8643FBbF62Efa5037": {
         "name": "Monerium EUR emoney",
         "symbol": "EURe",
         "decimals": 18

@@ -1546,7 +1546,7 @@
     "chainId": 420,
     "domainId": "1735356532",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 10,
     "network": "optimismgoerli",
     "networkId": 69,
     "nativeCurrency": {
@@ -2285,7 +2285,7 @@
     "chainId": 80001,
     "domainId": "9991",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 60,
     "network": "mumbai",
     "nativeCurrency": {
       "name": "Matic",
@@ -2419,7 +2419,7 @@
     "chainId": 421613,
     "domainId": "1734439522",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 10,
     "network": "arbitrumgoerli",
     "networkId": 421613,
     "nativeCurrency": {

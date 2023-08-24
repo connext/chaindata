@@ -89,7 +89,8 @@
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
         "decimals": 18,
-        "coingeckoId": "dai"
+        "coingeckoId": "dai",
+        "isSingleMinter": true
       },
       "0x956f47f50a910163d8bf957cf5846d573e7f87ca": {
         "symbol": "FEI",
@@ -107,7 +108,8 @@
         "symbol": "MATIC",
         "mainnetEquivalent": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0",
         "decimals": 18,
-        "coingeckoId": "matic-network"
+        "coingeckoId": "matic-network",
+        "isSingleMinter": true
       },
       "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942": {
         "symbol": "MANA",
@@ -138,27 +140,31 @@
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
         "decimals": 6,
-        "coingeckoId": "usd-coin"
+        "coingeckoId": "usd-coin",
+        "isSingleMinter": true
       },
       "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
         "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
         "decimals": 6,
-        "coingeckoId": "tether"
+        "coingeckoId": "tether",
+        "isSingleMinter": true
       },
       "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         "decimals": 18,
-        "coingeckoId": "ethereum"
+        "coingeckoId": "ethereum",
+        "isSingleMinter": true
       },
       "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8,
-        "coingeckoId": "wrapped-bitcoin"
+        "coingeckoId": "wrapped-bitcoin",
+        "isSingleMinter": true
       },
       "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc": {
         "symbol": "BOBA",
@@ -479,25 +485,29 @@
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xbAD5B3c68F855EaEcE68203312Fd88AD3D365e50": {
         "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xd64bd028b560bbfc732ea18f282c64b86f3468e0": {
         "name": "nextDAI",
         "symbol": "nextDAI",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x35D48A789904E9b15705977192e5d95e2aF7f1D3": {
         "symbol": "FEI",
@@ -508,30 +518,35 @@
         "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x4cbb28fa12264cd8e87c62f4e1d9f5955ce67d20": {
         "name": "nextUSDT",
         "symbol": "nextUSDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
         "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x67E51f46e8e14D4E4cab9dF48c59ad8F512486DD": {
         "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x68f180fcCe6836688e9084f035309E29Bf0A2095": {
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "decimals": 8
+        "decimals": 8,
+        "isSingleMinter": true
       },
       "0xca87472dbfb041c2e5a2672d319ea6184ad9755e": {
         "symbol": "nextKP3R",
@@ -604,28 +619,33 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x66e428c3f67a68878562e79A0234c1F83c208770": {
         "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59": {
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x062e66477faf219f25d27dced647bf57c3107d52": {
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "decimals": 8
+        "decimals": 8,
+        "isSingleMinter": true
       },
       "0xe44fd7fcb2b1581822d0c862b68222998a0c299a": {
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       }
     },
     "explorers": [
@@ -737,25 +757,29 @@
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xA9CB51C666D2AF451d87442Be50747B31BB7d805": {
         "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x55d398326f99059fF775485246999027B3197955": {
         "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xd609f26b5547d5e31562b29150769cb7c774b97a": {
         "name": "nextUSDT",
         "symbol": "nextUSDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1": {
         "symbol": "UNI",
@@ -766,25 +790,29 @@
         "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x5e7D83dA751F4C9694b13aF351B30aC108f32C38": {
         "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3": {
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x86a343bcf17d79c475d300eed35f0145f137d0c9": {
         "name": "nextDAI",
         "symbol": "nextDAI",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xe9e7cea3dedca5984780bafc599bd69add087d56": {
         "symbol": "BUSD",
@@ -993,25 +1021,29 @@
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x538E2dDbfDf476D24cCb1477A518A82C9EA81326": {
         "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x4ECaBa5870353805a9F068101A40E0f32ed605C6": {
         "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0xf4d944883d6fddc56d3534986fef82105cadbfa1": {
         "name": "nextUSDT",
         "symbol": "nextUSDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x4537e328Bf7e4eFA29D05CAeA260D7fE26af9D74": {
         "symbol": "UNI",
@@ -1022,13 +1054,15 @@
         "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x44CF74238d840a5fEBB0eAa089D05b763B73faB8": {
         "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x44fA8E6f47987339850636F88629646662444217": {
         "name": "Dai Stablecoin",
@@ -1064,13 +1098,15 @@
         "name": "Wrapped XDAI",
         "symbol": "WXDAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x0e1d5bcd2ac5cf2f71841a9667afc1e995caaf4f": {
         "name": "nextDAI",
         "symbol": "nextDAI",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xdf613af6b44a31299e48131e9347f034347e2f00": {
         "symbol": "AAVE",
@@ -1260,13 +1296,15 @@
         "name": "USDC Coin",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0xF96C6d2537e1af1a9503852eB2A4AF264272a5B6": {
         "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4": {
         "symbol": "MANA",
@@ -1277,13 +1315,15 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xadce87b14d570665222c1172d18a221bf7690d5a": {
         "name": "nextDAI",
         "symbol": "nextDAI",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xb33EaAd8d922B1083446DC23f610c2567fB5180f": {
         "symbol": "UNI",
@@ -1294,25 +1334,29 @@
         "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0xe221c5a2a8348f12dcb2b0e88693522ebad2690f": {
         "name": "nextUSDT",
         "symbol": "nextUSDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619": {
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x4b8BaC8Dd1CAA52E32C07755c17eFadeD6A0bbD0": {
         "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xe82808eaA78339b06a691fd92E1Be79671cAd8D3": {
         "symbol": "PLOTX",
@@ -2092,54 +2136,63 @@
         "name": "Tether USD",
         "symbol": "USDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x2fd7e61033b3904c65aa9a9b83dcd344fa19ffd2": {
         "name": "nextUSDT",
         "symbol": "nextUSDT",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8": {
         "name": "USD Coin (Arb1)",
         "symbol": "USDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0x8c556cF37faa0eeDAC7aE665f1Bb0FbD4b2eae36": {
         "name": "nextUSDC",
         "symbol": "nextUSDC",
         "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        "decimals": 6
+        "decimals": 6,
+        "isSingleMinter": true
       },
       "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0xfde99b3b3fbb69553d7dae105ef34ba4fe971190": {
         "name": "nextDAI",
         "symbol": "nextDAI",
         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1": {
         "name": "Wrapped Ether",
         "symbol": "WETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x2983bf5c334743Aa6657AD70A55041d720d225dB": {
         "name": "nextWETH",
         "symbol": "nextWETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
+        "decimals": 18,
+        "isSingleMinter": true
       },
       "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f": {
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
-        "decimals": 8
+        "decimals": 8,
+        "isSingleMinter": true
       },
       "0x23a941036ae778ac51ab04cea08ed6e2fe103614": {
         "symbol": "GRT",

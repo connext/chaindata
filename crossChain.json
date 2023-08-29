@@ -406,9 +406,9 @@
         "decimals": 18
       },
       "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
-        "name": "Governance Alcx",
-        "symbol": "GALCX",
-        "mainnetEquivalent": "0x93Dede06AE3B5590aF1d4c111BC54C3f717E4b35",
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       },
       "0x9B11e38299F2E2094793640B67b5e29678792ab4": {
@@ -1596,7 +1596,7 @@
       "0x49000f5e208349D2fA678263418e21365208E498": {
         "name": "Alchemix",
         "symbol": "ALCX",
-        "mainnetEquivalent": "0x93Dede06AE3B5590aF1d4c111BC54C3f717E4b35",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       }
     },
@@ -2463,7 +2463,7 @@
       "0x49000f5e208349D2fA678263418e21365208E498": {
         "name": "Alchemix",
         "symbol": "ALCX",
-        "mainnetEquivalent": "0x93Dede06AE3B5590aF1d4c111BC54C3f717E4b35",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       }
     }

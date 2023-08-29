@@ -196,6 +196,12 @@
         "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
         "decimals": 18,
         "coingeckoId": "braintrust"
+      },
+      "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": {
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+        "decimals": 18,
+        "coingeckoId": "alchemix"
       }
     },
     "rpc": [
@@ -574,6 +580,11 @@
       "0x49000f5e208349D2fA678263418e21365208E498": {
         "symbol": "nextAlUSD",
         "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18
+      },
+      "0xE974B9b31dBFf4369b94a1bAB5e228f35ed44125": {
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       }
     },
@@ -2210,6 +2221,11 @@
       "0x49000f5e208349D2fA678263418e21365208E498": {
         "symbol": "nextAlUSD",
         "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18
+      },
+      "0x27b58D226fe8f792730a795764945Cf146815AA7": {
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       }
     },

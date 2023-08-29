@@ -421,7 +421,7 @@
         "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
         "decimals": 18
       },
-      "0x1E6A05Dc5fc31A3F10E703e1369786C253E35Bb1": {
+      "0x02E82fB078893EC64BC57e55Fe34f6669D8104BC": {
         "name": "WorkshopToken",
         "symbol": "WorkshopToken",
         "mainnetEquivalent": "",
@@ -1605,7 +1605,7 @@
         "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       },
-      "0x1E6A05Dc5fc31A3F10E703e1369786C253E35Bb1": {
+      "0x02E82fB078893EC64BC57e55Fe34f6669D8104BC": {
         "name": "WorkshopToken",
         "symbol": "WorkshopToken",
         "mainnetEquivalent": "",

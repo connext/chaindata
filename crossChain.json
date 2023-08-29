@@ -189,6 +189,13 @@
         "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
         "decimals": 18,
         "coingeckoId": "alchemix-usd"
+      },
+      "0x799ebfABE77a6E34311eeEe9825190B9ECe32824": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18,
+        "coingeckoId": "braintrust"
       }
     },
     "rpc": [
@@ -403,6 +410,12 @@
         "name": "Alchemix ETH",
         "symbol": "alETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+        "decimals": 18
+      },
+      "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       },
       "0x9B11e38299F2E2094793640B67b5e29678792ab4": {
@@ -1375,6 +1388,12 @@
         "symbol": "XOC",
         "decimals": 18
       },
+      "0x8C92DC2B9D6A8A567c7Bd80C5db7a1eDA4fA9A91": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18
+      },
       "": {
         "symbol": "",
         "mainnetEquivalent": "",
@@ -1551,7 +1570,7 @@
     "chainId": 420,
     "domainId": "1735356532",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 10,
     "network": "optimismgoerli",
     "networkId": 69,
     "nativeCurrency": {
@@ -1590,6 +1609,12 @@
         "name": "Next Alchemix ETH",
         "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+        "decimals": 18
+      },
+      "0x49000f5e208349D2fA678263418e21365208E498": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       },
       "0xf5f1424dD3B78f64B18A085C8D7AEa5E124bf168": {
@@ -2295,7 +2320,7 @@
     "chainId": 80001,
     "domainId": "9991",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 60,
     "network": "mumbai",
     "nativeCurrency": {
       "name": "Matic",
@@ -2429,7 +2454,7 @@
     "chainId": 421613,
     "domainId": "1734439522",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 10,
     "network": "arbitrumgoerli",
     "networkId": 421613,
     "nativeCurrency": {
@@ -2456,6 +2481,12 @@
         "name": "Next Alchemix ETH",
         "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+        "decimals": 18
+      },
+      "0x49000f5e208349D2fA678263418e21365208E498": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       },
       "0x7E9D498a970B7786ea923Fb8643FBbF62Efa5037": {

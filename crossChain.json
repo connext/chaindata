@@ -190,6 +190,13 @@
         "decimals": 18,
         "coingeckoId": "alchemix-usd"
       },
+      "0x799ebfABE77a6E34311eeEe9825190B9ECe32824": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18,
+        "coingeckoId": "braintrust"
+      },
       "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": {
         "symbol": "ALCX",
         "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
@@ -398,7 +405,46 @@
       "0x7ea6eA49B0b0Ae9c5db7907d139D9Cd3439862a1": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      },
+      "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
+        "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18
+      },
+      "0xF6DD52cdF1614Cd649077Aa283840657617faa07": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+        "decimals": 18
+      },
+      "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+        "decimals": 18
+      },
+      "0x9B11e38299F2E2094793640B67b5e29678792ab4": {
+        "symbol": "IXT",
+        "decimals": 18
+      },
+      "0x39e09359F5a7396937504Eb2766722e2bf4650e8": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18
+      },
+      "0x6984384D6abE16221769BD9400de72b8F4Aa572C": {
+        "name": "Monerium EUR emoney",
+        "symbol": "EURe",
+        "decimals": 18
+      },
+      "0x369e5C58F6c09c1CE947CA313f03c0d558B77b3e": {
+        "name": "xDappRadar",
+        "symbol": "xRADAR",
+        "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+        "decimals": 18
+      }
     },
     "rpc": [
       "https://ethereum-goerli-rpc.allthatnode.com/",
@@ -812,6 +858,10 @@
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1070,16 +1120,18 @@
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "rpc": [
-      "https://rpc.xdaichain.com",
-      "https://xdai.poanetwork.dev",
-      "wss://rpc.xdaichain.com/wss",
-      "wss://xdai.poanetwork.dev/wss",
-      "http://xdai.poanetwork.dev",
-      "https://dai.poa.network",
-      "ws://xdai.poanetwork.dev:8546"
+      "wss://rpc.gnosischain.com/wss",
+      "https://rpc.gnosischain.com",
+      "https://gnosis-mainnet.public.blastapi.io",
+      "https://rpc.ankr.com/gnosis",
+      "https://rpc.gnosischain.com"
     ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-xdai-v1-runtime",
@@ -1349,6 +1401,16 @@
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
       },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "symbol": "XOC",
+        "decimals": 18
+      },
+      "0x8C92DC2B9D6A8A567c7Bd80C5db7a1eDA4fA9A91": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18
+      },
       "": {
         "symbol": "",
         "mainnetEquivalent": "",
@@ -1356,8 +1418,9 @@
       }
     },
     "rpc": [
-      "https://rpc-mainnet.matic.network",
-      "wss://ws-mainnet.matic.network"
+      "https://polygon.llamarpc.com",
+      "https://polygon-bor.publicnode.com",
+      "https://endpoints.omniatech.io/v1/matic/mainnet/public"
     ],
     "subgraph": [
       "https://subgraphs.connext.p2p.org/subgraphs/name/connext/nxtp-matic",
@@ -1524,7 +1587,7 @@
     "chainId": 420,
     "domainId": "1735356532",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 10,
     "network": "optimismgoerli",
     "networkId": 69,
     "nativeCurrency": {
@@ -1552,7 +1615,36 @@
       "0x68Db1c8d85C09d546097C65ec7DCBFF4D6497CbF": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      },
+      "0xFDd72CB8477d3Ae2D00a6F9516324c529dfC395A": {
+        "name": "Next Alchemix USD",
+        "symbol": "nextAlUSD",
+        "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18
+      },
+      "0x40E4b6A2D89fF4206dB843B614bBe2694876D640": {
+        "name": "Next Alchemix ETH",
+        "symbol": "nextAlETH",
+        "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+        "decimals": 18
+      },
+      "0x49000f5e208349D2fA678263418e21365208E498": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+        "decimals": 18
+      },
+      "0xf5f1424dD3B78f64B18A085C8D7AEa5E124bf168": {
+        "name": "Monerium EUR emoney",
+        "symbol": "EURe",
+        "decimals": 18
+      },
+      "0xb6932c8363354df7620a7a7bF3a933A253015cA3": {
+        "name": "DappRadar Test",
+        "symbol": "RADAR Test",
+        "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+        "decimals": 18
+      }
     },
     "rpc": ["https://goerli.optimism.io"],
     "subgraph": [],
@@ -2248,7 +2340,7 @@
       "0xB706319D37b945727E71ae0d4353699d19112576": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      }
     }
   },
   {
@@ -2256,7 +2348,7 @@
     "chainId": 80001,
     "domainId": "9991",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 60,
     "network": "mumbai",
     "nativeCurrency": {
       "name": "Matic",
@@ -2291,7 +2383,23 @@
       "0xeDb95D8037f769B72AAab41deeC92903A98C9E16": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      },
+      "0xA24E850BB444586897226b7Bc4A3C338C995252f": {
+        "symbol": "IXT",
+        "decimals": 18
+      },
+      "0xEc537a40dC272Dd8abCda95e2a8713E57A58f211": {
+        "name": "BTRST",
+        "symbol": "BTRST",
+        "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
+        "decimals": 18
+      },
+      "0x3fC9473d9dF84887D483A93a8d207f90D9bE63C4": {
+        "name": "DappRadar Test",
+        "symbol": "RADAR Test",
+        "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+        "decimals": 18
+      }
     },
     "rpc": [
       "https://rpc-mumbai.matic.today",
@@ -2334,7 +2442,7 @@
       "0x7C1412e456ad60B8ee458c4eb3A9852C3e389353": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      }
     }
   },
   {
@@ -2380,7 +2488,7 @@
     "chainId": 421613,
     "domainId": "1734439522",
     "type": "testnet",
-    "confirmations": 1,
+    "confirmations": 10,
     "network": "arbitrumgoerli",
     "networkId": 421613,
     "nativeCurrency": {
@@ -2396,7 +2504,30 @@
       "0xDC805eAaaBd6F68904cA706C221c72F8a8a68F9f": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      },
+      "0xF87510F1E63E29BB69d9D35D0365E8CaCe609a8C": {
+        "name": "Next Alchemix USD",
+        "symbol": "nextAlUSD",
+        "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
+        "decimals": 18
+      },
+      "0x1F563a8BE28acdCc5546543a227aFb9373586eD0": {
+        "name": "Next Alchemix ETH",
+        "symbol": "nextAlETH",
+        "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
+        "decimals": 18
+      },
+      "0x49000f5e208349D2fA678263418e21365208E498": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+        "decimals": 18
+      },
+      "0x7E9D498a970B7786ea923Fb8643FBbF62Efa5037": {
+        "name": "Monerium EUR emoney",
+        "symbol": "EURe",
+        "decimals": 18
+      }
     }
   },
   {

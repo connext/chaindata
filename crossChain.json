@@ -420,6 +420,12 @@
         "symbol": "BTRST",
         "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
         "decimals": 18
+      },
+      "0x1E6A05Dc5fc31A3F10E703e1369786C253E35Bb1": {
+        "name": "WorkshopToken",
+        "symbol": "WorkshopToken",
+        "mainnetEquivalent": "",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1597,6 +1603,12 @@
         "name": "Alchemix",
         "symbol": "ALCX",
         "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+        "decimals": 18
+      },
+      "0x1E6A05Dc5fc31A3F10E703e1369786C253E35Bb1": {
+        "name": "WorkshopToken",
+        "symbol": "WorkshopToken",
+        "mainnetEquivalent": "",
         "decimals": 18
       }
     },

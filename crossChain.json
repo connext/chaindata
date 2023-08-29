@@ -432,6 +432,12 @@
         "name": "Monerium EUR emoney",
         "symbol": "EURe",
         "decimals": 18
+      },
+      "0x369e5C58F6c09c1CE947CA313f03c0d558B77b3e": {
+        "name": "xDappRadar",
+        "symbol": "xRADAR",
+        "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1598,7 +1604,7 @@
       "0x68Db1c8d85C09d546097C65ec7DCBFF4D6497CbF": {
         "symbol": "TEST",
         "decimals": 18
-       },
+      },
       "0xFDd72CB8477d3Ae2D00a6F9516324c529dfC395A": {
         "name": "Next Alchemix USD",
         "symbol": "nextAlUSD",
@@ -1620,6 +1626,12 @@
       "0xf5f1424dD3B78f64B18A085C8D7AEa5E124bf168": {
         "name": "Monerium EUR emoney",
         "symbol": "EURe",
+        "decimals": 18
+      },
+      "0xb6932c8363354df7620a7a7bF3a933A253015cA3": {
+        "name": "DappRadar Test",
+        "symbol": "RADAR Test",
+        "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
         "decimals": 18
       }
     },
@@ -2312,7 +2324,7 @@
       "0xB706319D37b945727E71ae0d4353699d19112576": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      }
     }
   },
   {
@@ -2355,17 +2367,23 @@
       "0xeDb95D8037f769B72AAab41deeC92903A98C9E16": {
         "symbol": "TEST",
         "decimals": 18
-       },
-       "0xA24E850BB444586897226b7Bc4A3C338C995252f": {
+      },
+      "0xA24E850BB444586897226b7Bc4A3C338C995252f": {
         "symbol": "IXT",
         "decimals": 18
-       },
-       "0xEc537a40dC272Dd8abCda95e2a8713E57A58f211": {
+      },
+      "0xEc537a40dC272Dd8abCda95e2a8713E57A58f211": {
         "name": "BTRST",
         "symbol": "BTRST",
         "mainnetEquivalent": "0x799ebfABE77a6E34311eeEe9825190B9ECe32824",
         "decimals": 18
-       }
+      },
+      "0x3fC9473d9dF84887D483A93a8d207f90D9bE63C4": {
+        "name": "DappRadar Test",
+        "symbol": "RADAR Test",
+        "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+        "decimals": 18
+      }
     },
     "rpc": [
       "https://rpc-mumbai.matic.today",
@@ -2408,7 +2426,7 @@
       "0x7C1412e456ad60B8ee458c4eb3A9852C3e389353": {
         "symbol": "TEST",
         "decimals": 18
-       }
+      }
     }
   },
   {

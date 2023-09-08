@@ -433,14 +433,6 @@
         "symbol": "IXT",
         "decimals": 18
       },
-      "0x990162AFaA06f591c03DD36ECBDa24A8A80F2D0c": {
-        "symbol": "alUSD",
-        "decimals": 18
-      },
-      "0xF6DD52cdF1614Cd649077Aa283840657617faa07": {
-        "symbol": "alETH",
-        "decimals": 18
-      },
       "0x39e09359F5a7396937504Eb2766722e2bf4650e8": {
         "name": "BTRST",
         "symbol": "BTRST",

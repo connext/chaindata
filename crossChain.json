@@ -208,8 +208,8 @@
         "mainnetEquivalent": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
         "decimals": 18
       },
-      "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE": {
-        "symbol": "RADAR",
+      "0x202426c15a18a0e0fE3294415E66421891E2EB7C": {
+        "symbol": "xRADAR",
         "mainnetEquivalent": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
         "decimals": 18
       }

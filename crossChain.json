@@ -207,6 +207,11 @@
         "symbol": "NEXT",
         "mainnetEquivalent": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
         "decimals": 18
+      },
+      "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE": {
+        "symbol": "RADAR",
+        "mainnetEquivalent": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -876,6 +881,11 @@
       "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8": {
         "symbol": "NEXT",
         "mainnetEquivalent": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+        "decimals": 18
+      },
+      "0x489580eB70a50515296eF31E8179fF3e77E24965": {
+        "symbol": "RADAR",
+        "mainnetEquivalent": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
         "decimals": 18
       }
     },

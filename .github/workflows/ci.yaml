@@ -6,6 +6,8 @@ on:
 
 jobs:
   terraform-deploy-assets:
+    env:
+      CF_DISTRIBUTION_ID: E1W1OZ8FEAK8E7
     runs-on: ubuntu-latest
     name: Deploy file to s3 + cloudfront
     steps:
@@ -30,3 +32,6 @@ jobs:
 
       - name: Terraform Deploy
         run: terraform apply -auto-approve
+
+      - name: Invalidate Cloudfront Distribution
+        run: aws cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths '/chaindata.json'

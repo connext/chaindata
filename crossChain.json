@@ -1853,40 +1853,7 @@
       "removeLiquidityRouterContract": "48000"
     }
   },
-  {
-    "name": "Local1337",
-    "chainId": 1337,
-    "domainId": "133712",
-    "type": "mainnet",
-    "confirmations": 10,
-    "network": "local1337",
-    "networkId": 1337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
-    "assetId": {
-      "0x0000000000000000000000000000000000000000": {
-        "symbol": "ETH",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
-      }
-    }
-  },
-  {
-    "name": "Local1338",
-    "chainId": 1338,
-    "domainId": "133812",
-    "type": "mainnet",
-    "confirmations": 10,
-    "network": "local1338",
-    "networkId": 1337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
-    "assetId": {
-      "0x0000000000000000000000000000000000000000": {
-        "symbol": "ETH",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
-      }
-    }
-  },
+
   {
     "name": "Milkomeda Cardano (C1)",
     "chainId": 2001,
@@ -2702,5 +2669,90 @@
     "gasStations": [],
     "explorers": [{ "url": "https://explorer.harmony.one/" }],
     "gasEstimates": {}
+  },
+  {
+    "name": "Local1337",
+    "chainId": 1337,
+    "domainId": "133712",
+    "type": "mainnet",
+    "confirmations": 10,
+    "network": "local1337",
+    "networkId": 1337,
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
+  },
+  {
+    "name": "Local1338",
+    "chainId": 1338,
+    "domainId": "133812",
+    "type": "mainnet",
+    "confirmations": 10,
+    "network": "local1338",
+    "networkId": 1337,
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
+  },
+  {
+    "name": "Local Mainnet",
+    "chainId": 31337,
+    "domainId": "31337",
+    "type": "local",
+    "confirmations": 10,
+    "network": "localmainnet",
+    "networkId": 31337,
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
+  },
+  {
+    "name": "Local Optimism",
+    "chainId": 31338,
+    "domainId": "31338",
+    "type": "local",
+    "confirmations": 10,
+    "network": "localoptimism",
+    "networkId": 31338,
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
+  },
+  {
+    "name": "Local Arbitrum",
+    "chainId": 31339,
+    "domainId": "31339",
+    "type": "local",
+    "confirmations": 10,
+    "network": "localarbitrum",
+    "networkId": 31339,
+    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    }
   }
 ]

@@ -2739,12 +2739,12 @@
     }
   },
   {
-    "name": "Local Arbitrum",
+    "name": "Local Arbitrum One",
     "chainId": 31339,
     "domainId": "31339",
     "type": "local",
     "confirmations": 10,
-    "network": "arbitrum",
+    "network": "arbitrumone",
     "networkId": 31339,
     "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
     "assetId": {

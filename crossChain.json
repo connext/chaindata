@@ -2704,13 +2704,13 @@
       }
     }
   },
-  {
+    {
     "name": "Local Mainnet",
     "chainId": 31337,
     "domainId": "31337",
     "type": "local",
     "confirmations": 10,
-    "network": "localmainnet",
+    "network": "mainnet",
     "networkId": 31337,
     "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
     "assetId": {
@@ -2727,7 +2727,7 @@
     "domainId": "31338",
     "type": "local",
     "confirmations": 10,
-    "network": "localoptimism",
+    "network": "optimism",
     "networkId": 31338,
     "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
     "assetId": {
@@ -2744,7 +2744,7 @@
     "domainId": "31339",
     "type": "local",
     "confirmations": 10,
-    "network": "localarbitrum",
+    "network": "arbitrum",
     "networkId": 31339,
     "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
     "assetId": {

@@ -216,8 +216,9 @@
       }
     },
     "rpc": [
-      "https://api.mycryptoapi.com/eth",
-      "https://cloudflare-eth.com"
+      "https://eth.llamarpc.com",
+      "https://cloudflare-eth.com",
+      "https://ethereum.publicnode.com"
     ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mainnet-v1-runtime"

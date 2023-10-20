@@ -465,6 +465,12 @@
         "symbol": "xRADAR",
         "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
         "decimals": 18
+      },
+      "0xA34488C6C27542cdCDD381D41eb359755B232dc5": {
+        "name": "gastly-lp-geth",
+        "symbol": "glpgEth",
+        "mainnetEquivalent": "",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -2472,6 +2478,12 @@
         "name": "DappRadar Test",
         "symbol": "RADAR Test",
         "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+        "decimals": 18
+      },
+      "0xA34488C6C27542cdCDD381D41eb359755B232dc5": {
+        "name": "gastly-lp-geth",
+        "symbol": "glpgEth",
+        "mainnetEquivalent": "",
         "decimals": 18
       }
     },

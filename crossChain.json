@@ -2427,19 +2427,19 @@
     }
   },
   {
-    "name": "Consensys zkEVM Testnet",
+    "name": "Linea Goerli",
     "chainId": 59140,
     "domainId": "1668247156",
     "type": "testnet",
     "confirmations": 1,
-    "network": "consensystest",
+    "network": "lineagoerli",
     "nativeCurrency": {
-      "symbol": "crETH",
+      "symbol": "lETH",
       "decimals": 18
     },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
-        "symbol": "crETH",
+        "symbol": "lETH",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
       },
@@ -2447,6 +2447,87 @@
         "symbol": "TEST",
         "decimals": 18
       }
+    }
+  },
+  {
+    "name": "Linea Mainnet",
+    "chainId": 59144,
+    "type": "mainnet",
+    "confirmations": 3,
+    "network": "linea",
+    "domainId": "1818848877",
+    "nativeCurrency": {
+      "name": "Linea Ether",
+      "symbol": "lETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "lETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0xA219439258ca9da29E9Cc4cE5596924745e12B93": {
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0x176211869cA2b568f2A7D4EE941E073a821EE1ff": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0x4AF15ec2A0BD43Db75dd04E62FAA3B8EF36b00d5": {
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
+      "0xe5D7C2a44FfDDf6b295A15c148167daaAf5Cf34f": {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
+      "0x3aAB2285ddcDdaD8edf438C1bAB47e1a9D05a9b4": {
+        "symbol": "WBTC",
+        "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "decimals": 8,
+        "isSingleMinter": true
+      }
+    },
+    "rpc": ["https://rpc.linea.build"],
+    "subgraph": [
+      "https://graph-query.goerli.linea.build/subgraphs/name/connext/amarok-runtime-v0-linea",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/amarok-runtime-v0-linea"
+    ],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [
+      {
+        "name": "lineascan",
+        "url": "https://lineascan.build",
+        "icon": "linea",
+        "standard": "EIP3091"
+      }
+    ],
+    "gasEstimates": {
+      "prepare": "2500000",
+      "fulfill": "2250000",
+      "cancel": "2250000",
+      "removeLiquidity": "2250000",
+      "prepareRouterContract": "2500000",
+      "fulfillRouterContract": "2250000",
+      "cancelRouterContract": "2250000",
+      "removeLiquidityRouterContract": "2250000",
+      "gasPriceFactor": "1625000000000000000",
+      "execute": "2000000"
     }
   },
   {

@@ -218,6 +218,12 @@
         "symbol": "xRADAR",
         "mainnetEquivalent": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
         "decimals": 18
+      },
+      "0x3B350F202473932411772C8Cb76DB7975f42397E": {
+        "name": "xGrumpy Cat",
+        "symbol": "xGrumpyCat",
+        "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -473,18 +479,14 @@
         "decimals": 18
       }
     },
-    "rpc": [
-      "https://ethereum-goerli-rpc.allthatnode.com/"
-    ],
+    "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-runtime"
     ],
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-analytics"
     ],
-    "faucets": [
-      "https://faucet.goerli.mudit.blog"
-    ],
+    "faucets": ["https://faucet.goerli.mudit.blog"],
     "subgraphs": {
       "runtime": [
         {
@@ -624,6 +626,12 @@
       "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8": {
         "symbol": "NEXT",
         "mainnetEquivalent": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+        "decimals": 18
+      },
+      "0x3B350F202473932411772C8Cb76DB7975f42397E": {
+        "name": "xGrumpy Cat",
+        "symbol": "xGrumpyCat",
+        "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
         "decimals": 18
       }
     },
@@ -923,6 +931,12 @@
       "0x489580eB70a50515296eF31E8179fF3e77E24965": {
         "symbol": "RADAR",
         "mainnetEquivalent": "0x44709a920fCcF795fbC57BAA433cc3dd53C44DbE",
+        "decimals": 18
+      },
+      "0x3B350F202473932411772C8Cb76DB7975f42397E": {
+        "name": "xGrumpy Cat",
+        "symbol": "xGrumpyCat",
+        "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
         "decimals": 18
       }
     },
@@ -1497,6 +1511,12 @@
       "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8": {
         "symbol": "NEXT",
         "mainnetEquivalent": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+        "decimals": 18
+      },
+      "0x3B350F202473932411772C8Cb76DB7975f42397E": {
+        "name": "xGrumpy Cat",
+        "symbol": "xGrumpyCat",
+        "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
         "decimals": 18
       }
     },
@@ -2307,6 +2327,12 @@
         "symbol": "NEXT",
         "mainnetEquivalent": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
         "decimals": 18
+      },
+      "0x3B350F202473932411772C8Cb76DB7975f42397E": {
+        "name": "xGrumpy Cat",
+        "symbol": "xGrumpyCat",
+        "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
+        "decimals": 18
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
@@ -2739,7 +2765,7 @@
       }
     }
   },
-    {
+  {
     "name": "Local Mainnet",
     "chainId": 31337,
     "domainId": "31337",

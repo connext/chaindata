@@ -224,6 +224,13 @@
         "symbol": "xGrumpyCat",
         "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
         "decimals": 18
+      },
+      "0x21d3a2faA153168C46Ac1428A84BdD859490505F": {
+        "name": "xAurox Token",
+        "symbol": "xURUS",
+        "mainnetEquivalent": "0xc6DdDB5bc6E61e0841C54f3e723Ae1f3A807260b",
+        "decimals": 18,
+        "coingeckoId": "aurox-token"
       }
     },
     "rpc": [
@@ -938,6 +945,13 @@
         "symbol": "xGrumpyCat",
         "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
         "decimals": 18
+      },
+      "0x21d3a2faA153168C46Ac1428A84BdD859490505F": {
+        "name": "xAurox Token",
+        "symbol": "xURUS",
+        "mainnetEquivalent": "0xc6DdDB5bc6E61e0841C54f3e723Ae1f3A807260b",
+        "decimals": 18,
+        "coingeckoId": "aurox-token"
       }
     },
     "rpc": [

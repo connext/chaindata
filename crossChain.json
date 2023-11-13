@@ -633,6 +633,11 @@
         "symbol": "xGrumpyCat",
         "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
         "decimals": 18
+      },
+      "0xbD80CFA9d93A87D1bb895f810ea348E496611cD4": {
+        "name": "FRACTION",
+        "symbol": "FRACTION",
+        "decimals": 18
       }
     },
     "shortName": "oeth",
@@ -938,6 +943,11 @@
         "symbol": "xGrumpyCat",
         "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
         "decimals": 18
+      },
+      "0xbD80CFA9d93A87D1bb895f810ea348E496611cD4": {
+        "name": "FRACTION",
+        "symbol": "FRACTION",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1212,6 +1222,11 @@
       "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8": {
         "symbol": "NEXT",
         "mainnetEquivalent": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+        "decimals": 18
+      },
+      "0x4602e7CFE18d8b16ED13538603B00073F5c28bc8": {
+        "name": "FRACTION",
+        "symbol": "FRACTION",
         "decimals": 18
       }
     },
@@ -1517,6 +1532,11 @@
         "name": "xGrumpy Cat",
         "symbol": "xGrumpyCat",
         "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
+        "decimals": 18
+      },
+      "0xbD80CFA9d93A87D1bb895f810ea348E496611cD4": {
+        "name": "FRACTION",
+        "symbol": "FRACTION",
         "decimals": 18
       }
     },
@@ -2332,6 +2352,11 @@
         "name": "xGrumpy Cat",
         "symbol": "xGrumpyCat",
         "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
+        "decimals": 18
+      },
+      "0x2bF2ba13735160624a0fEaE98f6aC8F70885eA61": {
+        "name": "FRACTION",
+        "symbol": "FRACTION",
         "decimals": 18
       }
     },

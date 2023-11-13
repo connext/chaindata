@@ -196,9 +196,9 @@
         "decimals": 18,
         "coingeckoId": "alchemix-usd"
       },
-      "0x63Ea258E6938851bB2229561C53BBBe62c637012": {
+      "0xbd18f9be5675a9658335e6b7e79d9d9b394ac043": {
         "symbol": "xALCX",
-        "mainnetEquivalent": "0x63Ea258E6938851bB2229561C53BBBe62c637012",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18,
         "coingeckoId": "alchemix"
       },
@@ -620,7 +620,7 @@
       },
       "0xE974B9b31dBFf4369b94a1bAB5e228f35ed44125": {
         "symbol": "ALCX",
-        "mainnetEquivalent": "0x63Ea258E6938851bB2229561C53BBBe62c637012",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       },
       "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8": {
@@ -2340,7 +2340,7 @@
       },
       "0x27b58D226fe8f792730a795764945Cf146815AA7": {
         "symbol": "ALCX",
-        "mainnetEquivalent": "0x63Ea258E6938851bB2229561C53BBBe62c637012",
+        "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
         "decimals": 18
       },
       "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8": {

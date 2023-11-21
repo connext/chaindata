@@ -225,6 +225,12 @@
         "mainnetEquivalent": "0xd8E2D95C8614F28169757cD6445a71c291dEc5bF",
         "decimals": 18
       },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
+        "decimals": 18
+      },
       "0x21d3a2faA153168C46Ac1428A84BdD859490505F": {
         "name": "xAurox Token",
         "symbol": "xURUS",
@@ -484,6 +490,12 @@
         "symbol": "glpgEth",
         "mainnetEquivalent": "",
         "decimals": 18
+      },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
+        "decimals": 18
       }
     },
     "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
@@ -644,6 +656,12 @@
       "0xbD80CFA9d93A87D1bb895f810ea348E496611cD4": {
         "name": "FRACTION",
         "symbol": "FRACTION",
+        "decimals": 18
+      },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
       }
     },
@@ -962,6 +980,12 @@
         "name": "FRACTION",
         "symbol": "FRACTION",
         "decimals": 18
+      },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1241,6 +1265,12 @@
       "0x4602e7CFE18d8b16ED13538603B00073F5c28bc8": {
         "name": "FRACTION",
         "symbol": "FRACTION",
+        "decimals": 18
+      },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
       }
     },
@@ -1552,6 +1582,12 @@
         "name": "FRACTION",
         "symbol": "FRACTION",
         "decimals": 18
+      },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1648,6 +1684,12 @@
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8
+      },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
+        "decimals": 18
       }
     },
     "gasEstimates": {
@@ -2218,6 +2260,12 @@
         "symbol": "WBTC",
         "mainnetEquivalent": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
         "decimals": 8
+      },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
+        "decimals": 18
       }
     },
     "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
@@ -2371,6 +2419,12 @@
       "0x2bF2ba13735160624a0fEaE98f6aC8F70885eA61": {
         "name": "FRACTION",
         "symbol": "FRACTION",
+        "decimals": 18
+      },
+      "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+        "name": "xSpace Token",
+        "symbol": "xSPACE",
+        "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
       }
     },

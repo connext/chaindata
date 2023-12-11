@@ -2625,7 +2625,7 @@
     },
     "rpc": ["https://rpc.linea.build"],
     "subgraph": [
-      "https://graph-query.goerli.linea.build/subgraphs/name/connext/amarok-runtime-v0-linea",
+      "https://graph-query.linea.build/subgraphs/name/connext/amarok-runtime-v0-linea",
       "https://connext.bwarelabs.com/subgraphs/name/connext/amarok-runtime-v0-linea"
     ],
     "faucets": [],
@@ -2635,6 +2635,94 @@
         "name": "lineascan",
         "url": "https://lineascan.build",
         "icon": "linea",
+        "standard": "EIP3091"
+      }
+    ],
+    "gasEstimates": {
+      "prepare": "2500000",
+      "fulfill": "2250000",
+      "cancel": "2250000",
+      "removeLiquidity": "2250000",
+      "prepareRouterContract": "2500000",
+      "fulfillRouterContract": "2250000",
+      "cancelRouterContract": "2250000",
+      "removeLiquidityRouterContract": "2250000",
+      "gasPriceFactor": "1000000000000000000",
+      "execute": "300000"
+    }
+  },
+  {
+    "name": "Base Goerli",
+    "chainId": 84531,
+    "domainId": "1650553703",
+    "type": "testnet",
+    "confirmations": 1,
+    "network": "basegoerli",
+    "nativeCurrency": {
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x8f26fd87384b0524aAd9bB7d3be9704303bBC65e": {
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    }
+  },
+  {
+    "name": "Base Mainnet",
+    "chainId": 8453,
+    "type": "mainnet",
+    "confirmations": 3,
+    "network": "base",
+    "domainId": "1650553709",
+    "nativeCurrency": {
+      "name": "Base Ether",
+      "symbol": "bETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "bETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0x50c5725949a6f0c72e6c4a641f24049a917db0cb": {
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
+      "0x4200000000000000000000000000000000000006": {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      }
+    },
+    "rpc": ["https://mainnet.base.org"],
+    "subgraph": [],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [
+      {
+        "name": "basescan",
+        "url": "https://basescan.org",
+        "icon": "base",
         "standard": "EIP3091"
       }
     ],

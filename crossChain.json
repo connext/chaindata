@@ -237,6 +237,11 @@
         "mainnetEquivalent": "0xc6DdDB5bc6E61e0841C54f3e723Ae1f3A807260b",
         "decimals": 18,
         "coingeckoId": "aurox-token"
+      },
+      "0x24F21b1864d4747a5c99045c96dA11DBFDa378f7": {
+        "name": "xoLIT",
+        "symbol": "xoLIT",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -2425,6 +2430,11 @@
         "name": "xSpace Token",
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
+        "decimals": 18
+      },
+      "0x24F21b1864d4747a5c99045c96dA11DBFDa378f7": {
+        "name": "xoLIT",
+        "symbol": "xoLIT",
         "decimals": 18
       }
     },

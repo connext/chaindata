@@ -2682,7 +2682,22 @@
         "symbol": "TEST",
         "decimals": 18
       }
-    }
+    },
+    "rpc": [
+      "https://goerli.base.org",
+      "https://base-goerli.public.blastapi.io"
+    ],
+    "subgraph": [
+      "https://api.studio.thegraph.com/query/51161/connext-rumtime-v0-base-goerli/version/latest"
+    ],
+    "explorers": [
+      {
+        "name": "basegoerli",
+        "url": "https://base-goerli.blockscout.com",
+        "icon": "base",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Base Mainnet",

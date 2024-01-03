@@ -2826,6 +2826,12 @@
         "symbol": "glpgEth",
         "mainnetEquivalent": "",
         "decimals": 18
+      },
+      "0x07d086Cc91BD3aad22C6ff76AFF6aefe15763258": {
+        "name": "EstateX",
+        "symbol": "ESX",
+        "mainnetEquivalent": "",
+        "decimals": 9
       }
     },
     "rpc": [

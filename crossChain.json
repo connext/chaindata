@@ -242,6 +242,12 @@
         "name": "xoLIT",
         "symbol": "xoLIT",
         "decimals": 18
+      },
+      "0x75231f58b43240c9718dd58b4967c5114342a86c": {
+        "symbol": "OKB",
+        "mainnetEquivalent": "0x75231f58b43240c9718dd58b4967c5114342a86c",
+        "decimals": 18,
+        "coingeckoId": "okb"
       }
     },
     "rpc": [
@@ -3045,6 +3051,42 @@
     "gasStations": [],
     "explorers": [{ "url": "https://explorer.harmony.one/" }],
     "gasEstimates": {}
+  },
+  {
+    "name": "X1 Testnet",
+    "chainId": 195,
+    "domainId": "2016506996",
+    "type": "testnet",
+    "confirmations": 1,
+    "network": "x1testnet",
+    "nativeCurrency": {
+      "symbol": "OKB",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "OKB",
+        "mainnetEquivalent": "0x75231f58b43240c9718dd58b4967c5114342a86c",
+        "decimals": 18
+      },
+      "0x471F702E7D96E541488140042bCD1206Ae55CCa5": {
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    },
+    "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com/"],
+    "subgraph": [
+      "https://www.okx.com/api/v1/x1-testnet/subgraph/name/connext/amarok-runtime-v1-x1-testnet",
+      "https://connext.bwarelabs.com/subgraphs/name/connext/amarok-runtime-v0-x1-testnet"
+    ],
+    "explorers": [
+      {
+        "name": "x1testnet",
+        "url": "https://www.oklink.com/x1-test",
+        "icon": "x1",
+        "standard": "EIP3091"
+      }
+    ]
   },
   {
     "name": "Local1337",

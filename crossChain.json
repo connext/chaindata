@@ -3097,7 +3097,7 @@
       "cancelRouterContract": "2250000",
       "removeLiquidityRouterContract": "2250000",
       "gasPriceFactor": "1000000000000000000",
-      "execute": "10000"
+      "execute": "300000"
     }
   },
   {

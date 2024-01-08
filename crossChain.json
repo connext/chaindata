@@ -3086,7 +3086,19 @@
         "icon": "x1",
         "standard": "EIP3091"
       }
-    ]
+    ],
+    "gasEstimates": {
+      "prepare": "2500000",
+      "fulfill": "2250000",
+      "cancel": "2250000",
+      "removeLiquidity": "2250000",
+      "prepareRouterContract": "2500000",
+      "fulfillRouterContract": "2250000",
+      "cancelRouterContract": "2250000",
+      "removeLiquidityRouterContract": "2250000",
+      "gasPriceFactor": "1000000000000000000",
+      "execute": "100000"
+    }
   },
   {
     "name": "Local1337",

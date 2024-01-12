@@ -511,6 +511,11 @@
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
+      },
+      "0x272DF088C3bDafeDCa5f66D76B1372A6091eFc64": {
+        "name": "Savings Dai",
+        "symbol": "sDAI",
+        "decimals": 18
       }
     },
     "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
@@ -2947,6 +2952,11 @@
         "name": "gastly-lp-geth",
         "symbol": "glpgEth",
         "mainnetEquivalent": "",
+        "decimals": 18
+      },
+      "0x272DF088C3bDafeDCa5f66D76B1372A6091eFc64": {
+        "name": "Savings Dai",
+        "symbol": "sDAI",
         "decimals": 18
       }
     },

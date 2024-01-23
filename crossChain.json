@@ -2771,6 +2771,64 @@
     }
   },
   {
+    "name": "Metis Andromeda Mainnet",
+    "chainId": 1088,
+    "type": "mainnet",
+    "confirmations": 3,
+    "network": "metis",
+    "domainId": "1835365481",
+    "nativeCurrency": {
+      "name": "METIS",
+      "symbol": "METIS",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "METIS",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    },
+    "rpc": ["https://metis-pokt.nodies.app"],
+    "subgraph": [],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [],
+    "gasEstimates": {
+      "gasPriceFactor": "1000000000000000000",
+      "execute": "300000"
+    }
+  },  
+  {
+    "name": "Mantle Mainnet",
+    "chainId": 5000,
+    "type": "mainnet",
+    "confirmations": 3,
+    "network": "mantle",
+    "domainId": "1835101812",
+    "nativeCurrency": {
+      "name": "MNT",
+      "symbol": "MNT",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "MNT",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      }
+    },
+    "rpc": ["https://rpc.mantle.xyz"],
+    "subgraph": [],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [],
+    "gasEstimates": {
+      "gasPriceFactor": "1000000000000000000",
+      "execute": "300000"
+    }
+  },  
+  {
     "name": "Matic Testnet Mumbai",
     "chainId": 80001,
     "domainId": "9991",

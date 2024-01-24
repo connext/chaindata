@@ -248,6 +248,10 @@
         "mainnetEquivalent": "0x75231f58b43240c9718dd58b4967c5114342a86c",
         "decimals": 18,
         "coingeckoId": "okb"
+      },
+      "0x29240a275cddde26BbD6d80fA8ad315C35F91604": {
+        "symbol": "TEST",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -674,6 +678,11 @@
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
+      },
+      "0xAFCE6eAc6CdcEd6a54d367E1271C10d6595aE78C": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
       }
     },
     "shortName": "oeth",
@@ -997,7 +1006,12 @@
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
-      }
+      },
+      "0xF6eD617c23949A7dE8ABf5318f2AFE9275A53AAb": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      }      
     },
     "rpc": [
       "https://bsc-dataseed1.binance.org",
@@ -1283,7 +1297,12 @@
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
-      }
+      },
+      "0x2902c5EE62121df4ac5fa76a7d532722Bdf108e0": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
+      }      
     },
     "rpc": [
       "wss://rpc.gnosischain.com/wss",
@@ -1599,7 +1618,12 @@
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
-      }
+      },
+      "0x09d3DD665e6603150899dE6cc6b4A04EdF60088D": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
+      }      
     },
     "rpc": [
       "https://polygon.llamarpc.com",
@@ -2277,6 +2301,11 @@
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
+      },
+      "0xfD9B8B1B7e44b39DFA04D66159Ac21B68141eD38": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
       }
     },
     "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
@@ -2442,7 +2471,12 @@
         "name": "xoLIT",
         "symbol": "xoLIT",
         "decimals": 18
-      }
+      },
+      "0xF71F1bF36e9c20977927b52Df49cc2F69c8c153d": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
+      }      
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
     "subgraph": [
@@ -2637,7 +2671,13 @@
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18,
         "isSingleMinter": true
-      }
+      },
+      "0x7FD0bC1d931fABCB18c78f2257f614498CEA1d30": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18,
+        "isSingleMinter": true
+      }      
     },
     "rpc": ["https://rpc.linea.build"],
     "subgraph": [
@@ -2743,6 +2783,12 @@
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0xEE9deC2712cCE65174B561151701Bf54b99C24C8": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18,
+        "isSingleMinter": true
       }
     },
     "rpc": ["https://mainnet.base.org"],
@@ -2787,7 +2833,12 @@
         "symbol": "METIS",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      }
+      },
+      "0xb30ca61fD2B395EF1b58Eb0d1d6D40e439361e92": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
+      }         
     },
     "rpc": ["https://metis-pokt.nodies.app"],
     "subgraph": [],
@@ -2816,7 +2867,13 @@
         "symbol": "MNT",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
-      }
+      },
+      "0x9963a1E4fD60ba4a89E92930c8D8686514705BB6": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
+      }      
+   
     },
     "rpc": ["https://rpc.mantle.xyz"],
     "subgraph": [],
@@ -2936,6 +2993,52 @@
       }
     }
   },
+  {
+    "name": "ZkSync2 Mainnet",
+    "chainId": 324,
+    "domainId": "2053862243",
+    "type": "mainnet",
+    "confirmations": 1,
+    "network": "zksync",
+    "nativeCurrency": {
+      "symbol": "ztETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ztETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x1f4df37E553cEC57D8751e45664B70b9e1FF1d33": {
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    }
+  },  
+  {
+    "name": "Polygon zkEVM",
+    "chainId": 1101,
+    "domainId": "1887071085",
+    "type": "mainnet",
+    "confirmations": 1,
+    "network": "polygon_zkevm",
+    "nativeCurrency": {
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x955D1693C64e5a0746130FF6F6653E2171cC6708": {
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    }
+  },    
   {
     "name": "Arbitrum Testnet Rinkeby",
     "chainId": 421611,

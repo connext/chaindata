@@ -2255,6 +2255,7 @@
   {
     "chain": "Avalanche",
     "chainId": 43114,
+    "domainId": "1635148152",
     "type": "mainnet",
     "network": "avalanche",
     "confirmations": 10,

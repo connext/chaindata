@@ -3023,7 +3023,7 @@
     "domainId": "1887071085",
     "type": "mainnet",
     "confirmations": 1,
-    "network": "polygon_zkevm",
+    "network": "polygonzkevm",
     "nativeCurrency": {
       "symbol": "ETH",
       "decimals": 18

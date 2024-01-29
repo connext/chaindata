@@ -3005,6 +3005,7 @@
       "symbol": "ztETH",
       "decimals": 18
     },
+    "subgraph": [],
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ztETH",
@@ -3028,6 +3029,7 @@
       "symbol": "ETH",
       "decimals": 18
     },
+    "subgraph": [],
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",

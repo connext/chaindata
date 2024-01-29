@@ -511,6 +511,11 @@
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
+      },
+      "0xb8F010bC74e4de27d9e69063F3faf5F7317831d3": {
+        "name": "xGovernTest",
+        "symbol": "xGovT",
+        "decimals": 18
       }
     },
     "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
@@ -2590,6 +2595,11 @@
       "0xB706319D37b945727E71ae0d4353699d19112576": {
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xB91471be67c8F2Ada2Cd36cA5EB439B017B80a37": {
+        "name": "xGovernTest",
+        "symbol": "xGovT",
+        "decimals": 18
       }
     }
   },
@@ -2947,6 +2957,11 @@
         "name": "gastly-lp-geth",
         "symbol": "glpgEth",
         "mainnetEquivalent": "",
+        "decimals": 18
+      },
+      "0xb8F010bC74e4de27d9e69063F3faf5F7317831d3": {
+        "name": "xGovernTest",
+        "symbol": "xGovT",
         "decimals": 18
       }
     },

@@ -3006,6 +3006,10 @@
       "decimals": 18
     },
     "subgraph": [],
+    "rpc": [
+      "https://zksync.drpc.org",
+      "https://mainnet.era.zksync.io"
+    ],
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ztETH",
@@ -3030,6 +3034,10 @@
       "decimals": 18
     },
     "subgraph": [],
+    "rpc": [
+      "https://polygon-zkevm.drpc.org",
+      "https://1rpc.io/polygon/zkevm"
+    ],
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",

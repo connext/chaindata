@@ -2835,7 +2835,7 @@
       "decimals": 18
     },
     "assetId": {
-      "0x0000000000000000000000000000000000000000": {
+      "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000": {
         "symbol": "METIS",
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
         "decimals": 18
@@ -2844,7 +2844,28 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
-      }         
+      },
+      "0xEA32A96608495e54156Ae48931A7c20f0dcc1a21": {
+        "name": "USDC Token",
+        "symbol": "m.USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC": {
+        "name": "USDT Token",
+        "symbol": "m.USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0x420000000000000000000000000000000000000A": {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
     },
     "rpc": ["https://metis-pokt.nodies.app"],
     "subgraph": [],

@@ -2866,6 +2866,27 @@
         "decimals": 18,
         "isSingleMinter": true
       },
+      "0x9ac9aD5A82Ccd0Ab7584a037A7A2334Dc3715Be2": {
+        "name": "nextUSDC",
+        "symbol": "nextUSDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0xa6A8d22D5da43C9f6E5cF7b4e50941784e70F688": {
+        "name": "nextUSDT",
+        "symbol": "nextUSDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0x3883B5Bdd61BA1b687de69eE50c9738D5ec501E9": {
+        "name": "nextWETH",
+        "symbol": "nextWETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
     },
     "rpc": ["https://metis-pokt.nodies.app"],
     "subgraph": [],

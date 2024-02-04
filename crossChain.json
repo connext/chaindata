@@ -2887,6 +2887,13 @@
         "decimals": 18,
         "isSingleMinter": true
       },
+      "0x1a1162304654A79B4b6A3aF0D564CA1E3cC7cc1B": {
+        "name": "nextMETIS",
+        "symbol": "nextMETIS",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      }
     },
     "rpc": ["https://metis-pokt.nodies.app"],
     "subgraph": [],

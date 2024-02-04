@@ -252,6 +252,13 @@
       "0x29240a275cddde26BbD6d80fA8ad315C35F91604": {
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e": {
+        "name": "Metis Token",
+        "symbol": "METIS",
+        "mainnetEquivalent": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
+        "decimals": 18,
+        "isSingleMinter": true
       }
     },
     "rpc": [
@@ -2890,7 +2897,7 @@
       "0x1a1162304654A79B4b6A3aF0D564CA1E3cC7cc1B": {
         "name": "nextMETIS",
         "symbol": "nextMETIS",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "mainnetEquivalent": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
         "decimals": 18,
         "isSingleMinter": true
       }

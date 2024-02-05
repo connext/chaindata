@@ -1023,7 +1023,7 @@
         "name": "BNB",
         "symbol": "BNB",
         "decimals": 18
-      }      
+      }
     },
     "rpc": [
       "https://bsc-dataseed1.binance.org",
@@ -1314,7 +1314,7 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
-      }      
+      }
     },
     "rpc": [
       "wss://rpc.gnosischain.com/wss",
@@ -1635,7 +1635,7 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
-      }      
+      }
     },
     "rpc": [
       "https://polygon.llamarpc.com",
@@ -2489,7 +2489,7 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
-      }      
+      }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
     "subgraph": [
@@ -2690,7 +2690,7 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
-      }      
+      }
     },
     "rpc": ["https://rpc.linea.build"],
     "subgraph": [
@@ -2844,7 +2844,7 @@
     "assetId": {
       "0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000": {
         "symbol": "METIS",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "mainnetEquivalent": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
         "decimals": 18
       },
       "0xb30ca61fD2B395EF1b58Eb0d1d6D40e439361e92": {
@@ -2911,7 +2911,7 @@
       "gasPriceFactor": "1000000000000000000",
       "execute": "300000"
     }
-  },  
+  },
   {
     "name": "Mantle Mainnet",
     "chainId": 5000,
@@ -2934,8 +2934,7 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
-      }      
-   
+      }
     },
     "rpc": ["https://rpc.mantle.xyz"],
     "subgraph": [],
@@ -2946,7 +2945,7 @@
       "gasPriceFactor": "1000000000000000000",
       "execute": "300000"
     }
-  },  
+  },
   {
     "name": "Matic Testnet Mumbai",
     "chainId": 80001,
@@ -3072,10 +3071,7 @@
       "decimals": 18
     },
     "subgraph": [],
-    "rpc": [
-      "https://zksync.drpc.org",
-      "https://mainnet.era.zksync.io"
-    ],
+    "rpc": ["https://zksync.drpc.org", "https://mainnet.era.zksync.io"],
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ztETH",
@@ -3087,7 +3083,7 @@
         "decimals": 18
       }
     }
-  },  
+  },
   {
     "name": "Polygon zkEVM",
     "chainId": 1101,
@@ -3100,10 +3096,7 @@
       "decimals": 18
     },
     "subgraph": [],
-    "rpc": [
-      "https://polygon-zkevm.drpc.org",
-      "https://1rpc.io/polygon/zkevm"
-    ],
+    "rpc": ["https://polygon-zkevm.drpc.org", "https://1rpc.io/polygon/zkevm"],
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3115,7 +3108,7 @@
         "decimals": 18
       }
     }
-  },    
+  },
   {
     "name": "Arbitrum Testnet Rinkeby",
     "chainId": 421611,

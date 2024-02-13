@@ -3223,7 +3223,8 @@
         "symbol": "EURe",
         "decimals": 18
       }
-    }
+    },
+    "rpc": ["https://goerli-rollup.arbitrum.io/rpc"]
   },
   {
     "name": "Gather Network",

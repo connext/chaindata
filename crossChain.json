@@ -558,6 +558,36 @@
     ]
   },
   {
+    "name": "Sepolia",
+    "chainId": 11155111,
+    "type": "testnet",
+    "confirmations": 1,
+    "domainId": "1936027759",
+    "network": "sepolia",
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0xd26e3540A0A368845B234736A0700E0a5A821bBA": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    },
+    "rpc": [],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "explorers": [
+      {
+        "name": "etherscan",
+        "url": "https://sepolia.etherscan.io",
+        "icon": "etherscan"
+      }
+    ]
+  },  
+  {
     "name": "Optimistic Ethereum",
     "network": "optimism",
     "confirmations": 1,
@@ -1898,6 +1928,39 @@
     ]
   },
   {
+    "name": "OP Sepolia Testnet",
+    "chainId": 11155420,
+    "domainId": "1869640549",
+    "type": "testnet",
+    "confirmations": 1,
+    "network": "optimismsepolia",
+    "networkId": 11155420,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+      },
+      "0x7Fa13D6CB44164ea09dF8BCc673A8849092D435b": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    },
+    "rpc": [],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "explorers": [
+      {
+        "url": "https://sepolia-optimism.etherscan.io"
+      }
+    ]
+  },  
+  {
     "name": "Moonriver",
     "chainId": 1285,
     "type": "mainnet",
@@ -3226,6 +3289,39 @@
     },
     "rpc": ["https://goerli-rollup.arbitrum.io/rpc"]
   },
+  {
+    "name": "Arbitrum Sepolia",
+    "chainId": 421614,
+    "domainId": "1633842021",
+    "type": "testnet",
+    "confirmations": 1,
+    "network": "arbitrumsepolia",
+    "networkId": 421614,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "ETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+      },
+      "0xaBF282c88DeD3e386701a322e76456c062468Ac2": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18
+      }
+    },
+    "rpc": [],
+    "subgraph": [],
+    "analyticsSubgraph": [],
+    "explorers": [
+      {
+        "url": "https://sepolia.arbiscan.io"
+      }
+    ]
+  },    
   {
     "name": "Gather Network",
     "chainId": 192837465,

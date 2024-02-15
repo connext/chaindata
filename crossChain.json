@@ -559,16 +559,11 @@
   },
   {
     "name": "Sepolia",
-    "chainId": 1936027759,
+    "chainId": 11155111,
     "type": "testnet",
     "confirmations": 1,
-    "domainId": "1735353714",
+    "domainId": "1936027759",
     "network": "sepolia",
-    "nativeCurrency": {
-      "name": "Görli Ether",
-      "symbol": "GOR",
-      "decimals": 18
-    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -581,7 +576,7 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
+    "rpc": [],
     "subgraph": [],
     "analyticsSubgraph": [],
     "explorers": [

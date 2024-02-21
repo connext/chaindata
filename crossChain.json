@@ -586,7 +586,7 @@
         "icon": "etherscan"
       }
     ]
-  },  
+  },
   {
     "name": "Optimistic Ethereum",
     "network": "optimism",
@@ -1959,7 +1959,7 @@
         "url": "https://sepolia-optimism.etherscan.io"
       }
     ]
-  },  
+  },
   {
     "name": "Moonriver",
     "chainId": 1285,
@@ -3321,7 +3321,70 @@
         "url": "https://sepolia.arbiscan.io"
       }
     ]
-  },    
+  },
+  {
+    "name": "Mode Mainnet",
+    "chainId": 34443,
+    "type": "mainnet",
+    "confirmations": 3,
+    "network": "mode",
+    "domainId": "1836016741",
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "mETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0xd988097fb8612cc24eeC14542bC03424c656005f": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0xf0F161fDA2712DB8b566946122a5af183995e2eD": {
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0x4200000000000000000000000000000000000006": {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
+      "0x9E40a8A535D4875848e1821e3C59AB5C5dd86135": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18,
+        "isSingleMinter": true
+      }
+    },
+    "rpc": ["https://mainnet.mode.network/"],
+    "subgraph": [],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [
+      {
+        "name": "mode blockscout",
+        "url": "https://explorer.mode.network",
+        "icon": "mode",
+        "standard": "EIP3091"
+      }
+    ],
+    "gasEstimates": {
+      "gasPriceFactor": "1000000000000000000",
+      "execute": "300000"
+    }
+  },
   {
     "name": "Gather Network",
     "chainId": 192837465,

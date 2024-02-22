@@ -523,6 +523,11 @@
         "name": "Savings Dai",
         "symbol": "sDAI",
         "decimals": 18
+      },
+      "0xe60EEEEE9503D59c7db940889228fAceB0aF5DF2": {
+        "name": "cross chain ezETH",
+        "symbol": "xezETH",
+        "decimals": 18
       }
     },
     "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
@@ -1915,6 +1920,11 @@
         "name": "DappRadar Test",
         "symbol": "RADAR Test",
         "mainnetEquivalent": "0x44709a920fccf795fbc57baa433cc3dd53c44dbe",
+        "decimals": 18
+      },
+      "0xe60EEEEE9503D59c7db940889228fAceB0aF5DF2": {
+        "name": "cross chain ezETH",
+        "symbol": "xezETH",
         "decimals": 18
       }
     },

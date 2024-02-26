@@ -528,6 +528,11 @@
         "name": "cross chain ezETH",
         "symbol": "xezETH",
         "decimals": 18
+      },
+      "0xb8F010bC74e4de27d9e69063F3faf5F7317831d3": {
+        "name": "xGovernTest",
+        "symbol": "xGovT",
+        "decimals": 18
       }
     },
     "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
@@ -2675,6 +2680,11 @@
       "0xB706319D37b945727E71ae0d4353699d19112576": {
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xB91471be67c8F2Ada2Cd36cA5EB439B017B80a37": {
+        "name": "xGovernTest",
+        "symbol": "xGovT",
+        "decimals": 18
       }
     }
   },
@@ -3106,6 +3116,11 @@
       "0x272DF088C3bDafeDCa5f66D76B1372A6091eFc64": {
         "name": "Savings Dai",
         "symbol": "sDAI",
+        "decimals": 18
+      },
+      "0xb8F010bC74e4de27d9e69063F3faf5F7317831d3": {
+        "name": "xGovernTest",
+        "symbol": "xGovT",
         "decimals": 18
       }
     },

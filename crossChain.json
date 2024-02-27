@@ -259,6 +259,12 @@
         "mainnetEquivalent": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x9C060a031c3925207F24FE719e23EBf548e9b07b": {
+        "name": "Goat Trading",
+        "symbol": "GOAT",
+        "decimals": 18,
+        "coingeckoId": "goat-trading"
       }
     },
     "rpc": [
@@ -1052,6 +1058,11 @@
       "0xF6eD617c23949A7dE8ABf5318f2AFE9275A53AAb": {
         "name": "BNB",
         "symbol": "BNB",
+        "decimals": 18
+      },
+      "0x9C060a031c3925207F24FE719e23EBf548e9b07b": {
+        "name": "Goat Trading",
+        "symbol": "GOAT",
         "decimals": 18
       }
     },
@@ -2552,6 +2563,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x9C060a031c3925207F24FE719e23EBf548e9b07b": {
+        "name": "Goat Trading",
+        "symbol": "GOAT",
+        "decimals": 18
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
@@ -2886,6 +2902,11 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x9C060a031c3925207F24FE719e23EBf548e9b07b": {
+        "name": "Goat Trading",
+        "symbol": "GOAT",
+        "decimals": 18
       }
     },
     "rpc": ["https://mainnet.base.org"],

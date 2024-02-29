@@ -523,6 +523,11 @@
         "name": "Savings Dai",
         "symbol": "sDAI",
         "decimals": 18
+      },
+      "0xa66e9339418c1e85bc957062D8D75036dB97e57B": {
+        "name": "Inception rETH",
+        "symbol": "InrETH",
+        "decimals": 18
       }
     },
     "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
@@ -3096,6 +3101,11 @@
       "0x272DF088C3bDafeDCa5f66D76B1372A6091eFc64": {
         "name": "Savings Dai",
         "symbol": "sDAI",
+        "decimals": 18
+      },
+      "0x268734Ce4610c4445b7A9d12100Fc385B97362C6": {
+        "name": "Inception rETH",
+        "symbol": "InrETH",
         "decimals": 18
       }
     },

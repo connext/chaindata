@@ -3371,6 +3371,13 @@
         "decimals": 18,
         "isSingleMinter": true
       },
+      "0x609aEfb9FB2Ee8f2FDAd5dc48efb8fA4EE0e80fB": {
+        "name": "nextWETH",
+        "symbol": "nextWETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
       "0x9E40a8A535D4875848e1821e3C59AB5C5dd86135": {
         "name": "TEST",
         "symbol": "TEST",

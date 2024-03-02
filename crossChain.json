@@ -259,6 +259,12 @@
         "mainnetEquivalent": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+        "name": "Renzo Restaked ETH",
+        "symbol": "ezETH",
+        "mainnetEquivalent": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -2556,6 +2562,11 @@
       "0xF71F1bF36e9c20977927b52Df49cc2F69c8c153d": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+        "name": "Renzo Restaked ETH",
+        "symbol": "ezETH",
         "decimals": 18
       }
     },

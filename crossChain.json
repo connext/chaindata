@@ -265,6 +265,12 @@
         "symbol": "InstETH",
         "mainnetEquivalent": "0x7FA768E035F956c41d6aeaa3Bd857e7E5141CAd5",
         "decimals": 18
+      },
+      "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+        "name": "Renzo Restaked ETH",
+        "symbol": "ezETH",
+        "mainnetEquivalent": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -528,6 +534,11 @@
       "0x272DF088C3bDafeDCa5f66D76B1372A6091eFc64": {
         "name": "Savings Dai",
         "symbol": "sDAI",
+        "decimals": 18
+      },
+      "0xa66e9339418c1e85bc957062D8D75036dB97e57B": {
+        "name": "Inception rETH",
+        "symbol": "InrETH",
         "decimals": 18
       }
     },
@@ -2562,6 +2573,11 @@
       "0xb368ae21081709d03c00d7Dc51737d8abd9384e6": {
         "name": "Inception Restaked stETH ",
         "symbol": "InstETH",
+        "decimals": 18,
+      },
+      "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+        "name": "Renzo Restaked ETH",
+        "symbol": "ezETH",
         "decimals": 18
       }
     },
@@ -3108,6 +3124,11 @@
         "name": "Savings Dai",
         "symbol": "sDAI",
         "decimals": 18
+      },
+      "0x268734Ce4610c4445b7A9d12100Fc385B97362C6": {
+        "name": "Inception rETH",
+        "symbol": "InrETH",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -3372,6 +3393,13 @@
         "decimals": 18,
         "isSingleMinter": true
       },
+      "0x609aEfb9FB2Ee8f2FDAd5dc48efb8fA4EE0e80fB": {
+        "name": "nextWETH",
+        "symbol": "nextWETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
       "0x9E40a8A535D4875848e1821e3C59AB5C5dd86135": {
         "name": "TEST",
         "symbol": "TEST",
@@ -3388,6 +3416,69 @@
         "name": "mode blockscout",
         "url": "https://explorer.mode.network",
         "icon": "mode",
+        "standard": "EIP3091"
+      }
+    ],
+    "gasEstimates": {
+      "gasPriceFactor": "1000000000000000000",
+      "execute": "300000"
+    }
+  },
+  {
+    "name": "Scroll Mainnet",
+    "chainId": 534352,
+    "type": "mainnet",
+    "confirmations": 3,
+    "network": "scroll",
+    "domainId": "1935897199",
+    "nativeCurrency": {
+      "name": "ETH",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x0000000000000000000000000000000000000000": {
+        "symbol": "sETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18
+      },
+      "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4": {
+        "name": "USD Coin",
+        "symbol": "USDC",
+        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0xf55bec9cafdbe8730f096aa55dad6d22d44099df": {
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0x5300000000000000000000000000000000000004": {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
+      "0xfD9B8B1B7e44b39DFA04D66159Ac21B68141eD38": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18,
+        "isSingleMinter": true
+      }
+    },
+    "rpc": ["https://rpc.scroll.io/"],
+    "subgraph": [],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [
+      {
+        "name": "scroll scan",
+        "url": "https://scrollscan.com/",
+        "icon": "scroll",
         "standard": "EIP3091"
       }
     ],

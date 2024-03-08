@@ -260,6 +260,12 @@
         "decimals": 18,
         "isSingleMinter": true
       },
+      "0xb368ae21081709d03c00d7Dc51737d8abd9384e6": {
+        "name": "Inception Restaked stETH ",
+        "symbol": "InstETH",
+        "mainnetEquivalent": "0x7FA768E035F956c41d6aeaa3Bd857e7E5141CAd5",
+        "decimals": 18
+      },
       "0x2416092f143378750bb29b79eD961ab195CcEea5": {
         "name": "Renzo Restaked ETH",
         "symbol": "ezETH",
@@ -2563,6 +2569,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xb368ae21081709d03c00d7Dc51737d8abd9384e6": {
+        "name": "Inception Restaked stETH ",
+        "symbol": "InstETH",
+        "decimals": 18,
       },
       "0x2416092f143378750bb29b79eD961ab195CcEea5": {
         "name": "Renzo Restaked ETH",

@@ -2573,7 +2573,7 @@
       "0xb368ae21081709d03c00d7Dc51737d8abd9384e6": {
         "name": "Inception Restaked stETH ",
         "symbol": "InstETH",
-        "decimals": 18,
+        "decimals": 18
       },
       "0x2416092f143378750bb29b79eD961ab195CcEea5": {
         "name": "Renzo Restaked ETH",

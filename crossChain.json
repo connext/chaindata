@@ -2388,14 +2388,9 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "190000",
-      "fulfill": "160000",
-      "cancel": "204271",
-      "removeLiquidity": "45000",
-      "prepareRouterContract": "190000",
-      "fulfillRouterContract": "160000",
-      "cancelRouterContract": "204271",
-      "removeLiquidityRouterContract": "48000"
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {
@@ -3004,7 +2999,9 @@
     "explorers": [],
     "gasEstimates": {
       "gasPriceFactor": "1000000000000000000",
-      "execute": "300000"
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {
@@ -3148,6 +3145,11 @@
         "symbol": "TEST",
         "decimals": 18
       }
+    },
+    "gasEstimates": {
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {
@@ -3173,6 +3175,11 @@
         "symbol": "TEST",
         "decimals": 18
       }
+    },
+    "gasEstimates": {
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {

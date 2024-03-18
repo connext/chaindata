@@ -295,15 +295,9 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "190000",
-      "fulfill": "200000",
-      "cancel": "204271",
-      "removeLiquidity": "45000",
-      "prepareRouterContract": "190000",
-      "fulfillRouterContract": "200000",
-      "cancelRouterContract": "204271",
-      "removeLiquidityRouterContract": "48000",
-      "execute": "350000"
+      "execute": "350000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {
@@ -755,20 +749,11 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "200000",
-      "fulfill": "170000",
-      "cancel": "204271",
-      "removeLiquidity": "45000",
-      "prepareRouterContract": "200000",
-      "fulfillRouterContract": "170000",
-      "cancelRouterContract": "204271",
-      "removeLiquidityRouterContract": "48000",
-      "prepareL1": "20623",
-      "fulfillL1": "13965",
-      "cancelL1": "13965",
-      "removeLiquidityL1": "45000",
       "execute": "400000",
-      "executeL1": "21000"
+      "executeL1": "21000",
+      "proveAndProcess": "120000",
+      "proveAndProcessL1": "20000",
+      "messaging": "4500"      
     }
   },
   {
@@ -1106,14 +1091,9 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "180000",
-      "fulfill": "170000",
-      "cancel": "204271",
-      "removeLiquidity": "45000",
-      "prepareRouterContract": "180000",
-      "fulfillRouterContract": "170000",
-      "cancelRouterContract": "204271",
-      "removeLiquidityRouterContract": "48000"
+      "execute": "400000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {
@@ -1388,14 +1368,9 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "180000",
-      "fulfill": "240000",
-      "cancel": "204271",
-      "removeLiquidity": "45000",
-      "prepareRouterContract": "180000",
-      "fulfillRouterContract": "240000",
-      "cancelRouterContract": "204271",
-      "removeLiquidityRouterContract": "48000"
+      "execute": "400000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {
@@ -1709,14 +1684,9 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "200000",
-      "fulfill": "165000",
-      "cancel": "204271",
-      "removeLiquidity": "45000",
-      "prepareRouterContract": "200000",
-      "fulfillRouterContract": "165000",
-      "cancelRouterContract": "204271",
-      "removeLiquidityRouterContract": "48000"
+      "execute": "400000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {
@@ -2600,16 +2570,9 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "2500000",
-      "fulfill": "2250000",
-      "cancel": "2250000",
-      "removeLiquidity": "2250000",
-      "prepareRouterContract": "2500000",
-      "fulfillRouterContract": "2250000",
-      "cancelRouterContract": "2250000",
-      "removeLiquidityRouterContract": "2250000",
-      "gasPriceFactor": "1625000000000000000",
-      "execute": "2000000"
+      "execute": "2000000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {
@@ -2798,16 +2761,9 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "2500000",
-      "fulfill": "2250000",
-      "cancel": "2250000",
-      "removeLiquidity": "2250000",
-      "prepareRouterContract": "2500000",
-      "fulfillRouterContract": "2250000",
-      "cancelRouterContract": "2250000",
-      "removeLiquidityRouterContract": "2250000",
-      "gasPriceFactor": "1000000000000000000",
-      "execute": "300000"
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"      
     }
   },
   {
@@ -2928,16 +2884,9 @@
       }
     ],
     "gasEstimates": {
-      "prepare": "2500000",
-      "fulfill": "2250000",
-      "cancel": "2250000",
-      "removeLiquidity": "2250000",
-      "prepareRouterContract": "2500000",
-      "fulfillRouterContract": "2250000",
-      "cancelRouterContract": "2250000",
-      "removeLiquidityRouterContract": "2250000",
-      "gasPriceFactor": "1000000000000000000",
-      "execute": "300000"
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"       
     }
   },
   {
@@ -3019,8 +2968,9 @@
     "infoURL": "",
     "explorers": [],
     "gasEstimates": {
-      "gasPriceFactor": "1000000000000000000",
-      "execute": "300000"
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"          
     }
   },
   {
@@ -3420,8 +3370,9 @@
       }
     ],
     "gasEstimates": {
-      "gasPriceFactor": "1000000000000000000",
-      "execute": "300000"
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"          
     }
   },
   {

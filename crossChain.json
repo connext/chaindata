@@ -591,6 +591,12 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x948830486C18AC9679Fd812B3134E68d6bDca511": {
+        "name": "Ramp",
+        "symbol": "RAMP",
+        "mainnetEquivalent": "0x465E4Fe46692206d8658127e225880d8856dC5d4",
+        "decimals": 18
       }
     },
     "rpc": [],
@@ -3128,6 +3134,11 @@
       "0x268734Ce4610c4445b7A9d12100Fc385B97362C6": {
         "name": "Inception rETH",
         "symbol": "InrETH",
+        "decimals": 18
+      },
+      "0x948830486C18AC9679Fd812B3134E68d6bDca511": {
+        "name": "Ramp",
+        "symbol": "RAMP",
         "decimals": 18
       }
     },

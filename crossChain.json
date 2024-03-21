@@ -271,6 +271,12 @@
         "symbol": "ezETH",
         "mainnetEquivalent": "0x2416092f143378750bb29b79eD961ab195CcEea5",
         "decimals": 18
+      },
+      "0xD6b53a5718df3B5D40621D31Bbf1e955b66B3f75": {
+        "name": "Artyfact",
+        "symbol": "ARTY",
+        "mainnetEquivalent": "0xD6b53a5718df3B5D40621D31Bbf1e955b66B3f75",
+        "decimals": 6
       }
     },
     "rpc": [
@@ -1055,6 +1061,11 @@
         "name": "BNB",
         "symbol": "BNB",
         "decimals": 18
+      },
+      "0xa92fe215ae1476Bf714C1C363CB730B079C4a745": {
+        "name": "XArtyfact",
+        "symbol": "XArty",
+        "decimals": 6
       }
     },
     "rpc": [

@@ -3123,36 +3123,6 @@
     }
   },
   {
-    "name": "ZkSync2 Mainnet",
-    "chainId": 324,
-    "domainId": "2053862243",
-    "type": "mainnet",
-    "confirmations": 1,
-    "network": "zksync",
-    "nativeCurrency": {
-      "symbol": "ztETH",
-      "decimals": 18
-    },
-    "subgraph": [],
-    "rpc": ["https://zksync.drpc.org", "https://mainnet.era.zksync.io"],
-    "assetId": {
-      "0x0000000000000000000000000000000000000000": {
-        "symbol": "ztETH",
-        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
-        "decimals": 18
-      },
-      "0x1f4df37E553cEC57D8751e45664B70b9e1FF1d33": {
-        "symbol": "TEST",
-        "decimals": 18
-      }
-    },
-    "gasEstimates": {
-      "execute": "300000",
-      "proveAndProcess": "120000",
-      "messaging": "4500"
-    }
-  },
-  {
     "name": "Polygon zkEVM",
     "chainId": 1101,
     "domainId": "1887071085",

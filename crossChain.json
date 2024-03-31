@@ -271,6 +271,11 @@
         "symbol": "ezETH",
         "mainnetEquivalent": "0x2416092f143378750bb29b79eD961ab195CcEea5",
         "decimals": 18
+      },
+      "0xf0f14634971c43d872d1cf1785195c0ce1000a9d": {
+        "name": "KeyOfLife.ai - AI ETF on Multichain",
+        "symbol": "KOL",
+        "decimals": 18
       }
     },
     "rpc": [

@@ -1066,9 +1066,9 @@
         "symbol": "BNB",
         "decimals": 18
       },
-      "0x71a3C66C2ab4631A60Bda14C421b7715e796d608": {
-        "name": "KeyOfLife.ai - AI ETF on Multichain",
-        "symbol": "xKOL",
+      "0x98396Eb14Cd0430D2F1581640E8363f77f229367": {
+        "name": "nextKOL - bridged KOL by Connext",
+        "symbol": "nextKOL",
         "mainnetEquivalent": "0x5569eDD2e1535Be2003470b2663F2Ff77e83d27e",
         "decimals": 18
       }      

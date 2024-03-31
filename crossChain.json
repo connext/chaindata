@@ -177,6 +177,16 @@
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18,
         "coingeckoId": "keep3rv1"
+      },
+      "0xab2e847b6bA3F772d385038e5b4fF131c161AB4B": {
+        "name": "xAlchemix ETH",
+        "symbol": "xalETH",
+        "decimals": 18
+      },
+      "0xe9D672f89493c7286A9BAfC6b763364EC0BFe4Fe": {
+        "name": "xAlchemix USD",
+        "symbol": "xalUSD",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -506,6 +516,16 @@
       "0xca87472dbfb041c2e5a2672d319ea6184ad9755e": {
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
+        "decimals": 18
+      },
+      "0x3E29D3A9316dAB217754d13b28646B76607c5f04": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "decimals": 18
+      },
+      "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
         "decimals": 18
       }
     },
@@ -2086,6 +2106,16 @@
       "0x16aF9fe3f9E48547971af959fD631A8cDBE40484": {
         "symbol": "nextKP3R",
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
+        "decimals": 18
+      },
+      "0x17573150d67d820542EFb24210371545a4868B03": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "decimals": 18
+      },
+      "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
         "decimals": 18
       }
     },

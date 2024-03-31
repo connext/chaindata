@@ -271,6 +271,11 @@
         "symbol": "ezETH",
         "mainnetEquivalent": "0x2416092f143378750bb29b79eD961ab195CcEea5",
         "decimals": 18
+      },
+      "0xf0f14634971c43d872d1cf1785195c0ce1000a9d": {
+        "name": "KeyOfLife.ai - AI ETF on Multichain",
+        "symbol": "KOL",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -736,6 +741,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x5f791D180126871aE3174db38fcdd28800CcBd77": {
+        "name": "KeyOfLife.ai - AI ETF on Multichain",
+        "symbol": "KOL",
+        "decimals": 18
       }
     },
     "shortName": "oeth",
@@ -1055,7 +1065,13 @@
         "name": "BNB",
         "symbol": "BNB",
         "decimals": 18
-      }
+      },
+      "0x98396Eb14Cd0430D2F1581640E8363f77f229367": {
+        "name": "nextKOL - bridged KOL by Connext",
+        "symbol": "nextKOL",
+        "mainnetEquivalent": "0x5569eDD2e1535Be2003470b2663F2Ff77e83d27e",
+        "decimals": 18
+      }      
     },
     "rpc": [
       "https://bsc-dataseed1.binance.org",
@@ -1657,6 +1673,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x7980DF1e95714F8bd305a83a1A91A3743441121C": {
+        "name": "KeyOfLife.ai - AI ETF on Multichain",
+        "symbol": "KOL",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1754,7 +1775,12 @@
         "symbol": "xSPACE",
         "mainnetEquivalent": "0x1D1498166DDCEeE616a6d99868e1E0677300056f",
         "decimals": 18
-      }
+      },
+      "0xc52a803a1f2f107b5794856ce93c61c4145a4f60": {
+        "name": "KeyOfLife.ai - AI ETF on Multichain",
+        "symbol": "KOL",
+        "decimals": 18
+      }      
     },
     "gasEstimates": {
       "prepare": "200000",
@@ -2369,6 +2395,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xdF093C334EfD8031Edb8497861c9819a15346673": {
+        "name": "KeyOfLife.ai - AI ETF on Multichain",
+        "symbol": "KOL",
+        "decimals": 18
       }
     },
     "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
@@ -2544,7 +2575,12 @@
         "name": "Renzo Restaked ETH",
         "symbol": "ezETH",
         "decimals": 18
-      }
+      },
+      "0xa8DBaf56aDE2Ba5F9f3EA2bD9F6915dB546080b4": {
+        "name": "KeyOfLife.ai - AI ETF on Multichain",
+        "symbol": "KOL",
+        "decimals": 18
+      }      
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
     "subgraph": [
@@ -2864,6 +2900,11 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x5f791D180126871aE3174db38fcdd28800CcBd77": {
+        "name": "KeyOfLife.ai - AI ETF on Multichain",
+        "symbol": "KOL",
+        "decimals": 18
       }
     },
     "rpc": ["https://mainnet.base.org"],

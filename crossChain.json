@@ -753,7 +753,7 @@
       "executeL1": "21000",
       "proveAndProcess": "120000",
       "proveAndProcessL1": "20000",
-      "messaging": "4500"      
+      "messaging": "4500"
     }
   },
   {
@@ -2758,7 +2758,7 @@
     "gasEstimates": {
       "execute": "300000",
       "proveAndProcess": "120000",
-      "messaging": "4500"      
+      "messaging": "4500"
     }
   },
   {
@@ -2881,7 +2881,7 @@
     "gasEstimates": {
       "execute": "300000",
       "proveAndProcess": "120000",
-      "messaging": "4500"       
+      "messaging": "4500"
     }
   },
   {
@@ -2965,7 +2965,7 @@
     "gasEstimates": {
       "execute": "300000",
       "proveAndProcess": "120000",
-      "messaging": "4500"          
+      "messaging": "4500"
     }
   },
   {
@@ -3349,7 +3349,7 @@
     "gasEstimates": {
       "execute": "300000",
       "proveAndProcess": "120000",
-      "messaging": "4500"          
+      "messaging": "4500"
     }
   },
   {
@@ -3538,6 +3538,43 @@
       "fulfillRouterContract": "2250000",
       "cancelRouterContract": "2250000",
       "removeLiquidityRouterContract": "2250000",
+      "gasPriceFactor": "1000000000000000000",
+      "execute": "300000"
+    }
+  },
+  {
+    "name": "XLayer Mainnet",
+    "chainId": 196,
+    "type": "mainnet",
+    "confirmations": 3,
+    "network": "xlayer",
+    "domainId": "2020368761",
+    "nativeCurrency": {
+      "name": "OKB",
+      "symbol": "OKB",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x9E40a8A535D4875848e1821e3C59AB5C5dd86135": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18,
+        "isSingleMinter": true
+      }
+    },
+    "rpc": ["https://rpc.xlayer.tech"],
+    "subgraph": [],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [
+      {
+        "name": "OKX link",
+        "url": "https://www.okx.com/explorer/xlayer",
+        "icon": "okx",
+        "standard": "EIP3091"
+      }
+    ],
+    "gasEstimates": {
       "gasPriceFactor": "1000000000000000000",
       "execute": "300000"
     }

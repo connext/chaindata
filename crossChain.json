@@ -3576,7 +3576,9 @@
     ],
     "gasEstimates": {
       "gasPriceFactor": "1000000000000000000",
-      "execute": "300000"
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
     }
   },
   {

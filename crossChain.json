@@ -299,7 +299,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.05795299456"
+    "maxRelayerFeeInNative": "57952994560000000"
   },
   {
     "name": "Ethereum Testnet Ropsten",
@@ -756,7 +756,7 @@
       "proveAndProcessL1": "20000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.002798455878"
+    "maxRelayerFeeInNative": "2798455878000000"
   },
   {
     "name": "Cronos Mainnet",
@@ -1097,7 +1097,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.0009633637179"
+    "maxRelayerFeeInNative": "963363717900000"
   },
   {
     "name": "Optimism Testnet Kovan",
@@ -1375,7 +1375,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.000007806741204"
+    "maxRelayerFeeInNative": "7806741204000"
   },
   {
     "name": "Fuse Mainnet",
@@ -1692,7 +1692,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.00007922600085"
+    "maxRelayerFeeInNative": "79226000850000"
   },
   {
     "name": "Fantom Opera",
@@ -2574,7 +2574,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.002565572827"
+    "maxRelayerFeeInNative": "2565572827000000"
   },
   {
     "name": "Arbitrum Nova",
@@ -2766,7 +2766,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.003734519566"
+    "maxRelayerFeeInNative": "3734519566000000"
   },
   {
     "name": "Base Goerli",
@@ -2890,7 +2890,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.002363484985"
+    "maxRelayerFeeInNative": "2363484985000000"
   },
   {
     "name": "Metis Andromeda Mainnet",
@@ -2975,7 +2975,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.0002414985379"
+    "maxRelayerFeeInNative": "241498537900000"
   },
   {
     "name": "Mantle Mainnet",
@@ -3012,7 +3012,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.002798455878"
+    "maxRelayerFeeInNative": "2798455878000000"
   },
   {
     "name": "Matic Testnet Mumbai",
@@ -3361,7 +3361,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "0.002798455878"
+    "maxRelayerFeeInNative": "2798455878000000"
   },
   {
     "name": "Scroll Mainnet",

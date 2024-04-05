@@ -1375,7 +1375,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "7806741204000"
+    "maxRelayerFeeInNative": "30365647060000000"
   },
   {
     "name": "Fuse Mainnet",

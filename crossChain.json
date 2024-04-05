@@ -1107,7 +1107,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "963363717900000"
+    "maxRelayerFeeInNative": "6460632677000000"
   },
   {
     "name": "Optimism Testnet Kovan",
@@ -1385,7 +1385,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "7806741204000"
+    "maxRelayerFeeInNative": "30365647060000000"
   },
   {
     "name": "Fuse Mainnet",
@@ -1707,7 +1707,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "79226000850000"
+    "maxRelayerFeeInNative": "348521826200000000"
   },
   {
     "name": "Fantom Opera",
@@ -2990,7 +2990,7 @@
       "proveAndProcess": "120000",
       "messaging": "4500"
     },
-    "maxRelayerFeeInNative": "241498537900000"
+    "maxRelayerFeeInNative": "11005853760000000"
   },
   {
     "name": "Mantle Mainnet",

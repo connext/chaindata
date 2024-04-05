@@ -271,6 +271,12 @@
         "symbol": "ezETH",
         "mainnetEquivalent": "0x2416092f143378750bb29b79eD961ab195CcEea5",
         "decimals": 18
+      },
+      "0x368DC7424A2Ad92e8c115dEE9bF92Cd232E8AE82": {
+        "name": "EstateX",
+        "symbol": "ESX",
+        "mainnetEquivalent": "0x368DC7424A2Ad92e8c115dEE9bF92Cd232E8AE82",
+        "decimals": 9
       }
     },
     "rpc": [
@@ -1661,6 +1667,12 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x17d13fd3a9d2a115456b210875d2bde292d14565": {
+        "name": "EstateX",
+        "symbol": "ESX",
+        "mainnetEquivalent": "0x17d13fd3a9d2a115456b210875d2bde292d14565",
+        "decimals": 9
       }
     },
     "rpc": [

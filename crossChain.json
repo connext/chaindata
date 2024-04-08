@@ -396,7 +396,9 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-rinkeby-v1-analytics"
     ],
-    "faucets": ["https://faucet.rinkeby.io"],
+    "faucets": [
+      "https://faucet.rinkeby.io"
+    ],
     "infoURL": "https://www.rinkeby.io",
     "explorers": [
       {
@@ -541,14 +543,18 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://ethereum-goerli-rpc.allthatnode.com/"],
+    "rpc": [
+      "https://ethereum-goerli-rpc.allthatnode.com/"
+    ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-runtime"
     ],
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-goerli-v1-analytics"
     ],
-    "faucets": ["https://faucet.goerli.mudit.blog"],
+    "faucets": [
+      "https://faucet.goerli.mudit.blog"
+    ],
     "subgraphs": {
       "runtime": [
         {
@@ -608,7 +614,9 @@
     "network": "optimism",
     "confirmations": 1,
     "domainId": "1869640809",
-    "rpc": ["https://mainnet.optimism.io/"],
+    "rpc": [
+      "https://mainnet.optimism.io/"
+    ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-v1-runtime",
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-optimism-v1-runtime"
@@ -766,7 +774,9 @@
     "chainId": 25,
     "type": "mainnet",
     "confirmations": 10,
-    "rpc": ["https://evm.cronos.org/"],
+    "rpc": [
+      "https://evm.cronos.org/"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-cronos-v1-runtime"
     ],
@@ -1126,7 +1136,9 @@
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
       }
     },
-    "rpc": ["https://kovan.optimism.io"],
+    "rpc": [
+      "https://kovan.optimism.io"
+    ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-optimism-kovan-v1-runtime"
     ],
@@ -1200,7 +1212,9 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-chapel-v1-analytics"
     ],
-    "faucets": ["https://testnet.binance.org/faucet-smart"],
+    "faucets": [
+      "https://testnet.binance.org/faucet-smart"
+    ],
     "infoURL": "https://www.binance.org",
     "explorers": [
       {
@@ -1219,7 +1233,11 @@
     "network": "xdai",
     "networkId": 100,
     "domainId": "6778479",
-    "nativeCurrency": { "name": "xDAI", "symbol": "xDAI", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "xDAI",
+      "symbol": "xDAI",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "XDAI",
@@ -1396,7 +1414,9 @@
       "symbol": "FUSE",
       "decimals": 18
     },
-    "rpc": ["https://rpc.fuse.io/"],
+    "rpc": [
+      "https://rpc.fuse.io/"
+    ],
     "faucets": [],
     "infoURL": "https://developers.fuse.io",
     "assetId": {
@@ -1689,7 +1709,9 @@
     ],
     "faucets": [],
     "infoURL": "https://matic.network/",
-    "gasStations": ["https://gasstation-mainnet.matic.network/"],
+    "gasStations": [
+      "https://gasstation-mainnet.matic.network/"
+    ],
     "explorers": [
       {
         "name": "polygonscan",
@@ -1713,8 +1735,14 @@
     "chain": "FTM",
     "network": "ftm",
     "networkId": 250,
-    "nativeCurrency": { "name": "Fantom", "symbol": "FTM", "decimals": 18 },
-    "rpc": ["https://rpcapi.fantom.network"],
+    "nativeCurrency": {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpcapi.fantom.network"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-fantom-v1-runtime"
@@ -1790,8 +1818,14 @@
     "shortName": "boba",
     "chain": "BOBA",
     "network": "boba",
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
-    "rpc": ["https://mainnet.boba.network/"],
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://mainnet.boba.network/"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-boba-v1-runtime"
     ],
@@ -1920,7 +1954,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://goerli.optimism.io"],
+    "rpc": [
+      "https://goerli.optimism.io"
+    ],
     "subgraph": [],
     "analyticsSubgraph": [],
     "explorers": [
@@ -1971,8 +2007,14 @@
     "chain": "MOVR",
     "network": "moonriver",
     "networkId": 1285,
-    "nativeCurrency": { "name": "Moonriver", "symbol": "MOVR", "decimals": 18 },
-    "rpc": ["https://rpc.moonriver.moonbeam.network"],
+    "nativeCurrency": {
+      "name": "Moonriver",
+      "symbol": "MOVR",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.moonriver.moonbeam.network"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime"
@@ -2030,8 +2072,14 @@
     "shortName": "moonbeam",
     "network": "moonbeam",
     "networkId": 1284,
-    "nativeCurrency": { "name": "Glimmer", "symbol": "GLMR", "decimals": 18 },
-    "rpc": ["https://rpc.api.moonbeam.network"],
+    "nativeCurrency": {
+      "name": "Glimmer",
+      "symbol": "GLMR",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.api.moonbeam.network"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonbeam-v1-runtime"
     ],
@@ -2090,7 +2138,6 @@
       "removeLiquidityRouterContract": "48000"
     }
   },
-
   {
     "name": "Milkomeda Cardano (C1)",
     "chainId": 2001,
@@ -2136,7 +2183,9 @@
         "decimals": 8
       }
     },
-    "rpc": ["https://rpc.c1.milkomeda.com:8545"],
+    "rpc": [
+      "https://rpc.c1.milkomeda.com:8545"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-milkomeda-cardano-v1-runtime"
     ],
@@ -2162,8 +2211,14 @@
     "chain": "MBASE",
     "network": "moonbase",
     "networkId": 1287,
-    "nativeCurrency": { "name": "Dev", "symbol": "DEV", "decimals": 18 },
-    "rpc": ["https://rpc.testnet.moonbeam.network"],
+    "nativeCurrency": {
+      "name": "Dev",
+      "symbol": "DEV",
+      "decimals": 18
+    },
+    "rpc": [
+      "https://rpc.testnet.moonbeam.network"
+    ],
     "explorers": [
       {
         "name": "moonbase",
@@ -2204,7 +2259,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://evm.evm-alpha.kava.io"],
+    "rpc": [
+      "https://evm.evm-alpha.kava.io"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-kava-alphanet-v1-runtime"
     ],
@@ -2236,7 +2293,9 @@
         "symbol": "tEVMOS"
       }
     },
-    "rpc": ["https://eth.bd.evmos.dev:8545"],
+    "rpc": [
+      "https://eth.bd.evmos.dev:8545"
+    ],
     "faucets": [],
     "gasStations": [],
     "explorers": []
@@ -2289,7 +2348,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://eth.bd.evmos.org:8545"],
+    "rpc": [
+      "https://eth.bd.evmos.org:8545"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-evmos-v1-runtime"
     ],
@@ -2314,7 +2375,9 @@
       "symbol": "AVAX",
       "decimals": 18
     },
-    "rpc": ["https://api.avax-test.network/ext/bc/C/rpc"],
+    "rpc": [
+      "https://api.avax-test.network/ext/bc/C/rpc"
+    ],
     "explorers": [
       {
         "name": "avalanche",
@@ -2386,7 +2449,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://api.avax.network/ext/bc/C/rpc"],
+    "rpc": [
+      "https://api.avax.network/ext/bc/C/rpc"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-avalanche-v1-runtime"
@@ -2561,7 +2626,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://arb1.arbitrum.io/rpc"],
+    "rpc": [
+      "https://arb1.arbitrum.io/rpc"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime",
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-one-v1-runtime"
@@ -2619,7 +2686,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://nova.arbitrum.io/rpc "],
+    "rpc": [
+      "https://nova.arbitrum.io/rpc "
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-arbitrum-nova-v1-runtime"
     ],
@@ -2755,7 +2824,9 @@
         "isSingleMinter": true
       }
     },
-    "rpc": ["https://rpc.linea.build"],
+    "rpc": [
+      "https://rpc.linea.build"
+    ],
     "subgraph": [
       "https://graph-query.linea.build/subgraphs/name/connext/amarok-runtime-v0-linea",
       "https://connext.bwarelabs.com/subgraphs/name/connext/amarok-runtime-v0-linea"
@@ -2881,7 +2952,9 @@
         "isSingleMinter": true
       }
     },
-    "rpc": ["https://mainnet.base.org"],
+    "rpc": [
+      "https://mainnet.base.org"
+    ],
     "subgraph": [],
     "faucets": [],
     "infoURL": "",
@@ -2972,7 +3045,9 @@
         "isSingleMinter": true
       }
     },
-    "rpc": ["https://metis-pokt.nodies.app"],
+    "rpc": [
+      "https://metis-pokt.nodies.app"
+    ],
     "subgraph": [],
     "faucets": [],
     "infoURL": "",
@@ -3007,7 +3082,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://rpc.mantle.xyz"],
+    "rpc": [
+      "https://rpc.mantle.xyz"
+    ],
     "subgraph": [],
     "faucets": [],
     "infoURL": "",
@@ -3103,7 +3180,9 @@
     "analyticsSubgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-mumbai-v1-analytics"
     ],
-    "faucets": ["https://faucet.matic.network/"],
+    "faucets": [
+      "https://faucet.matic.network/"
+    ],
     "infoURL": "https://matic.network/",
     "explorers": [
       {
@@ -3149,7 +3228,10 @@
       "decimals": 18
     },
     "subgraph": [],
-    "rpc": ["https://polygon-zkevm.drpc.org", "https://1rpc.io/polygon/zkevm"],
+    "rpc": [
+      "https://polygon-zkevm.drpc.org",
+      "https://1rpc.io/polygon/zkevm"
+    ],
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3187,7 +3269,9 @@
         "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
       }
     },
-    "rpc": ["https://rinkeby.arbitrum.io/rpc"],
+    "rpc": [
+      "https://rinkeby.arbitrum.io/rpc"
+    ],
     "subgraph": [
       "https://api.thegraph.com/subgraphs/name/connext/nxtp-arbitrum-rinkeby-v1-runtime"
     ],
@@ -3261,7 +3345,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://goerli-rollup.arbitrum.io/rpc"]
+    "rpc": [
+      "https://goerli-rollup.arbitrum.io/rpc"
+    ]
   },
   {
     "name": "Arbitrum Sepolia",
@@ -3349,7 +3435,9 @@
         "isSingleMinter": true
       }
     },
-    "rpc": ["https://mainnet.mode.network/"],
+    "rpc": [
+      "https://mainnet.mode.network/"
+    ],
     "subgraph": [],
     "faucets": [],
     "infoURL": "",
@@ -3413,7 +3501,9 @@
         "isSingleMinter": true
       }
     },
-    "rpc": ["https://rpc.scroll.io/"],
+    "rpc": [
+      "https://rpc.scroll.io/"
+    ],
     "subgraph": [],
     "faucets": [],
     "infoURL": "",
@@ -3449,7 +3539,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://mainnet.gather.network/"],
+    "rpc": [
+      "https://mainnet.gather.network/"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-gather-v1-runtime"
     ],
@@ -3458,7 +3550,11 @@
     ],
     "faucets": [],
     "gasStations": [],
-    "explorers": [{ "url": "https://explorer.gather.network/" }],
+    "explorers": [
+      {
+        "url": "https://explorer.gather.network/"
+      }
+    ],
     "gasEstimates": {}
   },
   {
@@ -3497,7 +3593,9 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://api.harmony.one/"],
+    "rpc": [
+      "https://api.harmony.one/"
+    ],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-harmonyone-v1-runtime"
     ],
@@ -3506,7 +3604,11 @@
     ],
     "faucets": [],
     "gasStations": [],
-    "explorers": [{ "url": "https://explorer.harmony.one/" }],
+    "explorers": [
+      {
+        "url": "https://explorer.harmony.one/"
+      }
+    ],
     "gasEstimates": {}
   },
   {
@@ -3531,7 +3633,10 @@
         "decimals": 18
       }
     },
-    "rpc": ["https://testrpc.x1.tech", "https://x1testrpc.okx.com/"],
+    "rpc": [
+      "https://testrpc.x1.tech",
+      "https://x1testrpc.okx.com/"
+    ],
     "subgraph": [
       "https://www.okx.com/api/v1/x1-testnet/subgraph/name/connext/amarok-runtime-v1-x1-testnet",
       "https://connext.bwarelabs.com/subgraphs/name/connext/amarok-runtime-v0-x1-testnet"
@@ -3577,7 +3682,9 @@
         "isSingleMinter": true
       }
     },
-    "rpc": ["https://rpc.xlayer.tech"],
+    "rpc": [
+      "https://rpc.xlayer.tech"
+    ],
     "subgraph": [],
     "faucets": [],
     "infoURL": "",
@@ -3604,7 +3711,11 @@
     "confirmations": 10,
     "network": "local1337",
     "networkId": 1337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3621,7 +3732,11 @@
     "confirmations": 10,
     "network": "local1338",
     "networkId": 1337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3638,7 +3753,11 @@
     "confirmations": 1,
     "network": "localmainnet",
     "networkId": 31337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3655,7 +3774,11 @@
     "confirmations": 1,
     "network": "localoptimism",
     "networkId": 31338,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3672,7 +3795,11 @@
     "confirmations": 1,
     "network": "localarbitrumone",
     "networkId": 31339,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",

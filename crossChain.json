@@ -3685,7 +3685,9 @@
     "rpc": [
       "https://rpc.xlayer.tech"
     ],
-    "subgraph": [],
+    "subgraph": [
+      "https://connext.bwarelabs.com/subgraphs/name/connext/runtime-staging-xlayer"
+    ],
     "faucets": [],
     "infoURL": "",
     "explorers": [

@@ -303,7 +303,8 @@
       "execute": "350000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "70585838946821500"
   },
   {
     "name": "Ethereum Testnet Ropsten",
@@ -767,7 +768,8 @@
       "proveAndProcess": "120000",
       "proveAndProcessL1": "20000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "5588679354619420"
   },
   {
     "name": "Cronos Mainnet",
@@ -1114,7 +1116,8 @@
       "execute": "400000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "1299428304341720"
   },
   {
     "name": "Optimism Testnet Kovan",
@@ -1399,7 +1402,8 @@
       "execute": "400000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "10515336612418"
   },
   {
     "name": "Fuse Mainnet",
@@ -1724,7 +1728,8 @@
       "execute": "400000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "111315894267544"
   },
   {
     "name": "Fantom Opera",
@@ -2471,7 +2476,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "54663480603316"
   },
   {
     "name": "Arbitrum One",
@@ -2650,7 +2656,8 @@
       "execute": "2000000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "4245303365693630"
   },
   {
     "name": "Arbitrum Nova",
@@ -2845,7 +2852,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "4726633358245390"
   },
   {
     "name": "Base Goerli",
@@ -2970,7 +2978,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "5703415017850660"
   },
   {
     "name": "Metis Andromeda Mainnet",
@@ -3056,7 +3065,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "293215984265379"
   },
   {
     "name": "Mantle Mainnet",
@@ -3094,7 +3104,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "5588679354619420"
   },
   {
     "name": "Matic Testnet Mumbai",
@@ -3247,7 +3258,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "471281583960000"
   },
   {
     "name": "Arbitrum Testnet Rinkeby",
@@ -3453,7 +3465,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "5588679354619420"
   },
   {
     "name": "Scroll Mainnet",

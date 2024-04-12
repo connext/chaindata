@@ -591,6 +591,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x18445923592be303fbd3BC164ee685C7457051b4": {
+        "name": "xVCX",
+        "symbol": "xVCX",
+        "decimals": 18
       }
     },
     "rpc": [],
@@ -1968,6 +1973,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x1b36CDCd11c17D47390CC3cC04F24c121deD4009": {
+        "name": "xVCX",
+        "symbol": "xVCX",
+        "decimals": 18
       }
     },
     "rpc": [],
@@ -3319,6 +3329,11 @@
       "0xaBF282c88DeD3e386701a322e76456c062468Ac2": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0x1fa00Efd6Fe975E2D587016d863896FF0012e16c": {
+        "name": "xVCX",
+        "symbol": "xVCX",
         "decimals": 18
       }
     },

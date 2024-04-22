@@ -3012,6 +3012,16 @@
         "mainnetEquivalent": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
+        "decimals": 18
+      },
+      "0x0E17934B9735D479B2388347fAeF0F4e58b9cc06": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "decimals": 18
       }
     },
     "rpc": ["https://metis-pokt.nodies.app"],

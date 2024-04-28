@@ -276,6 +276,11 @@
         "name": "EstateX",
         "symbol": "ESX",
         "decimals": 9
+      },
+      "0x18445923592be303fbd3BC164ee685C7457051b4": {
+        "name": "xVCX",
+        "symbol": "xVCX",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -741,6 +746,11 @@
       "0xAFCE6eAc6CdcEd6a54d367E1271C10d6595aE78C": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0xfe7950eC9AfE82538CEAC95735f1daf31829d066": {
+        "name": "xVCX",
+        "symbol": "xVCX",
         "decimals": 18
       }
     },
@@ -2587,6 +2597,11 @@
       "0x2416092f143378750bb29b79eD961ab195CcEea5": {
         "name": "Renzo Restaked ETH",
         "symbol": "ezETH",
+        "decimals": 18
+      },
+      "0x18445923592be303fbd3BC164ee685C7457051b4": {
+        "name": "xVCX",
+        "symbol": "xVCX",
         "decimals": 18
       }
     },

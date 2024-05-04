@@ -1,32 +1,25 @@
 {
     "hub": {
-        "domain": "11155111",
+        "domain": "44787",
         "deployments": {
-            "auctioneer": ""
+            "auctioneer": "0xDf7938811C6ab242f941686f8f2Ad48115237d60"
         },
-        "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
-        "subgraphUrls": []
+        "providers": ["https://alfajores-forno.celo-testnet.org"],
+        "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-celo-alfajores/version/latest"]
     },
     "chains": {
         "11155111": {
             "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
-            "subgraphUrls": [],
+            "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-sepolia/version/latest"],
             "deployments": {
-                "connext": ""
+                "connext": "0x5d14fE9f2e41e66a8be309575b6a118964F90904"
             }
-        },
-        "80001": {
-            "providers": ["https://polygon-mumbai.gateway.tenderly.co"],
-            "subgraphUrls": [],
-            "deployments": {
-                "connext": ""
-            }            
         },
         "97": {
             "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
-            "subgraphUrls": [],
+            "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-chapel/version/latest"],
             "deployments": {
-                "connext": ""
+                "connext": "0x014800afBE50725c6A60420edA776F77a274c2ae"
             }
         }
     },

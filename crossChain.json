@@ -281,6 +281,12 @@
         "name": "xVCX",
         "symbol": "xVCX",
         "decimals": 18
+      },
+      "0x0e2504dB1ffb0C3f692128f3919CbCAa11c10e8f": {
+        "name": "Zerog Staked ETH",
+        "symbol": "zgETH",
+        "mainnetEquivalent": "0x0e2504dB1ffb0C3f692128f3919CbCAa11c10e8f",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -751,6 +757,11 @@
       "0xfe7950eC9AfE82538CEAC95735f1daf31829d066": {
         "name": "xVCX",
         "symbol": "xVCX",
+        "decimals": 18
+      },
+      "0x4B9D5F4e95f6Fe93B4607BFdB43CB6b32cE47aa0": {
+        "name": "Zerog Staked ETH",
+        "symbol": "zgETH",
         "decimals": 18
       }
     },
@@ -2603,7 +2614,12 @@
         "name": "xVCX",
         "symbol": "xVCX",
         "decimals": 18
-      }
+      },
+      "0xA5E5A6724E99EaBd4CA236633AAb882B7658F287": {
+        "name": "Zerog Staked ETH",
+        "symbol": "zgETH",
+        "decimals": 18
+      },
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
     "subgraph": [
@@ -2925,6 +2941,11 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x4B9D5F4e95f6Fe93B4607BFdB43CB6b32cE47aa0": {
+        "name": "Zerog Staked ETH",
+        "symbol": "zgETH",
+        "decimals": 18
       }
     },
     "rpc": ["https://mainnet.base.org"],

@@ -2,7 +2,8 @@
     "hub": {
         "domain": "44787",
         "deployments": {
-            "auctioneer": "0x38815D7C694820C9321d19b2DBD8bEC8127377c9"
+            "auctioneer": "0x38815D7C694820C9321d19b2DBD8bEC8127377c9",
+            "gateway": "0x78A58d848ed79Ecd8a77D72C74EEa81A8794bcE5"
         },
         "providers": ["https://alfajores-forno.celo-testnet.org"],
         "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-celo-alfajores/version/latest"]
@@ -12,14 +13,17 @@
             "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
             "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-sepolia/version/latest"],
             "deployments": {
-                "connext": "0x78A58d848ed79Ecd8a77D72C74EEa81A8794bcE5"
+                "connext": "0x78A58d848ed79Ecd8a77D72C74EEa81A8794bcE5",
+                "gateway": "0x38815D7C694820C9321d19b2DBD8bEC8127377c9"
+
             }
         },
         "97": {
             "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
             "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-chapel/version/latest"],
             "deployments": {
-                "connext": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303"
+                "connext": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303",
+                "gateway": "0x372997d01F001116113D40a7bdf9465d5142Bb62"
             }
         }
     }

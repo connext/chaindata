@@ -16,6 +16,22 @@
                 "connext": "0x78A58d848ed79Ecd8a77D72C74EEa81A8794bcE5",
                 "gateway": "0x38815D7C694820C9321d19b2DBD8bEC8127377c9"
 
+            },
+            "assets": {
+                "ETH": {
+                    "symbol": "ETH",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "isNative": true,
+                    "coingeckoId": "ethereum"
+                },
+                "TEST": {
+                    "symbol": "TEST",
+                    "address": "0xd26e3540A0A368845B234736A0700E0a5A821bBA",
+                    "decimals": 18,
+                    "isNative": false,
+                    "coingeckoId": "usd-coin"                    
+                }
             }
         },
         "97": {
@@ -24,6 +40,22 @@
             "deployments": {
                 "connext": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303",
                 "gateway": "0x372997d01F001116113D40a7bdf9465d5142Bb62"
+            },
+            "assets": {
+                "BNB": {
+                    "symbol": "BNB",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "isNative": true,
+                    "coingeckoId": "binancecoin"
+                },
+                "TEST": {
+                    "symbol": "TEST",
+                    "address": "0x5f921E4DE609472632CEFc72a3846eCcfbed4ed8",
+                    "decimals": 18,
+                    "isNative": false,
+                    "coingeckoId": "usd-coin"                    
+                }                
             }
         }
     }

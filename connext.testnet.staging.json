@@ -3,8 +3,8 @@
         "domain": "44787",
         "deployments": {
             "connext": "0x014800afBE50725c6A60420edA776F77a274c2ae",
-            "auctioneer": "0x38815D7C694820C9321d19b2DBD8bEC8127377c9",
-            "gateway": "0x78A58d848ed79Ecd8a77D72C74EEa81A8794bcE5"
+            "auctioneer": "0xDf7938811C6ab242f941686f8f2Ad48115237d60",
+            "gateway": "0xBca9aA879f0C9240645015aBe87Df58298038580"
         },
         "providers": ["https://alfajores-forno.celo-testnet.org"],
         "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-celo-alfajores/version/latest"]
@@ -14,8 +14,8 @@
             "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
             "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-sepolia/version/latest"],
             "deployments": {
-                "connext": "0x78A58d848ed79Ecd8a77D72C74EEa81A8794bcE5",
-                "gateway": "0x38815D7C694820C9321d19b2DBD8bEC8127377c9"
+                "connext": "0x5d14fE9f2e41e66a8be309575b6a118964F90904",
+                "gateway": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303"
 
             },
             "assets": {
@@ -39,8 +39,8 @@
             "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
             "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-chapel/version/latest"],
             "deployments": {
-                "connext": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303",
-                "gateway": "0x372997d01F001116113D40a7bdf9465d5142Bb62"
+                "connext": "0x014800afBE50725c6A60420edA776F77a274c2ae",
+                "gateway": "0xBca9aA879f0C9240645015aBe87Df58298038580"
             },
             "assets": {
                 "BNB": {

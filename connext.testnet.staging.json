@@ -2,6 +2,7 @@
     "hub": {
         "domain": "44787",
         "deployments": {
+            "connext": "0x014800afBE50725c6A60420edA776F77a274c2ae",
             "auctioneer": "0x38815D7C694820C9321d19b2DBD8bEC8127377c9",
             "gateway": "0x78A58d848ed79Ecd8a77D72C74EEa81A8794bcE5"
         },

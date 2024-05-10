@@ -1,22 +1,21 @@
 {
     "hub": {
-        "domain": "44787",
+        "domain": "534351",
         "deployments": {
-            "connext": "0x014800afBE50725c6A60420edA776F77a274c2ae",
-            "auctioneer": "0xDf7938811C6ab242f941686f8f2Ad48115237d60",
-            "gateway": "0xBca9aA879f0C9240645015aBe87Df58298038580"
+            "connext": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303",
+            "auctioneer": "0xc19EBa452000304Ee2637Ec1D27E6DDc14d03F91",
+            "gateway": "0x372997d01F001116113D40a7bdf9465d5142Bb62"
         },
-        "providers": ["https://alfajores-forno.celo-testnet.org"],
-        "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-celo-alfajores/version/latest"]
+        "providers": ["https://sepolia-rpc.scroll.io"],
+        "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-scroll-sepolia/version/latest"]
     },
     "chains": {
         "11155111": {
             "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
             "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-sepolia/version/latest"],
             "deployments": {
-                "connext": "0x5d14fE9f2e41e66a8be309575b6a118964F90904",
-                "gateway": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303"
-
+                "connext": "0xf8b7EE982e1C406FAca6B231694e9ab26A6ffF62",
+                "gateway": "0x7eE6E6d1309cc77d64Fe18f8F447A5C9aCFc118f"
             },
             "assets": {
                 "ETH": {
@@ -39,8 +38,8 @@
             "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
             "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-chapel/version/latest"],
             "deployments": {
-                "connext": "0x014800afBE50725c6A60420edA776F77a274c2ae",
-                "gateway": "0xBca9aA879f0C9240645015aBe87Df58298038580"
+                "connext": "0xdd336eE92FB0F0d3222FD0BB673ab6beb98F170b",
+                "gateway": "0xcbaC3316B977096A17beC3316ffA2196fAE561d9"
             },
             "assets": {
                 "BNB": {

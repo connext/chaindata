@@ -7,12 +7,12 @@
             "gateway": "0x372997d01F001116113D40a7bdf9465d5142Bb62"
         },
         "providers": ["https://sepolia-rpc.scroll.io"],
-        "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-scroll-sepolia/version/latest"]
+        "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-scroll-sepolia/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-hub-scroll-sepolia/v0.0.1/gn"]
     },
     "chains": {
         "11155111": {
             "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
-            "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-sepolia/version/latest"],
+            "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-sepolia/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-spoke-chapel/v0.0.1/gn"],
             "deployments": {
                 "connext": "0xf8b7EE982e1C406FAca6B231694e9ab26A6ffF62",
                 "gateway": "0x7eE6E6d1309cc77d64Fe18f8F447A5C9aCFc118f"
@@ -36,7 +36,7 @@
         },
         "97": {
             "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
-            "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-chapel/version/latest"],
+            "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-chapel/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-spoke-sepolia/v0.0.1/gn"],
             "deployments": {
                 "connext": "0xdd336eE92FB0F0d3222FD0BB673ab6beb98F170b",
                 "gateway": "0xcbaC3316B977096A17beC3316ffA2196fAE561d9"

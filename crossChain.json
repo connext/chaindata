@@ -596,6 +596,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x2B4aaFe533149f9269296868c2178b3c323B7F01": {
+        "name": "xPufferVault",
+        "symbol": "xPufETH",
+        "decimals": 18
       }
     },
     "rpc": [],
@@ -3334,6 +3339,11 @@
       "0xaBF282c88DeD3e386701a322e76456c062468Ac2": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0x3dC898c2db965851e64e3621579c53019C70338C": {
+        "name": "xPufferVault",
+        "symbol": "xPufETH",
         "decimals": 18
       }
     },

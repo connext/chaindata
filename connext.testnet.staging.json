@@ -2,9 +2,9 @@
     "hub": {
         "domain": "534351",
         "deployments": {
-            "connext": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303",
-            "auctioneer": "0xc19EBa452000304Ee2637Ec1D27E6DDc14d03F91",
-            "gateway": "0x372997d01F001116113D40a7bdf9465d5142Bb62"
+            "connext": "0x1710d833AE1Ad5D7efa403a6fd5B9c058a807162",
+            "auctioneer": "0xb7e1627F853CeDBd6C4f74BFAbdC3b23C9b06A21",
+            "gateway": "0xa7E5132d8678c1692640B8D14be770D6bFCBB0Ba"
         },
         "providers": ["https://sepolia-rpc.scroll.io"],
         "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-scroll-sepolia/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-hub-scroll-sepolia/v0.0.1/gn"]
@@ -14,8 +14,8 @@
             "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
             "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-sepolia/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-spoke-chapel/v0.0.1/gn"],
             "deployments": {
-                "connext": "0xf8b7EE982e1C406FAca6B231694e9ab26A6ffF62",
-                "gateway": "0x7eE6E6d1309cc77d64Fe18f8F447A5C9aCFc118f"
+                "connext": "0x2C99fE20b242FF467ACE3b919BFC77611E9d4fa2",
+                "gateway": "0x026EE586161294f689D0B0d63F81d4724A398010"
             },
             "assets": {
                 "ETH": {
@@ -42,8 +42,8 @@
             "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
             "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-chapel/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-spoke-sepolia/v0.0.1/gn"],
             "deployments": {
-                "connext": "0xdd336eE92FB0F0d3222FD0BB673ab6beb98F170b",
-                "gateway": "0xcbaC3316B977096A17beC3316ffA2196fAE561d9"
+                "connext": "0x65112286EE2081A7c098c5034600d934138f7c02",
+                "gateway": "0x0D844FdA7548749414F0BcaFa903073c6843024d"
             },
             "assets": {
                 "BNB": {

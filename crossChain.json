@@ -1983,6 +1983,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xcDe9bC6e1e2647357Ad61b6b0dFF005F549D6Ba3": {
+        "name": "xPufETH",
+        "symbol": "xPufETH",
+        "decimals": 18
       }
     },
     "rpc": [],

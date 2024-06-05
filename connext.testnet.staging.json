@@ -23,14 +23,18 @@
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
                     "isNative": true,
-                    "coingeckoId": "ethereum"
+                    "price": {
+                        "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306"
+                    }                    
                 },
                 "TEST": {
                     "symbol": "TEST",
                     "address": "0xd26e3540A0A368845B234736A0700E0a5A821bBA",
                     "decimals": 18,
                     "isNative": false,
-                    "coingeckoId": "usd-coin"                    
+                    "price": {
+                        "isStable": true
+                    }
                 }
             }
         },
@@ -47,14 +51,19 @@
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
                     "isNative": true,
-                    "coingeckoId": "binancecoin"
+                    "price": {
+                        "priceFeed": "0x2514895c72f50D8bd4B4F9b1110F0D6bD2c97526"
+                    }
                 },
                 "TEST": {
                     "symbol": "TEST",
                     "address": "0x5f921E4DE609472632CEFc72a3846eCcfbed4ed8",
                     "decimals": 18,
                     "isNative": false,
-                    "coingeckoId": "usd-coin"                    
+                    "price": {
+                        "isStable": true
+                    }
+                    
                 }                
             }
         }

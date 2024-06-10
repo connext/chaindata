@@ -281,6 +281,21 @@
         "symbol": "ezETH",
         "mainnetEquivalent": "0x2416092f143378750bb29b79eD961ab195CcEea5",
         "decimals": 18
+      },
+      "0x368DC7424A2Ad92e8c115dEE9bF92Cd232E8AE82": {
+        "name": "EstateX",
+        "symbol": "ESX",
+        "decimals": 9
+      },
+      "0x18445923592be303fbd3BC164ee685C7457051b4": {
+        "name": "xVCX",
+        "symbol": "xVCX",
+        "decimals": 18
+      },
+      "0x900dB999074d9277c5DA2A43F252D74366230DA0": {
+        "name": "Giveth",
+        "symbol": "GIV",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -308,7 +323,8 @@
       "execute": "350000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "70585838946821500"
   },
   {
     "name": "Ethereum Testnet Ropsten",
@@ -746,6 +762,21 @@
         "name": "Alchemix USD",
         "symbol": "alUSD",
         "decimals": 18
+      },
+      "0xfe7950eC9AfE82538CEAC95735f1daf31829d066": {
+        "name": "xVCX",
+        "symbol": "xVCX",
+        "decimals": 18
+      },
+      "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98": {
+        "name": "Giveth",
+        "symbol": "GIV",
+        "decimals": 18
+      },
+      "0x209ef834761b4a272ef60e82ffe1f494b7ef76f7": {
+        "name": "nextGIV",
+        "symbol": "nextGIV",
+        "decimals": 18
       }
     },
     "shortName": "oeth",
@@ -763,8 +794,9 @@
       "executeL1": "21000",
       "proveAndProcess": "120000",
       "proveAndProcessL1": "20000",
-      "messaging": "4500"      
-    }
+      "messaging": "4500"
+    },
+    "maxRelayerFeeInEth": "5588679354619420"
   },
   {
     "name": "Cronos Mainnet",
@@ -1065,6 +1097,11 @@
         "name": "BNB",
         "symbol": "BNB",
         "decimals": 18
+      },
+      "0x97315D3EEbAe38C1cdAc5bee24f2806601bEbACE": {
+        "name": "EstateX",
+        "symbol": "ESX",
+        "decimals": 9
       }
     },
     "rpc": [
@@ -1104,7 +1141,8 @@
       "execute": "400000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "1299428304341720"
   },
   {
     "name": "Optimism Testnet Kovan",
@@ -1219,7 +1257,11 @@
     "network": "xdai",
     "networkId": 100,
     "domainId": "6778479",
-    "nativeCurrency": { "name": "xDAI", "symbol": "xDAI", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "xDAI",
+      "symbol": "xDAI",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "XDAI",
@@ -1351,6 +1393,16 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x4f4F9b8D5B4d0Dc10506e5551B0513B61fD59e75": {
+        "name": "Giveth",
+        "symbol": "GIV",
+        "decimals": 18
+      },
+      "0xB71D06f2e73918386B75c24dD26c95DD938f7912": {
+        "name": "nextGIV",
+        "symbol": "nextGIV",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1381,7 +1433,8 @@
       "execute": "400000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "10515336612418"
   },
   {
     "name": "Fuse Mainnet",
@@ -1667,6 +1720,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x17d13fd3a9d2a115456b210875d2bde292d14565": {
+        "name": "EstateX",
+        "symbol": "ESX",
+        "decimals": 9
       }
     },
     "rpc": [
@@ -1697,7 +1755,8 @@
       "execute": "400000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "111315894267544"
   },
   {
     "name": "Fantom Opera",
@@ -1708,7 +1767,11 @@
     "chain": "FTM",
     "network": "ftm",
     "networkId": 250,
-    "nativeCurrency": { "name": "Fantom", "symbol": "FTM", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Fantom",
+      "symbol": "FTM",
+      "decimals": 18
+    },
     "rpc": ["https://rpcapi.fantom.network"],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-fantom-v1-runtime",
@@ -1785,7 +1848,11 @@
     "shortName": "boba",
     "chain": "BOBA",
     "network": "boba",
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "rpc": ["https://mainnet.boba.network/"],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-boba-v1-runtime"
@@ -1966,7 +2033,11 @@
     "chain": "MOVR",
     "network": "moonriver",
     "networkId": 1285,
-    "nativeCurrency": { "name": "Moonriver", "symbol": "MOVR", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Moonriver",
+      "symbol": "MOVR",
+      "decimals": 18
+    },
     "rpc": ["https://rpc.moonriver.moonbeam.network"],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonriver-v1-runtime",
@@ -2025,7 +2096,11 @@
     "shortName": "moonbeam",
     "network": "moonbeam",
     "networkId": 1284,
-    "nativeCurrency": { "name": "Glimmer", "symbol": "GLMR", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Glimmer",
+      "symbol": "GLMR",
+      "decimals": 18
+    },
     "rpc": ["https://rpc.api.moonbeam.network"],
     "subgraph": [
       "https://connext.bwarelabs.com/subgraphs/name/connext/nxtp-moonbeam-v1-runtime"
@@ -2085,7 +2160,6 @@
       "removeLiquidityRouterContract": "48000"
     }
   },
-
   {
     "name": "Milkomeda Cardano (C1)",
     "chainId": 2001,
@@ -2157,7 +2231,11 @@
     "chain": "MBASE",
     "network": "moonbase",
     "networkId": 1287,
-    "nativeCurrency": { "name": "Dev", "symbol": "DEV", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Dev",
+      "symbol": "DEV",
+      "decimals": 18
+    },
     "rpc": ["https://rpc.testnet.moonbeam.network"],
     "explorers": [
       {
@@ -2401,7 +2479,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "54663480603316"
   },
   {
     "name": "Arbitrum One",
@@ -2553,6 +2632,11 @@
       "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
         "name": "Alchemix USD",
         "symbol": "alUSD",
+        "decimals": 18,
+      },
+      "0x18445923592be303fbd3BC164ee685C7457051b4": {
+        "name": "xVCX",
+        "symbol": "xVCX",
         "decimals": 18
       }
     },
@@ -2578,7 +2662,8 @@
       "execute": "2000000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "4245303365693630"
   },
   {
     "name": "Arbitrum Nova",
@@ -2768,8 +2853,9 @@
     "gasEstimates": {
       "execute": "300000",
       "proveAndProcess": "120000",
-      "messaging": "4500"      
-    }
+      "messaging": "4500"
+    },
+    "maxRelayerFeeInEth": "4726633358245390"
   },
   {
     "name": "Base Goerli",
@@ -2891,8 +2977,9 @@
     "gasEstimates": {
       "execute": "300000",
       "proveAndProcess": "120000",
-      "messaging": "4500"       
-    }
+      "messaging": "4500"
+    },
+    "maxRelayerFeeInEth": "5703415017850660"
   },
   {
     "name": "Metis Andromeda Mainnet",
@@ -2975,8 +3062,9 @@
     "gasEstimates": {
       "execute": "300000",
       "proveAndProcess": "120000",
-      "messaging": "4500"          
-    }
+      "messaging": "4500"
+    },
+    "maxRelayerFeeInEth": "293215984265379"
   },
   {
     "name": "Mantle Mainnet",
@@ -3012,7 +3100,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "5588679354619420"
   },
   {
     "name": "Matic Testnet Mumbai",
@@ -3160,7 +3249,8 @@
       "execute": "300000",
       "proveAndProcess": "120000",
       "messaging": "4500"
-    }
+    },
+    "maxRelayerFeeInEth": "471281583960000"
   },
   {
     "name": "Arbitrum Testnet Rinkeby",
@@ -3347,8 +3437,9 @@
     "gasEstimates": {
       "execute": "300000",
       "proveAndProcess": "120000",
-      "messaging": "4500"          
-    }
+      "messaging": "4500"
+    },
+    "maxRelayerFeeInEth": "5588679354619420"
   },
   {
     "name": "Scroll Mainnet",
@@ -3441,7 +3532,11 @@
     ],
     "faucets": [],
     "gasStations": [],
-    "explorers": [{ "url": "https://explorer.gather.network/" }],
+    "explorers": [
+      {
+        "url": "https://explorer.gather.network/"
+      }
+    ],
     "gasEstimates": {}
   },
   {
@@ -3489,7 +3584,11 @@
     ],
     "faucets": [],
     "gasStations": [],
-    "explorers": [{ "url": "https://explorer.harmony.one/" }],
+    "explorers": [
+      {
+        "url": "https://explorer.harmony.one/"
+      }
+    ],
     "gasEstimates": {}
   },
   {
@@ -3541,6 +3640,73 @@
     }
   },
   {
+    "name": "XLayer Mainnet",
+    "chainId": 196,
+    "type": "mainnet",
+    "confirmations": 3,
+    "network": "xlayer",
+    "domainId": "2020368761",
+    "nativeCurrency": {
+      "name": "OKB",
+      "symbol": "OKB",
+      "decimals": 18
+    },
+    "assetId": {
+      "0x1E4a5963aBFD975d8c9021ce480b42188849D41d": {
+        "name": "Tether USD",
+        "symbol": "USDT",
+        "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        "decimals": 6,
+        "isSingleMinter": true
+      },
+      "0x5a77f1443d16ee5761d310e38b62f77f726bc71c": {
+        "name": "Wrapped Ether",
+        "symbol": "WETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
+      "0xC5015b9d9161Dca7e18e32f6f25C4aD850731Fd4": {
+        "name": "Dai Stablecoin",
+        "symbol": "DAI",
+        "mainnetEquivalent": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
+      "0x705c53246a116b4b10dac9ea429041ef2610a783": {
+        "name": "nextWETH",
+        "symbol": "nextWETH",
+        "mainnetEquivalent": "0x0000000000000000000000000000000000000000",
+        "decimals": 18,
+        "isSingleMinter": true
+      },
+      "0x9E40a8A535D4875848e1821e3C59AB5C5dd86135": {
+        "name": "TEST",
+        "symbol": "TEST",
+        "decimals": 18,
+        "isSingleMinter": true
+      }
+    },
+    "rpc": ["https://rpc.xlayer.tech"],
+    "subgraph": [],
+    "faucets": [],
+    "infoURL": "",
+    "explorers": [
+      {
+        "name": "OKX link",
+        "url": "https://www.okx.com/explorer/xlayer",
+        "icon": "okx",
+        "standard": "EIP3091"
+      }
+    ],
+    "gasEstimates": {
+      "gasPriceFactor": "1000000000000000000",
+      "execute": "300000",
+      "proveAndProcess": "120000",
+      "messaging": "4500"
+    }
+  },
+  {
     "name": "Local1337",
     "chainId": 1337,
     "domainId": "133712",
@@ -3548,7 +3714,11 @@
     "confirmations": 10,
     "network": "local1337",
     "networkId": 1337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3565,7 +3735,11 @@
     "confirmations": 10,
     "network": "local1338",
     "networkId": 1337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3582,7 +3756,11 @@
     "confirmations": 1,
     "network": "localmainnet",
     "networkId": 31337,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3599,7 +3777,11 @@
     "confirmations": 1,
     "network": "localoptimism",
     "networkId": 31338,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",
@@ -3616,7 +3798,11 @@
     "confirmations": 1,
     "network": "localarbitrumone",
     "networkId": 31339,
-    "nativeCurrency": { "name": "Ethereum", "symbol": "ETH", "decimals": 18 },
+    "nativeCurrency": {
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
     "assetId": {
       "0x0000000000000000000000000000000000000000": {
         "symbol": "ETH",

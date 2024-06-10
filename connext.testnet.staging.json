@@ -1,0 +1,71 @@
+{
+    "hub": {
+        "domain": "534351",
+        "deployments": {
+            "connext": "0x0Df32b71A8B8eEF0ED2450e9705454587a285303",
+            "auctioneer": "0xc19EBa452000304Ee2637Ec1D27E6DDc14d03F91",
+            "gateway": "0x372997d01F001116113D40a7bdf9465d5142Bb62"
+        },
+        "providers": ["https://sepolia-rpc.scroll.io"],
+        "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-hub-scroll-sepolia/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-hub-scroll-sepolia/v0.0.1/gn"]
+    },
+    "chains": {
+        "11155111": {
+            "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
+            "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-sepolia/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-spoke-chapel/v0.0.1/gn"],
+            "deployments": {
+                "connext": "0xf8b7EE982e1C406FAca6B231694e9ab26A6ffF62",
+                "gateway": "0x7eE6E6d1309cc77d64Fe18f8F447A5C9aCFc118f"
+            },
+            "assets": {
+                "ETH": {
+                    "symbol": "ETH",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "isNative": true,
+                    "price": {
+                        "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306"
+                    }                    
+                },
+                "TEST": {
+                    "symbol": "TEST",
+                    "address": "0xd26e3540A0A368845B234736A0700E0a5A821bBA",
+                    "decimals": 18,
+                    "isNative": false,
+                    "price": {
+                        "isStable": true
+                    }
+                }
+            }
+        },
+        "97": {
+            "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
+            "subgraphUrls": ["https://api.studio.thegraph.com/query/60851/chimera-spoke-chapel/version/latest", "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/chimera-spoke-sepolia/v0.0.1/gn"],
+            "deployments": {
+                "connext": "0xdd336eE92FB0F0d3222FD0BB673ab6beb98F170b",
+                "gateway": "0xcbaC3316B977096A17beC3316ffA2196fAE561d9"
+            },
+            "assets": {
+                "BNB": {
+                    "symbol": "BNB",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "isNative": true,
+                    "price": {
+                        "priceFeed": "0x2514895c72f50D8bd4B4F9b1110F0D6bD2c97526"
+                    }
+                },
+                "TEST": {
+                    "symbol": "TEST",
+                    "address": "0x5f921E4DE609472632CEFc72a3846eCcfbed4ed8",
+                    "decimals": 18,
+                    "isNative": false,
+                    "price": {
+                        "isStable": true
+                    }
+                    
+                }                
+            }
+        }
+    }
+}

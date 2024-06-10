@@ -286,6 +286,16 @@
         "name": "EstateX",
         "symbol": "ESX",
         "decimals": 9
+      },
+      "0x18445923592be303fbd3BC164ee685C7457051b4": {
+        "name": "xVCX",
+        "symbol": "xVCX",
+        "decimals": 18
+      },
+      "0x900dB999074d9277c5DA2A43F252D74366230DA0": {
+        "name": "Giveth",
+        "symbol": "GIV",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -751,6 +761,21 @@
       "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
         "name": "Alchemix USD",
         "symbol": "alUSD",
+        "decimals": 18
+      },
+      "0xfe7950eC9AfE82538CEAC95735f1daf31829d066": {
+        "name": "xVCX",
+        "symbol": "xVCX",
+        "decimals": 18
+      },
+      "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98": {
+        "name": "Giveth",
+        "symbol": "GIV",
+        "decimals": 18
+      },
+      "0x209ef834761b4a272ef60e82ffe1f494b7ef76f7": {
+        "name": "nextGIV",
+        "symbol": "nextGIV",
         "decimals": 18
       }
     },
@@ -1367,6 +1392,16 @@
       "0x2902c5EE62121df4ac5fa76a7d532722Bdf108e0": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0x4f4F9b8D5B4d0Dc10506e5551B0513B61fD59e75": {
+        "name": "Giveth",
+        "symbol": "GIV",
+        "decimals": 18
+      },
+      "0xB71D06f2e73918386B75c24dD26c95DD938f7912": {
+        "name": "nextGIV",
+        "symbol": "nextGIV",
         "decimals": 18
       }
     },
@@ -2597,6 +2632,11 @@
       "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
         "name": "Alchemix USD",
         "symbol": "alUSD",
+        "decimals": 18
+      },
+      "0x18445923592be303fbd3BC164ee685C7457051b4": {
+        "name": "xVCX",
+        "symbol": "xVCX",
         "decimals": 18
       }
     },

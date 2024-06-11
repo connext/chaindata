@@ -2638,6 +2638,11 @@
         "name": "xVCX",
         "symbol": "xVCX",
         "decimals": 18
+      },
+      "0x6Fc2680D8ad8e8312191441B4ECa9EfF8D06b45a": {
+        "name": "CHOKE",
+        "symbol": "CHOKE",
+        "decimals": 18
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
@@ -2960,6 +2965,11 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0xc2093B1CaFD659F77D11299EE4ba91889898992C": {
+        "name": "CHOKE",
+        "symbol": "CHOKE",
+        "decimals": 18
       }
     },
     "rpc": ["https://mainnet.base.org"],

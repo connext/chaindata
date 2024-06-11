@@ -202,6 +202,16 @@
         "decimals": 18,
         "coingeckoId": "alchemix"
       },
+      "0xab2e847b6bA3F772d385038e5b4fF131c161AB4B": {
+        "name": "xAlchemix ETH",
+        "symbol": "xalETH",
+        "decimals": 18
+      },
+      "0xe9D672f89493c7286A9BAfC6b763364EC0BFe4Fe": {
+        "name": "xAlchemix USD",
+        "symbol": "xalUSD",
+        "decimals": 18
+      },
       "0x799ebfABE77a6E34311eeEe9825190B9ECe32824": {
         "name": "BTRST",
         "symbol": "BTRST",
@@ -711,16 +721,6 @@
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
       },
-      "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
-        "symbol": "nextAlETH",
-        "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
-        "decimals": 18
-      },
-      "0x49000f5e208349D2fA678263418e21365208E498": {
-        "symbol": "nextAlUSD",
-        "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
-        "decimals": 18
-      },
       "0xE974B9b31dBFf4369b94a1bAB5e228f35ed44125": {
         "symbol": "ALCX",
         "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
@@ -751,6 +751,16 @@
       "0xAFCE6eAc6CdcEd6a54d367E1271C10d6595aE78C": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0x3E29D3A9316dAB217754d13b28646B76607c5f04": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "decimals": 18
+      },
+      "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
         "decimals": 18
       },
       "0xfe7950eC9AfE82538CEAC95735f1daf31829d066": {
@@ -2567,16 +2577,6 @@
         "mainnetEquivalent": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
         "decimals": 18
       },
-      "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
-        "symbol": "nextAlETH",
-        "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
-        "decimals": 18
-      },
-      "0x49000f5e208349D2fA678263418e21365208E498": {
-        "symbol": "nextAlUSD",
-        "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
-        "decimals": 18
-      },
       "0x27b58D226fe8f792730a795764945Cf146815AA7": {
         "symbol": "ALCX",
         "mainnetEquivalent": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
@@ -2622,6 +2622,16 @@
       "0x2416092f143378750bb29b79eD961ab195CcEea5": {
         "name": "Renzo Restaked ETH",
         "symbol": "ezETH",
+        "decimals": 18
+      },
+      "0x17573150d67d820542EFb24210371545a4868B03": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "decimals": 18
+      },
+      "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
         "decimals": 18
       },
       "0x18445923592be303fbd3BC164ee685C7457051b4": {
@@ -3042,6 +3052,16 @@
         "mainnetEquivalent": "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
+        "decimals": 18
+      },
+      "0x0E17934B9735D479B2388347fAeF0F4e58b9cc06": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "decimals": 18
       }
     },
     "rpc": ["https://metis-pokt.nodies.app"],
@@ -3309,18 +3329,6 @@
       },
       "0xF6DD52cdF1614Cd649077Aa283840657617faa07": {
         "symbol": "alETH",
-        "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
-        "decimals": 18
-      },
-      "0xF87510F1E63E29BB69d9D35D0365E8CaCe609a8C": {
-        "name": "Next Alchemix USD",
-        "symbol": "nextAlUSD",
-        "mainnetEquivalent": "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9",
-        "decimals": 18
-      },
-      "0x1F563a8BE28acdCc5546543a227aFb9373586eD0": {
-        "name": "Next Alchemix ETH",
-        "symbol": "nextAlETH",
         "mainnetEquivalent": "0x0100546F2cD4C9D97f798fFC9755E47865FF7Ee6",
         "decimals": 18
       },

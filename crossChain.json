@@ -296,6 +296,11 @@
         "name": "Giveth",
         "symbol": "GIV",
         "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "name": "Xocolatl MXN Stablecoin",
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -777,6 +782,11 @@
         "name": "nextGIV",
         "symbol": "nextGIV",
         "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "name": "Xocolatl MXN Stablecoin",
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "shortName": "oeth",
@@ -1056,6 +1066,7 @@
         "decimals": 18
       },
       "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "name": "Xocolatl MXN Stablecoin",
         "symbol": "XOC",
         "decimals": 18
       },
@@ -1370,6 +1381,7 @@
         "decimals": 18
       },
       "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "name": "Xocolatl MXN Stablecoin",
         "symbol": "XOC",
         "decimals": 18
       },
@@ -1685,6 +1697,7 @@
         "decimals": 18
       },
       "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "name": "Xocolatl MXN Stablecoin",
         "symbol": "XOC",
         "decimals": 18
       },
@@ -2638,6 +2651,11 @@
         "name": "xVCX",
         "symbol": "xVCX",
         "decimals": 18
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "name": "Xocolatl MXN Stablecoin",
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
@@ -2833,6 +2851,11 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "name": "Xocolatl MXN Stablecoin",
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "rpc": ["https://rpc.linea.build"],
@@ -2960,6 +2983,11 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
+        "name": "Xocolatl MXN Stablecoin",
+        "symbol": "XOC",
+        "decimals": 18
       }
     },
     "rpc": ["https://mainnet.base.org"],

@@ -2833,6 +2833,16 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x0E17934B9735D479B2388347fAeF0F4e58b9cc06": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
+        "decimals": 18
+      },
+      "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "decimals": 18
       }
     },
     "rpc": ["https://rpc.linea.build"],
@@ -2960,6 +2970,21 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x303241e2B3b4aeD0bb0F8623e7442368FED8Faf3": {
+        "name": "Alchemix USD",
+        "symbol": "alUSD",
+        "decimals": 18
+      },
+      "0x0E17934B9735D479B2388347fAeF0F4e58b9cc06": {
+        "name": "Alchemix ETH",
+        "symbol": "alETH",
+        "decimals": 18
+      },
+      "0x303c4F39EA359155C698807168e9Dc3aA1dF2b95": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "decimals": 18
       }
     },
     "rpc": ["https://mainnet.base.org"],

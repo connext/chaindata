@@ -21,7 +21,7 @@
             ],
             "subgraphUrls": [
                 "https://api.studio.thegraph.com/query/60851/everclear-spoke-sepolia/version/latest",
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.1/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0x67bd2fe049d8950616a2a7ea85142bbad61eec65",
@@ -58,7 +58,7 @@
             ],
             "subgraphUrls": [
                 "https://api.studio.thegraph.com/query/60851/everclear-spoke-chapel/version/latest",
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.1/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0xca7274bdf92c5ee0aacfaaba4cb2eee88042037c",

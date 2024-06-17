@@ -21,7 +21,7 @@
             ],
             "subgraphUrls": [
                 "https://api.studio.thegraph.com/query/60851/everclear-spoke-sepolia/version/latest",
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.1/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0x67bd2fe049d8950616a2a7ea85142bbad61eec65",
@@ -33,14 +33,22 @@
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
                     "isNative": true,
-                    "coingeckoId": "ethereum"
+                    "coingeckoId": "ethereum",
+                    "price": {
+                        "isStable": false,
+                        "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
+                    }
                 },
                 "TEST": {
                     "symbol": "TEST",
                     "address": "0xd26e3540A0A368845B234736A0700E0a5A821bBA",
                     "decimals": 18,
                     "isNative": false,
-                    "coingeckoId": "usd-coin"
+                    "coingeckoId": "usd-coin",
+                    "price": {
+                        "isStable": true,
+                        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+                    }
                 }
             }
         },
@@ -50,7 +58,7 @@
             ],
             "subgraphUrls": [
                 "https://api.studio.thegraph.com/query/60851/everclear-spoke-chapel/version/latest",
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.1/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0xca7274bdf92c5ee0aacfaaba4cb2eee88042037c",
@@ -62,14 +70,22 @@
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
                     "isNative": true,
-                    "coingeckoId": "binancecoin"
+                    "coingeckoId": "binancecoin",
+                    "price": {
+                        "isStable": false,
+                        "mainnetEquivalent": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52"
+                    }
                 },
                 "TEST": {
                     "symbol": "TEST",
                     "address": "0x5f921E4DE609472632CEFc72a3846eCcfbed4ed8",
                     "decimals": 18,
                     "isNative": false,
-                    "coingeckoId": "usd-coin"
+                    "coingeckoId": "usd-coin",
+                    "price": {
+                        "isStable": true,
+                        "mainnetEquivalent": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+                    }
                 }
             }
         }

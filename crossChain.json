@@ -611,7 +611,12 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
-      }
+      },
+      "0xCd14ACD477263FE23486Ac2c156604aa5B077a61": {
+            "name": "XXArtyfactX",
+            "symbol": "AXRTY",
+            "decimals": 18
+       }
     },
     "rpc": [],
     "subgraph": [],
@@ -2013,7 +2018,12 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
-      }
+      },
+      "0xCd14ACD477263FE23486Ac2c156604aa5B077a61": {
+            "name": "XXArtyfactX",
+            "symbol": "AXRTY",
+            "decimals": 18
+       }
     },
     "rpc": [],
     "subgraph": [],

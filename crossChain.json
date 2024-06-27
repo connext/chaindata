@@ -777,6 +777,11 @@
         "name": "nextGIV",
         "symbol": "nextGIV",
         "decimals": 18
+      },
+      "0x887d1c6A4f3548279c2a8A9D0FA61B5D458d14fC": {
+        "name": "Ionic Protocol",
+        "symbol": "ION",
+        "decimals": 18
       }
     },
     "shortName": "oeth",
@@ -2960,6 +2965,11 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x3eE5e23eEE121094f1cFc0Ccc79d6C809Ebd22e5": {
+        "name": "Ionic Protocol",
+        "symbol": "ION",
+        "decimals": 18
       }
     },
     "rpc": ["https://mainnet.base.org"],
@@ -3430,6 +3440,11 @@
         "symbol": "TEST",
         "decimals": 18,
         "isSingleMinter": true
+      },
+      "0x18470019bF0E94611f15852F7e93cf5D65BC34CA": {
+        "name": "Ionic Protocol",
+        "symbol": "ION",
+        "decimals": 18
       }
     },
     "rpc": ["https://mainnet.mode.network/"],

@@ -2843,6 +2843,11 @@
         "name": "Alchemix ETH",
         "symbol": "alETH",
         "decimals": 18
+      },
+      "0x303c4F39EA359155C698807168e9Dc3aA1dF2b95": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
+        "decimals": 18
       }
     },
     "rpc": ["https://rpc.linea.build"],
@@ -3086,6 +3091,11 @@
       "0x0E17934B9735D479B2388347fAeF0F4e58b9cc06": {
         "name": "Alchemix ETH",
         "symbol": "alETH",
+        "decimals": 18
+      },
+      "0x303c4F39EA359155C698807168e9Dc3aA1dF2b95": {
+        "name": "Alchemix",
+        "symbol": "ALCX",
         "decimals": 18
       }
     },

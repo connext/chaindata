@@ -2,15 +2,14 @@
     "hub": {
         "domain": "534351",
         "deployments": {
-            "everclear": "0x4563897A108b9063454ccb3CEafCd4Dd6eF70d48",
-            "gateway": "0x3591315b86a90c8e0bD611c141db3BC3C2a5160B"
+            "everclear": "0x8c43244d141563C6E237C24A6bfb917d5e531528",
+            "gateway": "0x3Cc706c1Cf022f4260e1e651ad1aE7a265b3f8A7"
         },
         "providers": [
             "https://sepolia-rpc.scroll.io"
         ],
         "subgraphUrls": [
-            "https://api.studio.thegraph.com/query/60851/everclear-hub-scroll-sepolia/version/latest",
-            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/v0.0.4/gn"
+            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/v0.0.5/gn"
         ]
     },
     "chains": {
@@ -19,12 +18,11 @@
                 "https://ethereum-sepolia-rpc.publicnode.com"
             ],
             "subgraphUrls": [
-                "https://api.studio.thegraph.com/query/60851/everclear-spoke-sepolia/version/latest",
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.6/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.7/gn"
             ],
             "deployments": {
-                "everclear": "0x8a4f7634E3504Fa217465B02e76912a452026121",
-                "gateway": "0x729BFFf1eDc27a901Ec18bb453539Df822B8d10a"
+                "everclear": "0xB9BD5EbE7Fc0Ca2882a15821c881ccaf31AB2E55",
+                "gateway": "0x8087b64e73C2F9FC7d0428F1EB2981397CBD7869"
             },
             "assets": {
                 "ETH": {
@@ -54,12 +52,11 @@
                 "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
             ],
             "subgraphUrls": [
-                "https://api.studio.thegraph.com/query/60851/everclear-spoke-chapel/version/latest",
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.6/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.7/gn"
             ],
             "deployments": {
-                "everclear": "0x27b65b977875f20d1d1d852Aef402b3045cc499d",
-                "gateway": "0x9C5744C261C84d9F71Ddd349BDC9865210EF0a8F"
+                "everclear": "0xae688152717e2E9F575b10748D17068a928fD650",
+                "gateway": "0x6b4dCDb12fEc8f2D87cC4750c96Ee9a983E16A6F"
             },
             "assets": {
                 "BNB": {

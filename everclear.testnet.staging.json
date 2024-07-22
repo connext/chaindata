@@ -22,7 +22,7 @@
             ],
             "deployments": {
                 "everclear": "0xB9BD5EbE7Fc0Ca2882a15821c881ccaf31AB2E55",
-                "gateway": "0x8087b64e73C2F9FC7d0428F1EB2981397CBD7869"
+                "gateway": "0x6075FF94eA5926C65f87994A6446898C7e900f56"
             },
             "assets": {
                 "ETH": {
@@ -56,7 +56,7 @@
             ],
             "deployments": {
                 "everclear": "0xae688152717e2E9F575b10748D17068a928fD650",
-                "gateway": "0x6b4dCDb12fEc8f2D87cC4750c96Ee9a983E16A6F"
+                "gateway": "0x585Ff163bBa52ab71105dc86Aa9557012F4BFAbB"
             },
             "assets": {
                 "BNB": {

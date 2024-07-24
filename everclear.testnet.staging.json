@@ -9,7 +9,7 @@
             "https://sepolia-rpc.scroll.io"
         ],
         "subgraphUrls": [
-            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/v0.0.5/gn"
+            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/v0.0.6/gn"
         ]
     },
     "chains": {
@@ -18,7 +18,7 @@
                 "https://ethereum-sepolia-rpc.publicnode.com"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.7/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.8/gn"
             ],
             "deployments": {
                 "everclear": "0x16B9aAfca97EE70a0a22ed6C84aB136eB5553526",
@@ -52,7 +52,7 @@
                 "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.7/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.8/gn"
             ],
             "deployments": {
                 "everclear": "0xC6a70715598e8CA48aE04AdbC8eE7588F4169205",

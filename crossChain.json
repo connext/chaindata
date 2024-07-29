@@ -616,6 +616,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xF63eeAb5ce6C49654708442EA1Afb7B56693b734": {
+        "name": "Ethix",
+        "symbol": "ETHIX",
+        "decimals": 18
       }
     },
     "rpc": [],

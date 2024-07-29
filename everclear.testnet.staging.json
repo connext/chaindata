@@ -2,13 +2,14 @@
     "hub": {
         "domain": "534351",
         "deployments": {
-            "everclear": "0xb81fAA796a00f6a5972759cdF0773D10171B62b4",
-            "gateway": "0x12D09afD5584844C9EB36Ff9dC127b40dd91283C"
+            "everclear": "0x9eF1D6d0e01E64695a8A483b9CD84a434313d70A",
+            "gateway": "0xf7FeAE746B36Aa6BEAFd0E9825fAe3EB02e9D794"
         },
         "providers": [
             "https://sepolia-rpc.scroll.io"
         ],
         "subgraphUrls": [
+            "https://api.studio.thegraph.com/query/60851/everclear-hub-scroll-sepolia/version/latest",
             "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/v0.0.6/gn"
         ]
     },
@@ -18,11 +19,12 @@
                 "https://ethereum-sepolia-rpc.publicnode.com"
             ],
             "subgraphUrls": [
+                "https://api.studio.thegraph.com/query/60851/everclear-spoke-sepolia/version/latest",
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/v0.0.8/gn"
             ],
             "deployments": {
-                "everclear": "0x16B9aAfca97EE70a0a22ed6C84aB136eB5553526",
-                "gateway": "0xBb62F2711d2027b40f3AD89B98fE2d301a45cD03"
+                "everclear": "0x017dcc207A8646b53D7f0186d6A1426506ACD102",
+                "gateway": "0xD57219211F407E0C0f43295A9988e09d6e17eBf8"
             },
             "assets": {
                 "ETH": {
@@ -52,11 +54,12 @@
                 "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
             ],
             "subgraphUrls": [
+                "https://api.studio.thegraph.com/query/60851/everclear-spoke-chapel/version/latest",
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/v0.0.8/gn"
             ],
             "deployments": {
-                "everclear": "0xC6a70715598e8CA48aE04AdbC8eE7588F4169205",
-                "gateway": "0x9e25738eD13D056fF8A3BadC3120D3374AE2ba93"
+                "everclear": "0x277B166F111f480cba70e80478a39a67234870ac",
+                "gateway": "0xbC0576D8e24c3eF439bEA5F3909ed74eB1324c86"
             },
             "assets": {
                 "BNB": {

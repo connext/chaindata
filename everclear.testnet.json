@@ -2,27 +2,23 @@
     "hub": {
         "domain": "6398",
         "deployments": {
-            "everclear": "0x20fFfDe065D79122488f5d5Ad9A51082acAD5A52",
-            "gateway": "0x9F0Cc826E87d87e7Bc06294558Cd93f6b519a04A"
+            "everclear": "0x97f24e4eeD4d05D48cb8a45ADfE5e6aF2de14F71",
+            "gateway": "0x8844c689BF1C0899a0D2bc8D5Cfd5F419830D313"
         },
         "providers": [
             "https://rpc.connext-sepolia.gelato.digital"
         ],
-        "subgraphUrls": [
-            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-sepolia/production-v0.0.1/gn"
-        ]
+        "subgraphUrls": []
     },
     "chains": {
         "11155111": {
             "providers": [
                 "https://ethereum-sepolia-rpc.publicnode.com"
             ],
-            "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/production-v0.0.1/gn"
-            ],
+            "subgraphUrls": [],
             "deployments": {
-                "everclear": "0xcC94B63D129f75727A0226f600091e2D9A9374cD",
-                "gateway": "0xfE13FfAb3E6b82995775518D72565edBb2E3Cab1"
+                "everclear": "0x69a1fF9bd63E47B25829aBE6109D28A39f8fd485",
+                "gateway": "0x20fFfDe065D79122488f5d5Ad9A51082acAD5A52"
             },
             "assets": {
                 "ETH": {
@@ -51,12 +47,10 @@
             "providers": [
                 "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
             ],
-            "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/production-v0.0.1/gn"
-            ],
+            "subgraphUrls": [],
             "deployments": {
-                "everclear": "0xDf9Fc7D2b35133c5730d07d2b023753aeA0D7FB5",
-                "gateway": "0xbc1A2ecafa2b533A1E20dd59a4a2B7BfFc863af5"
+                "everclear": "0xC102a8aDF03d711810F7e8A0D32D0D503910abaa",
+                "gateway": "0x882528da3e1Ca444bce94109786f6edb8E11ce20"
             },
             "assets": {
                 "BNB": {

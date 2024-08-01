@@ -2,8 +2,8 @@
     "hub": {
         "domain": "6398",
         "deployments": {
-            "everclear": "0x97f24e4eeD4d05D48cb8a45ADfE5e6aF2de14F71",
-            "gateway": "0x8844c689BF1C0899a0D2bc8D5Cfd5F419830D313"
+            "everclear": "0xFeaaF6291E40252413aA6cb5214F486c8088207e",
+            "gateway": "0x10A8ea817572Ba227aa1cF907F2B683502bB4310"
         },
         "providers": [
             "https://rpc.connext-sepolia.gelato.digital"
@@ -15,10 +15,12 @@
             "providers": [
                 "https://ethereum-sepolia-rpc.publicnode.com"
             ],
-            "subgraphUrls": [],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/production-v0.0.1/gn"
+            ],
             "deployments": {
-                "everclear": "0x69a1fF9bd63E47B25829aBE6109D28A39f8fd485",
-                "gateway": "0x20fFfDe065D79122488f5d5Ad9A51082acAD5A52"
+                "everclear": "0xa257E66309ABE99919d09afd160751F3e4754205",
+                "gateway": "0x30B0EF6D67Fa65B9A0351f860818eAEE5ADFb7D7"
             },
             "assets": {
                 "ETH": {
@@ -47,10 +49,12 @@
             "providers": [
                 "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
             ],
-            "subgraphUrls": [],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/production-v0.0.1/gn"
+            ],
             "deployments": {
-                "everclear": "0xC102a8aDF03d711810F7e8A0D32D0D503910abaa",
-                "gateway": "0x882528da3e1Ca444bce94109786f6edb8E11ce20"
+                "everclear": "0x97f24e4eeD4d05D48cb8a45ADfE5e6aF2de14F71",
+                "gateway": "0x0A1bcEE4F09B691EbFbb3a5b83221A7Ce896c6bd"
             },
             "assets": {
                 "BNB": {

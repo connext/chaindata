@@ -8,7 +8,9 @@
         "providers": [
             "https://rpc.connext-sepolia.gelato.digital"
         ],
-        "subgraphUrls": []
+        "subgraphUrls": [
+            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/production-v0.0.1/gn"
+        ]
     },
     "chains": {
         "11155111": {

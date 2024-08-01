@@ -2,8 +2,8 @@
   "hub": {
     "domain": "534351",
     "deployments": {
-      "everclear": "0x65577294349441D81AA7e9C0cCB33e812E26B740",
-      "gateway": "0x4435f0677A5BddC90436B78B5159FEc6456Ce35E"
+      "everclear": "0xAE38C89d77F7EE19B449c12C79167C7477Def977",
+      "gateway": "0xc285d9324B2471A96D5aFc1B9210816e836ACEc5"
     },
     "providers": [
       "https://sepolia-rpc.scroll.io"
@@ -21,8 +21,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.9/gn"
       ],
       "deployments": {
-        "everclear": "0x3582fEe1fDAd7Bb6df57c46D45F24fcFab8d866D",
-        "gateway": "0x5b8fd35cbD90498e618B47ECe3aAaAC2e3F7fD97"
+        "everclear": "0x14dCfF5c76843a097ace81fB26A639dE0a07C3E3",
+        "gateway": "0xC9C7b7c53c3d369E646545bdc58b1Ae7aB31Eb3c"
       },
       "assets": {
         "ETH": {
@@ -55,8 +55,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.9/gn"
       ],
       "deployments": {
-        "everclear": "0xb630F8687EFfFd681Ab2e51C35f48fF48F561499",
-        "gateway": "0x18afC0e28AC8f8D2465772568F2C354c40c11207"
+        "everclear": "0x0a1f200F6a1423cf3C556f67FA91d04a35dDFD16",
+        "gateway": "0xffBD210BDF59e935fB653A21c9357A8e177a0BAf"
       },
       "assets": {
         "BNB": {

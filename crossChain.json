@@ -616,6 +616,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xdd2F41340A1fFcf1c22C7a8Be4E525D7A2De642b": {
+        "name": "xZai Stablecoin",
+        "symbol": "xZai",
+        "decimals": 18
       }
     },
     "rpc": [],
@@ -3440,6 +3445,11 @@
       "0xaBF282c88DeD3e386701a322e76456c062468Ac2": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0x6A661312938D22A2A0e27F585073E4406903990a": {
+        "name": "ZAI Stablecoin",
+        "symbol": "ZAI",
         "decimals": 18
       }
     },

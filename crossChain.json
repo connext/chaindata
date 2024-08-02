@@ -616,6 +616,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0x553668Ba188941ecbB9C18bDE089fcB679FC6a64": {
+        "name": "Test xWrapped USDM",
+        "symbol": "txwUSDM",
+        "decimals": 18
       }
     },
     "rpc": [],
@@ -3440,6 +3445,11 @@
       "0xaBF282c88DeD3e386701a322e76456c062468Ac2": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0x553668Ba188941ecbB9C18bDE089fcB679FC6a64": {
+        "name": "Test xWrapped USDM",
+        "symbol": "txwUSDM",
         "decimals": 18
       }
     },

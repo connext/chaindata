@@ -301,7 +301,12 @@
         "name": "Xocolatl MXN Stablecoin",
         "symbol": "XOC",
         "decimals": 18
-      }
+      },
+      "0xD7D2802f6b19843ac4DfE25022771FD83b5A7464": {
+        "name": "xPufETH",
+        "symbol": "xPufETH",
+        "decimals": 18
+      },
     },
     "rpc": [
       "https://eth.llamarpc.com",
@@ -1118,6 +1123,11 @@
         "name": "EstateX",
         "symbol": "ESX",
         "decimals": 9
+      },
+      "0x64274835D88F5c0215da8AADd9A5f2D2A2569381": {
+        "name": "xPufETH",
+        "symbol": "xPufETH",
+        "decimals": 18
       }
     },
     "rpc": [

@@ -11,7 +11,8 @@
     "subgraphUrls": [
       "https://api.studio.thegraph.com/query/60851/everclear-hub-scroll-sepolia/version/latest",
       "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/staging-v0.0.7/gn"
-    ]
+    ],
+    "gasLimit": 10000000
   },
   "chains": {
     "11155111": {
@@ -50,6 +51,7 @@
       }
     },
     "97": {
+      "gasLimit": 120000000,
       "providers": [
         "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
       ],

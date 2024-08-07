@@ -307,6 +307,11 @@
         "symbol": "xPufETH",
         "decimals": 18
       },
+      "0xA305F2136C4a68d97Ca7BCf7835bfA3b91077661": {
+        "name": "xTRSY",
+        "symbol": "xTRSY",
+        "decimals": 18
+      }
     },
     "rpc": [
       "https://eth.llamarpc.com",
@@ -3037,6 +3042,11 @@
       "0x303c4F39EA359155C698807168e9Dc3aA1dF2b95": {
         "name": "Alchemix",
         "symbol": "ALCX",
+        "decimals": 18
+      },
+      "0xA305F2136C4a68d97Ca7BCf7835bfA3b91077661": {
+        "name": "xTRSY",
+        "symbol": "xTRSY",
         "decimals": 18
       }
     },

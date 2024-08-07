@@ -626,6 +626,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xc63b3a075269F67Dd0C4B21dedBed23E39A01aff": {
+        "name": "xPufferVault",
+        "symbol": "xPufETH",
+        "decimals": 18
       }
     },
     "rpc": [],
@@ -2046,6 +2051,11 @@
         "name": "TEST",
         "symbol": "TEST",
         "decimals": 18
+      },
+      "0xCcCA977cC71a8c97518b9A9b134263e83389B338": {
+        "name": "xPufETH",
+        "symbol": "xPufETH",
+        "decimals": 18
       }
     },
     "rpc": [],
@@ -3460,6 +3470,11 @@
       "0xaBF282c88DeD3e386701a322e76456c062468Ac2": {
         "name": "TEST",
         "symbol": "TEST",
+        "decimals": 18
+      },
+      "0xBb30e1813E20e5210c8C4E09910F0BDE5c2944B3": {
+        "name": "xPufferVault",
+        "symbol": "xPufETH",
         "decimals": 18
       }
     },

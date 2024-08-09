@@ -9,7 +9,7 @@
       "https://sepolia-rpc.scroll.io"
     ],
     "subgraphUrls": [
-      "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/staging-v0.0.8/gn"
+      "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/staging-v0.0.6/gn"
     ],
     "assets": {
       "ETH": {

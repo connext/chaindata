@@ -12,6 +12,19 @@
       "https://api.studio.thegraph.com/query/60851/everclear-hub-scroll-sepolia/version/latest",
       "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/staging-v0.0.7/gn"
     ],
+    "assets": {
+        "ETH": {
+          "symbol": "ETH",
+          "address": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "isNative": true,
+          "price": {
+            "isStable": false,
+            "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+            "coingeckoId": "ethereum"
+          }
+        }
+    },
     "gasLimit": 10000000
   },
   "chains": {

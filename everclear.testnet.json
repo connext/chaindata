@@ -10,7 +10,20 @@
         ],
         "subgraphUrls": [
             "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/production-v0.0.1/gn"
-        ]
+        ],
+        "assets": {
+            "ETH": {
+                "symbol": "ETH",
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 18,
+                "isNative": true,
+                "price": {
+                    "isStable": false,
+                    "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+                    "coingeckoId": "ethereum"
+                }
+            }
+        }
     },
     "chains": {
         "11155111": {

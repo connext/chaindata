@@ -9,7 +9,7 @@
       "https://sepolia-rpc.scroll.io"
     ],
     "subgraphUrls": [
-      "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/staging-v0.0.6/gn"
+      "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-scroll-sepolia/staging-v0.0.8/gn"
     ],
     "assets": {
       "ETH": {
@@ -32,7 +32,7 @@
         "https://ethereum-sepolia-rpc.publicnode.com"
       ],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.8/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.10/gn"
       ],
       "deployments": {
         "everclear": "0x6B5f582EB9710CBD985cA45b0D610c2Fb47ca20c",
@@ -67,7 +67,7 @@
         "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
       ],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.8/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.10/gn"
       ],
       "deployments": {
         "everclear": "0x3582fEe1fDAd7Bb6df57c46D45F24fcFab8d866D",

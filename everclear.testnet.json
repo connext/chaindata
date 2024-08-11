@@ -2,26 +2,26 @@
     "hub": {
         "domain": "6398",
         "deployments": {
-            "everclear": "0xFeaaF6291E40252413aA6cb5214F486c8088207e",
-            "gateway": "0x10A8ea817572Ba227aa1cF907F2B683502bB4310"
+            "everclear": "0x02cfc75A2C24Cf698AFb53017c1a19e16C4f14da",
+            "gateway": "0x0b6241a74D521d947E02a12D1f409Bad563c7833"
         },
         "providers": [
             "https://rpc.connext-sepolia.gelato.digital"
         ],
         "subgraphUrls": [
-            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/production-v0.0.1/gn"
+            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/production-v0.0.2/gn"
         ],
         "assets": {
             "ETH": {
-              "symbol": "ETH",
-              "address": "0x0000000000000000000000000000000000000000",
-              "decimals": 18,
-              "isNative": true,
-              "price": {
-                "isStable": false,
-                "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
-                "coingeckoId": "ethereum"
-              }
+                "symbol": "ETH",
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 18,
+                "isNative": true,
+                "price": {
+                    "isStable": false,
+                    "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+                    "coingeckoId": "ethereum"
+                }
             }
         }
     },
@@ -31,11 +31,11 @@
                 "https://ethereum-sepolia-rpc.publicnode.com"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/production-v0.0.1/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/production-v0.0.2/gn"
             ],
             "deployments": {
-                "everclear": "0xa257E66309ABE99919d09afd160751F3e4754205",
-                "gateway": "0x30B0EF6D67Fa65B9A0351f860818eAEE5ADFb7D7"
+                "everclear": "0x83d58be7DAbd2C12df29FE80d24a0A661BC88B11",
+                "gateway": "0x557A0AF3F73Ee8627e60ec813d6CF29cA0f90c77"
             },
             "assets": {
                 "ETH": {
@@ -66,11 +66,11 @@
                 "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/production-v0.0.1/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/production-v0.0.2/gn"
             ],
             "deployments": {
-                "everclear": "0x97f24e4eeD4d05D48cb8a45ADfE5e6aF2de14F71",
-                "gateway": "0x0A1bcEE4F09B691EbFbb3a5b83221A7Ce896c6bd"
+                "everclear": "0x83d58be7DAbd2C12df29FE80d24a0A661BC88B11",
+                "gateway": "0x557A0AF3F73Ee8627e60ec813d6CF29cA0f90c77"
             },
             "assets": {
                 "BNB": {

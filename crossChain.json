@@ -311,7 +311,13 @@
         "name": "xTRSY",
         "symbol": "xTRSY",
         "decimals": 18
-      }
+      },
+      "0xb4F40e14Cb88C7e17b5227d5657A4e3b8350770a": {
+        "name": "ZAI Stablecoin",
+        "symbol": "USDz",
+        "mainnetEquivalent": "0x69000405f9dce69bd4cbf4f2865b79144a69bfe0",
+        "decimals": 18
+      },
     },
     "rpc": [
       "https://eth.llamarpc.com",
@@ -3052,6 +3058,11 @@
       "0xA305F2136C4a68d97Ca7BCf7835bfA3b91077661": {
         "name": "xTRSY",
         "symbol": "xTRSY",
+        "decimals": 18
+      },
+      "0x69000cc63be9b4322f3f62c233dd1a7f509ae080": {
+        "name": "ZAI Stablecoin",
+        "symbol": "USDz",
         "decimals": 18
       }
     },

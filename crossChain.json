@@ -317,7 +317,7 @@
         "symbol": "USDz",
         "mainnetEquivalent": "0x69000405f9dce69bd4cbf4f2865b79144a69bfe0",
         "decimals": 18
-      },
+      }
     },
     "rpc": [
       "https://eth.llamarpc.com",

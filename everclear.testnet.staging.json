@@ -57,6 +57,15 @@
           "price": {
             "isStable": true
           }
+        },
+        "DTT": {
+          "symbol": "DTT",
+          "address": "0xd18C5E22E67947C8f3E112C622036E65a49773ab",
+          "decimals": 18,
+          "isNative": false,
+          "price": {
+            "isStable": true
+          }
         }
       }
     },
@@ -87,6 +96,15 @@
         "TEST": {
           "symbol": "TEST",
           "address": "0x5f921E4DE609472632CEFc72a3846eCcfbed4ed8",
+          "decimals": 18,
+          "isNative": false,
+          "price": {
+            "isStable": true
+          }
+        },
+        "DTT": {
+          "symbol": "DTT",
+          "address": "0xdef63AA35372780f8F92498a94CD0fA30A9beFbB",
           "decimals": 18,
           "isNative": false,
           "price": {
@@ -126,6 +144,15 @@
           "price": {
             "isStable": true
           }
+        },
+        "DTT": {
+          "symbol": "DTT",
+          "address": "0x8FdBfCdB9862E7aE67B5364cA197C147c99e9a15",
+          "decimals": 18,
+          "isNative": false,
+          "price": {
+            "isStable": true
+          }
         }
       }
     },
@@ -155,6 +182,15 @@
         "TEST": {
           "symbol": "TEST",
           "address": "0x8FdBfCdB9862E7aE67B5364cA197C147c99e9a15",
+          "decimals": 18,
+          "isNative": false,
+          "price": {
+            "isStable": true
+          }
+        },
+        "DTT": {
+          "symbol": "DTT",
+          "address": "0xc5ad69D5653579365b9b509FCe146bc58D725605",
           "decimals": 18,
           "isNative": false,
           "price": {

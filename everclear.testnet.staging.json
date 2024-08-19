@@ -31,7 +31,7 @@
         "https://ethereum-sepolia-rpc.publicnode.com"
       ],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.11/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.12/gn"
       ],
       "deployments": {
         "everclear": "0xB6aBe199F9256c598Df0646ca9c073276d412C90",
@@ -66,7 +66,7 @@
         "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
       ],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.11/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.12/gn"
       ],
       "deployments": {
         "everclear": "0xcb37B73d98C25A507E5a0e01F6A417b30E0c01fc",
@@ -87,6 +87,74 @@
         "TEST": {
           "symbol": "TEST",
           "address": "0x5f921E4DE609472632CEFc72a3846eCcfbed4ed8",
+          "decimals": 18,
+          "isNative": false,
+          "price": {
+            "isStable": true
+          }
+        }
+      }
+    },
+    "11155420": {
+      "providers": [
+        "https://sepolia.optimism.io"
+      ],
+      "subgraphUrls": [
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-op-sepolia/staging-v0.0.12/gn"
+      ],
+      "deployments": {
+        "everclear": "0x1e802F2F298c26381add4a9F4ccC71b68Ff04bc3",
+        "gateway": "0x8Af53905E53D1607DB5eaE47A71D2d03f652F4cB"
+      },
+      "assets": {
+        "ETH": {
+          "symbol": "ETH",
+          "address": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "isNative": true,
+          "price": {
+            "isStable": false,
+            "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+            "coingeckoId": "ethereum"
+          }
+        },
+        "TEST": {
+          "symbol": "TEST",
+          "address": "0x7Fa13D6CB44164ea09dF8BCc673A8849092D435b",
+          "decimals": 18,
+          "isNative": false,
+          "price": {
+            "isStable": true
+          }
+        }
+      }
+    },
+    "421614": {
+      "providers": [
+        "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
+      ],
+      "subgraphUrls": [
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arb-sepolia/staging-v0.0.12/gn"
+      ],
+      "deployments": {
+        "everclear": "0x1e802F2F298c26381add4a9F4ccC71b68Ff04bc3",
+        "gateway": "0x8Af53905E53D1607DB5eaE47A71D2d03f652F4cB"
+      },
+      "assets": {
+        "ETH": {
+          "symbol": "ETH",
+          "address": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "isNative": true,
+          "price": {
+            "isStable": false,
+            "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+            "coingeckoId": "ethereum"
+          }
+        },
+        "TEST": {
+          "symbol": "TEST",
+          "address": "0x8FdBfCdB9862E7aE67B5364cA197C147c99e9a15",
           "decimals": 18,
           "isNative": false,
           "price": {

@@ -317,7 +317,7 @@
         "symbol": "USDz",
         "mainnetEquivalent": "0x69000405f9dce69bd4cbf4f2865b79144a69bfe0",
         "decimals": 18
-      },
+      }
     },
     "rpc": [
       "https://eth.llamarpc.com",
@@ -3064,7 +3064,13 @@
         "name": "ZAI Stablecoin",
         "symbol": "USDz",
         "decimals": 18
+      },
+      "0x9A2Af0AbB12bee5369B180976Be01E8c80D0e7B6": {
+        "name": "Boredom",
+        "symbol": "BDR",
+        "decimals": 18
       }
+
     },
     "rpc": ["https://mainnet.base.org"],
     "subgraph": [],
@@ -3170,6 +3176,11 @@
       "0x303c4F39EA359155C698807168e9Dc3aA1dF2b95": {
         "name": "Alchemix",
         "symbol": "ALCX",
+        "decimals": 18
+      },
+      "0x3AD6cD333Dc2597fdE3EAf2B772A38a7be0F56fb": {
+        "name": "Boredom",
+        "symbol": "BDR",
         "decimals": 18
       }
     },

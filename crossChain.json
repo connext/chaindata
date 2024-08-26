@@ -3545,6 +3545,13 @@
         "decimals": 18,
         "isSingleMinter": true
       },
+      "0x40c562a794608FCd81Cdfc032592328ebFa1927c": {
+        "name": "Bridged Wrapped Mountain Protocol USD",
+        "symbol": "wUSDM.e",
+        "decimals": 18,
+        "mainnetEquivalent": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812"
+        "isSingleMinter": true
+      },
       "0x18470019bF0E94611f15852F7e93cf5D65BC34CA": {
         "name": "Ionic Protocol",
         "symbol": "ION",

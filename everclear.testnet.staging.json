@@ -208,7 +208,7 @@
         },
         "TEST": {
           "symbol": "TEST",
-          "address": "0x8FdBfCdB9862E7aE67B5364cA197C147c99e9a15",
+          "address": "0xaBF282c88DeD3e386701a322e76456c062468Ac2",
           "decimals": 18,
           "isNative": false,
           "price": {

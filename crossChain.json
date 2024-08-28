@@ -317,6 +317,12 @@
         "symbol": "USDz",
         "mainnetEquivalent": "0x69000405f9dce69bd4cbf4f2865b79144a69bfe0",
         "decimals": 18
+      },
+      "0x40c562a794608FCd81Cdfc032592328ebFa1927c": {
+        "name": "Bridged Wrapped Mountain Protocol USD",
+        "symbol": "wUSDM.e",
+        "mainnetEquivalent": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -3549,6 +3555,12 @@
         "name": "Ionic Protocol",
         "symbol": "ION",
         "decimals": 18
+      },
+      "0x90993Ac1734b023dEEc548b87B11F5d2dcD3818E": {
+        "name": "Bridged Wrapped Mountain Protocol USD",
+        "symbol": "wUSDM.e",
+        "decimals": 18,
+        "isSingleMinter": true
       }
     },
     "rpc": ["https://mainnet.mode.network/"],

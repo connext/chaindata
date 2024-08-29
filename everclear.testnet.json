@@ -191,7 +191,7 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arb-sepolia/production-v0.0.3/gn"
       ],
       "deployments": {
-        "everclear": "0xd18C5E22E67947C8f3E112C622036E65a49773ab",
+        "everclear": "0x1e802F2F298c26381add4a9F4ccC71b68Ff04bc3",
         "gateway": "0x688a75702c4cF772164b7a448df3Db018199D414"
       },
       "assets": {

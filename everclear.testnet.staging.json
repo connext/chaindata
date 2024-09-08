@@ -5,12 +5,11 @@
       "everclear": "0x8Af53905E53D1607DB5eaE47A71D2d03f652F4cB",
       "gateway": "0xcb37B73d98C25A507E5a0e01F6A417b30E0c01fc"
     },
-    "providers": [
-      "https://rpc.connext-sepolia.gelato.digital"
-    ],
+    "providers": ["https://rpc.connext-sepolia.gelato.digital"],
     "subgraphUrls": [
       "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/staging-v0.0.1/gn"
     ],
+    "confirmations": 0,
     "assets": {
       "ETH": {
         "symbol": "ETH",
@@ -27,9 +26,7 @@
   },
   "chains": {
     "11155111": {
-      "providers": [
-        "https://ethereum-sepolia-rpc.publicnode.com"
-      ],
+      "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
       "subgraphUrls": [
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.12/gn"
       ],
@@ -37,6 +34,7 @@
         "everclear": "0xB6aBe199F9256c598Df0646ca9c073276d412C90",
         "gateway": "0x4902Cd7BacdA179cD8b08F824124821C62A493fc"
       },
+      "confirmations": 2,
       "assets": {
         "ETH": {
           "symbol": "ETH",
@@ -80,9 +78,7 @@
     },
     "97": {
       "gasLimit": 120000000,
-      "providers": [
-        "https://data-seed-prebsc-1-s1.bnbchain.org:8545"
-      ],
+      "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
       "subgraphUrls": [
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.12/gn"
       ],
@@ -90,6 +86,7 @@
         "everclear": "0xcb37B73d98C25A507E5a0e01F6A417b30E0c01fc",
         "gateway": "0xB6aBe199F9256c598Df0646ca9c073276d412C90"
       },
+      "confirmations": 1,
       "assets": {
         "BNB": {
           "symbol": "BNB",
@@ -132,9 +129,7 @@
       }
     },
     "11155420": {
-      "providers": [
-        "https://sepolia.optimism.io"
-      ],
+      "providers": ["https://sepolia.optimism.io"],
       "subgraphUrls": [
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-op-sepolia/staging-v0.0.12/gn"
       ],
@@ -142,6 +137,7 @@
         "everclear": "0x1e802F2F298c26381add4a9F4ccC71b68Ff04bc3",
         "gateway": "0x8Af53905E53D1607DB5eaE47A71D2d03f652F4cB"
       },
+      "confirmations": 1,
       "assets": {
         "ETH": {
           "symbol": "ETH",
@@ -194,6 +190,7 @@
         "everclear": "0x1e802F2F298c26381add4a9F4ccC71b68Ff04bc3",
         "gateway": "0x8Af53905E53D1607DB5eaE47A71D2d03f652F4cB"
       },
+      "confirmations": 1,
       "assets": {
         "ETH": {
           "symbol": "ETH",

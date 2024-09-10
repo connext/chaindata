@@ -2,8 +2,8 @@
   "hub": {
     "domain": "6398",
     "deployments": {
-      "everclear": "0x8Af53905E53D1607DB5eaE47A71D2d03f652F4cB",
-      "gateway": "0xcb37B73d98C25A507E5a0e01F6A417b30E0c01fc"
+      "everclear": "0x54DbcD65F0bd9C32Fface5d06D4364Ea7B50014B",
+      "gateway": "0x7f8F2a90Be893548d249d5F2C666E28F76De0F34"
     },
     "providers": ["https://rpc.connext-sepolia.gelato.digital"],
     "subgraphUrls": [
@@ -31,8 +31,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.12/gn"
       ],
       "deployments": {
-        "everclear": "0xB6aBe199F9256c598Df0646ca9c073276d412C90",
-        "gateway": "0x4902Cd7BacdA179cD8b08F824124821C62A493fc"
+        "everclear": "0xCA605B45049CDf582360618B54cBaAf0f30b747d",
+        "gateway": "0xA879d042d8751678B9308B407648Eb6352356D8C"
       },
       "confirmations": 2,
       "assets": {
@@ -83,8 +83,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.12/gn"
       ],
       "deployments": {
-        "everclear": "0xcb37B73d98C25A507E5a0e01F6A417b30E0c01fc",
-        "gateway": "0xB6aBe199F9256c598Df0646ca9c073276d412C90"
+        "everclear": "0xA879d042d8751678B9308B407648Eb6352356D8C",
+        "gateway": "0x820539Ef2068F8D3f7563c8f36f4Eaac54388B2F"
       },
       "confirmations": 1,
       "assets": {
@@ -134,8 +134,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-op-sepolia/staging-v0.0.12/gn"
       ],
       "deployments": {
-        "everclear": "0x1e802F2F298c26381add4a9F4ccC71b68Ff04bc3",
-        "gateway": "0x8Af53905E53D1607DB5eaE47A71D2d03f652F4cB"
+        "everclear": "0x2855eDE812a78ECC7C126e0bCC0663dfc27bc9B4",
+        "gateway": "0xe6c7A91F75ce838080813cf50CDBB1ae68119eCe"
       },
       "confirmations": 1,
       "assets": {
@@ -187,8 +187,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arb-sepolia/staging-v0.0.12/gn"
       ],
       "deployments": {
-        "everclear": "0x1e802F2F298c26381add4a9F4ccC71b68Ff04bc3",
-        "gateway": "0x8Af53905E53D1607DB5eaE47A71D2d03f652F4cB"
+        "everclear": "0xcA7c45a3e5Bdf9d6Db5dae64C41204195879042f",
+        "gateway": "0x2855eDE812a78ECC7C126e0bCC0663dfc27bc9B4"
       },
       "confirmations": 1,
       "assets": {

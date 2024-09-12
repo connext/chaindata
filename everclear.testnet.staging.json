@@ -2,12 +2,12 @@
   "hub": {
     "domain": "6398",
     "deployments": {
-      "everclear": "0x54DbcD65F0bd9C32Fface5d06D4364Ea7B50014B",
-      "gateway": "0x7f8F2a90Be893548d249d5F2C666E28F76De0F34"
+      "everclear": "0xd05a33e7C55551D7D0015aa156b006531Fc33ED2",
+      "gateway": "0x63A8fAF04b492b9c418D24C38159CbDF61613466"
     },
     "providers": ["https://rpc.connext-sepolia.gelato.digital"],
     "subgraphUrls": [
-      "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/staging-v0.0.1/gn"
+      "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/staging-v0.0.2/gn"
     ],
     "confirmations": 0,
     "assets": {
@@ -28,11 +28,11 @@
     "11155111": {
       "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.12/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/staging-v0.0.13/gn"
       ],
       "deployments": {
-        "everclear": "0xCA605B45049CDf582360618B54cBaAf0f30b747d",
-        "gateway": "0xA879d042d8751678B9308B407648Eb6352356D8C"
+        "everclear": "0xda058E1bD948457EB166D304a2680Fe1c813AC21",
+        "gateway": "0x645219a36CB7254Ea367B645ED3eA512e14BBbEA"
       },
       "confirmations": 2,
       "assets": {
@@ -80,11 +80,11 @@
       "gasLimit": 120000000,
       "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.12/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/staging-v0.0.13/gn"
       ],
       "deployments": {
-        "everclear": "0xA879d042d8751678B9308B407648Eb6352356D8C",
-        "gateway": "0x820539Ef2068F8D3f7563c8f36f4Eaac54388B2F"
+        "everclear": "0xda058E1bD948457EB166D304a2680Fe1c813AC21",
+        "gateway": "0x645219a36CB7254Ea367B645ED3eA512e14BBbEA"
       },
       "confirmations": 1,
       "assets": {
@@ -131,11 +131,11 @@
     "11155420": {
       "providers": ["https://sepolia.optimism.io"],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-op-sepolia/staging-v0.0.12/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-op-sepolia/staging-v0.0.13/gn"
       ],
       "deployments": {
-        "everclear": "0x2855eDE812a78ECC7C126e0bCC0663dfc27bc9B4",
-        "gateway": "0xe6c7A91F75ce838080813cf50CDBB1ae68119eCe"
+        "everclear": "0xda058E1bD948457EB166D304a2680Fe1c813AC21",
+        "gateway": "0x645219a36CB7254Ea367B645ED3eA512e14BBbEA"
       },
       "confirmations": 1,
       "assets": {
@@ -184,11 +184,11 @@
         "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
       ],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arb-sepolia/staging-v0.0.12/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arb-sepolia/staging-v0.0.13/gn"
       ],
       "deployments": {
-        "everclear": "0xcA7c45a3e5Bdf9d6Db5dae64C41204195879042f",
-        "gateway": "0x2855eDE812a78ECC7C126e0bCC0663dfc27bc9B4"
+        "everclear": "0xda058E1bD948457EB166D304a2680Fe1c813AC21",
+        "gateway": "0x645219a36CB7254Ea367B645ED3eA512e14BBbEA"
       },
       "confirmations": 1,
       "assets": {

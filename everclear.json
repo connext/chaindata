@@ -156,6 +156,7 @@
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
             },
+            "gasLimit": 120000000,
             "confirmations": 20,
             "assets": {
                 "BNB": {

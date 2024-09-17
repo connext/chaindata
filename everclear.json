@@ -17,6 +17,7 @@
                 "symbol": "ETH",
                 "address": "0x0000000000000000000000000000000000000000",
                 "decimals": 18,
+                "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
                 "isNative": true,
                 "price": {
                     "isStable": false,
@@ -44,6 +45,7 @@
                     "symbol": "ETH",
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
+                    "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
                     "isNative": true,
                     "price": {
                         "isStable": false,
@@ -55,6 +57,7 @@
                     "symbol": "WETH",
                     "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
                     "decimals": 18,
+                    "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
                     "isNative": false,
                     "price": {
                         "isStable": false,
@@ -66,6 +69,7 @@
                     "symbol": "USDC",
                     "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
                     "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
                     "isNative": false,
                     "price": {
                         "isStable": true,
@@ -77,6 +81,7 @@
                     "symbol": "USDT",
                     "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
                     "decimals": 6,
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
                     "isNative": false,
                     "price": {
                         "isStable": true,
@@ -103,6 +108,7 @@
                     "symbol": "ETH",
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
+                    "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
                     "isNative": true,
                     "price": {
                         "isStable": false,
@@ -114,6 +120,7 @@
                     "symbol": "WETH",
                     "address": "0x4200000000000000000000000000000000000006",
                     "decimals": 18,
+                    "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
                     "isNative": false,
                     "price": {
                         "isStable": false,
@@ -125,6 +132,7 @@
                     "symbol": "USDC",
                     "address": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
                     "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
                     "isNative": false,
                     "price": {
                         "isStable": true,
@@ -136,6 +144,7 @@
                     "symbol": "USDT",
                     "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
                     "decimals": 6,
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
                     "isNative": false,
                     "price": {
                         "isStable": true,
@@ -163,6 +172,7 @@
                     "symbol": "BNB",
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
+                    "tickerHash": "0x3ed03c38e59dc60c7b69c2a4bf68f9214acd953252b5a90e8f5f59583e9bc3ae",
                     "isNative": true,
                     "price": {
                         "isStable": false,
@@ -173,6 +183,7 @@
                     "symbol": "WETH",
                     "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
                     "decimals": 18,
+                    "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
                     "isNative": false,
                     "price": {
                         "isStable": false,
@@ -184,6 +195,7 @@
                     "symbol": "USDC",
                     "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
                     "decimals": 18,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
                     "isNative": false,
                     "price": {
                         "isStable": true,
@@ -195,6 +207,7 @@
                     "symbol": "USDT",
                     "address": "0x55d398326f99059fF775485246999027B3197955",
                     "decimals": 18,
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
                     "isNative": false,
                     "price": {
                         "isStable": true,
@@ -221,6 +234,7 @@
                     "symbol": "ETH",
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
+                    "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
                     "isNative": true,
                     "price": {
                         "isStable": false,
@@ -232,6 +246,7 @@
                     "symbol": "WETH",
                     "address": "0x4200000000000000000000000000000000000006",
                     "decimals": 18,
+                    "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
                     "isNative": false,
                     "price": {
                         "isStable": false,
@@ -243,6 +258,7 @@
                     "symbol": "USDC",
                     "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
                     "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
                     "isNative": false,
                     "price": {
                         "isStable": true,
@@ -269,6 +285,7 @@
                     "symbol": "ETH",
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
+                    "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
                     "isNative": true,
                     "price": {
                         "isStable": false,
@@ -280,6 +297,7 @@
                     "symbol": "WETH",
                     "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
                     "decimals": 18,
+                    "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
                     "isNative": false,
                     "price": {
                         "isStable": false,
@@ -291,6 +309,7 @@
                     "symbol": "USDC",
                     "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
                     "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
                     "isNative": false,
                     "price": {
                         "isStable": true,
@@ -302,6 +321,7 @@
                     "symbol": "USDT",
                     "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
                     "decimals": 6,
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
                     "isNative": false,
                     "price": {
                         "isStable": true,

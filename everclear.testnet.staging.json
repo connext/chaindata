@@ -15,6 +15,7 @@
         "symbol": "ETH",
         "address": "0x0000000000000000000000000000000000000000",
         "decimals": 18,
+        "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
         "isNative": true,
         "price": {
           "isStable": false,
@@ -40,6 +41,7 @@
           "symbol": "ETH",
           "address": "0x0000000000000000000000000000000000000000",
           "decimals": 18,
+          "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
           "isNative": true,
           "price": {
             "isStable": false,
@@ -51,6 +53,7 @@
           "symbol": "TEST",
           "address": "0xd26e3540A0A368845B234736A0700E0a5A821bBA",
           "decimals": 18,
+          "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
           "isNative": false,
           "price": {
             "isStable": true
@@ -60,6 +63,7 @@
           "symbol": "DTT",
           "address": "0xd18C5E22E67947C8f3E112C622036E65a49773ab",
           "decimals": 6,
+          "tickerHash": "0x0862d7701ae2a04548299440d8e9bcde598aaa04f40d2b263697efe0cc6c0bb4",
           "isNative": false,
           "price": {
             "isStable": true
@@ -69,6 +73,7 @@
           "symbol": "xTEST",
           "address": "0x8F936120b6c5557e7Cd449c69443FfCb13005751",
           "decimals": 18,
+          "tickerHash": "0x1c1f1b017c99eb3cc5da6ca4df343dd8e3a7ba78771bba1390acc3801811e42d",
           "isNative": false,
           "price": {
             "isStable": true
@@ -92,6 +97,7 @@
           "symbol": "BNB",
           "address": "0x0000000000000000000000000000000000000000",
           "decimals": 18,
+          "tickerHash": "0x3ed03c38e59dc60c7b69c2a4bf68f9214acd953252b5a90e8f5f59583e9bc3ae",
           "isNative": true,
           "price": {
             "isStable": false,
@@ -103,6 +109,7 @@
           "symbol": "TEST",
           "address": "0x5f921E4DE609472632CEFc72a3846eCcfbed4ed8",
           "decimals": 18,
+          "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
           "isNative": false,
           "price": {
             "isStable": true
@@ -112,6 +119,7 @@
           "symbol": "DTT",
           "address": "0xdef63AA35372780f8F92498a94CD0fA30A9beFbB",
           "decimals": 18,
+          "tickerHash": "0x0862d7701ae2a04548299440d8e9bcde598aaa04f40d2b263697efe0cc6c0bb4",
           "isNative": false,
           "price": {
             "isStable": true
@@ -121,6 +129,7 @@
           "symbol": "xTEST",
           "address": "0x9064cD072D5cEfe70f854155d1b23171013be5c7",
           "decimals": 18,
+          "tickerHash": "0x1c1f1b017c99eb3cc5da6ca4df343dd8e3a7ba78771bba1390acc3801811e42d",
           "isNative": false,
           "price": {
             "isStable": true
@@ -143,6 +152,7 @@
           "symbol": "ETH",
           "address": "0x0000000000000000000000000000000000000000",
           "decimals": 18,
+          "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
           "isNative": true,
           "price": {
             "isStable": false,
@@ -154,6 +164,7 @@
           "symbol": "TEST",
           "address": "0x7Fa13D6CB44164ea09dF8BCc673A8849092D435b",
           "decimals": 18,
+          "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
           "isNative": false,
           "price": {
             "isStable": true
@@ -163,6 +174,7 @@
           "symbol": "DTT",
           "address": "0x294FD6cfb1AB97Ad5EA325207fF1d0E85b9C693f",
           "decimals": 6,
+          "tickerHash": "0x0862d7701ae2a04548299440d8e9bcde598aaa04f40d2b263697efe0cc6c0bb4",
           "isNative": false,
           "price": {
             "isStable": true
@@ -172,6 +184,7 @@
           "symbol": "xTEST",
           "address": "0xD3D4c6845e297e99e219BD8e3CaC84CA013c0770",
           "decimals": 18,
+          "tickerHash": "0x1c1f1b017c99eb3cc5da6ca4df343dd8e3a7ba78771bba1390acc3801811e42d",
           "isNative": false,
           "price": {
             "isStable": true
@@ -196,6 +209,7 @@
           "symbol": "ETH",
           "address": "0x0000000000000000000000000000000000000000",
           "decimals": 18,
+          "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
           "isNative": true,
           "price": {
             "isStable": false,
@@ -207,6 +221,7 @@
           "symbol": "TEST",
           "address": "0xaBF282c88DeD3e386701a322e76456c062468Ac2",
           "decimals": 18,
+          "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
           "isNative": false,
           "price": {
             "isStable": true
@@ -216,6 +231,7 @@
           "symbol": "DTT",
           "address": "0xDFEA0bb49bcdCaE920eb39F48156B857e817840F",
           "decimals": 6,
+          "tickerHash": "0x0862d7701ae2a04548299440d8e9bcde598aaa04f40d2b263697efe0cc6c0bb4",
           "isNative": false,
           "price": {
             "isStable": true
@@ -225,6 +241,7 @@
           "symbol": "xTEST",
           "address": "0xd6dF5E67e2DEF6b1c98907d9a09c18b2b7cd32C3",
           "decimals": 18,
+          "tickerHash": "0x1c1f1b017c99eb3cc5da6ca4df343dd8e3a7ba78771bba1390acc3801811e42d",
           "isNative": false,
           "price": {
             "isStable": true

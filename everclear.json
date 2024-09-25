@@ -33,8 +33,8 @@
                 "https://mainnet.gateway.tenderly.co"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mainnet/production-v0.0.1/gn",
-                "https://api.studio.thegraph.com/query/60851/everclear-spoke-mainnet/v0.0.1"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mainnet/production-v0.0.2/gn",
+                "https://api.studio.thegraph.com/query/60851/everclear-spoke-mainnet/v0.0.2"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -97,8 +97,8 @@
                 "https://mainnet.optimism.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-optimism/production-v0.0.1/gn",
-                "https://api.studio.thegraph.com/query/60851/everclear-spoke-optimism/v0.0.1"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-optimism/production-v0.0.2/gn",
+                "https://api.studio.thegraph.com/query/60851/everclear-spoke-optimism/v0.0.2"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -161,8 +161,8 @@
                 "https://bsc-mainnet.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-bnb/production-v0.0.1/gn",
-                "https://api.studio.thegraph.com/query/60851/everclear-spoke-bnb/v0.0.1"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-bnb/production-v0.0.2/gn",
+                "https://api.studio.thegraph.com/query/60851/everclear-spoke-bnb/v0.0.2"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -225,8 +225,8 @@
                 "https://base-mainnet.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/production-v0.0.1/gn",
-                "https://api.studio.thegraph.com/query/60851/everclear-spoke-base/v0.0.1"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/production-v0.0.2/gn",
+                "https://api.studio.thegraph.com/query/60851/everclear-spoke-base/v0.0.2"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -277,8 +277,8 @@
                 "https://arbitrum-one.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/production-v0.0.1/gn",
-                "https://api.studio.thegraph.com/query/60851/everclear-spoke-arbitrum/v0.0.1"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/production-v0.0.2/gn",
+                "https://api.studio.thegraph.com/query/60851/everclear-spoke-arbitrum/v0.0.2"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",

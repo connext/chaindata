@@ -324,7 +324,7 @@
         "mainnetEquivalent": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
         "decimals": 18
       },
-      "0x646DE46Efe5A27b78E5f6f3E1E44939501Ba43Eb": {
+      "0x6EEFf5dadD79a3945E40D321Cb5a1853ae389088": {
         "name": "x-AutoLayer",
         "symbol": "x-LAY3R",
         "decimals": 18
@@ -1156,7 +1156,7 @@
         "symbol": "xPufETH",
         "decimals": 18
       },
-      "0x646DE46Efe5A27b78E5f6f3E1E44939501Ba43Eb": {
+      "0x6EEFf5dadD79a3945E40D321Cb5a1853ae389088": {
         "name": "x-AutoLayer",
         "symbol": "x-LAY3R",
         "decimals": 18
@@ -2704,7 +2704,7 @@
         "symbol": "XOC",
         "decimals": 18
       },
-      "0x646DE46Efe5A27b78E5f6f3E1E44939501Ba43Eb": {
+      "0x6EEFf5dadD79a3945E40D321Cb5a1853ae389088": {
         "name": "x-AutoLayer",
         "symbol": "x-LAY3R",
         "decimals": 18

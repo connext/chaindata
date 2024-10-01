@@ -323,6 +323,11 @@
         "symbol": "wUSDM.e",
         "mainnetEquivalent": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
         "decimals": 18
+      },
+      "0xb9b3f06ff4fd20834380c11c715db10b0ec87319": {
+        "name": "xE2E ERC20 BootNode",
+        "symbol": "xE2EBN",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -818,6 +823,11 @@
       "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
         "name": "Xocolatl MXN Stablecoin",
         "symbol": "XOC",
+        "decimals": 18
+      },
+      "0xb9b3f06ff4fd20834380c11c715db10b0ec87319": {
+        "name": "xE2E ERC20 BootNode",
+        "symbol": "xE2EBN",
         "decimals": 18
       }
     },
@@ -2693,6 +2703,11 @@
         "name": "Xocolatl MXN Stablecoin",
         "symbol": "XOC",
         "decimals": 18
+      },
+      "0xb9b3f06ff4fd20834380c11c715db10b0ec87319": {
+        "name": "xE2E ERC20 BootNode",
+        "symbol": "xE2EBN",
+        "decimals": 18
       }
     },
     "rpc": ["https://arb1.arbitrum.io/rpc"],
@@ -3074,6 +3089,11 @@
       "0x9A2Af0AbB12bee5369B180976Be01E8c80D0e7B6": {
         "name": "Boredom",
         "symbol": "BDR",
+        "decimals": 18
+      },
+      "0xb9b3f06ff4fd20834380c11c715db10b0ec87319": {
+        "name": "xE2E ERC20 BootNode",
+        "symbol": "xE2EBN",
         "decimals": 18
       }
     },

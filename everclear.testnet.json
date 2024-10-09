@@ -7,7 +7,7 @@
     },
     "providers": ["https://rpc.connext-sepolia.gelato.digital"],
     "subgraphUrls": [
-      "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/production-v0.0.2/gn"
+      "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub-sepolia/production-v0.0.3/gn"
     ],
     "confirmations": 0,
     "assets": {
@@ -29,7 +29,7 @@
     "11155111": {
       "providers": ["https://ethereum-sepolia-rpc.publicnode.com"],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/production-v0.0.2/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/production-v0.0.4/gn"
       ],
       "deployments": {
         "everclear": "0x83d58be7DAbd2C12df29FE80d24a0A661BC88B11",
@@ -85,7 +85,7 @@
       "gasLimit": 120000000,
       "providers": ["https://data-seed-prebsc-1-s1.bnbchain.org:8545"],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/production-v0.0.2/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/production-v0.0.4/gn"
       ],
       "deployments": {
         "everclear": "0x83d58be7DAbd2C12df29FE80d24a0A661BC88B11",
@@ -140,7 +140,7 @@
     "11155420": {
       "providers": ["https://sepolia.optimism.io"],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-op-sepolia/production-v0.0.3/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-op-sepolia/production-v0.0.4/gn"
       ],
       "deployments": {
         "everclear": "0xd18C5E22E67947C8f3E112C622036E65a49773ab",
@@ -197,7 +197,7 @@
         "https://endpoints.omniatech.io/v1/arbitrum/sepolia/public"
       ],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arb-sepolia/production-v0.0.3/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arb-sepolia/production-v0.0.4/gn"
       ],
       "deployments": {
         "everclear": "0xd18C5E22E67947C8f3E112C622036E65a49773ab",

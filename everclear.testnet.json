@@ -2,8 +2,8 @@
   "hub": {
     "domain": "6398",
     "deployments": {
-      "everclear": "0x02cfc75A2C24Cf698AFb53017c1a19e16C4f14da",
-      "gateway": "0x0b6241a74D521d947E02a12D1f409Bad563c7833"
+      "everclear": "0x4C526917051ee1981475BB6c49361B0756F505a8",
+      "gateway": "0x4b0017AD0CAbdf72106fC5d6B15e366A9A47DD25"
     },
     "providers": ["https://rpc.connext-sepolia.gelato.digital"],
     "subgraphUrls": [
@@ -32,8 +32,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-sepolia/production-v0.0.4/gn"
       ],
       "deployments": {
-        "everclear": "0x83d58be7DAbd2C12df29FE80d24a0A661BC88B11",
-        "gateway": "0x557A0AF3F73Ee8627e60ec813d6CF29cA0f90c77"
+        "everclear": "0x3650432cB5331e6dc95be8C1d8168b7c37f677e2",
+        "gateway": "0x37f1E1C89306c0e95bfa3221Ef7D364886e43047"
       },
       "confirmations": 2,
       "assets": {
@@ -88,8 +88,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-chapel/production-v0.0.4/gn"
       ],
       "deployments": {
-        "everclear": "0x83d58be7DAbd2C12df29FE80d24a0A661BC88B11",
-        "gateway": "0x557A0AF3F73Ee8627e60ec813d6CF29cA0f90c77"
+        "everclear": "0xFeaaF6291E40252413aA6cb5214F486c8088207e",
+        "gateway": "0xCBFCE40d758564B855506Db7Ff15F1978B8E0Fa1"
       },
       "confirmations": 1,
       "assets": {
@@ -143,8 +143,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-op-sepolia/production-v0.0.4/gn"
       ],
       "deployments": {
-        "everclear": "0xd18C5E22E67947C8f3E112C622036E65a49773ab",
-        "gateway": "0x688a75702c4cF772164b7a448df3Db018199D414"
+        "everclear": "0xf9A4d8cED1b8c53B39429BB9a8A391b74E85aE5C",
+        "gateway": "0xfea15B6F776aA3a84d70e5D98E48f19556F76eb7"
       },
       "confirmations": 1,
       "assets": {
@@ -200,8 +200,8 @@
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arb-sepolia/production-v0.0.4/gn"
       ],
       "deployments": {
-        "everclear": "0xd18C5E22E67947C8f3E112C622036E65a49773ab",
-        "gateway": "0x688a75702c4cF772164b7a448df3Db018199D414"
+        "everclear": "0x97f24e4eeD4d05D48cb8a45ADfE5e6aF2de14F71",
+        "gateway": "0x0A1bcEE4F09B691EbFbb3a5b83221A7Ce896c6bd"
       },
       "confirmations": 1,
       "assets": {

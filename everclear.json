@@ -335,6 +335,20 @@
                     }
                 }
             }
+        },
+        "48900": {
+            "providers": [
+                "https://zircuit1-mainnet.p2pify.com"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zircuit/production-v0.0.1/gn"
+            ],
+            "deployments": {
+                "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+            },
+            "confirmations": 1,
+            "assets": {}
         }
     }
 }

@@ -38,7 +38,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 10,
             "assets": {
@@ -109,7 +110,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -173,7 +175,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "gasLimit": 120000000,
             "confirmations": 20,
@@ -237,7 +240,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -289,7 +293,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -352,7 +357,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {

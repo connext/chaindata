@@ -38,7 +38,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 10,
             "assets": {
@@ -89,6 +90,13 @@
                         "priceFeed": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D",
                         "coingeckoId": "tether"
                     }
+                },
+                "xPufETH": {
+                    "symbol": "xPufETH",
+                    "address": "0xD7D2802f6b19843ac4DfE25022771FD83b5A7464",
+                    "decimals": 18,
+                    "tickerHash": "0x7ca978c7f993c411238b0887969711b470a3133448ab70e4f18aa4d63dcb7907",
+                    "isNative": false
                 }
             }
         },
@@ -102,7 +110,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -166,7 +175,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "gasLimit": 120000000,
             "confirmations": 20,
@@ -230,7 +240,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -282,7 +293,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -333,6 +345,29 @@
                         "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
                         "coingeckoId": "tether"
                     }
+                }
+            }
+        },
+        "48900": {
+            "providers": [
+                "https://zircuit1-mainnet.p2pify.com"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zircuit/production-v0.0.1/gn"
+            ],
+            "deployments": {
+                "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+            },
+            "confirmations": 1,
+            "assets": {
+                "xPufETH": {
+                    "symbol": "xPufETH",
+                    "address": "0x9346A5043C590133FE900aec643D9622EDddBA57",
+                    "decimals": 18,
+                    "tickerHash": "0x7ca978c7f993c411238b0887969711b470a3133448ab70e4f18aa4d63dcb7907",
+                    "isNative": false
                 }
             }
         }

@@ -3,7 +3,9 @@
         "domain": "25327",
         "deployments": {
             "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-            "gateway": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa"
+            "gateway": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
+            "gauge": "0x78b72e113D86ce192b647056fAD8bC4F2e63A9Cb",
+            "rewardDistributor": "0xD385Af1A209890AEE184BDf75f328aC396d52fB6"
         },
         "providers": [
             "https://rpc.everclear.raas.gelato.cloud"
@@ -24,6 +26,28 @@
                     "coingeckoId": "ethereum",
                     "mainnetEquivalent": "0x0000000000000000000000000000000000000000"
                 }
+            },
+            "WETH": {
+                "symbol": "WETH",
+                "address": "0x2e31ebD2eB114943630Db6ba8c7f7687bdA5835F",
+                "decimals": 18,
+                "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+                "isNative": false,
+                "price": {
+                    "isStable": false,
+                    "coingeckoId": "ethereum"
+                }
+            },
+            "CLEAR": {
+                "symbol": "CLEAR",
+                "address": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+                "decimals": 18,
+                "tickerHash": "0x06ac253a00ee13562eecafc06057c6db73566a05bdce988194aad3616e28e87c",
+                "isNative": false,
+                "price": {
+                    "isStable": false,
+                    "coingeckoId": "connext"
+                }
             }
         }
     },
@@ -38,7 +62,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 10,
             "assets": {
@@ -102,7 +127,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -166,7 +192,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "gasLimit": 120000000,
             "confirmations": 20,
@@ -230,7 +257,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -282,7 +310,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {
@@ -346,7 +375,8 @@
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7"
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
             "assets": {}

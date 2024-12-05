@@ -24,6 +24,29 @@
           "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
           "coingeckoId": "ethereum"
         }
+      },
+      "WETH": {
+        "symbol": "WETH",
+        "address": "0x2D8fA9999bdFa4A5C83B3d6C4AedE72FCa7A5e8a",
+        "decimals": 18,
+        "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+        "isNative": false,
+        "price": {
+          "isStable": false,
+          "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+          "coingeckoId": "ethereum"
+        }
+      },
+      "TEST": {
+        "symbol": "TEST",
+        "address": "0xF8D5414E17F6b2ad6020D29AdF070aC9e39AfC35",
+        "decimals": 18,
+        "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
+        "isNative": false,
+        "price": {
+          "isStable": false,
+          "coingeckoId": "connext"
+        }
       }
     }
   },

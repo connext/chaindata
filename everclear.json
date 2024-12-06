@@ -4,8 +4,8 @@
         "deployments": {
             "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
             "gateway": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
-            "gauge": "0xF6432a23224F0Cd6305e409Fc27ee6A68E10fA42",
-            "rewardDistributor": "0x8E693CD38a847079F88D1c3008e419ED47cb677b"
+            "gauge": "0x8e402af4beA9337F40998D2B2428daB3FDea3194",
+            "rewardDistributor": "0x694fC76DbE56426F85D3E70751e8DBC743E7FA28"
         },
         "providers": [
             "https://rpc.everclear.raas.gelato.cloud"

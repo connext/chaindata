@@ -5,7 +5,8 @@
             "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
             "gateway": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
             "gauge": "0x9831fE53Ca8A16b950c17fBC4C12289a61aF06A5",
-            "rewardDistributor": "0xFBe70488c65cA4C5445f44f496ba034A126cF0b4"
+            "rewardDistributor": "0xFBe70488c65cA4C5445f44f496ba034A126cF0b4",
+            "tokenomicsHubGateway": "0xEc86D47d98EeeF824Ff79fAE2cFA3Fd57Ab87F9D"
         },
         "providers": [
             "https://rpc.everclear.raas.gelato.cloud"

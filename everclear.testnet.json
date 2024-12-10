@@ -5,7 +5,8 @@
       "everclear": "0x4C526917051ee1981475BB6c49361B0756F505a8",
       "gateway": "0x4b0017AD0CAbdf72106fC5d6B15e366A9A47DD25",
       "gauge": "0xdC6df94E95565f35c8fE2460E30F25151fe1C1E4",
-      "rewardDistributor": "0x2B09b33ed8D47f421eC4DDE5e4a15651BfFB98b0"
+      "rewardDistributor": "0x2B09b33ed8D47f421eC4DDE5e4a15651BfFB98b0",
+      "tokenomicsHubGateway": "0x07CcA2Afc3Ea339Bf7d616386bEA1C42bd68282a"
     },
     "providers": ["https://rpc.connext-sepolia.gelato.digital"],
     "subgraphUrls": [
@@ -24,29 +25,6 @@
           "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
           "coingeckoId": "ethereum"
         }
-      },
-      "WETH": {
-        "symbol": "WETH",
-        "address": "0x2D8fA9999bdFa4A5C83B3d6C4AedE72FCa7A5e8a",
-        "decimals": 18,
-        "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
-        "isNative": false,
-        "price": {
-          "isStable": false,
-          "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
-          "coingeckoId": "ethereum"
-        }
-      },
-      "TEST": {
-        "symbol": "TEST",
-        "address": "0xF8D5414E17F6b2ad6020D29AdF070aC9e39AfC35",
-        "decimals": 18,
-        "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
-        "isNative": false,
-        "price": {
-          "isStable": false,
-          "coingeckoId": "connext"
-        }
       }
     }
   },
@@ -58,8 +36,7 @@
       ],
       "deployments": {
         "everclear": "0x3650432cB5331e6dc95be8C1d8168b7c37f677e2",
-        "gateway": "0x37f1E1C89306c0e95bfa3221Ef7D364886e43047",
-        "XERC20Module": "0xEf692e455B5C5169815af59b2595656231838f71"
+        "gateway": "0x37f1E1C89306c0e95bfa3221Ef7D364886e43047"
       },
       "confirmations": 2,
       "assets": {
@@ -115,8 +92,7 @@
       ],
       "deployments": {
         "everclear": "0xFeaaF6291E40252413aA6cb5214F486c8088207e",
-        "gateway": "0xCBFCE40d758564B855506Db7Ff15F1978B8E0Fa1",
-        "XERC20Module": "0x9bB91EcC8Fe324Bbf0112FB269F31d818388a30b"
+        "gateway": "0xCBFCE40d758564B855506Db7Ff15F1978B8E0Fa1"
       },
       "confirmations": 1,
       "assets": {
@@ -171,8 +147,7 @@
       ],
       "deployments": {
         "everclear": "0xf9A4d8cED1b8c53B39429BB9a8A391b74E85aE5C",
-        "gateway": "0xfea15B6F776aA3a84d70e5D98E48f19556F76eb7",
-        "XERC20Module": "0xBF8779e3baa2b7D62ba5e286b350F4e26488E53a"
+        "gateway": "0xfea15B6F776aA3a84d70e5D98E48f19556F76eb7"
       },
       "confirmations": 1,
       "assets": {
@@ -229,8 +204,7 @@
       ],
       "deployments": {
         "everclear": "0x97f24e4eeD4d05D48cb8a45ADfE5e6aF2de14F71",
-        "gateway": "0x0A1bcEE4F09B691EbFbb3a5b83221A7Ce896c6bd",
-        "XERC20Module": "0x83d58be7DAbd2C12df29FE80d24a0A661BC88B11"
+        "gateway": "0x0A1bcEE4F09B691EbFbb3a5b83221A7Ce896c6bd"
       },
       "confirmations": 1,
       "assets": {

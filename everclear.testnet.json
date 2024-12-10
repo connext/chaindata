@@ -4,8 +4,8 @@
     "deployments": {
       "everclear": "0x4C526917051ee1981475BB6c49361B0756F505a8",
       "gateway": "0x4b0017AD0CAbdf72106fC5d6B15e366A9A47DD25",
-      "gauge": "0xdC6df94E95565f35c8fE2460E30F25151fe1C1E4",
-      "rewardDistributor": "0x2B09b33ed8D47f421eC4DDE5e4a15651BfFB98b0"
+      "gauge": "0xcCc18f3b67891f997F1953D0eF7D0061283f79a7",
+      "rewardDistributor": "0x97feDC821d2Fc6018f71152F9f6193749f614105"
     },
     "providers": ["https://rpc.connext-sepolia.gelato.digital"],
     "subgraphUrls": [

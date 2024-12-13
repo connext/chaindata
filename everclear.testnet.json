@@ -3,7 +3,10 @@
     "domain": "6398",
     "deployments": {
       "everclear": "0x4C526917051ee1981475BB6c49361B0756F505a8",
-      "gateway": "0x4b0017AD0CAbdf72106fC5d6B15e366A9A47DD25"
+      "gateway": "0x4b0017AD0CAbdf72106fC5d6B15e366A9A47DD25",
+      "gauge": "0xcCc18f3b67891f997F1953D0eF7D0061283f79a7",
+      "rewardDistributor": "0x97feDC821d2Fc6018f71152F9f6193749f614105",
+      "tokenomicsHubGateway": "0x07CcA2Afc3Ea339Bf7d616386bEA1C42bd68282a"
     },
     "providers": ["https://rpc.connext-sepolia.gelato.digital"],
     "subgraphUrls": [
@@ -21,6 +24,29 @@
           "isStable": false,
           "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
           "coingeckoId": "ethereum"
+        }
+      },
+      "WETH": {
+        "symbol": "WETH",
+        "address": "0x2D8fA9999bdFa4A5C83B3d6C4AedE72FCa7A5e8a",
+        "decimals": 18,
+        "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+        "isNative": false,
+        "price": {
+          "isStable": false,
+          "priceFeed": "0x694AA1769357215DE4FAC081bf1f309aDC325306",
+          "coingeckoId": "ethereum"
+        }
+      },
+      "TEST": {
+        "symbol": "TEST",
+        "address": "0xF8D5414E17F6b2ad6020D29AdF070aC9e39AfC35",
+        "decimals": 18,
+        "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
+        "isNative": false,
+        "price": {
+          "isStable": false,
+          "coingeckoId": "connext"
         }
       }
     }

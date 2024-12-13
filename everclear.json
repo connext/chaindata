@@ -380,7 +380,7 @@
                 "https://zircuit-mainnet.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zircuit/production-v0.0.1/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zircuit/production-v0.0.2/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",

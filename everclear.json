@@ -383,9 +383,9 @@
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zircuit/production-v0.0.1/gn"
             ],
             "deployments": {
-                "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "everclear": "0xD0E86F280D26Be67A672d1bFC9bB70500adA76fe",
+                "gateway": "0x2Ec2b2CC1813941b638D3ADBA86A1af7F6488A9E",
+                "XERC20Module": "0xE4197BC6b18E2BE0BAF09c13DA8239B40005D541"
             },
             "confirmations": 1,
             "assets": {

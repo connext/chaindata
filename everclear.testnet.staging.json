@@ -60,7 +60,8 @@
           "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         },
         "DTT": {
@@ -70,7 +71,8 @@
           "tickerHash": "0x0862d7701ae2a04548299440d8e9bcde598aaa04f40d2b263697efe0cc6c0bb4",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         },
         "xTEST": {
@@ -80,7 +82,8 @@
           "tickerHash": "0x1c1f1b017c99eb3cc5da6ca4df343dd8e3a7ba78771bba1390acc3801811e42d",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         }
       }
@@ -118,7 +121,8 @@
           "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         },
         "DTT": {
@@ -128,7 +132,8 @@
           "tickerHash": "0x0862d7701ae2a04548299440d8e9bcde598aaa04f40d2b263697efe0cc6c0bb4",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         },
         "xTEST": {
@@ -138,7 +143,8 @@
           "tickerHash": "0x1c1f1b017c99eb3cc5da6ca4df343dd8e3a7ba78771bba1390acc3801811e42d",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         }
       }
@@ -175,7 +181,8 @@
           "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         },
         "DTT": {
@@ -185,7 +192,8 @@
           "tickerHash": "0x0862d7701ae2a04548299440d8e9bcde598aaa04f40d2b263697efe0cc6c0bb4",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         },
         "xTEST": {
@@ -195,7 +203,8 @@
           "tickerHash": "0x1c1f1b017c99eb3cc5da6ca4df343dd8e3a7ba78771bba1390acc3801811e42d",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         }
       }
@@ -232,7 +241,8 @@
           "tickerHash": "0x852daa74cc3c31fe64542bb9b8764cfb91cc30f9acf9389071ffb44a9eefde46",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         },
         "DTT": {
@@ -242,7 +252,8 @@
           "tickerHash": "0x0862d7701ae2a04548299440d8e9bcde598aaa04f40d2b263697efe0cc6c0bb4",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         },
         "xTEST": {
@@ -252,7 +263,8 @@
           "tickerHash": "0x1c1f1b017c99eb3cc5da6ca4df343dd8e3a7ba78771bba1390acc3801811e42d",
           "isNative": false,
           "price": {
-            "isStable": true
+            "isStable": true,
+            "coingeckoId": "usd-coin"
           }
         }
       }

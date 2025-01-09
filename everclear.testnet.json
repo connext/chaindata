@@ -28,7 +28,7 @@
       },
       "WETH": {
         "symbol": "WETH",
-        "address": "0x2D8fA9999bdFa4A5C83B3d6C4AedE72FCa7A5e8a",
+        "address": "0x5d92e0F1F334BB0b475677F17E71f98D2b5807b1",
         "decimals": 18,
         "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
         "isNative": false,

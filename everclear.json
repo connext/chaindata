@@ -415,12 +415,24 @@
             },
             "confirmations": 1,
             "assets": {
+                "ETH": {
+                    "symbol": "ETH",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
+                    "isNative": true,
+                    "price": {
+                        "isStable": false,
+                        "priceFeed": "",
+                        "coingeckoId": ""
+                    }
+                },
                 "WETH": {
                     "symbol": "WETH",
                     "address": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
                     "decimals": 18,
                     "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
-                    "isNative": true,
+                    "isNative": false,
                     "price": {
                         "isStable": false,
                         "priceFeed": "",
@@ -475,6 +487,17 @@
             },
             "confirmations": 1,
             "assets": {
+                "POL": {
+                    "symbol": "POL",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "tickerHash": "0x5611acaae5e6f2d151766dae4f93d18a904ae6f9265184ffea692c2e6e52b7fe",
+                    "isNative": true,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": ""
+                    }
+                },
                 "WETH": {
                     "symbol": "WETH",
                     "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
@@ -535,6 +558,17 @@
             },
             "confirmations": 1,
             "assets": {
+                "AVAX": {
+                    "symbol": "AVAX",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "tickerHash": "0x49f18ed70c3220abb735efdc7fce309e384d008d4bc14c846dcce9e31050e29b",
+                    "isNative": true,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": ""
+                    }
+                },
                 "WETH": {
                     "symbol": "WETH",
                     "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",

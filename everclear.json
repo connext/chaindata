@@ -424,7 +424,7 @@
                     "price": {
                         "isStable": false,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "ethereum"
                     }
                 },
                 "WETH": {
@@ -436,7 +436,7 @@
                     "price": {
                         "isStable": false,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "ethereum"
                     }
                 },
                 "USDC": {
@@ -448,7 +448,7 @@
                     "price": {
                         "isStable": true,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "usd-coin"
                     }
                 },
                 "USDT": {
@@ -460,7 +460,7 @@
                     "price": {
                         "isStable": true,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "tether"
                     }
                 },
                 "WBTC": {
@@ -472,7 +472,7 @@
                     "price": {
                         "isStable": false,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "bitcoin"
                     }
                 }
             }
@@ -495,7 +495,7 @@
                     "isNative": true,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": ""
+                        "coingeckoId": "polygon-ecosystem-token"
                     }
                 },
                 "WETH": {
@@ -507,7 +507,7 @@
                     "price": {
                         "isStable": false,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "ethereum"
                     }
                 },
                 "USDC": {
@@ -519,7 +519,7 @@
                     "price": {
                         "isStable": true,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "usd-coin"
                     }
                 },
                 "USDT": {
@@ -531,7 +531,7 @@
                     "price": {
                         "isStable": true,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "tether"
                     }
                 },
                 "WBTC": {
@@ -543,7 +543,7 @@
                     "price": {
                         "isStable": false,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "bitcoin"
                     }
                 }
             }
@@ -566,7 +566,7 @@
                     "isNative": true,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": ""
+                        "coingeckoId": "avalanche-2"
                     }
                 },
                 "WETH": {
@@ -578,7 +578,7 @@
                     "price": {
                         "isStable": false,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "ethereum"
                     }
                 },
                 "USDC": {
@@ -590,7 +590,7 @@
                     "price": {
                         "isStable": true,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "usd-coin"
                     }
                 },
                 "USDT": {
@@ -602,7 +602,7 @@
                     "price": {
                         "isStable": true,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "tether"
                     }
                 },
                 "WBTC": {
@@ -614,7 +614,7 @@
                     "price": {
                         "isStable": false,
                         "priceFeed": "",
-                        "coingeckoId": ""
+                        "coingeckoId": "bitcoin"
                     }
                 }
             }

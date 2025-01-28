@@ -633,6 +633,18 @@
             },
             "confirmations": 1,
             "assets": {
+                "ETH": {
+                    "symbol": "ETH",
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "decimals": 18,
+                    "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
+                    "isNative": true,
+                    "price": {
+                        "isStable": false,
+                        "priceFeed": "0x13e3Ee699D1909E989722E753853AE30b17e08c5",
+                        "coingeckoId": "ethereum"
+                    }
+                },
                 "WETH": {
                     "symbol": "WETH",
                     "address": "0x4300000000000000000000000000000000000004",

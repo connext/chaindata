@@ -24,6 +24,11 @@ jobs:
       - name: Filter empty domain ids
         run: cat crossChain.json | jq 'del(.[] | select(.chainId == null))' > crossChain.tmp && mv -f crossChain.tmp crossChain.json
 
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v1
+        with:
+          terraform_version: 1.5.7
+
       - name: Terraform Plan
         run: terraform init
 

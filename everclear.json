@@ -657,6 +657,131 @@
                     }
                 }
             }
+        },
+        "534352": {
+            "providers": [
+                "https://scroll-mainnet.public.blastapi.io"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-scroll/production-v0.0.1/gn"
+            ],
+            "deployments": {
+                "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+            },
+            "confirmations": 1,
+            "assets": {
+                "WETH": {
+                    "symbol": "WETH",
+                    "address": "0x5300000000000000000000000000000000000004",
+                    "decimals": 18,
+                    "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "ethereum"
+                    }
+                },
+                "USDC": {
+                    "symbol": "USDC",
+                    "address": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+                    "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "usd-coin"
+                    }
+                },
+                "USDT": {
+                    "symbol": "USDT",
+                    "address": "0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df",
+                    "decimals": 6,
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "tether"
+                    }
+                }
+            }
+        },
+        "167000": {
+            "providers": [
+                "https://taiko-mainnet.public.blastapi.io"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-taiko/production-v0.0.1/gn"
+            ],
+            "deployments": {
+                "everclear": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "gateway": "0x4e2bbbFb10058E0D248a78fe2F469562f4eDbe66",
+                "XERC20Module": "0xdCA40903E271Cc76AECd62dF8d6c19f3Ac873E64"
+            },
+            "confirmations": 1,
+            "assets": {
+                "WETH": {
+                    "symbol": "WETH",
+                    "address": "0xA51894664A773981C6C112C43ce576f315d5b1B6",
+                    "decimals": 18,
+                    "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "ethereum"
+                    }
+                },
+                "USDC": {
+                    "symbol": "USDC",
+                    "address": "0x07d83526730c7438048D55A4fc0b850e2aaB6f0b",
+                    "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "usd-coin"
+                    }
+                },
+                "USDT": {
+                    "symbol": "USDT",
+                    "address": "0x2DEF195713CF4a606B49D07E520e22C17899a736",
+                    "decimals": 6,
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "tether"
+                    }
+                }
+            }
+        },
+        "33139": {
+            "providers": [
+                "https://apechain-mainnet.public.blastapi.io"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-apechain/production-v0.0.1/gn"
+            ],
+            "deployments": {
+                "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
+                "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+            },
+            "confirmations": 1,
+            "assets": {
+                "WETH": {
+                    "symbol": "APE",
+                    "address": "",
+                    "decimals": 18,
+                    "tickerHash": "0x26bca2ecad19e981c90a8c6efd8ee9856bbc5a2042259e6ee31e310fdc08d970",
+                    "isNative": true,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": ""
+                    }
+                }
+            }
         }
     }
 }

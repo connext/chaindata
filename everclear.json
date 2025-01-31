@@ -804,6 +804,17 @@
                         "isStable": false,
                         "coingeckoId": "ape"
                     }
+                },
+                "APE-ETH": {
+                    "symbol": "APE-ETH",
+                    "address": "0xcF800F4948D16F23333508191B1B1591daF70438",
+                    "decimals": 18,
+                    "tickerHash": "0x3f015e6458886a456e1137ee9b9d69c67b3168ef84640aa5bdd95a964e7b84b7",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "ethereum"
+                    }
                 }
             }
         }

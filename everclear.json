@@ -314,7 +314,7 @@
                     "symbol": "USDT",
                     "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
                     "decimals": 6,
-                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
                     "isNative": false,
                     "price": {
                         "isStable": true,

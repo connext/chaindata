@@ -318,8 +318,8 @@
                     "isNative": false,
                     "price": {
                         "isStable": true,
-                        "priceFeed": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
-                        "coingeckoId": "usd-coin"
+                        "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
+                        "coingeckoId": "tether"
                     }
                 }
             }

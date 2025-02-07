@@ -827,6 +827,17 @@
                         "isStable": false,
                         "coingeckoId": "ethereum"
                     }
+                },
+                "xPufETH": {
+                    "symbol": "xPufETH",
+                    "address": "0x6234E5ef39B12EFdFcbd99dd7F452F27F3fEAE3b",
+                    "decimals": 18,
+                    "tickerHash": "0x7ca978c7f993c411238b0887969711b470a3133448ab70e4f18aa4d63dcb7907",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "pufeth"
+                    }
                 }
             }
         }

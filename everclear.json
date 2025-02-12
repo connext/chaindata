@@ -998,6 +998,9 @@
             "providers": [
                 "https://1rpc.io/zksync2-era"
             ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zksync/production-v0.0.1/gn"
+            ],
             "deployments": {
                 "everclear": "0x7F5e085981C93C579c865554B9b723B058AaE4D3",
                 "gateway": "0x0Bab6c0073a706fE045E4608CA4cD905136CBBe0",

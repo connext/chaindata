@@ -996,7 +996,7 @@
         },
         "324": {
             "providers": [
-                "https://1rpc.io/zksync2-era"
+                "https://mainnet.era.zksync.io"
             ],
             "subgraphUrls": [
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zksync/production-v0.0.1/gn"

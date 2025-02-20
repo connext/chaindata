@@ -329,8 +329,7 @@
                 "https://arbitrum-one.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/production-v0.0.3/gn",
-                "https://api.studio.thegraph.com/query/60851/everclear-spoke-arbitrum/v0.0.3"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/production-v0.0.4/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -451,8 +450,12 @@
             }
         },
         "59144": {
-            "providers": ["https://linea.drpc.org"],
-            "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-linea/production-v0.0.1/gn"],
+            "providers": [
+                "https://linea.drpc.org"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-linea/production-v0.0.1/gn"
+            ],
             "deployments": {
                 "everclear": "0xc24dC29774fD2c1c0c5FA31325Bb9cbC11D8b751",
                 "gateway": "0xC1E5b7bE6c62948eeAb40523B33e5d0121ccae94",
@@ -523,8 +526,12 @@
             }
         },
         "137": {
-            "providers": ["https://polygon.drpc.org"],
-            "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-polygon/production-v0.0.1/gn"],
+            "providers": [
+                "https://polygon.drpc.org"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-polygon/production-v0.0.1/gn"
+            ],
             "deployments": {
                 "everclear": "0x7189C59e245135696bFd2906b56607755F84F3fD",
                 "gateway": "0x26CFF54f11608Cd3060408690803AB4a43f462f2",
@@ -594,8 +601,12 @@
             }
         },
         "43114": {
-            "providers": ["https://avalanche.drpc.org"],
-            "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-avalanche/production-v0.0.1/gn"],
+            "providers": [
+                "https://avalanche.drpc.org"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-avalanche/production-v0.0.1/gn"
+            ],
             "deployments": {
                 "everclear": "0x9aA2Ecad5C77dfcB4f34893993f313ec4a370460",
                 "gateway": "0x7EB63a646721de65eBa79ffe91c55DCE52b73c12",

@@ -329,7 +329,8 @@
                 "https://arbitrum-one.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/production-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/production-v0.0.3/gn",
+                "https://api.studio.thegraph.com/query/60851/everclear-spoke-arbitrum/v0.0.3"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",

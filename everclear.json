@@ -1079,7 +1079,7 @@
                     "symbol": "RON",
                     "address": "0x0000000000000000000000000000000000000000",
                     "decimals": 18,
-                    "tickerHash": "0x3ed03c38e59dc60c7b69c2a4bf68f9214acd953252b5a90e8f5f59583e9bc3ae",
+                    "tickerHash": "0x2dd272ddce846149d92496b4c3e677504aec8d5e6aab5908b25c9fe0a797e25f",
                     "isNative": true,
                     "price": {
                         "isStable": false,
@@ -1088,7 +1088,7 @@
                 },
                 "WETH": {
                     "symbol": "WETH",
-                    "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+                    "address": "0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5",
                     "decimals": 18,
                     "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
                     "isNative": false,

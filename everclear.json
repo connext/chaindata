@@ -1010,7 +1010,7 @@
             ],
             "deployments": {
                 "everclear": "0x7F5e085981C93C579c865554B9b723B058AaE4D3",
-                "gateway": "0x0Bab6c0073a706fE045E4608CA4cD905136CBBe0",
+                "gateway": "0xbD82E5503461913a70566E66a454465a46F5C903",
                 "XERC20Module": "0x6ACf19603C8588885250F7a02F0EaFFa4FcafB04"
             },
             "confirmations": 1,

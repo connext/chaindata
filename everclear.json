@@ -1,6 +1,7 @@
 {
     "hub": {
         "domain": "25327",
+        "network": "evm",
         "deployments": {
             "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
             "gateway": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
@@ -54,6 +55,7 @@
     },
     "chains": {
         "1": {
+            "network": "evm",
             "providers": [
                 "https://mainnet.gateway.tenderly.co"
             ],
@@ -129,6 +131,7 @@
             }
         },
         "10": {
+            "network": "evm",
             "providers": [
                 "https://mainnet.optimism.io"
             ],
@@ -193,6 +196,7 @@
             }
         },
         "56": {
+            "network": "evm",
             "providers": [
                 "https://bsc-mainnet.public.blastapi.io"
             ],
@@ -257,6 +261,7 @@
             }
         },
         "8453": {
+            "network": "evm",
             "providers": [
                 "https://base-mainnet.public.blastapi.io"
             ],
@@ -321,6 +326,7 @@
             }
         },
         "42161": {
+            "network": "evm",
             "providers": [
                 "https://arbitrum-one.public.blastapi.io"
             ],
@@ -385,6 +391,7 @@
             }
         },
         "48900": {
+            "network": "evm",
             "providers": [
                 "https://zircuit1-mainnet.liquify.com",
                 "https://zircuit-mainnet.drpc.org"
@@ -446,6 +453,7 @@
             }
         },
         "59144": {
+            "network": "evm",
             "providers": [
                 "https://linea.drpc.org"
             ],
@@ -522,6 +530,7 @@
             }
         },
         "137": {
+            "network": "evm",
             "providers": [
                 "https://polygon.drpc.org"
             ],
@@ -597,6 +606,7 @@
             }
         },
         "43114": {
+            "network": "evm",
             "providers": [
                 "https://avalanche.drpc.org"
             ],
@@ -672,6 +682,7 @@
             }
         },
         "81457": {
+            "network": "evm",
             "providers": [
                 "https://blastl2-mainnet.public.blastapi.io"
             ],
@@ -711,6 +722,7 @@
             }
         },
         "534352": {
+            "network": "evm",
             "providers": [
                 "https://scroll-mainnet.public.blastapi.io"
             ],
@@ -772,6 +784,7 @@
             }
         },
         "167000": {
+            "network": "evm",
             "providers": [
                 "https://taiko.drpc.org"
             ],
@@ -833,6 +846,7 @@
             }
         },
         "33139": {
+            "network": "evm",
             "providers": [
                 "https://apechain.drpc.org"
             ],
@@ -882,6 +896,7 @@
             }
         },
         "34443": {
+            "network": "evm",
             "providers": [
                 "https://mode.drpc.org"
             ],
@@ -942,6 +957,7 @@
             }
         },
         "130": {
+            "network": "evm",
             "providers": [
                 "https://mainnet.unichain.org"
             ],
@@ -1002,6 +1018,7 @@
             }
         },
         "324": {
+            "network": "evm",
             "providers": [
                 "https://mainnet.era.zksync.io"
             ],
@@ -1062,6 +1079,7 @@
             }
         },
         "2020": {
+            "network": "evm",
             "providers": [
                 "https://api.roninchain.com/rpc"
             ],
@@ -1101,6 +1119,34 @@
                     "symbol": "USDC",
                     "address": "0x0B7007c13325C48911F73A2daD5FA5dCBf808aDc",
                     "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "usd-coin"
+                    }
+                }
+            }
+        },
+        "1399811149": {
+            "network": "svm",
+            "providers": [
+                "pending"
+            ],
+            "subgraphUrls": [
+                "pending"
+            ],
+            "deployments": {
+                "everclear": "pending",
+                "gateway": "pending",
+                "XERC20Module": "pending"
+            },
+            "confirmations": 1,
+            "assets": {
+                "USDC": {
+                    "symbol": "USDC",
+                    "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                    "decimals": 9,
                     "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
                     "isNative": false,
                     "price": {

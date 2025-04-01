@@ -253,6 +253,17 @@
                         "coingeckoId": "tether",
                         "mainnetEquivalent": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
                     }
+                },
+                "xPufETH": {
+                    "symbol": "xPufETH",
+                    "address": "0x64274835D88F5c0215da8AADd9A5f2D2A2569381",
+                    "decimals": 18,
+                    "tickerHash": "0x7ca978c7f993c411238b0887969711b470a3133448ab70e4f18aa4d63dcb7907",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "pufeth"
+                    }
                 }
             }
         },
@@ -316,6 +327,17 @@
                         "isStable": true,
                         "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
                         "coingeckoId": "tether"
+                    }
+                },
+                "xPufETH": {
+                    "symbol": "xPufETH",
+                    "address": "0x23dA5F2d509cb43A59d43C108a43eDf34510eff1",
+                    "decimals": 18,
+                    "tickerHash": "0x7ca978c7f993c411238b0887969711b470a3133448ab70e4f18aa4d63dcb7907",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "pufeth"
                     }
                 }
             }

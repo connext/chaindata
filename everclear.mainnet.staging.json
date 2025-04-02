@@ -4,9 +4,9 @@
         "deployments": {
             "everclear": "0x372396818F125b8f3AA5a73e70C30F54c6195331",
             "gateway": "0xe5F2F4afAd6211cfBD6a882D5a6a435530Ee3909",
-            "gauge": "0x0000000000000000000000000000000000000000",
-            "rewardDistributor": "0x0000000000000000000000000000000000000000",
-            "tokenomicsHubGateway": "0x0000000000000000000000000000000000000000"
+            "gauge": "0x9831fE53Ca8A16b950c17fBC4C12289a61aF06A5",
+            "rewardDistributor": "0xFBe70488c65cA4C5445f44f496ba034A126cF0b4",
+            "tokenomicsHubGateway": "0xEc86D47d98EeeF824Ff79fAE2cFA3Fd57Ab87F9D"
         },
         "providers": [
             "https://rpc.everclear.raas.gelato.cloud"

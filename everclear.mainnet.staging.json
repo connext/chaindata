@@ -50,7 +50,7 @@
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-optimism/staging-v0.0.1/gn"
             ],
             "deployments": {
-                "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
+                "everclear": "0xF2D5CeF8b27A2785e22D8191b8B51E438bfC78f0",
                 "gateway": "0xe051C7AdB6F24Ee8c9d94DD23106C51D94858d12",
                 "XERC20Module": "0x0000000000000000000000000000000000000000"
             },
@@ -114,7 +114,7 @@
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/staging-v0.0.1/gn"
             ],
             "deployments": {
-                "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
+                "everclear": "0xF2D5CeF8b27A2785e22D8191b8B51E438bfC78f0",
                 "gateway": "0xe051C7AdB6F24Ee8c9d94DD23106C51D94858d12",
                 "XERC20Module": "0x0000000000000000000000000000000000000000"
             },

@@ -58,7 +58,7 @@
                 "https://mainnet.gateway.tenderly.co"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mainnet/production-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mainnet/production-v0.0.5/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -133,7 +133,7 @@
                 "https://mainnet.optimism.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-optimism/production-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-optimism/production-v0.0.5/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -197,7 +197,7 @@
                 "https://bsc-mainnet.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-bnb/production-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-bnb/production-v0.0.5/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -272,7 +272,7 @@
                 "https://base-mainnet.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/production-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/production-v0.0.5/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -347,7 +347,7 @@
                 "https://arbitrum-one.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/production-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/production-v0.0.5/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -412,7 +412,7 @@
                 "https://zircuit-mainnet.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zircuit/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zircuit/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0xD0E86F280D26Be67A672d1bFC9bB70500adA76fe",
@@ -472,7 +472,7 @@
                 "https://linea.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-linea/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-linea/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0xc24dC29774fD2c1c0c5FA31325Bb9cbC11D8b751",
@@ -548,7 +548,7 @@
                 "https://polygon.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-polygon/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-polygon/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0x7189C59e245135696bFd2906b56607755F84F3fD",
@@ -623,7 +623,7 @@
                 "https://avalanche.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-avalanche/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-avalanche/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0x9aA2Ecad5C77dfcB4f34893993f313ec4a370460",
@@ -698,7 +698,7 @@
                 "https://blastl2-mainnet.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-blast/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-blast/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
@@ -737,7 +737,7 @@
                 "https://scroll-mainnet.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-scroll/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-scroll/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -798,7 +798,7 @@
                 "https://taiko.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-taiko/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-taiko/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
@@ -859,7 +859,7 @@
                 "https://apechain.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-apechain/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-apechain/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -908,7 +908,7 @@
                 "https://mode.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mode/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mode/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0xeFa6Ac3F931620fD0449eC8c619f2A14A0A78E99",
@@ -968,7 +968,7 @@
                 "https://mainnet.unichain.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-unichain/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-unichain/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
@@ -1028,7 +1028,7 @@
                 "https://mainnet.era.zksync.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zksync/production-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zksync/production-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0x7F5e085981C93C579c865554B9b723B058AaE4D3",
@@ -1088,7 +1088,7 @@
                 "https://api.roninchain.com/rpc"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-ronin/production-v0.0.1/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-ronin/production-v0.0.2/gn"
             ],
             "deployments": {
                 "everclear": "0xdCA40903E271Cc76AECd62dF8d6c19f3Ac873E64",

@@ -798,7 +798,7 @@
                 "https://taiko.drpc.org"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-taiko/production-v0.0.3/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-taiko/production-v0.0.4/gn"
             ],
             "deployments": {
                 "everclear": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",

@@ -323,6 +323,11 @@
         "symbol": "wUSDM.e",
         "mainnetEquivalent": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
         "decimals": 18
+      },
+      "0x6EEFf5dadD79a3945E40D321Cb5a1853ae389088": {
+        "name": "x-AutoLayer",
+        "symbol": "x-LAY3R",
+        "decimals": 18
       }
     },
     "rpc": [
@@ -1149,6 +1154,11 @@
       "0x64274835D88F5c0215da8AADd9A5f2D2A2569381": {
         "name": "xPufETH",
         "symbol": "xPufETH",
+        "decimals": 18
+      },
+      "0x6EEFf5dadD79a3945E40D321Cb5a1853ae389088": {
+        "name": "x-AutoLayer",
+        "symbol": "x-LAY3R",
         "decimals": 18
       }
     },
@@ -2692,6 +2702,11 @@
       "0xa411c9Aa00E020e4f88Bc19996d29c5B7ADB4ACf": {
         "name": "Xocolatl MXN Stablecoin",
         "symbol": "XOC",
+        "decimals": 18
+      },
+      "0x6EEFf5dadD79a3945E40D321Cb5a1853ae389088": {
+        "name": "x-AutoLayer",
+        "symbol": "x-LAY3R",
         "decimals": 18
       }
     },

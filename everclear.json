@@ -115,6 +115,17 @@
                         "coingeckoId": "tether"
                     }
                 },
+                "PufETH": {
+                    "symbol": "PufETH",
+                    "address": "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+                    "decimals": 18,
+                    "tickerHash": "0xad646121769e905177df1f3766492585deb4087feb09098776db63bf1a6e7999",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "pufeth"
+                    }
+                },
                 "xPufETH": {
                     "symbol": "xPufETH",
                     "address": "0xD7D2802f6b19843ac4DfE25022771FD83b5A7464",

@@ -1,6 +1,7 @@
 {
     "hub": {
         "domain": "25327",
+        "network": "evm",
         "deployments": {
             "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
             "gateway": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
@@ -54,6 +55,7 @@
     },
     "chains": {
         "1": {
+            "network": "evm",
             "providers": [
                 "https://mainnet.gateway.tenderly.co"
             ],
@@ -1084,6 +1086,7 @@
             }
         },
         "2020": {
+            "network": "evm",
             "providers": [
                 "https://api.roninchain.com/rpc"
             ],
@@ -1122,6 +1125,34 @@
                 "USDC": {
                     "symbol": "USDC",
                     "address": "0x0B7007c13325C48911F73A2daD5FA5dCBf808aDc",
+                    "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "usd-coin"
+                    }
+                }
+            }
+        },
+        "1399811149": {
+            "network": "svm",
+            "providers": [
+                "https://api.mainnet-beta.solana.com"
+            ],
+            "subgraphUrls": [
+                "pending"
+            ],
+            "deployments": {
+                "everclear": "everUnMiUkvZG8EyXAtW8HfMavCBTVeMhQszbrtpUQm",
+                "gateway": "everUnMiUkvZG8EyXAtW8HfMavCBTVeMhQszbrtpUQm",
+                "XERC20Module": "everUnMiUkvZG8EyXAtW8HfMavCBTVeMhQszbrtpUQm"
+            },
+            "confirmations": 1,
+            "assets": {
+                "USDC": {
+                    "symbol": "USDC",
+                    "address": "0xc6fa7af3bedbad3a3d65f36aabc97431b1bbe4c2d2f6e0e47ca60203452f5d61",
                     "decimals": 6,
                     "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
                     "isNative": false,

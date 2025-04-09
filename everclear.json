@@ -131,6 +131,7 @@
             }
         },
         "10": {
+            "network": "evm",
             "providers": [
                 "https://mainnet.optimism.io"
             ],
@@ -195,6 +196,7 @@
             }
         },
         "56": {
+            "network": "evm",
             "providers": [
                 "https://bsc-mainnet.public.blastapi.io"
             ],
@@ -270,6 +272,7 @@
             }
         },
         "8453": {
+            "network": "evm",
             "providers": [
                 "https://base-mainnet.public.blastapi.io"
             ],
@@ -345,6 +348,7 @@
             }
         },
         "42161": {
+            "network": "evm",
             "providers": [
                 "https://arbitrum-one.public.blastapi.io"
             ],
@@ -409,6 +413,7 @@
             }
         },
         "48900": {
+            "network": "evm",
             "providers": [
                 "https://zircuit1-mainnet.liquify.com",
                 "https://zircuit-mainnet.drpc.org"
@@ -470,6 +475,7 @@
             }
         },
         "59144": {
+            "network": "evm",
             "providers": [
                 "https://linea.drpc.org"
             ],
@@ -546,6 +552,7 @@
             }
         },
         "137": {
+            "network": "evm",
             "providers": [
                 "https://polygon.drpc.org"
             ],
@@ -621,6 +628,7 @@
             }
         },
         "43114": {
+            "network": "evm",
             "providers": [
                 "https://avalanche.drpc.org"
             ],
@@ -696,6 +704,7 @@
             }
         },
         "81457": {
+            "network": "evm",
             "providers": [
                 "https://blastl2-mainnet.public.blastapi.io"
             ],
@@ -735,6 +744,7 @@
             }
         },
         "534352": {
+            "network": "evm",
             "providers": [
                 "https://scroll-mainnet.public.blastapi.io"
             ],
@@ -796,6 +806,7 @@
             }
         },
         "167000": {
+            "network": "evm",
             "providers": [
                 "https://taiko.drpc.org"
             ],
@@ -857,6 +868,7 @@
             }
         },
         "33139": {
+            "network": "evm",
             "providers": [
                 "https://apechain.drpc.org"
             ],
@@ -906,6 +918,7 @@
             }
         },
         "34443": {
+            "network": "evm",
             "providers": [
                 "https://mode.drpc.org"
             ],
@@ -966,6 +979,7 @@
             }
         },
         "130": {
+            "network": "evm",
             "providers": [
                 "https://mainnet.unichain.org"
             ],
@@ -1026,6 +1040,7 @@
             }
         },
         "324": {
+            "network": "evm",
             "providers": [
                 "https://mainnet.era.zksync.io"
             ],

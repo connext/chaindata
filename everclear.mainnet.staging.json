@@ -167,6 +167,17 @@
                         "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
                         "coingeckoId": "tether"
                     }
+                },
+                "cBTC": {
+                    "symbol": "cBTC",
+                    "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+                    "decimals": 8,
+                    "tickerHash": "0xcaad1f45135feeb0e9d7d24300477e3027cc62b75d72b22367a82fd870000845",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "coinbase-wrapped-btc"
+                    }
                 }
             }
         },
@@ -230,6 +241,17 @@
                         "isStable": true,
                         "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
                         "coingeckoId": "tether"
+                    }
+                },
+                "cBTC": {
+                    "symbol": "cBTC",
+                    "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+                    "decimals": 8,
+                    "tickerHash": "0xcaad1f45135feeb0e9d7d24300477e3027cc62b75d72b22367a82fd870000845",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "coinbase-wrapped-btc"
                     }
                 }
             }

@@ -243,9 +243,9 @@
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/staging-v0.0.1/gn"
             ],
             "deployments": {
-                "everclear": "0x327d37ebb263ada4331ec8ab919ca6bfa6745876fcd1893f76e6edc13939226f",
-                "gateway": "0x327d37ebb263ada4331ec8ab919ca6bfa6745876fcd1893f76e6edc13939226f",
-                "XERC20Module": "0x327d37ebb263ada4331ec8ab919ca6bfa6745876fcd1893f76e6edc13939226f"
+                "everclear": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
+                "gateway": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
+                "XERC20Module": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac"
             },
             "confirmations": 1,
             "assets": {

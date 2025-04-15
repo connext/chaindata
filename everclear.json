@@ -1178,7 +1178,7 @@
                 },
                 "USDT": {
                     "symbol": "USDT",
-                    "address": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+                    "address": "0xce010e60afedb22717bd63192f54145a3f965a33bb82d2c7029eb2ce1e208264",
                     "decimals": 6,
                     "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
                     "isNative": false,

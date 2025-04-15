@@ -1190,7 +1190,7 @@
                 "WETH": {
                     "symbol": "WETH",
                     "address": "0x66e5188a1308a1db90b6d31f3fbdca8c3df2678c8112dfdd3d192c5a3cc457a8",
-                    "decimals": 18,
+                    "decimals": 8,
                     "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
                     "isNative": false,
                     "price": {

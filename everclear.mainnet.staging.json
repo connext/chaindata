@@ -167,6 +167,17 @@
                         "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
                         "coingeckoId": "tether"
                     }
+                },
+                "cbBTC": {
+                    "symbol": "cbBTC",
+                    "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+                    "decimals": 8,
+                    "tickerHash": "0xab7216efe876c5163ebb1d05a1a6b63e00fb73d1d68ddf079460c106356fd162",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "coinbase-wrapped-btc"
+                    }
                 }
             }
         },

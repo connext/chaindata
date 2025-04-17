@@ -127,6 +127,17 @@
                         "isStable": false,
                         "coingeckoId": "pufeth"
                     }
+                },
+                "cbBTC": {
+                    "symbol": "cbBTC",
+                    "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+                    "decimals": 8,
+                    "tickerHash": "0xab7216efe876c5163ebb1d05a1a6b63e00fb73d1d68ddf079460c106356fd162",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "coinbase-wrapped-btc"
+                    }
                 }
             }
         },
@@ -343,6 +354,17 @@
                     "price": {
                         "isStable": false,
                         "coingeckoId": "pufeth"
+                    }
+                },
+                "cbBTC": {
+                    "symbol": "cbBTC",
+                    "address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf",
+                    "decimals": 8,
+                    "tickerHash": "0xab7216efe876c5163ebb1d05a1a6b63e00fb73d1d68ddf079460c106356fd162",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "coinbase-wrapped-btc"
                     }
                 }
             }

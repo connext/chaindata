@@ -106,81 +106,6 @@
                 }
             }
         },
-        "42161": {
-            "providers": [
-                "https://arbitrum-one.public.blastapi.io"
-            ],
-            "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/staging-v0.0.1/gn"
-            ],
-            "deployments": {
-                "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
-                "gateway": "0xe051C7AdB6F24Ee8c9d94DD23106C51D94858d12",
-                "XERC20Module": "0x0000000000000000000000000000000000000000"
-            },
-            "confirmations": 1,
-            "assets": {
-                "ETH": {
-                    "symbol": "ETH",
-                    "address": "0x0000000000000000000000000000000000000000",
-                    "decimals": 18,
-                    "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
-                    "isNative": true,
-                    "price": {
-                        "isStable": false,
-                        "priceFeed": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
-                        "coingeckoId": "ethereum"
-                    }
-                },
-                "WETH": {
-                    "symbol": "WETH",
-                    "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-                    "decimals": 18,
-                    "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
-                    "isNative": false,
-                    "price": {
-                        "isStable": false,
-                        "priceFeed": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
-                        "coingeckoId": "ethereum"
-                    }
-                },
-                "USDC": {
-                    "symbol": "USDC",
-                    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-                    "decimals": 6,
-                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
-                    "isNative": false,
-                    "price": {
-                        "isStable": true,
-                        "priceFeed": "0x50834F3163758fcC1Df9973b6e91f0F0F0434aD3",
-                        "coingeckoId": "usd-coin"
-                    }
-                },
-                "USDT": {
-                    "symbol": "USDT",
-                    "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-                    "decimals": 6,
-                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
-                    "isNative": false,
-                    "price": {
-                        "isStable": true,
-                        "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
-                        "coingeckoId": "tether"
-                    }
-                },
-                "cbBTC": {
-                    "symbol": "cbBTC",
-                    "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-                    "decimals": 8,
-                    "tickerHash": "0xab7216efe876c5163ebb1d05a1a6b63e00fb73d1d68ddf079460c106356fd162",
-                    "isNative": false,
-                    "price": {
-                        "isStable": false,
-                        "coingeckoId": "coinbase-wrapped-btc"
-                    }
-                }
-            }
-        },
         "8453": {
             "providers": [
                 "https://base-mainnet.public.blastapi.io"
@@ -265,9 +190,9 @@
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/staging-v0.0.1/gn"
             ],
             "deployments": {
-                "everclear": "0x327d37ebb263ada4331ec8ab919ca6bfa6745876fcd1893f76e6edc13939226f",
-                "gateway": "0x327d37ebb263ada4331ec8ab919ca6bfa6745876fcd1893f76e6edc13939226f",
-                "XERC20Module": "0x327d37ebb263ada4331ec8ab919ca6bfa6745876fcd1893f76e6edc13939226f"
+                "everclear": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
+                "gateway": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
+                "XERC20Module": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac"
             },
             "confirmations": 1,
             "assets": {

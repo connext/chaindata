@@ -131,7 +131,7 @@
                 "cbBTC": {
                     "symbol": "cbBTC",
                     "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-                    "decimals": 18,
+                    "decimals": 8,
                     "tickerHash": "0xf33c8d8a2ca435b0d99f185918ee7dc2ec173bc6364039b24591c8a9f50fcb7b",
                     "isNative": false,
                     "price": {
@@ -371,7 +371,7 @@
                 "cbBTC": {
                     "symbol": "cbBTC",
                     "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-                    "decimals": 18,
+                    "decimals": 8,
                     "tickerHash": "0xf33c8d8a2ca435b0d99f185918ee7dc2ec173bc6364039b24591c8a9f50fcb7b",
                     "isNative": false,
                     "price": {

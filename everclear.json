@@ -1248,7 +1248,7 @@
                     "symbol": "ETH",
                     "address": "0x0000000000000000000000000000000000000000000000000000000000000000",
                     "decimals": 8,
-                    "tickerHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
                     "isNative": false,
                     "price": {
                         "isStable": false,

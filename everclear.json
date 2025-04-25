@@ -1243,6 +1243,17 @@
                         "isStable": false,
                         "coingeckoId": "ethereum"
                     }
+                },
+                "ETH": {
+                    "symbol": "ETH",
+                    "address": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "decimals": 8,
+                    "tickerHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "ethereum"
+                    }
                 }
             }
         },

@@ -13,7 +13,7 @@
             "https://rpc.everclear.raas.gelato.cloud"
         ],
         "subgraphUrls": [
-            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub/production-v0.0.2/gn"
+            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub/production-v0.0.3/gn"
         ],
         "confirmations": 0,
         "assets": {

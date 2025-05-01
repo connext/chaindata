@@ -1246,34 +1246,6 @@
                 }
             }
         },
-        "100": {
-            "network": "evm",
-            "providers": [
-                "https://rpc.gnosis.gateway.fm"
-            ],
-            "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-gnosis/production-v0.0.1/gn"
-            ],
-            "deployments": {
-                "everclear": "0xe0F010e465f15dcD42098dF9b99F1038c11B3056",
-                "gateway": "0xeFa6Ac3F931620fD0449eC8c619f2A14A0A78E99",
-                "XERC20Module": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa"
-            },
-            "confirmations": 1,
-            "assets": {
-                "CLEAR": {
-                    "symbol": "CLEAR",
-                    "address": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
-                    "decimals": 18,
-                    "tickerHash": "0x06ac253a00ee13562eecafc06057c6db73566a05bdce988194aad3616e28e87c",
-                    "isNative": false,
-                    "price": {
-                        "isStable": false,
-                        "coingeckoId": "connext"
-                    }
-                }
-            }
-        },
         "80094": {
             "network": "evm",
             "providers": [

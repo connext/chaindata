@@ -1307,6 +1307,23 @@
                 }
             }
         },
+        "100": {
+            "network": "evm",
+            "providers": [
+                "https://rpc.gnosis.gateway.fm"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-gnosis/production-v0.0.2/gn"
+            ],
+            "deployments": {
+                "everclear": "0xe0F010e465f15dcD42098dF9b99F1038c11B3056",
+                "gateway": "0xeFa6Ac3F931620fD0449eC8c619f2A14A0A78E99",
+                "XERC20Module": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa"
+            },
+            "confirmations": 1,
+            "assets": {
+            }
+        },
         "5000": {
             "network": "evm",
             "providers": [

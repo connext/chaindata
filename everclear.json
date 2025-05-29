@@ -1260,9 +1260,9 @@
                 ""
             ],
             "deployments": {
-                "everclear": "everUnMiUkvZG8EyXAtW8HfMavCBTVeMhQszbrtpUQm",
-                "gateway": "everUnMiUkvZG8EyXAtW8HfMavCBTVeMhQszbrtpUQm",
-                "XERC20Module": "everUnMiUkvZG8EyXAtW8HfMavCBTVeMhQszbrtpUQm"
+                "everclear": "0x09b727b9209c8539f72647d10dd4f4670b53960ba169f034c513c758db0e9656",
+                "gateway": "0x09b727b9209c8539f72647d10dd4f4670b53960ba169f034c513c758db0e9656",
+                "XERC20Module": "0x09b727b9209c8539f72647d10dd4f4670b53960ba169f034c513c758db0e9656"
             },
             "confirmations": 1,
             "assets": {

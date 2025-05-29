@@ -150,6 +150,17 @@
                         "priceFeed": "0xF4030086522a5bEEa4988F8cA5B36dbC97BeE88c",
                         "coingeckoId": "bitcoin"
                     }
+                },
+                "CLEAR": {
+                    "symbol": "CLEAR",
+                    "address": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+                    "decimals": 18,
+                    "tickerHash": "0x06ac253a00ee13562eecafc06057c6db73566a05bdce988194aad3616e28e87c",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "connext"
+                    }
                 }
             }
         },
@@ -214,6 +225,17 @@
                         "isStable": true,
                         "priceFeed": "0xECef79E109e997bCA29c1c0897ec9d7b03647F5E",
                         "coingeckoId": "tether"
+                    }
+                },
+                "CLEAR": {
+                    "symbol": "CLEAR",
+                    "address": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+                    "decimals": 18,
+                    "tickerHash": "0x06ac253a00ee13562eecafc06057c6db73566a05bdce988194aad3616e28e87c",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "connext"
                     }
                 }
             }
@@ -290,6 +312,17 @@
                     "price": {
                         "isStable": false,
                         "coingeckoId": "pufeth"
+                    }
+                },         
+                "CLEAR": {
+                    "symbol": "CLEAR",
+                    "address": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+                    "decimals": 18,
+                    "tickerHash": "0x06ac253a00ee13562eecafc06057c6db73566a05bdce988194aad3616e28e87c",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "connext"
                     }
                 }
             }
@@ -454,6 +487,17 @@
                         "isStable": true,
                         "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
                         "coingeckoId": "tether"
+                    }
+                },
+                "CLEAR": {
+                    "symbol": "CLEAR",
+                    "address": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+                    "decimals": 18,
+                    "tickerHash": "0x06ac253a00ee13562eecafc06057c6db73566a05bdce988194aad3616e28e87c",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "connext"
                     }
                 }
             }
@@ -669,6 +713,17 @@
                         "isStable": false,
                         "priceFeed": "",
                         "coingeckoId": "bitcoin"
+                    }
+                },
+                "CLEAR": {
+                    "symbol": "CLEAR",
+                    "address": "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8",
+                    "decimals": 18,
+                    "tickerHash": "0x06ac253a00ee13562eecafc06057c6db73566a05bdce988194aad3616e28e87c",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "connext"
                     }
                 }
             }
@@ -1322,6 +1377,7 @@
             },
             "confirmations": 1,
             "assets": {
+                
             }
         },
         "5000": {

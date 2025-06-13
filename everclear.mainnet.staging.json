@@ -1,6 +1,7 @@
 {
     "hub": {
         "domain": "25327",
+        "safeTxService": "https://transaction.safe.everclear.org",
         "deployments": {
             "everclear": "0x372396818F125b8f3AA5a73e70C30F54c6195331",
             "gateway": "0xe5F2F4afAd6211cfBD6a882D5a6a435530Ee3909",
@@ -43,6 +44,8 @@
     },
     "chains": {
         "10": {
+            "network": "evm",
+            "safeTxService": "https://safe-transaction-optimism.safe.global",
             "providers": [
                 "https://mainnet.optimism.io"
             ],
@@ -107,6 +110,8 @@
             }
         },
         "8453": {
+            "network": "evm",
+            "safeTxService": "https://safe-transaction-base.safe.global",
             "providers": [
                 "https://base-mainnet.public.blastapi.io"
             ],

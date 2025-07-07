@@ -46,7 +46,7 @@
         "isNative": false,
         "price": {
           "isStable": false,
-          "coingeckoId": "connext"
+          "coingeckoId": "everclear"
         }
       }
     }

@@ -138,7 +138,7 @@
                     "isNative": false,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": "coinbase-wrapped-bitcoin"
+                        "coingeckoId": "coinbase-wrapped-btc"
                     }
                 },
                 "WBTC": {
@@ -414,7 +414,7 @@
                     "isNative": false,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": "coinbase-wrapped-bitcoin"
+                        "coingeckoId": "coinbase-wrapped-btc"
                     }
                 },
                 "WBTC": {

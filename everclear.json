@@ -49,7 +49,7 @@
                 "isNative": false,
                 "price": {
                     "isStable": false,
-                    "coingeckoId": "connext"
+                    "coingeckoId": "everclear"
                 }
             }
         }
@@ -161,7 +161,7 @@
                     "isNative": false,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": "connext"
+                        "coingeckoId": "everclear"
                     }
                 }
             }
@@ -238,7 +238,7 @@
                     "isNative": false,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": "connext"
+                        "coingeckoId": "everclear"
                     }
                 }
             }
@@ -326,7 +326,7 @@
                     "isNative": false,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": "connext"
+                        "coingeckoId": "everclear"
                     }
                 }
             }
@@ -503,7 +503,7 @@
                     "isNative": false,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": "connext"
+                        "coingeckoId": "everclear"
                     }
                 }
             }
@@ -732,7 +732,7 @@
                     "isNative": false,
                     "price": {
                         "isStable": false,
-                        "coingeckoId": "connext"
+                        "coingeckoId": "everclear"
                     }
                 }
             }

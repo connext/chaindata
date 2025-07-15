@@ -247,7 +247,7 @@
             "deployments": {
                 "everclear": "0x000000000000000000000000d84173290e0e486b12b973f704cddef6e46a308e",
                 "gateway": "0x0000000000000000000000001f7c443b1793e2223541ee90814fe2a1f8b8778f",
-                "XERC20Module": "0x000000000000000000000000d84173290e0e486b12b973f704cddef6e46a308e",
+                "XERC20Module": "0x000000000000000000000000d84173290e0e486b12b973f704cddef6e46a308e"
             },
             "confirmations": 1,
             "assets": {

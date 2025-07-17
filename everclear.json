@@ -510,7 +510,7 @@
                     "symbol": "WBTC",
                     "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
                     "decimals": 8,
-                    "tickerHash": "0x5960dadd31b91f217b0715e68a21d960d5a7bdac21c03473f06f3c03078ceabf",
+                    "tickerHash": "0x98da2c5e4c6b1db946694570273b859a6e4083ccc8faa155edfc4c54eb3cfd73",
                     "isNative": false,
                     "price": {
                         "isStable": false,
@@ -1296,7 +1296,7 @@
                     "symbol": "WBTC",
                     "address": "0x233cea474d6cb513dad421c82e681f80ed7512455dfb91fc68363b99d9156582",
                     "decimals": 8,
-                    "tickerHash": "0x3a6296edc40f411ec256f681792f38abd1a4f89574b4117c00becd906345cfca",
+                    "tickerHash": "0x98da2c5e4c6b1db946694570273b859a6e4083ccc8faa155edfc4c54eb3cfd73",
                     "isNative": false,
                     "price": {
                         "isStable": false,

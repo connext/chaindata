@@ -505,6 +505,17 @@
                         "isStable": false,
                         "coingeckoId": "everclear"
                     }
+                },
+                "WBTC": {
+                    "symbol": "WBTC",
+                    "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+                    "decimals": 8,
+                    "tickerHash": "0x5960dadd31b91f217b0715e68a21d960d5a7bdac21c03473f06f3c03078ceabf",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "bitcoin"
+                    }
                 }
             }
         },
@@ -634,18 +645,6 @@
                         "priceFeed": "",
                         "coingeckoId": "tether"
                     }
-                },
-                "WBTC": {
-                    "symbol": "WBTC",
-                    "address": "0x3aab2285ddcddad8edf438c1bab47e1a9d05a9b4",
-                    "decimals": 6,
-                    "tickerHash": "0x98da2c5e4c6b1db946694570273b859a6e4083ccc8faa155edfc4c54eb3cfd73",
-                    "isNative": false,
-                    "price": {
-                        "isStable": false,
-                        "priceFeed": "",
-                        "coingeckoId": "bitcoin"
-                    }
                 }
             }
         },
@@ -710,18 +709,6 @@
                         "isStable": true,
                         "priceFeed": "",
                         "coingeckoId": "tether"
-                    }
-                },
-                "WBTC": {
-                    "symbol": "WBTC",
-                    "address": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
-                    "decimals": 6,
-                    "tickerHash": "0x98da2c5e4c6b1db946694570273b859a6e4083ccc8faa155edfc4c54eb3cfd73",
-                    "isNative": false,
-                    "price": {
-                        "isStable": false,
-                        "priceFeed": "",
-                        "coingeckoId": "bitcoin"
                     }
                 },
                 "CLEAR": {
@@ -798,18 +785,6 @@
                         "isStable": true,
                         "priceFeed": "",
                         "coingeckoId": "tether"
-                    }
-                },
-                "WBTC": {
-                    "symbol": "WBTC",
-                    "address": "0x50b7545627a5162f82a992c33b87adc75187b218",
-                    "decimals": 6,
-                    "tickerHash": "0x98da2c5e4c6b1db946694570273b859a6e4083ccc8faa155edfc4c54eb3cfd73",
-                    "isNative": false,
-                    "price": {
-                        "isStable": false,
-                        "priceFeed": "",
-                        "coingeckoId": "bitcoin"
                     }
                 }
             }
@@ -1316,6 +1291,17 @@
                         "isStable": false,
                         "coingeckoId": "ethereum"
                     }
+                },
+                "WBTC": {
+                    "symbol": "WBTC",
+                    "address": "0x233cea474d6cb513dad421c82e681f80ed7512455dfb91fc68363b99d9156582",
+                    "decimals": 8,
+                    "tickerHash": "0x3a6296edc40f411ec256f681792f38abd1a4f89574b4117c00becd906345cfca",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "bitcoin"
+                    }
                 }
             }
         },
@@ -1366,17 +1352,6 @@
                     "price": {
                         "isStable": true,
                         "coingeckoId": "usd-coin"
-                    }
-                },
-                "WBTC": {
-                    "symbol": "WBTC",
-                    "address": "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c",
-                    "decimals": 8,
-                    "tickerHash": "0x98da2c5e4c6b1db946694570273b859a6e4083ccc8faa155edfc4c54eb3cfd73",
-                    "isNative": false,
-                    "price": {
-                        "isStable": false,
-                        "coingeckoId": "bitcoin"
                     }
                 }
             }
@@ -1457,17 +1432,6 @@
                     "price": {
                         "isStable": true,
                         "coingeckoId": "tether"
-                    }
-                },
-                "WBTC": {
-                    "symbol": "WBTC",
-                    "address": "0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2",
-                    "decimals": 8,
-                    "tickerHash": "0x98da2c5e4c6b1db946694570273b859a6e4083ccc8faa155edfc4c54eb3cfd73",
-                    "isNative": false,
-                    "price": {
-                        "isStable": false,
-                        "coingeckoId": "bitcoin"
                     }
                 }
             }

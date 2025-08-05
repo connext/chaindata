@@ -1549,6 +1549,34 @@
                     }
                 }
             }
+        },
+        "728126428": {
+            "network": "tvm",
+            "providers": [
+                "https://tron-rpc.publicnode.com"
+            ],
+            "subgraphUrls": [
+                "https://app.goldsky.com/project_clssc64y57n5r010yeoly05up/dashboard/subgraphs/everclear-spoke-base/production-v0.0.5"
+            ],
+            "deployments": {
+                "everclear": "TQ7ZmvN6K2TaSpzbz8KUw8bSK2zsSeksxJ",
+                "gateway": "TP5oAAfdfNbAF8VMhTfCw3uQjpQii5pZWH",
+                "XERC20Module": "TQ7ZmvN6K2TaSpzbz8KUw8bSK2zsSeksxJ"
+            },
+            "confirmations": 1,
+            "assets": {
+                "USDT": {
+                    "symbol": "USDT",
+                    "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+                    "decimals": 6,
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "tether"
+                    }
+                }
+            }
         }
     }
 }

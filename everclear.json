@@ -14,7 +14,7 @@
             "https://rpc.everclear.raas.gelato.cloud"
         ],
         "subgraphUrls": [
-            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub/production-v0.0.3/gn"
+            "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub/production-v0.0.4/gn"
         ],
         "confirmations": 0,
         "assets": {
@@ -338,7 +338,7 @@
                 "https://base-mainnet.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/production-v0.0.5/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/production-v0.0.6/gn"
             ],
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",

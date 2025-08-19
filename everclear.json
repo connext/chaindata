@@ -70,6 +70,10 @@
                 "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 10,
+            "messageGasLimit": {
+                "base": 0,
+                "extraIntent": 0
+            },
             "assets": {
                 "ETH": {
                     "symbol": "ETH",
@@ -346,6 +350,10 @@
                 "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
             },
             "confirmations": 1,
+            "messageGasLimit": {
+                "base": 0,
+                "extraIntent": 0
+            },
             "assets": {
                 "ETH": {
                     "symbol": "ETH",

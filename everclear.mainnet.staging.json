@@ -54,7 +54,7 @@
             ],
             "deployments": {
                 "everclear": "0xD95Ff203bAAd65A8Fafd5C3dB695FC0a77A809a3",
-                "gateway": "0xF712520F89d295dFdcC4d71B7E8787c060f44e39",
+                "gateway": "0xfB1792b0992B9685be041A69a082241CE991F231",
                 "XERC20Module": "0x0000000000000000000000000000000000000000"
             },
             "confirmations": 10,
@@ -124,7 +124,7 @@
             ],
             "deployments": {
                 "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
-                "gateway": "0xe051C7AdB6F24Ee8c9d94DD23106C51D94858d12",
+                "gateway": "0x1D93B833baa7907bf385dAda4cf64dd8e04939BB",
                 "XERC20Module": "0x0000000000000000000000000000000000000000"
             },
             "confirmations": 1,

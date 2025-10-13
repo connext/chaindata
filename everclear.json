@@ -1558,7 +1558,7 @@
                 },
                 "USDC.E": {
                     "deprecated": true,
-                    "symbol": "USDC",
+                    "symbol": "USDC.E",
                     "address": "0xF1815bd50389c46847f0Bda824eC8da914045D14",
                     "decimals": 6,
                     "tickerHash": "0x9f1d38fb405b6e8972e7ff24c06db26cfa8e052645dfc18534f9c7dd046adb2c",

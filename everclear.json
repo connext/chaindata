@@ -167,6 +167,17 @@
                         "isStable": false,
                         "coingeckoId": "everclear"
                     }
+                },
+                "EURC": {
+                    "symbol": "EURC",
+                    "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+                    "decimals": 6,
+                    "tickerHash": "0x147758d3dafb1e8675e1a8ecff01cc8a943115b0fec1f4a13cfd4b303e47244a",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "euro-coin"
+                    }
                 }
             }
         },
@@ -435,6 +446,17 @@
                         "isStable": false,
                         "priceFeed": "0xCCAA289f71Bf3C5266841070EF24985857e9cD83",
                         "coingeckoId": "bitcoin"
+                    }
+                },
+                "EURC": {
+                    "symbol": "EURC",
+                    "address": "0x60a3E35Cc302bFA44Cb288Bc5a4F316Fdb1adb42",
+                    "decimals": 6,
+                    "tickerHash": "0x147758d3dafb1e8675e1a8ecff01cc8a943115b0fec1f4a13cfd4b303e47244a",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "euro-coin"
                     }
                 }
             }

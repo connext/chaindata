@@ -348,6 +348,34 @@
                     }
                 }
             }
+        },
+        "42161": {
+            "network": "evm",
+            "providers": [
+                "https://arbitrum.public.blockpi.network/v1/rpc/public"
+            ],
+            "subgraphUrls": [
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/staging-v0.0.3/gn"
+            ],
+            "deployments": {
+                "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
+                "gateway": "0x47916bE64DdA1ad8fCd4aa0395193257655ADd81",
+                "XERC20Module": "0x315bCf956e887378836f6E57bC735F0cf7022352"
+            },
+            "confirmations": 1,
+            "assets": {
+                "USDC": {
+                    "symbol": "USDC",
+                    "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+                    "decimals": 6,
+                    "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "usd-coin"
+                    }
+                }
+            }
         }
     }
 }

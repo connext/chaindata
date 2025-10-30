@@ -50,7 +50,7 @@
                 "https://mainnet.gateway.tenderly.co"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mainnet/staging-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mainnet/staging-v0.0.5/gn"
             ],
             "deployments": {
                 "everclear": "0xD95Ff203bAAd65A8Fafd5C3dB695FC0a77A809a3",
@@ -120,7 +120,7 @@
                 "https://mainnet.optimism.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-optimism/staging-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-optimism/staging-v0.0.5/gn"
             ],
             "deployments": {
                 "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
@@ -186,7 +186,7 @@
                 "https://base-mainnet.public.blastapi.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/staging-v0.0.4/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/staging-v0.0.5/gn"
             ],
             "deployments": {
                 "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
@@ -355,7 +355,7 @@
                 "https://arbitrum.public.blockpi.network/v1/rpc/public"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/staging-v0.0.2/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/staging-v0.0.3/gn"
             ],
             "deployments": {
                 "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",

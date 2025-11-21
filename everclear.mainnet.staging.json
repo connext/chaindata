@@ -360,7 +360,18 @@
             "isStable": true,
             "coingeckoId": "usd-coin"
           }
-        }
+        },            
+        "USDT": {
+              "symbol": "USDT",
+              "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+              "decimals": 6,
+              "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+              "isNative": false,
+              "price": {
+                "isStable": true,
+                "coingeckoId": "tether"
+              }
+          },
       }
     },
     "239": {

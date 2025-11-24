@@ -178,6 +178,17 @@
                         "isStable": true,
                         "coingeckoId": "euro-coin"
                     }
+                },
+                "mETH": {
+                    "symbol": "mETH",
+                    "address": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+                    "decimals": 18,
+                    "tickerHash": "0xd5a2aecb01320815a5625da6d67fbe0b34c12b267ebb3b060c014486ec5484d8",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "mantle-staked-ether"
+                    }
                 }
             }
         },
@@ -1462,6 +1473,17 @@
                     "price": {
                         "isStable": true,
                         "coingeckoId": "tether"
+                    }
+                },
+                "mETH": {
+                    "symbol": "mETH",
+                    "address": "0xcda86a272531e8640cd7f1a92c01839911b90bb0",
+                    "decimals": 18,
+                    "tickerHash": "0xd5a2aecb01320815a5625da6d67fbe0b34c12b267ebb3b060c014486ec5484d8",
+                    "isNative": false,
+                    "price": {
+                        "isStable": false,
+                        "coingeckoId": "mantle-staked-ether"
                     }
                 }
             }

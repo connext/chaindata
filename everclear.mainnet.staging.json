@@ -256,7 +256,7 @@
       "network": "svm",
       "providers": ["https://api.mainnet-beta.solana.com"],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/staging-v0.0.1/gn"
+        ""
       ],
       "deployments": {
         "everclear": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
@@ -304,7 +304,7 @@
       "network": "tvm",
       "providers": ["https://tron-rpc.publicnode.com"],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/staging-v0.0.1/gn"
+        ""
       ],
       "deployments": {
         "everclear": "TVgfN2ewsCKmFd4NkP833NQzeFtZRXvp1g",
@@ -375,6 +375,7 @@
       }
     },
     "239": {
+      "network": "evm",
       "providers": ["https://rpc.ankr.com/tac", "https://rpc.tac.build"],
       "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-tac/staging-v0.0.1/gn"],
       "deployments": {

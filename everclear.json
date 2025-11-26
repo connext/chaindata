@@ -1641,6 +1641,31 @@
                     }
                 }
             }
-        }
+        },
+        "239": {
+            "network": "evm",
+            "providers": ["https://rpc.ankr.com/tac", "https://rpc.tac.build"],
+            "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-tac/staging-v0.0.1/gn"],
+            "deployments": {
+              "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
+              "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+              "XERC20Module": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30"
+            },
+            "confirmations": 1,
+            "assets": {
+              "USDT": {
+                "symbol": "USDT",
+                "address": "0xAF988C3f7CB2AceAbB15f96b19388a259b6C438f",
+                "decimals": 6,
+                "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+                "isNative": false,
+                "price": {
+                  "isStable": true,
+                  "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
+                  "coingeckoId": "tether"
+                }
+              }
+            }
+          }
     }
 }

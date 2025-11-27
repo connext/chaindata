@@ -1645,11 +1645,11 @@
         "239": {
             "network": "evm",
             "providers": ["https://rpc.ankr.com/tac", "https://rpc.tac.build"],
-            "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-tac/staging-v0.0.1/gn"],
+            "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-tac/production-v0.0.1/gn"],
             "deployments": {
-              "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-              "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-              "XERC20Module": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30"
+              "everclear": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
+              "gateway": "0x7B435CCF350DBC773e077410e8FEFcd46A1cDfAA",
+              "XERC20Module": "0x92dcaf947DB325ac023b105591d76315743883eD"
             },
             "confirmations": 1,
             "assets": {

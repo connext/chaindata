@@ -13,6 +13,7 @@
         "providers": [
             "https://rpc.everclear.raas.gelato.cloud"
         ],
+        "envioSubgraphUrl": "https://indexer.hyperindex.xyz/5f04d01/v1/graphql",
         "subgraphUrls": [
             "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub/production-v0.0.3/gn"
         ],

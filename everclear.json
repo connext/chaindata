@@ -190,6 +190,18 @@
                         "isStable": false,
                         "coingeckoId": "mantle-staked-ether"
                     }
+                },
+                "PT-sUSDE": {
+                    "symbol": "PT-sUSDE",
+                    "address": "0xE8483517077afa11A9B07f849cee2552f040d7b2",
+                    "decimals": 18,
+                    "tickerHash": "0x7149a74b6764d97d49e31235b98a17dddda6b53c7ea08541f3c0dd3c7033b240",
+                    "isNative": false,
+                    "price": {
+                      "isStable": false,
+                      "priceFeed": "",
+                      "coingeckoId": ""
+                    }
                 }
             }
         },
@@ -1343,6 +1355,17 @@
                     "price": {
                         "isStable": false,
                         "coingeckoId": "bitcoin"
+                    }
+                },
+                "PT-sUSDE": {
+                    "symbol": "PT-sUSDE",
+                    "address": "0x05c0ad344d082fe99030a0414acc5726b24c89e1a511eac6e58d809145dd6503",
+                    "decimals": 6,
+                    "tickerHash": "0x7149a74b6764d97d49e31235b98a17dddda6b53c7ea08541f3c0dd3c7033b240",
+                    "isNative": false,
+                    "price": {
+                      "isStable": false,
+                      "coingeckoId": ""
                     }
                 }
             }

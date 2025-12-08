@@ -10,7 +10,7 @@
       "tokenomicsHubGateway": "0x0000000000000000000000000000000000000000"
     },
     "providers": ["https://rpc.everclear.raas.gelato.cloud"],
-    "envioSubgraphUrl": "https://indexer.hyperindex.xyz/65f9fa7/v1/graphql",
+    "envioSubgraphUrl": "https://indexer.hyperindex.xyz/8790a8c/v1/graphql",
     "subgraphUrls": [
       "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub/staging-v0.0.2/gn"
     ],

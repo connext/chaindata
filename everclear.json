@@ -68,7 +68,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 10,
             "messageGasLimit": {
@@ -217,7 +218,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {
@@ -294,7 +296,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "gasLimit": 120000000,
             "confirmations": 20,
@@ -382,7 +385,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "messageGasLimit": {
@@ -497,7 +501,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {
@@ -586,7 +591,8 @@
             "deployments": {
                 "everclear": "0xD0E86F280D26Be67A672d1bFC9bB70500adA76fe",
                 "gateway": "0x2Ec2b2CC1813941b638D3ADBA86A1af7F6488A9E",
-                "XERC20Module": "0xE4197BC6b18E2BE0BAF09c13DA8239B40005D541"
+                "XERC20Module": "0xE4197BC6b18E2BE0BAF09c13DA8239B40005D541",
+                "feeAdapter": "0xe5F2F4afAd6211cfBD6a882D5a6a435530Ee3909"
             },
             "confirmations": 1,
             "assets": {
@@ -648,7 +654,8 @@
             "deployments": {
                 "everclear": "0xc24dC29774fD2c1c0c5FA31325Bb9cbC11D8b751",
                 "gateway": "0xC1E5b7bE6c62948eeAb40523B33e5d0121ccae94",
-                "XERC20Module": "0xBBd3546f8FB1A335E2Cc1AeE5d7f3FC696D853aB"
+                "XERC20Module": "0xBBd3546f8FB1A335E2Cc1AeE5d7f3FC696D853aB",
+                "feeAdapter": "0xAa7ee09f745a3c5De329EB0CD67878Ba87B70Ffe"
             },
             "confirmations": 1,
             "assets": {
@@ -714,7 +721,8 @@
             "deployments": {
                 "everclear": "0x7189C59e245135696bFd2906b56607755F84F3fD",
                 "gateway": "0x26CFF54f11608Cd3060408690803AB4a43f462f2",
-                "XERC20Module": "0x4aade9F812d2160A1b3c6e77f30f1bF14eC7e2a5"
+                "XERC20Module": "0x4aade9F812d2160A1b3c6e77f30f1bF14eC7e2a5",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {
@@ -790,7 +798,8 @@
             "deployments": {
                 "everclear": "0x9aA2Ecad5C77dfcB4f34893993f313ec4a370460",
                 "gateway": "0x7EB63a646721de65eBa79ffe91c55DCE52b73c12",
-                "XERC20Module": "0x255aba6E7f08d40B19872D11313688c2ED65d1C9"
+                "XERC20Module": "0x255aba6E7f08d40B19872D11313688c2ED65d1C9",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {
@@ -855,7 +864,8 @@
             "deployments": {
                 "everclear": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
                 "gateway": "0x4e2bbbFb10058E0D248a78fe2F469562f4eDbe66",
-                "XERC20Module": "0xdCA40903E271Cc76AECd62dF8d6c19f3Ac873E64"
+                "XERC20Module": "0xdCA40903E271Cc76AECd62dF8d6c19f3Ac873E64",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {
@@ -896,7 +906,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {
@@ -959,7 +970,8 @@
             "deployments": {
                 "everclear": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
                 "gateway": "0x4e2bbbFb10058E0D248a78fe2F469562f4eDbe66",
-                "XERC20Module": "0xdCA40903E271Cc76AECd62dF8d6c19f3Ac873E64"
+                "XERC20Module": "0xdCA40903E271Cc76AECd62dF8d6c19f3Ac873E64",
+                "feeAdapter": "0x986962C73059e06303efaD1F4c61Ed4905Fc5431"
             },
             "confirmations": 1,
             "assets": {
@@ -1022,7 +1034,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {
@@ -1073,7 +1086,8 @@
             "deployments": {
                 "everclear": "0xeFa6Ac3F931620fD0449eC8c619f2A14A0A78E99",
                 "gateway": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
-                "XERC20Module": "0x7B435CCF350DBC773e077410e8FEFcd46A1cDfAA"
+                "XERC20Module": "0x7B435CCF350DBC773e077410e8FEFcd46A1cDfAA",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {
@@ -1135,7 +1149,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0x877Fd0A881B63eBE413124EeE6abbCD7E82cf10b"
             },
             "confirmations": 1,
             "assets": {
@@ -1197,7 +1212,8 @@
             "deployments": {
                 "everclear": "0x7F5e085981C93C579c865554B9b723B058AaE4D3",
                 "gateway": "0xbD82E5503461913a70566E66a454465a46F5C903",
-                "XERC20Module": "0x6ACf19603C8588885250F7a02F0EaFFa4FcafB04"
+                "XERC20Module": "0x6ACf19603C8588885250F7a02F0EaFFa4FcafB04",
+                "feeAdapter": "0xa537f0d027cBA1661dd1eB46fCd79030CD75A2cd"
             },
             "confirmations": 1,
             "assets": {
@@ -1259,7 +1275,8 @@
             "deployments": {
                 "everclear": "0xdCA40903E271Cc76AECd62dF8d6c19f3Ac873E64",
                 "gateway": "0x1FC1f47a6a7c61f53321643A14bEc044213AbF95",
-                "XERC20Module": "0x92dcaf947DB325ac023b105591d76315743883eD"
+                "XERC20Module": "0x92dcaf947DB325ac023b105591d76315743883eD",
+                "feeAdapter": "0x5443DF583Cc039881Fe30A730310A4f43016df88"
             },
             "confirmations": 1,
             "assets": {
@@ -1382,7 +1399,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0x3c135048306b412Ad8F4375F6a8CBe94b5D56184"
             },
             "confirmations": 1,
             "assets": {
@@ -1433,7 +1451,8 @@
             "deployments": {
                 "everclear": "0xe0F010e465f15dcD42098dF9b99F1038c11B3056",
                 "gateway": "0xeFa6Ac3F931620fD0449eC8c619f2A14A0A78E99",
-                "XERC20Module": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa"
+                "XERC20Module": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "confirmations": 1,
             "assets": {}
@@ -1450,7 +1469,8 @@
             "deployments": {
                 "everclear": "0xe0F010e465f15dcD42098dF9b99F1038c11B3056",
                 "gateway": "0xeFa6Ac3F931620fD0449eC8c619f2A14A0A78E99",
-                "XERC20Module": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa"
+                "XERC20Module": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "gasLimit": 250000000,
             "confirmations": 1,
@@ -1524,7 +1544,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0xd0185bfb8107c5b2336bC73cE3fdd9Bfb504540e"
             },
             "gasLimit": 5000000000,
             "confirmations": 1,
@@ -1587,7 +1608,8 @@
             "deployments": {
                 "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
                 "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4"
+                "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+                "feeAdapter": "0x877Fd0A881B63eBE413124EeE6abbCD7E82cf10b"
             },
             "confirmations": 1,
             "assets": {
@@ -1649,7 +1671,8 @@
             "deployments": {
                 "everclear": "TQ7ZmvN6K2TaSpzbz8KUw8bSK2zsSeksxJ",
                 "gateway": "TP5oAAfdfNbAF8VMhTfCw3uQjpQii5pZWH",
-                "XERC20Module": "TQ7ZmvN6K2TaSpzbz8KUw8bSK2zsSeksxJ"
+                "XERC20Module": "TQ7ZmvN6K2TaSpzbz8KUw8bSK2zsSeksxJ",
+                "feeAdapter": "TD1J5ktyq1Lw8rSjsX3U1E8qoE6MQxfWYe"
             },
             "confirmations": 1,
             "assets": {
@@ -1673,7 +1696,8 @@
             "deployments": {
               "everclear": "0xEFfAB7cCEBF63FbEFB4884964b12259d4374FaAa",
               "gateway": "0x7B435CCF350DBC773e077410e8FEFcd46A1cDfAA",
-              "XERC20Module": "0x92dcaf947DB325ac023b105591d76315743883eD"
+              "XERC20Module": "0x92dcaf947DB325ac023b105591d76315743883eD",
+                "feeAdapter": "0xA388d644241A2185440EAf0ADd41C9Da30958ba5"
             },
             "confirmations": 1,
             "assets": {

@@ -475,11 +475,11 @@
             "coingeckoId": "tether"
           }
         },
-        "METH": {
-          "symbol": "METH",
+        "mETH": {
+          "symbol": "mETH",
           "address": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
           "decimals": 18,
-          "tickerHash": "0x064ba78a8cdb5d9b059e0a37958856e0314d4d2af1b4b75da1eb36c359ade9da",
+          "tickerHash": "0xd5a2aecb01320815a5625da6d67fbe0b34c12b267ebb3b060c014486ec5484d8",
           "isNative": false,
           "price": {
             "isStable": false,

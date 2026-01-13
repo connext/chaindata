@@ -476,6 +476,17 @@
             "isStable": true,
             "coingeckoId": "tether"
           }
+        },
+        "mETH": {
+          "symbol": "mETH",
+          "address": "0xcDA86A272531e8640cD7F1a92c01839911B90bb0",
+          "decimals": 18,
+          "tickerHash": "0xd5a2aecb01320815a5625da6d67fbe0b34c12b267ebb3b060c014486ec5484d8",
+          "isNative": false,
+          "price": {
+            "isStable": false,
+            "coingeckoId": "mantle-staked-ether"
+          }
         }
       }
     }

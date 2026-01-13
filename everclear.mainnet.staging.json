@@ -10,7 +10,7 @@
       "tokenomicsHubGateway": "0x0000000000000000000000000000000000000000"
     },
     "providers": ["https://rpc.everclear.raas.gelato.cloud"],
-    "envioSubgraphUrl": "https://indexer.hyperindex.xyz/8790a8c/v1/graphql",
+    "envioSubgraphUrl": "https://indexer.hyperindex.xyz/c31b1cf/v1/graphql",
     "subgraphUrls": [
       "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub/staging-v0.0.2/gn"
     ],
@@ -433,7 +433,9 @@
         "https://rpc.mantle.xyz",
         "https://mantle-rpc.publicnode.com"
       ],
-      "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mantle/staging-v0.0.1/gn"],
+      "subgraphUrls": [
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mantle/staging-v0.0.1/gn"
+      ],
       "deployments": {
         "everclear": "0x4F35c530D3C023717E2BBafdfEacEeE79C4c1e89",
         "gateway": "0xC7CEb95E92EC7540023D3f6287E20AD97bE9a15D",

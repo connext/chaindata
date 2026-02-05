@@ -489,6 +489,44 @@
           }
         }
       }
+    },
+    "9745": {
+      "network": "evm",
+      "providers": ["https://rpc.plasma.to"],
+      "subgraphUrls": [
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-plasma/staging-v0.0.2/gn"
+      ],
+      "deployments": {
+        "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
+        "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+        "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+        "feeAdapter": "0x7B435CCF350DBC773e077410e8FEFcd46A1cDfAA"
+      },
+      "confirmations": 5,
+      "assets": {
+        "WETH": {
+          "symbol": "WETH",
+          "address": "0x9895D81bB462A195b4922ED7De0e3ACD007c32CB",
+          "decimals": 18,
+          "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+          "isNative": false,
+          "price": {
+            "isStable": false,
+            "coingeckoId": "ethereum"
+          }
+        },
+        "USDT": {
+          "symbol": "USDT",
+          "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+          "decimals": 6,
+          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+          "isNative": false,
+          "price": {
+            "isStable": true,
+            "coingeckoId": "tether"
+          }
+        }
+      }
     }
   }
 }

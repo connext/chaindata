@@ -1207,7 +1207,7 @@
                 "https://mainnet.era.zksync.io"
             ],
             "subgraphUrls": [
-                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zksync/production-v0.0.7/gn"
+                "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zksync/production-v0.0.8/gn"
             ],
             "deployments": {
                 "everclear": "0x7F5e085981C93C579c865554B9b723B058AaE4D3",

@@ -1529,6 +1529,28 @@
                         "isStable": false,
                         "coingeckoId": "mantle-staked-ether"
                     }
+                },
+                "syrupUSDT": {
+                    "symbol": "syrupUSDT",
+                    "address": "0x051665f2455116e929b9972c36d23070F5054Ce0",
+                    "decimals": 6,
+                    "tickerHash": "0x7bb29d70724bbe7b0958c9fa41e525d57faa30c509988884b3f212b9108edd0e",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "syrupusdt"
+                    }
+                },
+                "USDe": {
+                    "symbol": "USDe",
+                    "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+                    "decimals": 18,
+                    "tickerHash": "0x01c5070cf4f26b1dca38a8754c64483958f5dd08799ad2d72067b3ff2985b82c",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "ethena-usde"
+                    }
                 }
             }
         },

@@ -135,7 +135,7 @@ contract AnyswapV5ERC20 is IAnyswapV3ERC20 {
     bool private _vaultOnly;
 
     // configurable delay for timelock functions
-    uint public delay = 2*24*3600;
+    uint public constant delay = 2*24*3600;
 
 
     // set of minters, can be this bridge or other bridges

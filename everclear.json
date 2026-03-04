@@ -582,8 +582,8 @@
             "network": "evm",
             "safeTxService": "https://transaction.safe.zircuit.com",
             "providers": [
-                "https://zircuit1-mainnet.liquify.com",
-                "https://zircuit-mainnet.drpc.org"
+                "https://mainnet.zircuit.com",
+                "https://zircuit1-mainnet.liquify.com"
             ],
             "subgraphUrls": [
                 "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-zircuit/production-v0.0.7/gn"

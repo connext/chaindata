@@ -1740,7 +1740,7 @@
         "9745": {
             "network": "evm",
             "providers": ["https://rpc.plasma.to"],
-            "subgraphUrls": [],
+            "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-plasma/production-v0.0.1/gn"],
             "deployments": {
                 "everclear": "0x4C1029C7BdFE1DadC7d9B753981735CD6954B40d",
                 "gateway": "0xE4197BC6b18E2BE0BAF09c13DA8239B40005D541",

@@ -1551,6 +1551,17 @@
                         "isStable": true,
                         "coingeckoId": "ethena-usde"
                     }
+                },
+                "aManUSDe": {
+                    "symbol": "aManUSDe",
+                    "address": "0xb9aca933c9c0aa854a6dbb7b12f0cc3fdac15ee7",
+                    "decimals": 18,
+                    "tickerHash": "0x66ccba55361fa110a5bbf2242ca4587de7dbe4596f981363a6a87711889904ac",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "ethena-usde"
+                    }
                 }
             }
         },

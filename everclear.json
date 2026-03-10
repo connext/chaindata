@@ -1747,6 +1747,31 @@
                 }
               }
             }
-          }
+          },
+        "9745": {
+            "network": "evm",
+            "providers": ["https://rpc.plasma.to"],
+            "subgraphUrls": ["https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-plasma/production-v0.0.1/gn"],
+            "deployments": {
+                "everclear": "0x4C1029C7BdFE1DadC7d9B753981735CD6954B40d",
+                "gateway": "0xE4197BC6b18E2BE0BAF09c13DA8239B40005D541",
+                "XERC20Module": "0x315bCf956e887378836f6E57bC735F0cf7022352",
+                "feeAdapter": "0xb7c258C548aFf20bbB2e899477B3bB9e8F813ED4"
+            },
+            "confirmations": 5,
+            "assets": {
+                "USDT": {
+                    "symbol": "USDT",
+                    "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+                    "decimals": 6,
+                    "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "tether"
+                    }
+                }
+            }
+        }
     }
 }

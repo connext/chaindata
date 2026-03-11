@@ -1562,6 +1562,17 @@
                         "isStable": true,
                         "coingeckoId": "ethena-usde"
                     }
+                },
+                "aMansyrupUSDT": {
+                    "symbol": "aMansyrupUSDT",
+                    "address": "0xf8400f3fa9cd9f9e84e93cd9de9f14eb7b5b59b5",
+                    "decimals": 6,
+                    "tickerHash": "0x50754231141ed10c02426fd810290fe327a8ea327cf763ea23aa37d0c1baa32e",
+                    "isNative": false,
+                    "price": {
+                        "isStable": true,
+                        "coingeckoId": "syrupusdt"
+                    }
                 }
             }
         },

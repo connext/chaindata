@@ -1,6 +1,7 @@
 {
   "hub": {
     "domain": "25327",
+    "name": "Everclear Testnet",
     "safeTxService": "https://transaction.safe.everclear.org",
     "deployments": {
       "everclear": "0x372396818F125b8f3AA5a73e70C30F54c6195331",
@@ -9,7 +10,9 @@
       "rewardDistributor": "0x0000000000000000000000000000000000000000",
       "tokenomicsHubGateway": "0x0000000000000000000000000000000000000000"
     },
-    "providers": ["https://rpc.everclear.raas.gelato.cloud"],
+    "providers": [
+      "https://rpc.everclear.raas.gelato.cloud"
+    ],
     "envioSubgraphUrl": "https://indexer.hyperindex.xyz/c31b1cf/v1/graphql",
     "subgraphUrls": [
       "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-hub/staging-v0.0.4/gn"
@@ -43,9 +46,12 @@
   },
   "chains": {
     "1": {
+      "name": "Ethereum",
       "network": "evm",
       "safeTxService": "https://safe-transaction-mainnet.safe.global",
-      "providers": ["https://mainnet.gateway.tenderly.co"],
+      "providers": [
+        "https://mainnet.gateway.tenderly.co"
+      ],
       "subgraphUrls": [
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-mainnet/staging-v0.0.12/gn"
       ],
@@ -124,9 +130,12 @@
       }
     },
     "10": {
+      "name": "Optimism",
       "network": "evm",
       "safeTxService": "https://safe-transaction-optimism.safe.global",
-      "providers": ["https://mainnet.optimism.io"],
+      "providers": [
+        "https://mainnet.optimism.io"
+      ],
       "subgraphUrls": [
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-optimism/staging-v0.0.12/gn"
       ],
@@ -188,220 +197,13 @@
         }
       }
     },
-    "8453": {
-      "network": "evm",
-      "safeTxService": "https://safe-transaction-base.safe.global",
-      "providers": ["https://base-mainnet.public.blastapi.io"],
-      "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/staging-v0.0.12/gn"
-      ],
-      "deployments": {
-        "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
-        "gateway": "0xe051C7AdB6F24Ee8c9d94DD23106C51D94858d12",
-        "XERC20Module": "0x0000000000000000000000000000000000000000",
-        "feeAdapter": "0x2944F6fEF163365A382E9397b582bfbeB7C4F300"
-      },
-      "confirmations": 1,
-      "messageGasLimit": {
-        "base": 0,
-        "extraIntent": 0
-      },
-      "assets": {
-        "ETH": {
-          "symbol": "ETH",
-          "address": "0x0000000000000000000000000000000000000000",
-          "decimals": 18,
-          "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
-          "isNative": true,
-          "price": {
-            "isStable": false,
-            "priceFeed": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70",
-            "coingeckoId": "ethereum"
-          }
-        },
-        "WETH": {
-          "symbol": "WETH",
-          "address": "0x4200000000000000000000000000000000000006",
-          "decimals": 18,
-          "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
-          "isNative": false,
-          "price": {
-            "isStable": false,
-            "priceFeed": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70",
-            "coingeckoId": "ethereum"
-          }
-        },
-        "USDC": {
-          "symbol": "USDC",
-          "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
-          "decimals": 6,
-          "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
-          "isNative": false,
-          "price": {
-            "isStable": true,
-            "priceFeed": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
-            "coingeckoId": "usd-coin"
-          }
-        },
-        "USDT": {
-          "symbol": "USDT",
-          "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
-          "decimals": 6,
-          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
-          "isNative": false,
-          "price": {
-            "isStable": true,
-            "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
-            "coingeckoId": "tether"
-          }
-        },
-        "cbBTC": {
-          "symbol": "cbBTC",
-          "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-          "decimals": 8,
-          "tickerHash": "0xab7216efe876c5163ebb1d05a1a6b63e00fb73d1d68ddf079460c106356fd162",
-          "isNative": false,
-          "price": {
-            "isStable": false,
-            "coingeckoId": "coinbase-wrapped-btc"
-          }
-        }
-      }
-    },
-    "1399811149": {
-      "network": "svm",
-      "providers": ["https://api.mainnet-beta.solana.com"],
-      "subgraphUrls": [""],
-      "deployments": {
-        "everclear": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
-        "gateway": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
-        "XERC20Module": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac"
-      },
-      "confirmations": 1,
-      "assets": {
-        "USDC": {
-          "symbol": "USDC",
-          "address": "0xc6fa7af3bedbad3a3d65f36aabc97431b1bbe4c2d2f6e0e47ca60203452f5d61",
-          "decimals": 6,
-          "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
-          "isNative": false,
-          "price": {
-            "isStable": true,
-            "coingeckoId": "usd-coin"
-          }
-        },
-        "USDT": {
-          "symbol": "USDT",
-          "address": "0xce010e60afedb22717bd63192f54145a3f965a33bb82d2c7029eb2ce1e208264",
-          "decimals": 6,
-          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
-          "isNative": false,
-          "price": {
-            "isStable": true,
-            "coingeckoId": "tether"
-          }
-        },
-        "WETH": {
-          "symbol": "WETH",
-          "address": "0x66e5188a1308a1db90b6d31f3fbdca8c3df2678c8112dfdd3d192c5a3cc457a8",
-          "decimals": 8,
-          "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
-          "isNative": false,
-          "price": {
-            "isStable": false,
-            "coingeckoId": "ethereum"
-          }
-        },
-        "PT-sUSDE": {
-          "symbol": "PT-sUSDE",
-          "address": "0x05c0ad344d082fe99030a0414acc5726b24c89e1a511eac6e58d809145dd6503",
-          "decimals": 9,
-          "tickerHash": "0x7149a74b6764d97d49e31235b98a17dddda6b53c7ea08541f3c0dd3c7033b240",
-          "isNative": false,
-          "price": {
-            "isStable": false,
-            "coingeckoId": ""
-          }
-        }
-      }
-    },
-    "728126428": {
-      "network": "tvm",
-      "providers": ["https://tron-rpc.publicnode.com"],
-      "subgraphUrls": [""],
-      "deployments": {
-        "everclear": "TVgfN2ewsCKmFd4NkP833NQzeFtZRXvp1g",
-        "gateway": "TCqgpCHXGiVbPnEafTK6JGaNjaZFAG3m7Y",
-        "XERC20Module": "TVgfN2ewsCKmFd4NkP833NQzeFtZRXvp1g",
-        "feeAdapter": "TTvTcu3gT8c78LAPuMbiTZAutB54cnLpDM"
-      },
-      "confirmations": 1,
-      "assets": {
-        "USDT": {
-          "symbol": "USDT",
-          "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
-          "decimals": 6,
-          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
-          "isNative": false,
-          "price": {
-            "isStable": true,
-            "coingeckoId": "tether"
-          }
-        },
-        "WETH": {
-          "symbol": "WETH",
-          "address": "THb4CqiFdwNHsWsQCs4JhzwjMWys4aqCbF",
-          "decimals": 18,
-          "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
-          "isNative": false,
-          "price": {
-            "isStable": false,
-            "coingeckoId": "ethereum"
-          }
-        }
-      }
-    },
-    "42161": {
-      "network": "evm",
-      "providers": ["https://arbitrum.public.blockpi.network/v1/rpc/public"],
-      "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/staging-v0.0.10/gn"
-      ],
-      "deployments": {
-        "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
-        "gateway": "0x47916bE64DdA1ad8fCd4aa0395193257655ADd81",
-        "XERC20Module": "0x315bCf956e887378836f6E57bC735F0cf7022352",
-        "feeAdapter": "0x2944F6fEF163365A382E9397b582bfbeB7C4F300"
-      },
-      "confirmations": 1,
-      "assets": {
-        "USDC": {
-          "symbol": "USDC",
-          "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
-          "decimals": 6,
-          "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
-          "isNative": false,
-          "price": {
-            "isStable": true,
-            "coingeckoId": "usd-coin"
-          }
-        },
-        "USDT": {
-          "symbol": "USDT",
-          "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
-          "decimals": 6,
-          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
-          "isNative": false,
-          "price": {
-            "isStable": true,
-            "coingeckoId": "tether"
-          }
-        }
-      }
-    },
     "239": {
+      "name": "Tac",
       "network": "evm",
-      "providers": ["https://rpc.ankr.com/tac", "https://rpc.tac.build"],
+      "providers": [
+        "https://rpc.ankr.com/tac",
+        "https://rpc.tac.build"
+      ],
       "subgraphUrls": [
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-tac/staging-v0.0.4/gn"
       ],
@@ -427,7 +229,49 @@
         }
       }
     },
+    "4326": {
+      "name": "MegaETH",
+      "network": "evm",
+      "providers": [
+        "https://mainnet.megaeth.com/rpc"
+      ],
+      "subgraphUrls": [
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-megaeth/staging-v0.0.1/gn"
+      ],
+      "deployments": {
+        "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
+        "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
+        "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
+        "feeAdapter": "0x7B435CCF350DBC773e077410e8FEFcd46A1cDfAA"
+      },
+      "confirmations": 5,
+      "assets": {
+        "WETH": {
+          "symbol": "WETH",
+          "address": "0x4200000000000000000000000000000000000006",
+          "decimals": 18,
+          "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+          "isNative": false,
+          "price": {
+            "isStable": false,
+            "coingeckoId": "ethereum"
+          }
+        },
+        "USDT": {
+          "symbol": "USDT",
+          "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+          "decimals": 6,
+          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+          "isNative": false,
+          "price": {
+            "isStable": true,
+            "coingeckoId": "tether"
+          }
+        }
+      }
+    },
     "5000": {
+      "name": "Mantle",
       "network": "evm",
       "providers": [
         "https://rpc.mantle.xyz",
@@ -534,9 +378,95 @@
         }
       }
     },
-    "9745": {
+    "8453": {
+      "name": "Base",
       "network": "evm",
-      "providers": ["https://rpc.plasma.to"],
+      "safeTxService": "https://safe-transaction-base.safe.global",
+      "providers": [
+        "https://base-mainnet.public.blastapi.io"
+      ],
+      "subgraphUrls": [
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-base/staging-v0.0.12/gn"
+      ],
+      "deployments": {
+        "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
+        "gateway": "0xe051C7AdB6F24Ee8c9d94DD23106C51D94858d12",
+        "XERC20Module": "0x0000000000000000000000000000000000000000",
+        "feeAdapter": "0x2944F6fEF163365A382E9397b582bfbeB7C4F300"
+      },
+      "confirmations": 1,
+      "messageGasLimit": {
+        "base": 0,
+        "extraIntent": 0
+      },
+      "assets": {
+        "ETH": {
+          "symbol": "ETH",
+          "address": "0x0000000000000000000000000000000000000000",
+          "decimals": 18,
+          "tickerHash": "0xaaaebeba3810b1e6b70781f14b2d72c1cb89c0b2b320c43bb67ff79f562f5ff4",
+          "isNative": true,
+          "price": {
+            "isStable": false,
+            "priceFeed": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70",
+            "coingeckoId": "ethereum"
+          }
+        },
+        "WETH": {
+          "symbol": "WETH",
+          "address": "0x4200000000000000000000000000000000000006",
+          "decimals": 18,
+          "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+          "isNative": false,
+          "price": {
+            "isStable": false,
+            "priceFeed": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70",
+            "coingeckoId": "ethereum"
+          }
+        },
+        "USDC": {
+          "symbol": "USDC",
+          "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+          "decimals": 6,
+          "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+          "isNative": false,
+          "price": {
+            "isStable": true,
+            "priceFeed": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
+            "coingeckoId": "usd-coin"
+          }
+        },
+        "USDT": {
+          "symbol": "USDT",
+          "address": "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+          "decimals": 6,
+          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+          "isNative": false,
+          "price": {
+            "isStable": true,
+            "priceFeed": "0x3f3f5dF88dC9F13eac63DF89EC16ef6e7E25DdE7",
+            "coingeckoId": "tether"
+          }
+        },
+        "cbBTC": {
+          "symbol": "cbBTC",
+          "address": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
+          "decimals": 8,
+          "tickerHash": "0xab7216efe876c5163ebb1d05a1a6b63e00fb73d1d68ddf079460c106356fd162",
+          "isNative": false,
+          "price": {
+            "isStable": false,
+            "coingeckoId": "coinbase-wrapped-btc"
+          }
+        }
+      }
+    },
+    "9745": {
+      "name": "Plasma",
+      "network": "evm",
+      "providers": [
+        "https://rpc.plasma.to"
+      ],
       "subgraphUrls": [
         "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-plasma/staging-v0.0.2/gn"
       ],
@@ -572,23 +502,78 @@
         }
       }
     },
-    "4326": {
+    "42161": {
+      "name": "Arbitrum",
       "network": "evm",
-      "providers": ["https://mainnet.megaeth.com/rpc"],
+      "providers": [
+        "https://arbitrum.public.blockpi.network/v1/rpc/public"
+      ],
       "subgraphUrls": [
-        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-megaeth/staging-v0.0.1/gn"
+        "https://api.goldsky.com/api/public/project_clssc64y57n5r010yeoly05up/subgraphs/everclear-spoke-arbitrum/staging-v0.0.10/gn"
       ],
       "deployments": {
-        "everclear": "0xa05A3380889115bf313f1Db9d5f335157Be4D816",
-        "gateway": "0x9ADA72CCbAfe94248aFaDE6B604D1bEAacc899A7",
-        "XERC20Module": "0xD1daF260951B8d350a4AeD5C80d74Fd7298C93F4",
-        "feeAdapter": "0x7B435CCF350DBC773e077410e8FEFcd46A1cDfAA"
+        "everclear": "0x91c40B4135eFea3c5A200388CfE316aa0B172b30",
+        "gateway": "0x47916bE64DdA1ad8fCd4aa0395193257655ADd81",
+        "XERC20Module": "0x315bCf956e887378836f6E57bC735F0cf7022352",
+        "feeAdapter": "0x2944F6fEF163365A382E9397b582bfbeB7C4F300"
       },
-      "confirmations": 5,
+      "confirmations": 1,
       "assets": {
+        "USDC": {
+          "symbol": "USDC",
+          "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "decimals": 6,
+          "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+          "isNative": false,
+          "price": {
+            "isStable": true,
+            "coingeckoId": "usd-coin"
+          }
+        },
+        "USDT": {
+          "symbol": "USDT",
+          "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+          "decimals": 6,
+          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+          "isNative": false,
+          "price": {
+            "isStable": true,
+            "coingeckoId": "tether"
+          }
+        }
+      }
+    },
+    "728126428": {
+      "name": "Tron",
+      "network": "tvm",
+      "providers": [
+        "https://tron-rpc.publicnode.com"
+      ],
+      "subgraphUrls": [
+        ""
+      ],
+      "deployments": {
+        "everclear": "TVgfN2ewsCKmFd4NkP833NQzeFtZRXvp1g",
+        "gateway": "TCqgpCHXGiVbPnEafTK6JGaNjaZFAG3m7Y",
+        "XERC20Module": "TVgfN2ewsCKmFd4NkP833NQzeFtZRXvp1g",
+        "feeAdapter": "TTvTcu3gT8c78LAPuMbiTZAutB54cnLpDM"
+      },
+      "confirmations": 1,
+      "assets": {
+        "USDT": {
+          "symbol": "USDT",
+          "address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+          "decimals": 6,
+          "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
+          "isNative": false,
+          "price": {
+            "isStable": true,
+            "coingeckoId": "tether"
+          }
+        },
         "WETH": {
           "symbol": "WETH",
-          "address": "0x4200000000000000000000000000000000000006",
+          "address": "THb4CqiFdwNHsWsQCs4JhzwjMWys4aqCbF",
           "decimals": 18,
           "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
           "isNative": false,
@@ -596,16 +581,67 @@
             "isStable": false,
             "coingeckoId": "ethereum"
           }
+        }
+      }
+    },
+    "1399811149": {
+      "name": "Solana",
+      "network": "svm",
+      "providers": [
+        "https://api.mainnet-beta.solana.com"
+      ],
+      "subgraphUrls": [
+        ""
+      ],
+      "deployments": {
+        "everclear": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
+        "gateway": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac",
+        "XERC20Module": "0x93958783d0fe999eb6cbf34416e40974ebf1d0a3896f698e13d02447a0919fac"
+      },
+      "confirmations": 1,
+      "assets": {
+        "USDC": {
+          "symbol": "USDC",
+          "address": "0xc6fa7af3bedbad3a3d65f36aabc97431b1bbe4c2d2f6e0e47ca60203452f5d61",
+          "decimals": 6,
+          "tickerHash": "0xd6aca1be9729c13d677335161321649cccae6a591554772516700f986f942eaa",
+          "isNative": false,
+          "price": {
+            "isStable": true,
+            "coingeckoId": "usd-coin"
+          }
         },
         "USDT": {
           "symbol": "USDT",
-          "address": "0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb",
+          "address": "0xce010e60afedb22717bd63192f54145a3f965a33bb82d2c7029eb2ce1e208264",
           "decimals": 6,
           "tickerHash": "0x8b1a1d9c2b109e527c9134b25b1a1833b16b6594f92daa9f6d9b7a6024bce9d0",
           "isNative": false,
           "price": {
             "isStable": true,
             "coingeckoId": "tether"
+          }
+        },
+        "WETH": {
+          "symbol": "WETH",
+          "address": "0x66e5188a1308a1db90b6d31f3fbdca8c3df2678c8112dfdd3d192c5a3cc457a8",
+          "decimals": 8,
+          "tickerHash": "0x0f8a193ff464434486c0daf7db2a895884365d2bc84ba47a68fcf89c1b14b5b8",
+          "isNative": false,
+          "price": {
+            "isStable": false,
+            "coingeckoId": "ethereum"
+          }
+        },
+        "PT-sUSDE": {
+          "symbol": "PT-sUSDE",
+          "address": "0x05c0ad344d082fe99030a0414acc5726b24c89e1a511eac6e58d809145dd6503",
+          "decimals": 9,
+          "tickerHash": "0x7149a74b6764d97d49e31235b98a17dddda6b53c7ea08541f3c0dd3c7033b240",
+          "isNative": false,
+          "price": {
+            "isStable": false,
+            "coingeckoId": ""
           }
         }
       }
